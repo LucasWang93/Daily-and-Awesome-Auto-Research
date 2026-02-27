@@ -1,0 +1,44 @@
+topics:
+  - "Multi-modal LLM"
+  - "VLA"
+  - "LLM Agents"
+  - "Agentic RL"
+  - "Medical Agents"
+
+sources:
+  arxiv:
+    enabled: true
+    max_per_keyword: 30
+    days_lookback: 2
+  nature:
+    enabled: true
+    journals:
+      - "nature"
+      - "natmachintell"
+      - "nm"
+      - "natbiomedeng"
+      - "ncomms"
+  huggingface:
+    enabled: true
+    max_papers: 100
+
+ranking:
+  top_k: 20
+  archive_max: 5
+
+llm:
+  model: "gpt-5"
+  temperature: 0.3
+  max_tokens: 4096
+
+email:
+  enabled: false
+  smtp_server: "smtp.gmail.com"
+  smtp_port: 587
+  sender: ""
+  recipient: ""
+  # Password via env var: EMAIL_PASSWORD
+
+output:
+  reports_dir: "reports"
+  archive_dir: "archive"

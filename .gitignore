@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Runtime outputs
+reports/
+archive/
+logs/
+
+# Config with secrets
+config.yaml
+
+# Misc
+.DS_Store
+*.swp
+config_fix.yaml
