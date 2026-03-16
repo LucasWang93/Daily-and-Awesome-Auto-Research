@@ -67,15 +67,12 @@ def cmd_ingest(cfg, dry_run=False):
         PROJECT_DIR / output_cfg.get("archive_dir", "archive"),
         archive_cfg=archive_cfg,
     )
-    sync_indexes(
-        PROJECT_DIR,
-        cfg,
-        archived_papers=archived,
-    )
+    sync_indexes(PROJECT_DIR, cfg)
     build_readme(PROJECT_DIR, cfg)
 
     report_path = generate_report(
         ranked,
+        llm,
         PROJECT_DIR / output_cfg.get("reports_dir", "reports"),
         archived_summaries=archived,
     )
@@ -110,6 +107,7 @@ def cmd_curate_report(cfg):
         archived = json.loads(index_path.read_text(encoding="utf-8"))
     report_path = generate_report(
         [],
+        None,
         reports_dir,
         archived_summaries=archived[: cfg.get("readme", {}).get("recent_limit", 8)],
         report_title="Awesome Auto-Research Digest",

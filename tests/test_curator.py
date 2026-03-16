@@ -1,11 +1,13 @@
 import tempfile
 import unittest
 from pathlib import Path
+import json
 
 import yaml
 
 from src.curator import README_TEMPLATE, build_readme
 from src.indexer import sync_indexes
+from src.summarizer import generate_report
 
 
 class CuratorTests(unittest.TestCase):
@@ -27,6 +29,8 @@ class CuratorTests(unittest.TestCase):
                 "importance_score": 8.9,
                 "reason": "important",
                 "why_it_matters": "Shows a strong end-to-end research workflow.",
+                "digest_summary": "This paper presents a readable end-to-end workflow for automating parts of research.",
+                "summary_short": ["Readable workflow", "End-to-end automation", "Research agent focus"],
                 "featured": true,
                 "links": {"paper": "https://arxiv.org/abs/2401.00001"},
                 "archive_path": "archive/papers/2026-03-16/auto-research-agents.md"
@@ -76,6 +80,24 @@ class CuratorTests(unittest.TestCase):
         self.assertIn("The AI Scientist", content)
         self.assertIn("Auto Research Agents", content)
         self.assertIn("latest archived addition", content.lower())
+
+    def test_sync_indexes_uses_full_archive_metadata(self):
+        sync_indexes(
+            self.project_dir,
+            self.cfg,
+            archived_papers=[{"id": "should-not-win", "title": "Transient"}],
+        )
+        papers = json.loads((self.project_dir / "data" / "papers.json").read_text(encoding="utf-8"))
+        self.assertEqual(len(papers), 1)
+        self.assertEqual(papers[0]["id"], "2401.00001")
+
+    def test_generate_report_uses_digest_summary(self):
+        paper = json.loads((self.project_dir / "archive" / "metadata.json").read_text(encoding="utf-8"))[0]
+        report_path = generate_report([], None, self.project_dir / "reports", archived_summaries=[paper])
+        content = report_path.read_text(encoding="utf-8")
+        self.assertIn("## Today in Auto-Research", content)
+        self.assertIn("## Top Papers Today", content)
+        self.assertIn("readable end-to-end workflow", content.lower())
 
 
 if __name__ == "__main__":

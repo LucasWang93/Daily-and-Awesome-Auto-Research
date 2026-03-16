@@ -44,7 +44,7 @@ def sync_indexes(project_dir: Path, cfg: dict, archived_papers: list[dict] | Non
     archive_dir_name = output_cfg.get("archive_dir", "archive")
 
     curated = _load_curated(data_dir)
-    papers = archived_papers if archived_papers is not None else _load_archive_metadata(project_dir, archive_dir_name)
+    papers = _load_archive_metadata(project_dir, archive_dir_name)
     repos = curated.get("repos", [])
     taxonomy = _taxonomy_index(cfg.get("taxonomy", []))
 

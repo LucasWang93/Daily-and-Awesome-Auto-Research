@@ -11,8 +11,10 @@ LOGGER = get_logger(__name__)
 CARD_SUMMARY_SYSTEM = (
     "You are writing a concise research card for an awesome repository about auto-research.\n"
     "Return valid JSON with keys:\n"
-    '- "summary_bullets": array of 3 to 5 short bullet strings\n'
+    '- "summary_short": array of 3 to 5 short bullet strings\n'
     '- "why_it_matters": one short paragraph\n'
+    '- "digest_summary": a 2 to 4 sentence English summary suitable for a daily newsletter\n'
+    '- "editor_note": one optional sentence on why it matters today\n'
     '- "code_repos": array of repo URL strings if clearly mentioned, else empty array\n'
     "Use English. Keep claims grounded in the provided title and abstract."
 )
@@ -39,7 +41,7 @@ def _write_json(path: Path, payload):
 
 
 def _build_card_content(paper: dict) -> str:
-    bullet_lines = "\n".join(f"- {line}" for line in paper.get("summary", []))
+    bullet_lines = "\n".join(f"- {line}" for line in paper.get("summary_short", []))
     theme_lines = ", ".join(paper.get("theme_names", paper.get("themes", [])))
     code_lines = ""
     if paper.get("code_repos"):
@@ -65,12 +67,14 @@ def _build_card_content(paper: dict) -> str:
         f"{bullet_lines}\n\n"
         f"## Why It Matters\n\n"
         f"{paper.get('why_it_matters', '')}\n\n"
+        f"## Daily Digest Summary\n\n"
+        f"{paper.get('digest_summary', '')}\n\n"
         f"## Related Repos\n\n"
         f"{code_lines}\n"
     )
 
 
-def _generate_card_fields(paper: dict, llm) -> tuple[list[str], str, list[str]]:
+def _generate_card_fields(paper: dict, llm) -> tuple[list[str], str, str, str, list[str]]:
     prompt = (
         f"Title: {paper['title']}\n"
         f"Abstract: {paper['abstract']}\n"
@@ -86,11 +90,14 @@ def _generate_card_fields(paper: dict, llm) -> tuple[list[str], str, list[str]]:
             f"Classified under {', '.join(paper.get('theme_names', paper.get('themes', [])))}",
             f"Source: {paper.get('source', 'unknown')}",
         ]
-        return fallback_bullets, paper.get("scores", {}).get("reason", ""), []
+        fallback_digest = paper.get("scores", {}).get("reason", "")
+        return fallback_bullets, fallback_digest, fallback_digest, "", []
 
     return (
-        result.get("summary_bullets", []),
+        result.get("summary_short", []),
         result.get("why_it_matters", ""),
+        result.get("digest_summary", ""),
+        result.get("editor_note", ""),
         result.get("code_repos", []),
     )
 
@@ -119,13 +126,13 @@ def archive_papers(top_papers: list[dict], llm, archive_dir: Path, archive_cfg: 
         if paper["paper_id"] in existing_ids:
             continue
 
-        summary_bullets, why_it_matters, code_repos = _generate_card_fields(paper, llm)
+        summary_short, why_it_matters, digest_summary, editor_note, code_repos = _generate_card_fields(paper, llm)
         featured = bool(paper.get("scores", {}).get("featured")) or score >= archive_cfg.get("featured_min_score", 8.8)
         record = {
             "id": paper["paper_id"],
             "paper_id": paper["paper_id"],
             "title": paper["title"],
-            "summary": summary_bullets,
+            "summary_short": summary_short,
             "date": paper.get("date", today),
             "source": paper.get("source", "unknown"),
             "sources": paper.get("sources", [paper.get("source", "unknown")]),
@@ -137,6 +144,8 @@ def archive_papers(top_papers: list[dict], llm, archive_dir: Path, archive_cfg: 
             "code_repos": code_repos,
             "featured": featured,
             "why_it_matters": why_it_matters,
+            "digest_summary": digest_summary,
+            "editor_note": editor_note,
         }
         card_path = today_dir / f"{paper.get('slug') or _slugify(paper['paper_id'])}.md"
         card_path.write_text(_build_card_content(record), encoding="utf-8")
