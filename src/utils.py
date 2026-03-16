@@ -21,9 +21,13 @@ def get_logger(name: str, log_dir: Path | None = None) -> logging.Logger:
     logger.addHandler(sh)
 
     if log_dir:
-        log_dir.mkdir(parents=True, exist_ok=True)
-        fh = logging.FileHandler(log_dir / "daily_papers.log")
-        fh.setFormatter(fmt)
-        logger.addHandler(fh)
+        try:
+            log_dir.mkdir(parents=True, exist_ok=True)
+            fh = logging.FileHandler(log_dir / "daily_papers.log")
+            fh.setFormatter(fmt)
+            logger.addHandler(fh)
+        except OSError:
+            # Some environments mount the repo read-only; keep stdout logging working.
+            pass
 
     return logger

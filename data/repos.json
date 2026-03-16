@@ -1,0 +1,29 @@
+[
+  {
+    "name": "The AI Scientist",
+    "url": "https://github.com/SakanaAI/AI-Scientist",
+    "positioning": "An end-to-end prototype for automated research idea generation, experimentation, and paper writing",
+    "why_it_matters": "It made the concept of autonomous research workflows concrete for a broad technical audience",
+    "relation": "A reference point for agentic systems that attempt to complete more than one stage of the research loop",
+    "representative": "The AI Scientist paper and project release",
+    "status": "landmark"
+  },
+  {
+    "name": "OpenHands",
+    "url": "https://github.com/All-Hands-AI/OpenHands",
+    "positioning": "A general software agent platform with strong implications for experiment and research automation",
+    "why_it_matters": "It contributes reusable infrastructure for tool-using agents that can support research tasks",
+    "relation": "Useful for building paper-to-code and experiment-execution workflows",
+    "representative": "OpenHands benchmark demos and agent framework",
+    "status": "active"
+  },
+  {
+    "name": "gpt-researcher",
+    "url": "https://github.com/assafelovic/gpt-researcher",
+    "positioning": "A focused research assistant for multi-source web research and report generation",
+    "why_it_matters": "It is one of the clearest open implementations of literature-style autonomous synthesis",
+    "relation": "Relevant to literature-review agents and retrieval-driven research workflows",
+    "representative": "GPT Researcher open-source project and docs",
+    "status": "active"
+  }
+]

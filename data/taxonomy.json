@@ -1,0 +1,89 @@
+[
+  {
+    "id": "agentic_research",
+    "name": "Agentic Research",
+    "query_keywords": [
+      "agentic research",
+      "research agent",
+      "autonomous research",
+      "AI scientist"
+    ],
+    "exclude_keywords": [],
+    "repo_tags": [
+      "agents",
+      "research-workflows"
+    ],
+    "readme_section": "Key Papers By Theme"
+  },
+  {
+    "id": "ai_scientist",
+    "name": "AI Scientist",
+    "query_keywords": [
+      "AI scientist",
+      "automated science",
+      "scientific discovery agent"
+    ],
+    "exclude_keywords": [],
+    "repo_tags": [
+      "ai-scientist"
+    ],
+    "readme_section": "Key Papers By Theme"
+  },
+  {
+    "id": "literature_review_agents",
+    "name": "Literature Review Agents",
+    "query_keywords": [
+      "literature review agent",
+      "paper summarization",
+      "research survey agent"
+    ],
+    "exclude_keywords": [],
+    "repo_tags": [
+      "retrieval",
+      "survey"
+    ],
+    "readme_section": "Key Papers By Theme"
+  },
+  {
+    "id": "paper_to_code",
+    "name": "Paper-to-Code",
+    "query_keywords": [
+      "paper to code",
+      "reproduce paper",
+      "implementation agent"
+    ],
+    "exclude_keywords": [],
+    "repo_tags": [
+      "paper-to-code"
+    ],
+    "readme_section": "Key Papers By Theme"
+  },
+  {
+    "id": "experiment_planning_and_execution",
+    "name": "Experiment Planning And Execution",
+    "query_keywords": [
+      "experiment planning agent",
+      "autonomous experimentation",
+      "experiment execution agent"
+    ],
+    "exclude_keywords": [],
+    "repo_tags": [
+      "experiments"
+    ],
+    "readme_section": "Key Papers By Theme"
+  },
+  {
+    "id": "research_benchmarks_and_eval",
+    "name": "Research Benchmarks And Evaluation",
+    "query_keywords": [
+      "research benchmark",
+      "scientific evaluation",
+      "agent benchmark"
+    ],
+    "exclude_keywords": [],
+    "repo_tags": [
+      "benchmarks"
+    ],
+    "readme_section": "Key Papers By Theme"
+  }
+]

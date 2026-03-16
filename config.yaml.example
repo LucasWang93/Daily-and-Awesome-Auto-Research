@@ -1,34 +1,95 @@
-topics:
-  - "Multi-modal LLM"
-  - "VLA"
-  - "LLM Agents"
-  - "Agentic RL"
-  - "Medical Agents"
+taxonomy:
+  - id: "agentic_research"
+    name: "Agentic Research"
+    query_keywords:
+      - "agentic research"
+      - "research agent"
+      - "autonomous research"
+      - "AI scientist"
+    exclude_keywords: []
+    repo_tags: ["agents", "research-workflows"]
+    readme_section: "Key Papers By Theme"
+  - id: "ai_scientist"
+    name: "AI Scientist"
+    query_keywords:
+      - "AI scientist"
+      - "automated science"
+      - "scientific discovery agent"
+    exclude_keywords: []
+    repo_tags: ["ai-scientist"]
+    readme_section: "Key Papers By Theme"
+  - id: "literature_review_agents"
+    name: "Literature Review Agents"
+    query_keywords:
+      - "literature review agent"
+      - "paper summarization"
+      - "research survey agent"
+    exclude_keywords: []
+    repo_tags: ["retrieval", "survey"]
+    readme_section: "Key Papers By Theme"
+  - id: "paper_to_code"
+    name: "Paper-to-Code"
+    query_keywords:
+      - "paper to code"
+      - "reproduce paper"
+      - "implementation agent"
+    exclude_keywords: []
+    repo_tags: ["paper-to-code"]
+    readme_section: "Key Papers By Theme"
+  - id: "experiment_planning_and_execution"
+    name: "Experiment Planning And Execution"
+    query_keywords:
+      - "experiment planning agent"
+      - "autonomous experimentation"
+      - "experiment execution agent"
+    exclude_keywords: []
+    repo_tags: ["experiments"]
+    readme_section: "Key Papers By Theme"
+  - id: "research_benchmarks_and_eval"
+    name: "Research Benchmarks And Evaluation"
+    query_keywords:
+      - "research benchmark"
+      - "scientific evaluation"
+      - "agent benchmark"
+    exclude_keywords: []
+    repo_tags: ["benchmarks"]
+    readme_section: "Key Papers By Theme"
 
 sources:
   arxiv:
     enabled: true
-    max_per_keyword: 30
-    days_lookback: 2
+    max_per_query: 20
+    days_lookback: 3
   nature:
-    enabled: true
-    journals:
-      - "nature"
-      - "natmachintell"
-      - "nm"
-      - "natbiomedeng"
-      - "ncomms"
+    enabled: false
   huggingface:
     enabled: true
     max_papers: 100
 
-ranking:
-  top_k: 20
-  archive_max: 5
+scoring:
+  top_k: 25
+  dimensions:
+    fit_to_auto_research: 0.35
+    methodological_significance: 0.30
+    ecosystem_relevance: 0.20
+    likely_longevity: 0.15
+
+archive:
+  archive_max: 8
+  min_score: 7.5
+  featured_min_score: 8.8
+  card_format: "markdown"
+
+readme:
+  recent_limit: 10
+  featured_limit: 5
+
+curation:
+  featured_source: "archived"
 
 llm:
   model: "gpt-5"
-  temperature: 0.3
+  temperature: 0.2
   max_tokens: 4096
 
 email:
@@ -37,8 +98,8 @@ email:
   smtp_port: 587
   sender: ""
   recipient: ""
-  # Password via env var: EMAIL_PASSWORD
 
 output:
   reports_dir: "reports"
   archive_dir: "archive"
+  data_dir: "data"

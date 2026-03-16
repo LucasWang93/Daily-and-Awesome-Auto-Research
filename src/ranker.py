@@ -1,132 +1,113 @@
-"""Rank papers using GPT-5 on relevance, novelty, and impact."""
+"""Rank papers using LLM scoring tailored to auto-research."""
 
 import math
 
-from .llm import LLMClient
+from .taxonomy import get_taxonomy_map
 from .utils import get_logger
 
 LOGGER = get_logger(__name__)
 
 RANKING_SYSTEM_PROMPT = (
-    "You are a senior AI researcher. You will receive a batch of academic paper "
-    "titles and abstracts. For each paper, score it on three dimensions (1-10 scale):\n\n"
-    "1. relevance: How relevant is this paper to the given research topics?\n"
-    "2. novelty: How novel is the approach, method, or finding?\n"
-    "3. impact: How impactful could this work be for the field?\n\n"
-    "Research topics of interest: {topics}\n\n"
-    'Return a JSON object with key "scores" containing an array. Each element must have:\n'
-    '- "paper_id": the paper ID (string)\n'
-    '- "relevance": integer 1-10\n'
-    '- "novelty": integer 1-10\n'
-    '- "impact": integer 1-10\n'
-    '- "reason": a brief sentence explaining the score\n\n'
-    "IMPORTANT: Return scores for ALL papers in the input, in the same order.\n"
-    "Return ONLY valid JSON. No markdown fences."
+    "You are curating an awesome repository about Auto-Research / Agentic Research.\n"
+    "Score each paper on four dimensions from 1 to 10:\n"
+    "1. fit_to_auto_research: relevance to AI systems that assist or automate research\n"
+    "2. methodological_significance: how substantial the method contribution is\n"
+    "3. ecosystem_relevance: usefulness to builders of research agents, workflows, or tooling\n"
+    "4. likely_longevity: chance this work still matters months later\n\n"
+    "Known themes: {themes}\n\n"
+    'Return JSON: { "scores": [ { "paper_id": str, "fit_to_auto_research": int, '
+    '"methodological_significance": int, "ecosystem_relevance": int, "likely_longevity": int, '
+    '"reason": str, "featured": bool } ] }\n'
+    "Return scores for every paper in the same order and only valid JSON."
 )
 
-BATCH_SIZE = 15
+BATCH_SIZE = 12
+DEFAULT_DIMENSIONS = {
+    "fit_to_auto_research": 0.35,
+    "methodological_significance": 0.3,
+    "ecosystem_relevance": 0.2,
+    "likely_longevity": 0.15,
+}
 
 
-def _format_papers_for_prompt(papers: list[dict]) -> str:
+def _format_papers_for_prompt(papers: list[dict], taxonomy_map: dict[str, dict]) -> str:
     lines = []
-    for i, p in enumerate(papers, 1):
+    for index, paper in enumerate(papers, 1):
+        theme_names = [taxonomy_map[theme]["name"] for theme in paper.get("themes", []) if theme in taxonomy_map]
         lines.append(
-            f"[{i}] ID: {p['paper_id']}\n"
-            f"    Title: {p['title']}\n"
-            f"    Abstract: {p['abstract'][:500]}\n"
-            f"    Source: {p['source']}\n"
-            f"    Keywords matched: {', '.join(p.get('keywords_matched', []))}\n"
+            f"[{index}] ID: {paper['paper_id']}\n"
+            f"Title: {paper['title']}\n"
+            f"Themes: {', '.join(theme_names) if theme_names else 'unclassified'}\n"
+            f"Source: {paper['source']}\n"
+            f"Abstract: {paper['abstract'][:700]}\n"
         )
     return "\n".join(lines)
 
 
-def _score_batch(
-    llm: LLMClient,
-    papers: list[dict],
-    topics: list[str],
-) -> list[dict]:
-    """Score a batch of papers via a single LLM call."""
-    system = RANKING_SYSTEM_PROMPT.format(topics=", ".join(topics))
-    user = _format_papers_for_prompt(papers)
+def _fallback_scores(papers: list[dict]) -> list[dict]:
+    return [
+        {
+            "paper_id": paper["paper_id"],
+            "fit_to_auto_research": 5,
+            "methodological_significance": 5,
+            "ecosystem_relevance": 5,
+            "likely_longevity": 5,
+            "reason": "scoring failed",
+            "featured": False,
+        }
+        for paper in papers
+    ]
 
+
+def _score_batch(llm, papers: list[dict], taxonomy: list[dict]) -> list[dict]:
+    system = RANKING_SYSTEM_PROMPT.format(
+        themes=", ".join(theme["name"] for theme in taxonomy),
+    )
+    prompt = _format_papers_for_prompt(papers, get_taxonomy_map(taxonomy))
     try:
-        result = llm.generate_json(system, user, temperature=0.1, max_tokens=4096)
+        result = llm.generate_json(system, prompt, temperature=0.1, max_tokens=4096)
     except Exception as exc:
         LOGGER.error("Ranking LLM call failed: %s", exc)
-        return [
-            {"paper_id": p["paper_id"], "relevance": 5, "novelty": 5,
-             "impact": 5, "reason": "scoring failed"}
-            for p in papers
-        ]
+        return _fallback_scores(papers)
 
-    scores = result.get("scores", [])
-    score_map = {s["paper_id"]: s for s in scores}
-
+    score_map = {score["paper_id"]: score for score in result.get("scores", [])}
     ordered = []
-    for p in papers:
-        pid = p["paper_id"]
-        if pid in score_map:
-            ordered.append(score_map[pid])
-        else:
-            ordered.append({
-                "paper_id": pid, "relevance": 5, "novelty": 5,
-                "impact": 5, "reason": "not returned by LLM",
-            })
+    for paper in papers:
+        ordered.append(score_map.get(paper["paper_id"], _fallback_scores([paper])[0]))
     return ordered
 
 
 def rank_papers(
     papers: list[dict],
-    topics: list[str],
-    llm: LLMClient,
-    top_k: int = 20,
+    taxonomy: list[dict],
+    llm,
+    top_k: int = 25,
+    dimensions: dict | None = None,
 ) -> list[dict]:
-    """Score and rank all papers, return top-k with scores attached."""
     if not papers:
-        LOGGER.warning("No papers to rank")
         return []
 
-    all_scores: list[dict] = []
+    dimensions = dimensions or DEFAULT_DIMENSIONS
+    all_scores = []
     n_batches = math.ceil(len(papers) / BATCH_SIZE)
+    for batch_index in range(n_batches):
+        batch = papers[batch_index * BATCH_SIZE:(batch_index + 1) * BATCH_SIZE]
+        LOGGER.info("Scoring batch %d/%d (%d papers)", batch_index + 1, n_batches, len(batch))
+        all_scores.extend(_score_batch(llm, batch, taxonomy))
 
-    for batch_idx in range(n_batches):
-        start = batch_idx * BATCH_SIZE
-        end = start + BATCH_SIZE
-        batch = papers[start:end]
-        LOGGER.info(
-            "Scoring batch %d/%d (%d papers)",
-            batch_idx + 1, n_batches, len(batch),
-        )
-        scores = _score_batch(llm, batch, topics)
-        all_scores.extend(scores)
-
-    score_lookup = {s["paper_id"]: s for s in all_scores}
-
-    scored_papers = []
-    for p in papers:
-        s = score_lookup.get(p["paper_id"], {})
-        rel = s.get("relevance", 5)
-        nov = s.get("novelty", 5)
-        imp = s.get("impact", 5)
-        composite = rel * 0.4 + nov * 0.3 + imp * 0.3
-
-        enriched = {**p}
+    lookup = {score["paper_id"]: score for score in all_scores}
+    ranked = []
+    for paper in papers:
+        score = lookup.get(paper["paper_id"], {})
+        composite = sum(float(score.get(name, 5)) * weight for name, weight in dimensions.items())
+        enriched = {**paper}
         enriched["scores"] = {
-            "relevance": rel,
-            "novelty": nov,
-            "impact": imp,
+            **{name: score.get(name, 5) for name in DEFAULT_DIMENSIONS},
             "composite": round(composite, 2),
-            "reason": s.get("reason", ""),
+            "reason": score.get("reason", ""),
+            "featured": bool(score.get("featured", False)),
         }
-        scored_papers.append(enriched)
+        ranked.append(enriched)
 
-    scored_papers.sort(key=lambda x: x["scores"]["composite"], reverse=True)
-    top = scored_papers[:top_k]
-
-    LOGGER.info(
-        "Ranking complete: %d papers scored, top-%d selected (best=%.2f, cutoff=%.2f)",
-        len(scored_papers), len(top),
-        top[0]["scores"]["composite"] if top else 0,
-        top[-1]["scores"]["composite"] if top else 0,
-    )
-    return top
+    ranked.sort(key=lambda item: item["scores"]["composite"], reverse=True)
+    return ranked[:top_k]

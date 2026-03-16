@@ -1,236 +1,151 @@
-"""Archive truly important papers: GPT-5 importance judgment, PDF download, deep summary."""
+"""Archive high-signal papers as Markdown knowledge cards."""
 
 import json
-import time
+from datetime import datetime, timezone
 from pathlib import Path
-from urllib.error import URLError
-from urllib.request import Request, urlopen
 
-from .llm import LLMClient
 from .utils import get_logger
 
 LOGGER = get_logger(__name__)
 
-IMPORTANCE_SYSTEM = (
-    "You are a senior AI researcher. Evaluate whether the following papers are "
-    "TRULY IMPORTANT -- meaning they represent a breakthrough innovation, a "
-    "significant methodological contribution, or could have major impact on the field.\n\n"
-    "Be selective and strict. Most papers are incremental; only flag those that are "
-    "genuinely important.\n\n"
-    "For each paper, return:\n"
-    '- "paper_id": string\n'
-    '- "important": boolean (true only if truly important)\n'
-    '- "importance_reason": 1-2 sentence justification\n\n'
-    'Return a JSON object with key "judgments" containing an array of the above.\n'
-    "Return ONLY valid JSON."
+CARD_SUMMARY_SYSTEM = (
+    "You are writing a concise research card for an awesome repository about auto-research.\n"
+    "Return valid JSON with keys:\n"
+    '- "summary_bullets": array of 3 to 5 short bullet strings\n'
+    '- "why_it_matters": one short paragraph\n'
+    '- "code_repos": array of repo URL strings if clearly mentioned, else empty array\n'
+    "Use English. Keep claims grounded in the provided title and abstract."
 )
 
-DEEP_SUMMARY_SYSTEM = (
-    "You are a world-class AI research analyst. Write a deep, high-quality summary "
-    "of the following paper IN CHINESE (500-800 characters). Cover:\n\n"
-    "1. Research motivation and the problem being solved\n"
-    "2. Core methodology and technical innovations\n"
-    "3. Key experimental results and findings\n"
-    "4. How this work differs from existing approaches\n"
-    "5. Potential impact and future directions\n\n"
-    "Write in clear, professional Chinese suitable for an expert audience. "
-    "Output the summary text directly, no JSON wrapping."
-)
 
-METADATA_FILE = "metadata.json"
+def _slugify(value: str) -> str:
+    import re
+
+    return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
 
 
-def _download_pdf(url, dest_path, timeout=60):
-    """Download a PDF file. Returns True on success."""
-    if not url:
-        return False
+def _load_json(path: Path, default):
+    if not path.exists():
+        return default
     try:
-        req = Request(url, headers={
-            "User-Agent": "DailyPapersAssistant/1.0 (academic research tool)",
-        })
-        with urlopen(req, timeout=timeout) as resp:
-            data = resp.read()
-        dest_path.write_bytes(data)
-        LOGGER.info("Downloaded PDF: %s (%d bytes)", dest_path.name, len(data))
-        return True
-    except (URLError, TimeoutError, OSError) as exc:
-        LOGGER.warning("PDF download failed for %s: %s", url, exc)
-        return False
+        return json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return default
 
 
-def judge_importance(papers, llm, archive_max=5):
-    """Use GPT-5 to judge which papers are truly important (max archive_max)."""
-    if not papers:
-        return []
+def _write_json(path: Path, payload):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
 
-    paper_descs = []
-    for p in papers:
-        sc = p.get("scores", {})
-        paper_descs.append(
-            f"ID: {p['paper_id']}\n"
-            f"Title: {p['title']}\n"
-            f"Abstract: {p['abstract'][:800]}\n"
-            f"Scores: rel={sc.get('relevance')}, nov={sc.get('novelty')}, "
-            f"imp={sc.get('impact')}, comp={sc.get('composite')}\n"
-            f"Reason: {sc.get('reason', '')}\n"
-        )
-    user_prompt = "\n---\n".join(paper_descs)
 
-    try:
-        result = llm.generate_json(IMPORTANCE_SYSTEM, user_prompt, max_tokens=2048)
-    except Exception as exc:
-        LOGGER.error("Importance judgment LLM call failed: %s", exc)
-        return []
-
-    judgments = result.get("judgments", [])
-    important_ids = []
-    for j in judgments:
-        if j.get("important") and len(important_ids) < archive_max:
-            important_ids.append({
-                "paper_id": j["paper_id"],
-                "importance_reason": j.get("importance_reason", ""),
-            })
-
-    LOGGER.info(
-        "Importance judgment: %d/%d papers marked as truly important",
-        len(important_ids), len(papers),
+def _build_card_content(paper: dict) -> str:
+    bullet_lines = "\n".join(f"- {line}" for line in paper.get("summary", []))
+    theme_lines = ", ".join(paper.get("theme_names", paper.get("themes", [])))
+    code_lines = ""
+    if paper.get("code_repos"):
+        code_lines = "\n".join(f"- {repo}" for repo in paper["code_repos"])
+    else:
+        code_lines = "- None linked yet"
+    sources = ", ".join(paper.get("sources", [paper.get("source", "unknown")]))
+    return (
+        f"# {paper['title']}\n\n"
+        f"## Snapshot\n\n"
+        f"- Paper ID: `{paper['paper_id']}`\n"
+        f"- Date: {paper.get('date', '')}\n"
+        f"- Themes: {theme_lines}\n"
+        f"- Sources: {sources}\n"
+        f"- Importance Score: {paper.get('importance_score', 0)}\n"
+        f"- Featured: {'yes' if paper.get('featured') else 'no'}\n\n"
+        f"## Links\n\n"
+        f"- Paper: {paper['links'].get('paper', paper.get('url', ''))}\n"
+        f"- ArXiv: {paper['links'].get('arxiv', '')}\n"
+        f"- PDF: {paper['links'].get('pdf', '')}\n"
+        f"- HuggingFace: {paper['links'].get('huggingface', '')}\n\n"
+        f"## Summary\n\n"
+        f"{bullet_lines}\n\n"
+        f"## Why It Matters\n\n"
+        f"{paper.get('why_it_matters', '')}\n\n"
+        f"## Related Repos\n\n"
+        f"{code_lines}\n"
     )
-    return important_ids
 
 
-def _generate_deep_summary(paper, llm):
-    """Generate a deep Chinese summary for a single paper."""
-    user_prompt = (
+def _generate_card_fields(paper: dict, llm) -> tuple[list[str], str, list[str]]:
+    prompt = (
         f"Title: {paper['title']}\n"
-        f"Authors: {', '.join(paper['authors'][:5])}\n"
         f"Abstract: {paper['abstract']}\n"
-        f"Source: {paper['source']}\n"
-        f"URL: {paper['url']}\n"
+        f"Themes: {', '.join(paper.get('theme_names', paper.get('themes', [])))}\n"
+        f"Links: {paper.get('url', '')}\n"
     )
     try:
-        return llm.generate(
-            DEEP_SUMMARY_SYSTEM, user_prompt,
-            temperature=0.4, max_tokens=2048,
-        )
+        result = llm.generate_json(CARD_SUMMARY_SYSTEM, prompt, temperature=0.2, max_tokens=1200)
     except Exception as exc:
-        LOGGER.error("Deep summary generation failed for %s: %s", paper["paper_id"], exc)
-        return ""
+        LOGGER.error("Card summary generation failed for %s: %s", paper["paper_id"], exc)
+        fallback_bullets = [
+            paper["title"],
+            f"Classified under {', '.join(paper.get('theme_names', paper.get('themes', [])))}",
+            f"Source: {paper.get('source', 'unknown')}",
+        ]
+        return fallback_bullets, paper.get("scores", {}).get("reason", ""), []
 
-
-def _pick_topic(paper, topics):
-    """Pick the best-matching topic directory for this paper."""
-    matched = paper.get("keywords_matched", [])
-    if matched:
-        return matched[0].replace(" ", "_").lower()
-    title_abs = (paper.get("title", "") + " " + paper.get("abstract", "")).lower()
-    for t in topics:
-        if t.lower() in title_abs:
-            return t.replace(" ", "_").lower()
-    return "general"
-
-
-def _load_metadata(archive_dir):
-    meta_path = Path(archive_dir) / METADATA_FILE
-    if meta_path.exists():
-        try:
-            return json.loads(meta_path.read_text(encoding="utf-8"))
-        except json.JSONDecodeError:
-            return []
-    return []
-
-
-def _save_metadata(archive_dir, metadata):
-    meta_path = Path(archive_dir) / METADATA_FILE
-    meta_path.write_text(
-        json.dumps(metadata, indent=2, ensure_ascii=False),
-        encoding="utf-8",
+    return (
+        result.get("summary_bullets", []),
+        result.get("why_it_matters", ""),
+        result.get("code_repos", []),
     )
 
 
-def archive_papers(top_papers, llm, archive_dir, topics, archive_max=5):
-    """Judge importance, archive truly important papers with deep summaries.
-
-    Returns list of archived paper info dicts (for inclusion in the report).
-    """
+def archive_papers(top_papers: list[dict], llm, archive_dir: Path, archive_cfg: dict | None = None) -> list[dict]:
+    archive_cfg = archive_cfg or {}
     archive_dir = Path(archive_dir)
-    archive_dir.mkdir(parents=True, exist_ok=True)
+    papers_dir = archive_dir / "papers"
+    metadata_path = archive_dir / "metadata.json"
+    existing_meta = _load_json(metadata_path, [])
+    existing_ids = {entry["id"] for entry in existing_meta if "id" in entry}
 
-    important = judge_importance(top_papers, llm, archive_max=archive_max)
-    if not important:
-        LOGGER.info("No papers judged as truly important today.")
-        return []
-
-    important_ids = {item["paper_id"]: item for item in important}
-    papers_to_archive = [p for p in top_papers if p["paper_id"] in important_ids]
-
-    existing_meta = _load_metadata(archive_dir)
-    existing_ids = {m["paper_id"] for m in existing_meta}
+    archive_threshold = archive_cfg.get("min_score", 7.5)
+    archive_max = archive_cfg.get("archive_max", 8)
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    today_dir = papers_dir / today
+    today_dir.mkdir(parents=True, exist_ok=True)
 
     archived = []
-    for paper in papers_to_archive:
-        pid = paper["paper_id"]
-        if pid in existing_ids:
-            LOGGER.info("Paper %s already archived, skipping", pid)
+    for paper in top_papers:
+        if len(archived) >= archive_max:
+            break
+        score = paper.get("scores", {}).get("composite", 0)
+        if score < archive_threshold:
+            continue
+        if paper["paper_id"] in existing_ids:
             continue
 
-        topic_dir = _pick_topic(paper, topics)
-        safe_pid = pid.replace("/", "_")
-        paper_dir = archive_dir / topic_dir / safe_pid
-        paper_dir.mkdir(parents=True, exist_ok=True)
-
-        # Download PDF
-        pdf_path = paper_dir / f"{safe_pid}.pdf"
-        pdf_ok = _download_pdf(paper.get("pdf_url", ""), pdf_path)
-
-        # Generate deep summary
-        LOGGER.info("Generating deep summary for: %s", paper["title"][:80])
-        deep_summary = _generate_deep_summary(paper, llm)
-
-        summary_path = paper_dir / "summary.md"
-        summary_content = (
-            f"# {paper['title']}\n\n"
-            f"- **Paper ID**: {pid}\n"
-            f"- **Authors**: {', '.join(paper['authors'][:5])}\n"
-            f"- **Source**: {paper['source']}\n"
-            f"- **Date**: {paper['date']}\n"
-            f"- **URL**: {paper['url']}\n"
-            f"- **PDF**: {'downloaded' if pdf_ok else paper.get('pdf_url', 'N/A')}\n\n"
-            f"## Deep Summary\n\n{deep_summary}\n"
-        )
-        summary_path.write_text(summary_content, encoding="utf-8")
-
-        # Save paper metadata JSON
-        meta_entry = {
-            "paper_id": pid,
+        summary_bullets, why_it_matters, code_repos = _generate_card_fields(paper, llm)
+        featured = bool(paper.get("scores", {}).get("featured")) or score >= archive_cfg.get("featured_min_score", 8.8)
+        record = {
+            "id": paper["paper_id"],
+            "paper_id": paper["paper_id"],
             "title": paper["title"],
-            "authors": paper["authors"],
-            "url": paper["url"],
-            "date": paper["date"],
-            "source": paper["source"],
-            "topic": topic_dir,
-            "scores": paper.get("scores", {}),
-            "importance_reason": important_ids[pid].get("importance_reason", ""),
-            "pdf_downloaded": pdf_ok,
-            "archive_path": str(paper_dir),
+            "summary": summary_bullets,
+            "date": paper.get("date", today),
+            "source": paper.get("source", "unknown"),
+            "sources": paper.get("sources", [paper.get("source", "unknown")]),
+            "themes": paper.get("themes", []),
+            "theme_names": paper.get("theme_names", []),
+            "importance_score": round(score, 2),
+            "reason": paper.get("scores", {}).get("reason", ""),
+            "links": paper.get("links", {}),
+            "code_repos": code_repos,
+            "featured": featured,
+            "why_it_matters": why_it_matters,
         }
+        card_path = today_dir / f"{paper.get('slug') or _slugify(paper['paper_id'])}.md"
+        card_path.write_text(_build_card_content(record), encoding="utf-8")
+        record["archive_path"] = str(card_path.relative_to(archive_dir.parent))
+        existing_meta.append(record)
+        existing_ids.add(record["id"])
+        archived.append(record)
+        LOGGER.info("Archived paper card: %s", card_path)
 
-        paper_meta_path = paper_dir / "meta.json"
-        paper_meta_path.write_text(
-            json.dumps(meta_entry, indent=2, ensure_ascii=False),
-            encoding="utf-8",
-        )
-
-        existing_meta.append(meta_entry)
-        archived.append({
-            "paper_id": pid,
-            "title": paper["title"],
-            "url": paper["url"],
-            "deep_summary": deep_summary,
-        })
-
-        LOGGER.info("Archived: %s -> %s", pid, paper_dir)
-        time.sleep(0.5)
-
-    _save_metadata(archive_dir, existing_meta)
-    LOGGER.info("Archival complete: %d papers archived today", len(archived))
+    _write_json(metadata_path, existing_meta)
+    LOGGER.info("Archival complete: %d papers archived", len(archived))
     return archived

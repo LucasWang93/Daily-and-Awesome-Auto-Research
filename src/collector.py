@@ -1,4 +1,4 @@
-"""Collect papers from ArXiv, Nature journals, and HuggingFace Daily Papers."""
+"""Collect papers from ArXiv and HuggingFace, then map them into taxonomy themes."""
 
 import json
 import re
@@ -10,23 +10,25 @@ from urllib.error import URLError
 from urllib.parse import quote_plus
 from urllib.request import Request, urlopen
 
-import feedparser
-
+from .taxonomy import (
+    collect_query_terms,
+    find_theme_matches,
+    get_taxonomy_map,
+    normalize_theme_id,
+)
 from .utils import get_logger
 
 LOGGER = get_logger(__name__)
 
 ARXIV_API_URL = "https://export.arxiv.org/api/query"
 HF_DAILY_URL = "https://huggingface.co/api/daily_papers"
-NATURE_RSS_TEMPLATE = "https://www.nature.com/{journal}.rss"
-NATURE_SEARCH_URL = "https://www.nature.com/search"
 
 
 def _http_get(url: str, retries: int = 3, timeout: int = 30) -> Optional[str]:
     for attempt in range(retries):
         try:
             req = Request(url, headers={
-                "User-Agent": "DailyPapersAssistant/1.0 (academic research tool)",
+                "User-Agent": "AwesomeAutoResearch/1.0 (academic research curation)",
             })
             with urlopen(req, timeout=timeout) as resp:
                 return resp.read().decode("utf-8")
@@ -37,130 +39,90 @@ def _http_get(url: str, retries: int = 3, timeout: int = 30) -> Optional[str]:
     return None
 
 
-_KEYWORD_EXPANSIONS = {
-    "multi-modal llm": ["multimodal", "multi-modal", "vision-language", "vision language",
-                        "vlm", "mllm", "gpt-4v", "gpt-4o", "gemini", "omni-modal"],
-    "vla": ["vision-language-action", "vision language action", "robot manipulation",
-            "embodied ai", "robotic policy"],
-    "llm agents": ["llm agent", "language model agent", "tool-use", "tool use",
-                   "agentic", "autonomous agent", "ai agent"],
-    "agentic rl": ["agentic reinforcement", "agent reinforcement learning",
-                   "rl agent", "reward shaping agent", "policy optimization agent"],
-    "medical agents": ["medical ai", "clinical agent", "health agent",
-                       "biomedical agent", "medical llm", "clinical llm"],
-}
+def _slugify(text: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
 
 
-def _matches_keywords(text: str, keywords: list[str]) -> list[str]:
-    """Return keywords matching text, using expanded synonyms for broader recall."""
-    text_lower = text.lower()
-    matched = []
-    for kw in keywords:
-        if kw.lower() in text_lower:
-            matched.append(kw)
-            continue
-        expansions = _KEYWORD_EXPANSIONS.get(kw.lower(), [])
-        if any(syn in text_lower for syn in expansions):
-            matched.append(kw)
-    return matched
+def _build_links(paper_id: str, source_url: str, pdf_url: str) -> dict:
+    return {
+        "paper": source_url,
+        "pdf": pdf_url,
+        "arxiv": f"https://arxiv.org/abs/{paper_id}" if paper_id else source_url,
+    }
 
 
-# ---------------------------------------------------------------------------
-# ArXiv
-# ---------------------------------------------------------------------------
-
-def collect_arxiv(
-    keywords: list[str],
-    max_per_keyword: int = 30,
-    days_lookback: int = 2,
-) -> list[dict]:
-    """Search ArXiv for recent papers matching each keyword."""
+def collect_arxiv(queries: list[str], max_results_per_query: int = 20, days_lookback: int = 3) -> list[dict]:
     papers: list[dict] = []
+    seen_ids: set[str] = set()
+    cutoff = datetime.now(timezone.utc) - timedelta(days=days_lookback)
 
-    for kw in keywords:
-        query = quote_plus(f'all:"{kw}"')
+    for query_term in queries:
+        query = quote_plus(f'all:"{query_term}"')
         url = (
             f"{ARXIV_API_URL}?search_query={query}"
-            f"&start=0&max_results={max_per_keyword}"
+            f"&start=0&max_results={max_results_per_query}"
             f"&sortBy=submittedDate&sortOrder=descending"
         )
         raw = _http_get(url)
         if not raw:
-            LOGGER.warning("ArXiv query failed for keyword: %s", kw)
             continue
 
         try:
             root = ET.fromstring(raw)
         except ET.ParseError:
-            LOGGER.error("ArXiv XML parse error for keyword: %s", kw)
+            LOGGER.error("ArXiv XML parse error for query: %s", query_term)
             continue
 
         ns = {"atom": "http://www.w3.org/2005/Atom"}
-        cutoff = datetime.now(timezone.utc) - timedelta(days=days_lookback)
-
         for entry in root.findall("atom:entry", ns):
             pub_el = entry.find("atom:published", ns)
             if pub_el is None or pub_el.text is None:
                 continue
-
             try:
                 pub_date = datetime.fromisoformat(pub_el.text.replace("Z", "+00:00"))
             except ValueError:
                 continue
-
             if pub_date < cutoff:
                 continue
 
-            arxiv_id = ""
             id_el = entry.find("atom:id", ns)
-            if id_el is not None and id_el.text:
-                m = re.search(r"abs/(.+)$", id_el.text)
-                arxiv_id = m.group(1) if m else id_el.text
-
             title_el = entry.find("atom:title", ns)
-            title = (title_el.text or "").strip().replace("\n", " ") if title_el is not None else ""
-
             summary_el = entry.find("atom:summary", ns)
-            abstract = (summary_el.text or "").strip().replace("\n", " ") if summary_el is not None else ""
-
-            authors = [
-                a.find("atom:name", ns).text
-                for a in entry.findall("atom:author", ns)
-                if a.find("atom:name", ns) is not None and a.find("atom:name", ns).text
-            ]
-
-            if not arxiv_id or not title:
+            if id_el is None or not id_el.text or title_el is None or not title_el.text:
                 continue
 
-            matched = _matches_keywords(f"{title} {abstract}", keywords)
+            match = re.search(r"abs/(.+)$", id_el.text)
+            paper_id = match.group(1) if match else id_el.text
+            if paper_id in seen_ids:
+                continue
 
+            authors = [
+                node.find("atom:name", ns).text
+                for node in entry.findall("atom:author", ns)
+                if node.find("atom:name", ns) is not None and node.find("atom:name", ns).text
+            ]
+            title = title_el.text.strip().replace("\n", " ")
+            abstract = (summary_el.text or "").strip().replace("\n", " ") if summary_el is not None else ""
             papers.append({
-                "paper_id": arxiv_id,
+                "paper_id": paper_id,
                 "title": title,
                 "abstract": abstract,
                 "authors": authors,
-                "url": f"https://arxiv.org/abs/{arxiv_id}",
-                "pdf_url": f"https://arxiv.org/pdf/{arxiv_id}",
+                "url": f"https://arxiv.org/abs/{paper_id}",
+                "pdf_url": f"https://arxiv.org/pdf/{paper_id}",
                 "date": pub_date.strftime("%Y-%m-%d"),
                 "source": "arxiv",
-                "keywords_matched": matched or [kw],
+                "links": _build_links(paper_id, f"https://arxiv.org/abs/{paper_id}", f"https://arxiv.org/pdf/{paper_id}"),
+                "slug": _slugify(f"{paper_id}-{title}"),
             })
-
+            seen_ids.add(paper_id)
         time.sleep(1)
 
-    LOGGER.info("ArXiv: collected %d raw entries across %d keywords", len(papers), len(keywords))
+    LOGGER.info("ArXiv: collected %d deduplicated entries", len(papers))
     return papers
 
 
-# ---------------------------------------------------------------------------
-# HuggingFace Daily Papers
-# ---------------------------------------------------------------------------
-
-def collect_huggingface(
-    keywords: list[str],
-    max_papers: int = 100,
-) -> list[dict]:
-    """Fetch HuggingFace daily papers and filter by keywords."""
+def collect_huggingface(max_papers: int = 100) -> list[dict]:
     raw = _http_get(HF_DAILY_URL)
     if not raw:
         LOGGER.error("Failed to fetch HuggingFace daily papers")
@@ -175,155 +137,101 @@ def collect_huggingface(
     papers: list[dict] = []
     for item in items[:max_papers]:
         paper = item.get("paper", item)
-        title = paper.get("title", "")
-        abstract = paper.get("summary", paper.get("abstract", ""))
         paper_id = paper.get("id", "")
-
+        title = paper.get("title", "").strip()
+        abstract = paper.get("summary", paper.get("abstract", "")).strip()
         if not paper_id or not title:
             continue
-
-        matched = _matches_keywords(f"{title} {abstract}", keywords)
-        if not matched:
-            continue
-
         authors = [
             a.get("name", a) if isinstance(a, dict) else str(a)
             for a in paper.get("authors", [])
         ]
-
+        published_at = paper.get("publishedAt", paper.get("published", ""))[:10]
         papers.append({
             "paper_id": paper_id,
-            "title": title.strip(),
-            "abstract": abstract.strip(),
+            "title": title,
+            "abstract": abstract,
             "authors": authors,
-            "url": f"https://arxiv.org/abs/{paper_id}",
+            "url": f"https://huggingface.co/papers/{paper_id}",
             "pdf_url": f"https://arxiv.org/pdf/{paper_id}",
-            "date": paper.get("publishedAt", paper.get("published", ""))[:10],
+            "date": published_at,
             "source": "huggingface_daily",
-            "keywords_matched": matched,
+            "links": {
+                "paper": f"https://huggingface.co/papers/{paper_id}",
+                "arxiv": f"https://arxiv.org/abs/{paper_id}",
+                "pdf": f"https://arxiv.org/pdf/{paper_id}",
+                "huggingface": f"https://huggingface.co/papers/{paper_id}",
+            },
+            "slug": _slugify(f"{paper_id}-{title}"),
         })
-
-    LOGGER.info("HuggingFace Daily: %d papers matched keywords out of %d total", len(papers), len(items))
+    LOGGER.info("HuggingFace Daily: collected %d entries", len(papers))
     return papers
 
 
-# ---------------------------------------------------------------------------
-# Nature journals (RSS feeds)
-# ---------------------------------------------------------------------------
-
-def collect_nature(
-    keywords: list[str],
-    journals: list[str] | None = None,
-) -> list[dict]:
-    """Fetch recent papers from Nature journal RSS feeds, filter by keywords."""
-    if journals is None:
-        journals = ["nature", "natmachintell", "natmed", "natbiomedeng", "natcomms"]
-
-    papers: list[dict] = []
-
-    for journal in journals:
-        feed_url = NATURE_RSS_TEMPLATE.format(journal=journal)
-        LOGGER.info("Fetching Nature RSS: %s", feed_url)
-        raw = _http_get(feed_url, timeout=20)
-        if not raw:
-            LOGGER.warning("Failed to fetch RSS for %s", journal)
+def _attach_taxonomy(papers: list[dict], taxonomy: list[dict]) -> list[dict]:
+    taxonomy_map = get_taxonomy_map(taxonomy)
+    matched = []
+    for paper in papers:
+        text = f"{paper.get('title', '')}\n{paper.get('abstract', '')}"
+        themes = find_theme_matches(text, taxonomy)
+        if not themes:
             continue
+        theme_ids = [normalize_theme_id(theme["id"]) for theme in themes]
+        paper["themes"] = theme_ids
+        paper["theme_names"] = [taxonomy_map[theme_id]["name"] for theme_id in theme_ids if theme_id in taxonomy_map]
+        paper["keywords_matched"] = sorted({
+            keyword
+            for theme in themes
+            for keyword in theme.get("query_keywords", [])
+            if keyword.lower() in text.lower()
+        })
+        matched.append(paper)
+    return matched
 
-        feed = feedparser.parse(raw)
-        for entry in feed.entries:
-            title = entry.get("title", "")
-            abstract = entry.get("summary", entry.get("description", ""))
-            link = entry.get("link", "")
-
-            if not title:
-                continue
-
-            matched = _matches_keywords(f"{title} {abstract}", keywords)
-            if not matched:
-                continue
-
-            pub_date = ""
-            if hasattr(entry, "published_parsed") and entry.published_parsed:
-                pub_date = time.strftime("%Y-%m-%d", entry.published_parsed)
-
-            doi = entry.get("prism_doi", entry.get("dc_identifier", ""))
-            paper_id = doi or link
-
-            authors = []
-            if hasattr(entry, "authors"):
-                authors = [a.get("name", "") for a in entry.authors if a.get("name")]
-            elif hasattr(entry, "author"):
-                authors = [entry.author]
-
-            papers.append({
-                "paper_id": paper_id,
-                "title": title.strip(),
-                "abstract": abstract.strip(),
-                "authors": authors,
-                "url": link,
-                "pdf_url": "",
-                "date": pub_date,
-                "source": f"nature_{journal}",
-                "keywords_matched": matched,
-            })
-
-        time.sleep(0.5)
-
-    LOGGER.info("Nature RSS: %d papers matched keywords across %d journals", len(papers), len(journals))
-    return papers
-
-
-# ---------------------------------------------------------------------------
-# Unified collection + deduplication
-# ---------------------------------------------------------------------------
 
 def _deduplicate(papers: list[dict]) -> list[dict]:
-    """Remove duplicate papers by paper_id, keeping the first occurrence."""
-    seen: set[str] = set()
-    result: list[dict] = []
-    for p in papers:
-        pid = p["paper_id"]
-        if pid and pid not in seen:
-            seen.add(pid)
-            result.append(p)
-    return result
+    merged: dict[str, dict] = {}
+    for paper in papers:
+        canonical_id = paper["paper_id"]
+        existing = merged.get(canonical_id)
+        if existing is None:
+            merged[canonical_id] = paper
+            continue
+
+        existing_sources = set(existing.get("sources", [existing["source"]]))
+        existing_sources.add(paper["source"])
+        existing["sources"] = sorted(existing_sources)
+        existing["themes"] = sorted(set(existing.get("themes", [])) | set(paper.get("themes", [])))
+        existing["theme_names"] = sorted(set(existing.get("theme_names", [])) | set(paper.get("theme_names", [])))
+        existing["links"] = {**paper.get("links", {}), **existing.get("links", {})}
+        if existing["source"] != "arxiv" and paper["source"] == "arxiv":
+            existing["source"] = "arxiv"
+            existing["url"] = paper["url"]
+            existing["pdf_url"] = paper["pdf_url"]
+    return list(merged.values())
 
 
-def collect_all(
-    keywords: list[str],
-    arxiv_cfg: dict | None = None,
-    nature_cfg: dict | None = None,
-    hf_cfg: dict | None = None,
-) -> list[dict]:
-    """Run all collectors and return deduplicated paper list."""
-    arxiv_cfg = arxiv_cfg or {}
-    nature_cfg = nature_cfg or {}
-    hf_cfg = hf_cfg or {}
+def collect_all(cfg: dict) -> list[dict]:
+    taxonomy = cfg.get("taxonomy", [])
+    query_terms = collect_query_terms(taxonomy)
+    sources_cfg = cfg.get("sources", {})
 
-    all_papers: list[dict] = []
-
+    papers: list[dict] = []
+    arxiv_cfg = sources_cfg.get("arxiv", {})
     if arxiv_cfg.get("enabled", True):
-        all_papers.extend(collect_arxiv(
-            keywords,
-            max_per_keyword=arxiv_cfg.get("max_per_keyword", 30),
-            days_lookback=arxiv_cfg.get("days_lookback", 2),
-        ))
+        papers.extend(
+            collect_arxiv(
+                query_terms,
+                max_results_per_query=arxiv_cfg.get("max_per_query", arxiv_cfg.get("max_per_keyword", 20)),
+                days_lookback=arxiv_cfg.get("days_lookback", 3),
+            )
+        )
 
+    hf_cfg = sources_cfg.get("huggingface", {})
     if hf_cfg.get("enabled", True):
-        all_papers.extend(collect_huggingface(
-            keywords,
-            max_papers=hf_cfg.get("max_papers", 100),
-        ))
+        papers.extend(collect_huggingface(max_papers=hf_cfg.get("max_papers", 100)))
 
-    if nature_cfg.get("enabled", True):
-        all_papers.extend(collect_nature(
-            keywords,
-            journals=nature_cfg.get("journals"),
-        ))
-
-    deduped = _deduplicate(all_papers)
-    LOGGER.info(
-        "Collection complete: %d total -> %d after dedup",
-        len(all_papers), len(deduped),
-    )
+    matched = _attach_taxonomy(papers, taxonomy)
+    deduped = _deduplicate(matched)
+    LOGGER.info("Collector: %d papers after taxonomy match and dedup", len(deduped))
     return deduped
