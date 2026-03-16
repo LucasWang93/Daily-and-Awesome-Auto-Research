@@ -1,1 +1,2267 @@
-[]
+[
+  {
+    "paper_id": "2602.23008v1",
+    "title": "Exploratory Memory-Augmented LLM Agent via Hybrid On- and Off-Policy Optimization",
+    "authors": [
+      "Zeyuan Liu",
+      "Jeonghye Kim",
+      "Xufang Luo",
+      "Dongsheng Li",
+      "Yuqing Yang"
+    ],
+    "url": "https://arxiv.org/abs/2602.23008v1",
+    "date": "2026-02-26",
+    "source": "arxiv",
+    "topic": "llm_agents",
+    "scores": {
+      "relevance": 10,
+      "novelty": 9,
+      "impact": 9,
+      "composite": 9.4,
+      "reason": "Highly relevant as it introduces a hybrid RL framework for LLM agents, addressing exploration challenges with a novel memory-augmented approach."
+    },
+    "importance_reason": "Proposes a novel hybrid RL framework addressing exploration challenges in LLM agents, with significant improvements in performance and adaptability, marking a methodological advancement in reinforcement learning for LLMs.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2602.23008v1",
+    "id": "2602.23008v1",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.23008v1",
+      "arxiv": "https://arxiv.org/abs/2602.23008v1",
+      "pdf": "https://arxiv.org/pdf/2602.23008v1"
+    },
+    "themes": [
+      "llm_agents"
+    ],
+    "theme_names": [
+      "llm agents"
+    ],
+    "importance_score": 9.4,
+    "why_it_matters": "Proposes a novel hybrid RL framework addressing exploration challenges in LLM agents, with significant improvements in performance and adaptability, marking a methodological advancement in reinforcement learning for LLMs.",
+    "summary_short": [],
+    "digest_summary": "Proposes a novel hybrid RL framework addressing exploration challenges in LLM agents, with significant improvements in performance and adaptability, marking a methodological advancement in reinforcement learning for LLMs.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2602.22897",
+    "title": "OmniGAIA: Towards Native Omni-Modal AI Agents",
+    "authors": [
+      "Xiaoxi Li",
+      "Wenxiang Jiao",
+      "Jiarui Jin",
+      "Shijian Wang",
+      "Guanting Dong",
+      "Jiajie Jin",
+      "Hao Wang",
+      "Yinuo Wang",
+      "Ji-Rong Wen",
+      "Yuan Lu",
+      "Zhicheng Dou"
+    ],
+    "url": "https://arxiv.org/abs/2602.22897",
+    "date": "2026-02-26",
+    "source": "huggingface_daily",
+    "topic": "multi-modal_llm",
+    "scores": {
+      "relevance": 10,
+      "novelty": 9,
+      "impact": 9,
+      "composite": 9.4,
+      "reason": "Directly relevant to Multi-modal LLMs, proposing a novel benchmark for omni-modal agents with significant implications for advancing general AI capabilities."
+    },
+    "importance_reason": "Introduces a novel benchmark for omni-modal AI agents, addressing a critical gap in multi-modal LLMs and advancing the field toward general AI capabilities.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2602.22897",
+    "id": "2602.22897",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.22897",
+      "arxiv": "https://arxiv.org/abs/2602.22897",
+      "pdf": "https://arxiv.org/pdf/2602.22897"
+    },
+    "themes": [
+      "multi-modal_llm"
+    ],
+    "theme_names": [
+      "multi-modal llm"
+    ],
+    "importance_score": 9.4,
+    "why_it_matters": "Introduces a novel benchmark for omni-modal AI agents, addressing a critical gap in multi-modal LLMs and advancing the field toward general AI capabilities.",
+    "summary_short": [],
+    "digest_summary": "Introduces a novel benchmark for omni-modal AI agents, addressing a critical gap in multi-modal LLMs and advancing the field toward general AI capabilities.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2602.22724v1",
+    "title": "AgentSentry: Mitigating Indirect Prompt Injection in LLM Agents via Temporal Causal Diagnostics and Context Purification",
+    "authors": [
+      "Tian Zhang",
+      "Yiwei Xu",
+      "Juan Wang",
+      "Keyan Guo",
+      "Xiaoyang Xu",
+      "Bowen Xiao",
+      "Quanlong Guan",
+      "Jinlin Fan",
+      "Jiawei Liu",
+      "Zhiquan Liu",
+      "Hongxin Hu"
+    ],
+    "url": "https://arxiv.org/abs/2602.22724v1",
+    "date": "2026-02-26",
+    "source": "arxiv",
+    "topic": "llm_agents",
+    "scores": {
+      "relevance": 10,
+      "novelty": 8,
+      "impact": 9,
+      "composite": 9.1,
+      "reason": "Highly relevant as it tackles prompt injection vulnerabilities in LLM agents, offering a novel diagnostic and mitigation framework."
+    },
+    "importance_reason": "Addresses a critical vulnerability in LLM agents with a novel framework for mitigating indirect prompt injection, which has significant implications for the security of autonomous systems.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2602.22724v1",
+    "id": "2602.22724v1",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.22724v1",
+      "arxiv": "https://arxiv.org/abs/2602.22724v1",
+      "pdf": "https://arxiv.org/pdf/2602.22724v1"
+    },
+    "themes": [
+      "llm_agents"
+    ],
+    "theme_names": [
+      "llm agents"
+    ],
+    "importance_score": 9.1,
+    "why_it_matters": "Addresses a critical vulnerability in LLM agents with a novel framework for mitigating indirect prompt injection, which has significant implications for the security of autonomous systems.",
+    "summary_short": [],
+    "digest_summary": "Addresses a critical vulnerability in LLM agents with a novel framework for mitigating indirect prompt injection, which has significant implications for the security of autonomous systems.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2602.22450v1",
+    "title": "Silent Egress: When Implicit Prompt Injection Makes LLM Agents Leak Without a Trace",
+    "authors": [
+      "Qianlong Lan",
+      "Anuj Kaul",
+      "Shaun Jones",
+      "Stephanie Westrum"
+    ],
+    "url": "https://arxiv.org/abs/2602.22450v1",
+    "date": "2026-02-25",
+    "source": "arxiv",
+    "topic": "llm_agents",
+    "scores": {
+      "relevance": 10,
+      "novelty": 8,
+      "impact": 9,
+      "composite": 9.1,
+      "reason": "Highly relevant as it identifies implicit prompt injection risks in LLM agents, offering a novel perspective on system-level vulnerabilities."
+    },
+    "importance_reason": "Identifies and demonstrates a novel implicit prompt injection vulnerability in LLM agents, providing a new perspective on system-level security risks.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2602.22450v1",
+    "id": "2602.22450v1",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.22450v1",
+      "arxiv": "https://arxiv.org/abs/2602.22450v1",
+      "pdf": "https://arxiv.org/pdf/2602.22450v1"
+    },
+    "themes": [
+      "llm_agents"
+    ],
+    "theme_names": [
+      "llm agents"
+    ],
+    "importance_score": 9.1,
+    "why_it_matters": "Identifies and demonstrates a novel implicit prompt injection vulnerability in LLM agents, providing a new perspective on system-level security risks.",
+    "summary_short": [],
+    "digest_summary": "Identifies and demonstrates a novel implicit prompt injection vulnerability in LLM agents, providing a new perspective on system-level security risks.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2602.22897v1",
+    "title": "OmniGAIA: Towards Native Omni-Modal AI Agents",
+    "authors": [
+      "Xiaoxi Li",
+      "Wenxiang Jiao",
+      "Jiarui Jin",
+      "Shijian Wang",
+      "Guanting Dong",
+      "Jiajie Jin",
+      "Hao Wang",
+      "Yinuo Wang",
+      "Ji-Rong Wen",
+      "Yuan Lu",
+      "Zhicheng Dou"
+    ],
+    "url": "https://arxiv.org/abs/2602.22897v1",
+    "date": "2026-02-26",
+    "source": "arxiv",
+    "topic": "multi-modal_llm",
+    "scores": {
+      "relevance": 10,
+      "novelty": 8,
+      "impact": 9,
+      "composite": 9.1,
+      "reason": "Introduces a benchmark for omni-modal agents, directly addressing multi-modal LLMs and their limitations."
+    },
+    "importance_reason": "OmniGAIA's benchmark for omni-modal agents represents a significant step forward in evaluating and advancing multi-modal LLMs, addressing their current limitations and enabling progress toward unified AI capabilities.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2602.22897v1",
+    "id": "2602.22897v1",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.22897v1",
+      "arxiv": "https://arxiv.org/abs/2602.22897v1",
+      "pdf": "https://arxiv.org/pdf/2602.22897v1"
+    },
+    "themes": [
+      "multi-modal_llm"
+    ],
+    "theme_names": [
+      "multi-modal llm"
+    ],
+    "importance_score": 9.1,
+    "why_it_matters": "OmniGAIA's benchmark for omni-modal agents represents a significant step forward in evaluating and advancing multi-modal LLMs, addressing their current limitations and enabling progress toward unified AI capabilities.",
+    "summary_short": [],
+    "digest_summary": "OmniGAIA's benchmark for omni-modal agents represents a significant step forward in evaluating and advancing multi-modal LLMs, addressing their current limitations and enabling progress toward unified AI capabilities.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2602.22514v1",
+    "title": "SignVLA: A Gloss-Free Vision-Language-Action Framework for Real-Time Sign Language-Guided Robotic Manipulation",
+    "authors": [
+      "Xinyu Tan",
+      "Ningwei Bai",
+      "Harry Gardener",
+      "Zhengyang Zhong",
+      "Luoyu Zhang",
+      "Liuhaichen Yang",
+      "Zhekai Duan",
+      "Monkgogi Galeitsiwe",
+      "Zezhi Tang"
+    ],
+    "url": "https://arxiv.org/abs/2602.22514v1",
+    "date": "2026-02-26",
+    "source": "arxiv",
+    "topic": "vla",
+    "scores": {
+      "relevance": 9,
+      "novelty": 9,
+      "impact": 9,
+      "composite": 9.0,
+      "reason": "Presents a novel gloss-free VLA framework for sign language, enhancing inclusivity and real-world applicability."
+    },
+    "importance_reason": "SignVLA's gloss-free framework for sign language-guided robotic manipulation is a novel and inclusive approach that reduces annotation costs and enhances real-world applicability, representing a significant methodological contribution.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/vla/2602.22514v1",
+    "id": "2602.22514v1",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.22514v1",
+      "arxiv": "https://arxiv.org/abs/2602.22514v1",
+      "pdf": "https://arxiv.org/pdf/2602.22514v1"
+    },
+    "themes": [
+      "vla"
+    ],
+    "theme_names": [
+      "vla"
+    ],
+    "importance_score": 9.0,
+    "why_it_matters": "SignVLA's gloss-free framework for sign language-guided robotic manipulation is a novel and inclusive approach that reduces annotation costs and enhances real-world applicability, representing a significant methodological contribution.",
+    "summary_short": [],
+    "digest_summary": "SignVLA's gloss-free framework for sign language-guided robotic manipulation is a novel and inclusive approach that reduces annotation costs and enhances real-world applicability, representing a significant methodological contribution.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2602.22817v1",
+    "title": "Hierarchy-of-Groups Policy Optimization for Long-Horizon Agentic Tasks",
+    "authors": [
+      "Shuo He",
+      "Lang Feng",
+      "Qi Wei",
+      "Xin Cheng",
+      "Lei Feng",
+      "Bo An"
+    ],
+    "url": "https://arxiv.org/abs/2602.22817v1",
+    "date": "2026-02-26",
+    "source": "arxiv",
+    "topic": "llm_agents",
+    "scores": {
+      "relevance": 10,
+      "novelty": 9,
+      "impact": 9,
+      "composite": 9.4,
+      "reason": "Directly addresses Agentic RL and LLM Agents with innovative policy optimization for long-horizon tasks."
+    },
+    "importance_reason": "Proposes a novel solution to a critical issue in stepwise group-based policy optimization for long-horizon tasks, addressing context inconsistency and significantly improving policy optimization. This has the potential to advance reinforcement learning for agentic tasks.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2602.22817v1",
+    "id": "2602.22817v1",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.22817v1",
+      "arxiv": "https://arxiv.org/abs/2602.22817v1",
+      "pdf": "https://arxiv.org/pdf/2602.22817v1"
+    },
+    "themes": [
+      "llm_agents"
+    ],
+    "theme_names": [
+      "llm agents"
+    ],
+    "importance_score": 9.4,
+    "why_it_matters": "Proposes a novel solution to a critical issue in stepwise group-based policy optimization for long-horizon tasks, addressing context inconsistency and significantly improving policy optimization. This has the potential to advance reinforcement learning for agentic tasks.",
+    "summary_short": [],
+    "digest_summary": "Proposes a novel solution to a critical issue in stepwise group-based policy optimization for long-horizon tasks, addressing context inconsistency and significantly improving policy optimization. This has the potential to advance reinforcement learning for agentic tasks.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2602.23363",
+    "title": "MediX-R1: Open Ended Medical Reinforcement Learning",
+    "authors": [
+      "Sahal Shaji Mullappilly",
+      "Mohammed Irfan Kurpath",
+      "Omair Mohamed",
+      "Mohamed Zidan",
+      "Fahad Khan",
+      "Salman Khan",
+      "Rao Anwer",
+      "Hisham Cholakkal"
+    ],
+    "url": "https://arxiv.org/abs/2602.23363",
+    "date": "2026-02-26",
+    "source": "huggingface_daily",
+    "topic": "multi-modal_llm",
+    "scores": {
+      "relevance": 10,
+      "novelty": 9,
+      "impact": 9,
+      "composite": 9.4,
+      "reason": "Highly relevant to Medical Agents and Multi-modal LLM with a novel RL framework tailored for medical reasoning."
+    },
+    "importance_reason": "Introduces a groundbreaking RL framework for medical multimodal LLMs, enabling clinically grounded, open-ended reasoning. This could significantly impact medical AI by overcoming limitations of traditional multiple-choice formats.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2602.23363",
+    "id": "2602.23363",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.23363",
+      "arxiv": "https://arxiv.org/abs/2602.23363",
+      "pdf": "https://arxiv.org/pdf/2602.23363"
+    },
+    "themes": [
+      "multi-modal_llm"
+    ],
+    "theme_names": [
+      "multi-modal llm"
+    ],
+    "importance_score": 9.4,
+    "why_it_matters": "Introduces a groundbreaking RL framework for medical multimodal LLMs, enabling clinically grounded, open-ended reasoning. This could significantly impact medical AI by overcoming limitations of traditional multiple-choice formats.",
+    "summary_short": [],
+    "digest_summary": "Introduces a groundbreaking RL framework for medical multimodal LLMs, enabling clinically grounded, open-ended reasoning. This could significantly impact medical AI by overcoming limitations of traditional multiple-choice formats.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2602.23008",
+    "title": "Exploratory Memory-Augmented LLM Agent via Hybrid On- and Off-Policy Optimization",
+    "authors": [
+      "Zeyuan Liu",
+      "Jeonghye Kim",
+      "Xufang Luo",
+      "Dongsheng Li",
+      "Yuqing Yang"
+    ],
+    "url": "https://arxiv.org/abs/2602.23008",
+    "date": "2026-02-26",
+    "source": "huggingface_daily",
+    "topic": "llm_agents",
+    "scores": {
+      "relevance": 10,
+      "novelty": 9,
+      "impact": 9,
+      "composite": 9.4,
+      "reason": "Highly relevant to LLM Agents and Agentic RL with a novel hybrid RL framework addressing exploration challenges."
+    },
+    "importance_reason": "Duplicates the earlier entry for 'Exploratory Memory-Augmented LLM Agent via Hybrid On- and Off-Policy Optimization,' which is already deemed important for its innovative hybrid RL framework.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2602.23008",
+    "id": "2602.23008",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.23008",
+      "arxiv": "https://arxiv.org/abs/2602.23008",
+      "pdf": "https://arxiv.org/pdf/2602.23008"
+    },
+    "themes": [
+      "llm_agents"
+    ],
+    "theme_names": [
+      "llm agents"
+    ],
+    "importance_score": 9.4,
+    "why_it_matters": "Duplicates the earlier entry for 'Exploratory Memory-Augmented LLM Agent via Hybrid On- and Off-Policy Optimization,' which is already deemed important for its innovative hybrid RL framework.",
+    "summary_short": [],
+    "digest_summary": "Duplicates the earlier entry for 'Exploratory Memory-Augmented LLM Agent via Hybrid On- and Off-Policy Optimization,' which is already deemed important for its innovative hybrid RL framework.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2602.21548",
+    "title": "DualPath: Breaking the Storage Bandwidth Bottleneck in Agentic LLM Inference",
+    "authors": [
+      "Yongtong Wu",
+      "Shaoyuan Chen",
+      "Yinmin Zhong",
+      "Rilin Huang",
+      "Yixuan Tan",
+      "Wentao Zhang",
+      "Liyue Zhang",
+      "Shangyan Zhou",
+      "Yuxuan Liu",
+      "Shunfeng Zhou",
+      "Mingxing Zhang",
+      "Xin Jin",
+      "Panpan Huang"
+    ],
+    "url": "https://arxiv.org/abs/2602.21548",
+    "date": "2026-02-25",
+    "source": "huggingface_daily",
+    "topic": "llm_agents",
+    "scores": {
+      "relevance": 10,
+      "novelty": 8,
+      "impact": 9,
+      "composite": 9.1,
+      "reason": "Highly relevant to LLM Agents, addressing a critical bottleneck in agentic LLM inference with a novel system."
+    },
+    "importance_reason": "Addresses a critical bottleneck in agentic LLM inference with a novel dual-path KV-Cache loading system, significantly improving efficiency and scalability. This is a meaningful systems-level innovation for LLM deployment.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2602.21548",
+    "id": "2602.21548",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.21548",
+      "arxiv": "https://arxiv.org/abs/2602.21548",
+      "pdf": "https://arxiv.org/pdf/2602.21548"
+    },
+    "themes": [
+      "llm_agents"
+    ],
+    "theme_names": [
+      "llm agents"
+    ],
+    "importance_score": 9.1,
+    "why_it_matters": "Addresses a critical bottleneck in agentic LLM inference with a novel dual-path KV-Cache loading system, significantly improving efficiency and scalability. This is a meaningful systems-level innovation for LLM deployment.",
+    "summary_short": [],
+    "digest_summary": "Addresses a critical bottleneck in agentic LLM inference with a novel dual-path KV-Cache loading system, significantly improving efficiency and scalability. This is a meaningful systems-level innovation for LLM deployment.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "10.1038/s42256-026-01180-5",
+    "title": "Cardiac health assessment across scenarios and devices using a multimodal foundation model pretrained on data from 1.7 million individuals",
+    "authors": [
+      "Xiao Gu",
+      "Wei Tang",
+      "Jinpei Han",
+      "Veer Sangha",
+      "Fenglin Liu",
+      "Shreyank N. Gowda",
+      "Antonio H. Ribeiro",
+      "Patrick Schwab",
+      "Kim Branson",
+      "Lei Clifton",
+      "Antonio Luiz P. Ribeiro",
+      "Zhangdaihong Liu",
+      "David A. Clifton"
+    ],
+    "url": "https://www.nature.com/articles/s42256-026-01180-5",
+    "date": "",
+    "source": "nature_natmachintell",
+    "topic": "multi-modal_llm",
+    "scores": {
+      "relevance": 9,
+      "novelty": 8,
+      "impact": 9,
+      "composite": 8.7,
+      "reason": "The cardiac health foundation model is a significant contribution to Multi-modal LLM and Medical Agents, with high potential impact in healthcare."
+    },
+    "importance_reason": "The cardiac foundation model trained on data from 1.7 million individuals is a major contribution to medical AI, with the potential to significantly improve cardiac health assessment across diverse scenarios and devices.",
+    "pdf_downloaded": false,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/10.1038_s42256-026-01180-5",
+    "id": "10.1038/s42256-026-01180-5",
+    "links": {
+      "paper": "https://www.nature.com/articles/s42256-026-01180-5",
+      "arxiv": "https://arxiv.org/abs/10.1038/s42256-026-01180-5",
+      "pdf": "https://arxiv.org/pdf/10.1038/s42256-026-01180-5"
+    },
+    "themes": [
+      "multi-modal_llm"
+    ],
+    "theme_names": [
+      "multi-modal llm"
+    ],
+    "importance_score": 8.7,
+    "why_it_matters": "The cardiac foundation model trained on data from 1.7 million individuals is a major contribution to medical AI, with the potential to significantly improve cardiac health assessment across diverse scenarios and devices.",
+    "summary_short": [],
+    "digest_summary": "The cardiac foundation model trained on data from 1.7 million individuals is a major contribution to medical AI, with the potential to significantly improve cardiac health assessment across diverse scenarios and devices.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2602.24286",
+    "title": "CUDA Agent: Large-Scale Agentic RL for High-Performance CUDA Kernel Generation",
+    "authors": [
+      "Weinan Dai",
+      "Hanlin Wu",
+      "Qiying Yu",
+      "Huan-ang Gao",
+      "Jiahao Li",
+      "Chengquan Jiang",
+      "Weiqiang Lou",
+      "Yufan Song",
+      "Hongli Yu",
+      "Jiaze Chen",
+      "Wei-Ying Ma",
+      "Ya-Qin Zhang",
+      "Jingjing Liu",
+      "Mingxuan Wang",
+      "Xin Liu",
+      "Hao Zhou"
+    ],
+    "url": "https://arxiv.org/abs/2602.24286",
+    "date": "2026-02-27",
+    "source": "huggingface_daily",
+    "topic": "multi-modal_llm",
+    "scores": {
+      "relevance": 10,
+      "novelty": 9,
+      "impact": 9,
+      "composite": 9.4,
+      "reason": "Directly addresses Agentic RL and LLM Agents with a novel framework for CUDA kernel generation, which could significantly impact performance optimization."
+    },
+    "importance_reason": "This paper introduces a novel agentic reinforcement learning framework for CUDA kernel generation, addressing a critical bottleneck in GPU optimization with potential for significant impact in performance optimization and hardware-aware AI.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2602.24286",
+    "id": "2602.24286",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.24286",
+      "arxiv": "https://arxiv.org/abs/2602.24286",
+      "pdf": "https://arxiv.org/pdf/2602.24286"
+    },
+    "themes": [
+      "multi-modal_llm"
+    ],
+    "theme_names": [
+      "multi-modal llm"
+    ],
+    "importance_score": 9.4,
+    "why_it_matters": "This paper introduces a novel agentic reinforcement learning framework for CUDA kernel generation, addressing a critical bottleneck in GPU optimization with potential for significant impact in performance optimization and hardware-aware AI.",
+    "summary_short": [],
+    "digest_summary": "This paper introduces a novel agentic reinforcement learning framework for CUDA kernel generation, addressing a critical bottleneck in GPU optimization with potential for significant impact in performance optimization and hardware-aware AI.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.02083v1",
+    "title": "$π$-StepNFT: Wider Space Needs Finer Steps in Online RL for Flow-based VLAs",
+    "authors": [
+      "Siting Wang",
+      "Xiaofeng Wang",
+      "Zheng Zhu",
+      "Minnan Pei",
+      "Xinyu Cui",
+      "Cheng Deng",
+      "Jian Zhao",
+      "Guan Huang",
+      "Haifeng Zhang",
+      "Jun Wang"
+    ],
+    "url": "https://arxiv.org/abs/2603.02083v1",
+    "date": "2026-03-02",
+    "source": "arxiv",
+    "topic": "multi-modal_llm",
+    "scores": {
+      "relevance": 10,
+      "novelty": 9,
+      "impact": 9,
+      "composite": 9.4,
+      "reason": "Proposes a novel framework for VLA models in RL, addressing critical issues in multi-step sampling and exploration spaces."
+    },
+    "importance_reason": "$π$-StepNFT introduces a novel critic-and-likelihood-free framework for online RL in VLA models, addressing critical challenges in multi-step sampling and exploration spaces, with significant implications for embodied AI.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.02083v1",
+    "id": "2603.02083v1",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.02083v1",
+      "arxiv": "https://arxiv.org/abs/2603.02083v1",
+      "pdf": "https://arxiv.org/pdf/2603.02083v1"
+    },
+    "themes": [
+      "multi-modal_llm"
+    ],
+    "theme_names": [
+      "multi-modal llm"
+    ],
+    "importance_score": 9.4,
+    "why_it_matters": "$π$-StepNFT introduces a novel critic-and-likelihood-free framework for online RL in VLA models, addressing critical challenges in multi-step sampling and exploration spaces, with significant implications for embodied AI.",
+    "summary_short": [],
+    "digest_summary": "$π$-StepNFT introduces a novel critic-and-likelihood-free framework for online RL in VLA models, addressing critical challenges in multi-step sampling and exploration spaces, with significant implications for embodied AI.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.01766v1",
+    "title": "Neural Implicit Action Fields: From Discrete Waypoints to Continuous Functions for Vision-Language-Action Models",
+    "authors": [
+      "Haoyun Liu",
+      "Jianzhuang Zhao",
+      "Xinyuan Chang",
+      "Tianle Shi",
+      "Chuanzhang Meng",
+      "Jiayuan Tan",
+      "Feng Xiong",
+      "Tong Lin",
+      "Dongjie Huo",
+      "Mu Xu",
+      "SongLin Dong",
+      "Zhiheng Ma",
+      "Yihong Gong",
+      "Sheng Zhong"
+    ],
+    "url": "https://arxiv.org/abs/2603.01766v1",
+    "date": "2026-03-02",
+    "source": "arxiv",
+    "topic": "multi-modal_llm",
+    "scores": {
+      "relevance": 10,
+      "novelty": 9,
+      "impact": 9,
+      "composite": 9.4,
+      "reason": "Introduces Neural Implicit Action Fields, a paradigm shift in VLA models, enhancing precision and continuity in action prediction."
+    },
+    "importance_reason": "Neural Implicit Action Fields represent a paradigm shift in VLA models by transitioning from discrete waypoints to continuous action function regression, enabling higher precision and analytical differentiability.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.01766v1",
+    "id": "2603.01766v1",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.01766v1",
+      "arxiv": "https://arxiv.org/abs/2603.01766v1",
+      "pdf": "https://arxiv.org/pdf/2603.01766v1"
+    },
+    "themes": [
+      "multi-modal_llm"
+    ],
+    "theme_names": [
+      "multi-modal llm"
+    ],
+    "importance_score": 9.4,
+    "why_it_matters": "Neural Implicit Action Fields represent a paradigm shift in VLA models by transitioning from discrete waypoints to continuous action function regression, enabling higher precision and analytical differentiability.",
+    "summary_short": [],
+    "digest_summary": "Neural Implicit Action Fields represent a paradigm shift in VLA models by transitioning from discrete waypoints to continuous action function regression, enabling higher precision and analytical differentiability.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2602.21320",
+    "title": "Tool-R0: Self-Evolving LLM Agents for Tool-Learning from Zero Data",
+    "authors": [
+      "Emre Can Acikgoz",
+      "Cheng Qian",
+      "Jonas Hübotter",
+      "Heng Ji",
+      "Dilek Hakkani-Tür",
+      "Gokhan Tur"
+    ],
+    "url": "https://arxiv.org/abs/2602.21320",
+    "date": "2026-02-24",
+    "source": "huggingface_daily",
+    "topic": "llm_agents",
+    "scores": {
+      "relevance": 9,
+      "novelty": 9,
+      "impact": 9,
+      "composite": 9.0,
+      "reason": "Introduces self-evolving LLM agents for tool learning, highly relevant to LLM Agents and agentic RL with significant implications."
+    },
+    "importance_reason": "Tool-R0 introduces a self-evolving framework for tool-learning agents under zero-data assumptions, representing a significant step toward autonomous and open-ended agent evolution.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2602.21320",
+    "id": "2602.21320",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.21320",
+      "arxiv": "https://arxiv.org/abs/2602.21320",
+      "pdf": "https://arxiv.org/pdf/2602.21320"
+    },
+    "themes": [
+      "llm_agents"
+    ],
+    "theme_names": [
+      "llm agents"
+    ],
+    "importance_score": 9.0,
+    "why_it_matters": "Tool-R0 introduces a self-evolving framework for tool-learning agents under zero-data assumptions, representing a significant step toward autonomous and open-ended agent evolution.",
+    "summary_short": [],
+    "digest_summary": "Tool-R0 introduces a self-evolving framework for tool-learning agents under zero-data assumptions, representing a significant step toward autonomous and open-ended agent evolution.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.03205",
+    "title": "Learning When to Act or Refuse: Guarding Agentic Reasoning Models for Safe Multi-Step Tool Use",
+    "authors": [
+      "Aradhye Agarwal",
+      "Gurdit Siyan",
+      "Yash Pandya",
+      "Joykirat Singh",
+      "Akshay Nambi",
+      "Ahmed Awadallah"
+    ],
+    "url": "https://arxiv.org/abs/2603.03205",
+    "date": "2026-03-03",
+    "source": "huggingface_daily",
+    "topic": "llm_agents",
+    "scores": {
+      "relevance": 10,
+      "novelty": 9,
+      "impact": 9,
+      "composite": 9.4,
+      "reason": "Highly relevant to LLM Agents and Agentic RL, introduces a novel safety framework for agentic reasoning models with potential high impact."
+    },
+    "importance_reason": "The MOSAIC framework introduces a novel safety paradigm for agentic reasoning models, addressing critical challenges in multi-step tool use and irreversible harm scenarios. This represents a significant methodological contribution with potential high impact.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.03205",
+    "id": "2603.03205",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.03205",
+      "arxiv": "https://arxiv.org/abs/2603.03205",
+      "pdf": "https://arxiv.org/pdf/2603.03205"
+    },
+    "themes": [
+      "llm_agents"
+    ],
+    "theme_names": [
+      "llm agents"
+    ],
+    "importance_score": 9.4,
+    "why_it_matters": "The MOSAIC framework introduces a novel safety paradigm for agentic reasoning models, addressing critical challenges in multi-step tool use and irreversible harm scenarios. This represents a significant methodological contribution with potential high impact.",
+    "summary_short": [],
+    "digest_summary": "The MOSAIC framework introduces a novel safety paradigm for agentic reasoning models, addressing critical challenges in multi-step tool use and irreversible harm scenarios. This represents a significant methodological contribution with potential high impact.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.03195",
+    "title": "Chain of World: World Model Thinking in Latent Motion",
+    "authors": [
+      "Fuxiang Yang",
+      "Donglin Di",
+      "Lulu Tang",
+      "Xuancheng Zhang",
+      "Lei Fan",
+      "Hao Li",
+      "Chen Wei",
+      "Tonghua Su",
+      "Baorui Ma"
+    ],
+    "url": "https://arxiv.org/abs/2603.03195",
+    "date": "2026-03-03",
+    "source": "huggingface_daily",
+    "topic": "multi-modal_llm",
+    "scores": {
+      "relevance": 10,
+      "novelty": 9,
+      "impact": 9,
+      "composite": 9.4,
+      "reason": "Highly relevant to VLA and Multi-modal LLM, introduces a novel latent-action VLA model with potential to advance embodied intelligence."
+    },
+    "importance_reason": "CoWVLA introduces a unified paradigm for world-model temporal reasoning and disentangled latent motion representation, addressing key limitations in Vision-Language-Action models. This is a breakthrough innovation for embodied intelligence.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.03195",
+    "id": "2603.03195",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.03195",
+      "arxiv": "https://arxiv.org/abs/2603.03195",
+      "pdf": "https://arxiv.org/pdf/2603.03195"
+    },
+    "themes": [
+      "multi-modal_llm"
+    ],
+    "theme_names": [
+      "multi-modal llm"
+    ],
+    "importance_score": 9.4,
+    "why_it_matters": "CoWVLA introduces a unified paradigm for world-model temporal reasoning and disentangled latent motion representation, addressing key limitations in Vision-Language-Action models. This is a breakthrough innovation for embodied intelligence.",
+    "summary_short": [],
+    "digest_summary": "CoWVLA introduces a unified paradigm for world-model temporal reasoning and disentangled latent motion representation, addressing key limitations in Vision-Language-Action models. This is a breakthrough innovation for embodied intelligence.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.03078v1",
+    "title": "RAPO: Expanding Exploration for LLM Agents via Retrieval-Augmented Policy Optimization",
+    "authors": [
+      "Siwei Zhang",
+      "Yun Xiong",
+      "Xi Chen",
+      "Zi'an Jia",
+      "Renhong Huang",
+      "Jiarong Xu",
+      "Jiawei Zhang"
+    ],
+    "url": "https://arxiv.org/abs/2603.03078v1",
+    "date": "2026-03-03",
+    "source": "arxiv",
+    "topic": "llm_agents",
+    "scores": {
+      "relevance": 10,
+      "novelty": 8,
+      "impact": 9,
+      "composite": 9.1,
+      "reason": "The paper proposes a novel retrieval-augmented policy optimization method for Agentic RL, directly addressing exploration challenges in LLM agents."
+    },
+    "importance_reason": "The RAPO method addresses fundamental exploration challenges in Agentic RL for LLM agents, proposing a novel retrieval-augmented policy optimization framework. This has the potential to significantly advance the field of agentic reasoning.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.03078v1",
+    "id": "2603.03078v1",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.03078v1",
+      "arxiv": "https://arxiv.org/abs/2603.03078v1",
+      "pdf": "https://arxiv.org/pdf/2603.03078v1"
+    },
+    "themes": [
+      "llm_agents"
+    ],
+    "theme_names": [
+      "llm agents"
+    ],
+    "importance_score": 9.1,
+    "why_it_matters": "The RAPO method addresses fundamental exploration challenges in Agentic RL for LLM agents, proposing a novel retrieval-augmented policy optimization framework. This has the potential to significantly advance the field of agentic reasoning.",
+    "summary_short": [],
+    "digest_summary": "The RAPO method addresses fundamental exploration challenges in Agentic RL for LLM agents, proposing a novel retrieval-augmented policy optimization framework. This has the potential to significantly advance the field of agentic reasoning.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.04257v1",
+    "title": "Memex(RL): Scaling Long-Horizon LLM Agents via Indexed Experience Memory",
+    "authors": [
+      "Zhenting Wang",
+      "Huancheng Chen",
+      "Jiayun Wang",
+      "Wei Wei"
+    ],
+    "url": "https://arxiv.org/abs/2603.04257v1",
+    "date": "2026-03-04",
+    "source": "arxiv",
+    "topic": "llm_agents",
+    "scores": {
+      "relevance": 10,
+      "novelty": 9,
+      "impact": 9,
+      "composite": 9.4,
+      "reason": "Addresses long-horizon limitations in LLM agents, directly relevant and impactful for LLM Agents."
+    },
+    "importance_reason": "Introduces a novel memory mechanism, Memex, to address long-horizon limitations in LLM agents, which is a fundamental bottleneck in the field. This could have a significant impact on scaling LLM agents for complex, long-duration tasks.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.04257v1",
+    "id": "2603.04257v1",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.04257v1",
+      "arxiv": "https://arxiv.org/abs/2603.04257v1",
+      "pdf": "https://arxiv.org/pdf/2603.04257v1"
+    },
+    "themes": [
+      "llm_agents"
+    ],
+    "theme_names": [
+      "llm agents"
+    ],
+    "importance_score": 9.4,
+    "why_it_matters": "Introduces a novel memory mechanism, Memex, to address long-horizon limitations in LLM agents, which is a fundamental bottleneck in the field. This could have a significant impact on scaling LLM agents for complex, long-duration tasks.",
+    "summary_short": [],
+    "digest_summary": "Introduces a novel memory mechanism, Memex, to address long-horizon limitations in LLM agents, which is a fundamental bottleneck in the field. This could have a significant impact on scaling LLM agents for complex, long-duration tasks.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.03655v1",
+    "title": "Mozi: Governed Autonomy for Drug Discovery LLM Agents",
+    "authors": [
+      "He Cao",
+      "Siyu Liu",
+      "Fan Zhang",
+      "Zijing Liu",
+      "Hao Li",
+      "Bin Feng",
+      "Shengyuan Bai",
+      "Leqing Chen",
+      "Kai Xie",
+      "Yu Li"
+    ],
+    "url": "https://arxiv.org/abs/2603.03655v1",
+    "date": "2026-03-04",
+    "source": "arxiv",
+    "topic": "llm_agents",
+    "scores": {
+      "relevance": 10,
+      "novelty": 9,
+      "impact": 9,
+      "composite": 9.4,
+      "reason": "Proposes a governed autonomy framework for drug discovery, highly relevant to LLM Agents and Medical Agents."
+    },
+    "importance_reason": "Proposes a governed autonomy framework, Mozi, for drug discovery, addressing critical challenges in tool-use governance and long-horizon reliability. This has the potential to transform the deployment of LLM agents in high-stakes domains like pharmaceuticals.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.03655v1",
+    "id": "2603.03655v1",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.03655v1",
+      "arxiv": "https://arxiv.org/abs/2603.03655v1",
+      "pdf": "https://arxiv.org/pdf/2603.03655v1"
+    },
+    "themes": [
+      "llm_agents"
+    ],
+    "theme_names": [
+      "llm agents"
+    ],
+    "importance_score": 9.4,
+    "why_it_matters": "Proposes a governed autonomy framework, Mozi, for drug discovery, addressing critical challenges in tool-use governance and long-horizon reliability. This has the potential to transform the deployment of LLM agents in high-stakes domains like pharmaceuticals.",
+    "summary_short": [],
+    "digest_summary": "Proposes a governed autonomy framework, Mozi, for drug discovery, addressing critical challenges in tool-use governance and long-horizon reliability. This has the potential to transform the deployment of LLM agents in high-stakes domains like pharmaceuticals.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.03116v1",
+    "title": "Beyond Task Completion: Revealing Corrupt Success in LLM Agents through Procedure-Aware Evaluation",
+    "authors": [
+      "Hongliu Cao",
+      "Ilias Driouich",
+      "Eoin Thomas"
+    ],
+    "url": "https://arxiv.org/abs/2603.03116v1",
+    "date": "2026-03-03",
+    "source": "arxiv",
+    "topic": "llm_agents",
+    "scores": {
+      "relevance": 10,
+      "novelty": 8,
+      "impact": 9,
+      "composite": 9.1,
+      "reason": "Highly relevant to LLM Agents with a novel evaluation framework that could significantly improve agent assessment."
+    },
+    "importance_reason": "Proposes Procedure-Aware Evaluation (PAE), a novel framework for evaluating LLM agents beyond task completion. This could significantly improve the assessment and reliability of LLM agents in high-stakes environments.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.03116v1",
+    "id": "2603.03116v1",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.03116v1",
+      "arxiv": "https://arxiv.org/abs/2603.03116v1",
+      "pdf": "https://arxiv.org/pdf/2603.03116v1"
+    },
+    "themes": [
+      "llm_agents"
+    ],
+    "theme_names": [
+      "llm agents"
+    ],
+    "importance_score": 9.1,
+    "why_it_matters": "Proposes Procedure-Aware Evaluation (PAE), a novel framework for evaluating LLM agents beyond task completion. This could significantly improve the assessment and reliability of LLM agents in high-stakes environments.",
+    "summary_short": [],
+    "digest_summary": "Proposes Procedure-Aware Evaluation (PAE), a novel framework for evaluating LLM agents beyond task completion. This could significantly improve the assessment and reliability of LLM agents in high-stakes environments.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.03655",
+    "title": "Mozi: Governed Autonomy for Drug Discovery LLM Agents",
+    "authors": [
+      "He Cao",
+      "Siyu Liu",
+      "Fan Zhang",
+      "Zijing Liu",
+      "Hao Li",
+      "Bin Feng",
+      "Shengyuan Bai",
+      "Leqing Chen",
+      "Kai Xie",
+      "Yu Li"
+    ],
+    "url": "https://arxiv.org/abs/2603.03655",
+    "date": "2026-03-04",
+    "source": "huggingface_daily",
+    "topic": "llm_agents",
+    "scores": {
+      "relevance": 10,
+      "novelty": 9,
+      "impact": 10,
+      "composite": 9.7,
+      "reason": "Focuses on governed autonomy for drug discovery using LLM agents, directly relevant to medical agents and impactful."
+    },
+    "importance_reason": "Proposes a dual-layer architecture for governed autonomy in drug discovery LLM agents, addressing critical barriers in high-stakes applications like pharmaceutical pipelines. This could significantly impact the deployment of LLMs in medical research.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.03655",
+    "id": "2603.03655",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.03655",
+      "arxiv": "https://arxiv.org/abs/2603.03655",
+      "pdf": "https://arxiv.org/pdf/2603.03655"
+    },
+    "themes": [
+      "llm_agents"
+    ],
+    "theme_names": [
+      "llm agents"
+    ],
+    "importance_score": 9.7,
+    "why_it_matters": "Proposes a dual-layer architecture for governed autonomy in drug discovery LLM agents, addressing critical barriers in high-stakes applications like pharmaceutical pipelines. This could significantly impact the deployment of LLMs in medical research.",
+    "summary_short": [],
+    "digest_summary": "Proposes a dual-layer architecture for governed autonomy in drug discovery LLM agents, addressing critical barriers in high-stakes applications like pharmaceutical pipelines. This could significantly impact the deployment of LLMs in medical research.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.04257",
+    "title": "Memex(RL): Scaling Long-Horizon LLM Agents via Indexed Experience Memory",
+    "authors": [
+      "Zhenting Wang",
+      "Huancheng Chen",
+      "Jiayun Wang",
+      "Wei Wei"
+    ],
+    "url": "https://arxiv.org/abs/2603.04257",
+    "date": "2026-03-04",
+    "source": "huggingface_daily",
+    "topic": "llm_agents",
+    "scores": {
+      "relevance": 10,
+      "novelty": 9,
+      "impact": 9,
+      "composite": 9.4,
+      "reason": "Directly addresses LLM Agents with a novel memory-based approach for long-horizon tasks, which could significantly advance the field."
+    },
+    "importance_reason": "Introduces Memex, a novel memory mechanism for scaling LLM agents in long-horizon tasks, addressing a fundamental bottleneck in context management and reasoning. This could advance the capabilities of LLM agents significantly.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.04257",
+    "id": "2603.04257",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.04257",
+      "arxiv": "https://arxiv.org/abs/2603.04257",
+      "pdf": "https://arxiv.org/pdf/2603.04257"
+    },
+    "themes": [
+      "llm_agents"
+    ],
+    "theme_names": [
+      "llm agents"
+    ],
+    "importance_score": 9.4,
+    "why_it_matters": "Introduces Memex, a novel memory mechanism for scaling LLM agents in long-horizon tasks, addressing a fundamental bottleneck in context management and reasoning. This could advance the capabilities of LLM agents significantly.",
+    "summary_short": [],
+    "digest_summary": "Introduces Memex, a novel memory mechanism for scaling LLM agents in long-horizon tasks, addressing a fundamental bottleneck in context management and reasoning. This could advance the capabilities of LLM agents significantly.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.05410v1",
+    "title": "PhysiFlow: Physics-Aware Humanoid Whole-Body VLA via Multi-Brain Latent Flow Matching and Robust Tracking",
+    "authors": [
+      "Weikai Qin",
+      "Sichen Wu",
+      "Ci Chen",
+      "Mengfan Liu",
+      "Linxi Feng",
+      "Xinru Cui",
+      "Haoqi Han",
+      "Hesheng Wang"
+    ],
+    "url": "https://arxiv.org/abs/2603.05410v1",
+    "date": "2026-03-05",
+    "source": "arxiv",
+    "topic": "multi-modal_llm",
+    "scores": {
+      "relevance": 10,
+      "novelty": 9,
+      "impact": 9,
+      "composite": 9.4,
+      "reason": "Proposes a novel physics-aware VLA framework for humanoid robots, which is both innovative and impactful for VLA applications."
+    },
+    "importance_reason": "Proposes a novel physics-aware VLA framework for humanoid robots, addressing critical challenges in semantic guidance and dynamic coordination, which could significantly advance the field of humanoid robot control.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.05410v1",
+    "id": "2603.05410v1",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.05410v1",
+      "arxiv": "https://arxiv.org/abs/2603.05410v1",
+      "pdf": "https://arxiv.org/pdf/2603.05410v1"
+    },
+    "themes": [
+      "multi-modal_llm"
+    ],
+    "theme_names": [
+      "multi-modal llm"
+    ],
+    "importance_score": 9.4,
+    "why_it_matters": "Proposes a novel physics-aware VLA framework for humanoid robots, addressing critical challenges in semantic guidance and dynamic coordination, which could significantly advance the field of humanoid robot control.",
+    "summary_short": [],
+    "digest_summary": "Proposes a novel physics-aware VLA framework for humanoid robots, addressing critical challenges in semantic guidance and dynamic coordination, which could significantly advance the field of humanoid robot control.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2602.23166",
+    "title": "AgentVista: Evaluating Multimodal Agents in Ultra-Challenging Realistic Visual Scenarios",
+    "authors": [
+      "Zhaochen Su",
+      "Jincheng Gao",
+      "Hangyu Guo",
+      "Zhenhua Liu",
+      "Lueyang Zhang",
+      "Xinyu Geng",
+      "Shijue Huang",
+      "Peng Xia",
+      "Guanyu Jiang",
+      "Cheng Wang",
+      "Yue Zhang",
+      "Yi R. Fung",
+      "Junxian He"
+    ],
+    "url": "https://arxiv.org/abs/2602.23166",
+    "date": "2026-02-26",
+    "source": "huggingface_daily",
+    "topic": "multi-modal_llm",
+    "scores": {
+      "relevance": 10,
+      "novelty": 9,
+      "impact": 9,
+      "composite": 9.4,
+      "reason": "Evaluates multimodal agents in realistic scenarios, directly addressing LLM agents and their practical applications."
+    },
+    "importance_reason": "Introduces a benchmark for evaluating multimodal agents in ultra-realistic scenarios, filling a significant gap in the evaluation of practical agent capabilities.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2602.23166",
+    "id": "2602.23166",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.23166",
+      "arxiv": "https://arxiv.org/abs/2602.23166",
+      "pdf": "https://arxiv.org/pdf/2602.23166"
+    },
+    "themes": [
+      "multi-modal_llm"
+    ],
+    "theme_names": [
+      "multi-modal llm"
+    ],
+    "importance_score": 9.4,
+    "why_it_matters": "Introduces a benchmark for evaluating multimodal agents in ultra-realistic scenarios, filling a significant gap in the evaluation of practical agent capabilities.",
+    "summary_short": [],
+    "digest_summary": "Introduces a benchmark for evaluating multimodal agents in ultra-realistic scenarios, filling a significant gap in the evaluation of practical agent capabilities.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.05487v1",
+    "title": "Observing and Controlling Features in Vision-Language-Action Models",
+    "authors": [
+      "Hugo Buurmeijer",
+      "Carmen Amo Alonso",
+      "Aiden Swann",
+      "Marco Pavone"
+    ],
+    "url": "https://arxiv.org/abs/2603.05487v1",
+    "date": "2026-03-05",
+    "source": "arxiv",
+    "topic": "multi-modal_llm",
+    "scores": {
+      "relevance": 10,
+      "novelty": 8,
+      "impact": 9,
+      "composite": 9.1,
+      "reason": "Directly addresses VLA models and their interpretability, which is highly relevant and impactful for advancing multi-modal LLMs."
+    },
+    "importance_reason": "Directly addresses the interpretability of VLA models, introducing novel concepts of feature-observability and controllability, which are critical for advancing multi-modal model understanding.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.05487v1",
+    "id": "2603.05487v1",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.05487v1",
+      "arxiv": "https://arxiv.org/abs/2603.05487v1",
+      "pdf": "https://arxiv.org/pdf/2603.05487v1"
+    },
+    "themes": [
+      "multi-modal_llm"
+    ],
+    "theme_names": [
+      "multi-modal llm"
+    ],
+    "importance_score": 9.1,
+    "why_it_matters": "Directly addresses the interpretability of VLA models, introducing novel concepts of feature-observability and controllability, which are critical for advancing multi-modal model understanding.",
+    "summary_short": [],
+    "digest_summary": "Directly addresses the interpretability of VLA models, introducing novel concepts of feature-observability and controllability, which are critical for advancing multi-modal model understanding.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.05185v1",
+    "title": "Critic in the Loop: A Tri-System VLA Framework for Robust Long-Horizon Manipulation",
+    "authors": [
+      "Pengfei Yi",
+      "Yingjie Ma",
+      "Wenjiang Xu",
+      "Yanan Hao",
+      "Shuai Gan",
+      "Wanting Li",
+      "Shanlin Zhong"
+    ],
+    "url": "https://arxiv.org/abs/2603.05185v1",
+    "date": "2026-03-05",
+    "source": "arxiv",
+    "topic": "multi-modal_llm",
+    "scores": {
+      "relevance": 10,
+      "novelty": 8,
+      "impact": 9,
+      "composite": 9.1,
+      "reason": "Introduces a hierarchical VLA framework for long-horizon tasks, addressing a critical challenge in the field."
+    },
+    "importance_reason": "Proposes a hierarchical framework for long-horizon robotic manipulation, addressing a core challenge in balancing semantic reasoning with real-time control, which could significantly impact VLA applications.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.05185v1",
+    "id": "2603.05185v1",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.05185v1",
+      "arxiv": "https://arxiv.org/abs/2603.05185v1",
+      "pdf": "https://arxiv.org/pdf/2603.05185v1"
+    },
+    "themes": [
+      "multi-modal_llm"
+    ],
+    "theme_names": [
+      "multi-modal llm"
+    ],
+    "importance_score": 9.1,
+    "why_it_matters": "Proposes a hierarchical framework for long-horizon robotic manipulation, addressing a core challenge in balancing semantic reasoning with real-time control, which could significantly impact VLA applications.",
+    "summary_short": [],
+    "digest_summary": "Proposes a hierarchical framework for long-horizon robotic manipulation, addressing a core challenge in balancing semantic reasoning with real-time control, which could significantly impact VLA applications.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.02604",
+    "title": "Heterogeneous Agent Collaborative Reinforcement Learning",
+    "authors": [
+      "Zhixia Zhang",
+      "Zixuan Huang",
+      "Xin Xia",
+      "Deqing Wang",
+      "Fuzhen Zhuang",
+      "Shuai Ma",
+      "Ning Ding",
+      "Yaodong Yang",
+      "Jianxin Li",
+      "Yikun Ban"
+    ],
+    "url": "https://arxiv.org/abs/2603.02604",
+    "date": "2026-03-03",
+    "source": "huggingface_daily",
+    "topic": "agentic_rl",
+    "scores": {
+      "relevance": 10,
+      "novelty": 9,
+      "impact": 9,
+      "composite": 9.4,
+      "reason": "HACRL introduces a paradigm for collaborative RL among heterogeneous agents, highly relevant and innovative for Agentic RL."
+    },
+    "importance_reason": "HACRL introduces a new paradigm for collaborative reinforcement learning among heterogeneous agents, enabling mutual learning and independent execution. This represents a significant methodological innovation with broad implications for agentic RL.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/agentic_rl/2603.02604",
+    "id": "2603.02604",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.02604",
+      "arxiv": "https://arxiv.org/abs/2603.02604",
+      "pdf": "https://arxiv.org/pdf/2603.02604"
+    },
+    "themes": [
+      "agentic_rl"
+    ],
+    "theme_names": [
+      "agentic rl"
+    ],
+    "importance_score": 9.4,
+    "why_it_matters": "HACRL introduces a new paradigm for collaborative reinforcement learning among heterogeneous agents, enabling mutual learning and independent execution. This represents a significant methodological innovation with broad implications for agentic RL.",
+    "summary_short": [],
+    "digest_summary": "HACRL introduces a new paradigm for collaborative reinforcement learning among heterogeneous agents, enabling mutual learning and independent execution. This represents a significant methodological innovation with broad implications for agentic RL.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.05484",
+    "title": "Towards Multimodal Lifelong Understanding: A Dataset and Agentic Baseline",
+    "authors": [
+      "Guo Chen",
+      "Lidong Lu",
+      "Yicheng Liu",
+      "Liangrui Dong",
+      "Lidong Zou",
+      "Jixin Lv",
+      "Zhenquan Li",
+      "Xinyi Mao",
+      "Baoqi Pei",
+      "Shihao Wang",
+      "Zhiqi Li",
+      "Karan Sapra",
+      "Fuxiao Liu",
+      "Yin-Dong Zheng",
+      "Yifei Huang",
+      "Limin Wang",
+      "Zhiding Yu",
+      "Andrew Tao",
+      "Guilin Liu",
+      "Tong Lu"
+    ],
+    "url": "https://arxiv.org/abs/2603.05484",
+    "date": "2026-03-05",
+    "source": "huggingface_daily",
+    "topic": "multi-modal_llm",
+    "scores": {
+      "relevance": 10,
+      "novelty": 8,
+      "impact": 9,
+      "composite": 9.1,
+      "reason": "The introduction of a dataset and baseline for Multimodal Lifelong Understanding is highly relevant to Multi-modal LLM and LLM Agents, with strong potential for advancing the field."
+    },
+    "importance_reason": "The MM-Lifelong dataset and Recursive Multimodal Agent (ReMA) address key limitations in multimodal lifelong understanding, offering a novel approach to dynamic memory management for long-term scenarios. This has strong potential to advance the field of multimodal LLMs.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.05484",
+    "id": "2603.05484",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.05484",
+      "arxiv": "https://arxiv.org/abs/2603.05484",
+      "pdf": "https://arxiv.org/pdf/2603.05484"
+    },
+    "themes": [
+      "multi-modal_llm"
+    ],
+    "theme_names": [
+      "multi-modal llm"
+    ],
+    "importance_score": 9.1,
+    "why_it_matters": "The MM-Lifelong dataset and Recursive Multimodal Agent (ReMA) address key limitations in multimodal lifelong understanding, offering a novel approach to dynamic memory management for long-term scenarios. This has strong potential to advance the field of multimodal LLMs.",
+    "summary_short": [],
+    "digest_summary": "The MM-Lifelong dataset and Recursive Multimodal Agent (ReMA) address key limitations in multimodal lifelong understanding, offering a novel approach to dynamic memory management for long-term scenarios. This has strong potential to advance the field of multimodal LLMs.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.07980",
+    "title": "\\$OneMillion-Bench: How Far are Language Agents from Human Experts?",
+    "authors": [
+      "Qianyu Yang",
+      "Yang Liu",
+      "Jiaqi Li",
+      "Jun Bai",
+      "Hao Chen",
+      "Kaiyuan Chen",
+      "Tiliang Duan",
+      "Jiayun Dong",
+      "Xiaobo Hu",
+      "Zixia Jia",
+      "Yang Liu",
+      "Tao Peng",
+      "Yixin Ren",
+      "Ran Tian",
+      "Zaiyuan Wang",
+      "Yanglihong Xiao",
+      "Gang Yao",
+      "Lingyue Yin",
+      "Ge Zhang",
+      "Chun Zhang",
+      "Jianpeng Jiao",
+      "Zilong Zheng",
+      "Yuan Gong"
+    ],
+    "url": "https://arxiv.org/abs/2603.07980",
+    "date": "2026-03-09",
+    "source": "huggingface_daily",
+    "topic": "llm_agents",
+    "scores": {
+      "relevance": 10,
+      "novelty": 9,
+      "impact": 10,
+      "composite": 9.7,
+      "reason": "Introduces a comprehensive benchmark for LLM Agents in real-world professional tasks, highly relevant and impactful."
+    },
+    "importance_reason": "Introduces a comprehensive benchmark for evaluating LLM agents in real-world professional tasks, addressing a critical gap in economically consequential scenarios. This has the potential to significantly advance the field of LLM evaluation.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.07980",
+    "id": "2603.07980",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.07980",
+      "arxiv": "https://arxiv.org/abs/2603.07980",
+      "pdf": "https://arxiv.org/pdf/2603.07980"
+    },
+    "themes": [
+      "llm_agents"
+    ],
+    "theme_names": [
+      "llm agents"
+    ],
+    "importance_score": 9.7,
+    "why_it_matters": "Introduces a comprehensive benchmark for evaluating LLM agents in real-world professional tasks, addressing a critical gap in economically consequential scenarios. This has the potential to significantly advance the field of LLM evaluation.",
+    "summary_short": [],
+    "digest_summary": "Introduces a comprehensive benchmark for evaluating LLM agents in real-world professional tasks, addressing a critical gap in economically consequential scenarios. This has the potential to significantly advance the field of LLM evaluation.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.07670v1",
+    "title": "Memory for Autonomous LLM Agents:Mechanisms, Evaluation, and Emerging Frontiers",
+    "authors": [
+      "Pengfei Du"
+    ],
+    "url": "https://arxiv.org/abs/2603.07670v1",
+    "date": "2026-03-08",
+    "source": "arxiv",
+    "topic": "multi-modal_llm",
+    "scores": {
+      "relevance": 10,
+      "novelty": 8,
+      "impact": 9,
+      "composite": 9.1,
+      "reason": "Comprehensive survey on memory mechanisms for LLM agents, directly relevant and impactful for adaptive agent design."
+    },
+    "importance_reason": "Provides a structured and comprehensive survey on memory mechanisms for LLM agents, formalizing key concepts and taxonomies that are foundational for the development of adaptive agents.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.07670v1",
+    "id": "2603.07670v1",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.07670v1",
+      "arxiv": "https://arxiv.org/abs/2603.07670v1",
+      "pdf": "https://arxiv.org/pdf/2603.07670v1"
+    },
+    "themes": [
+      "multi-modal_llm"
+    ],
+    "theme_names": [
+      "multi-modal llm"
+    ],
+    "importance_score": 9.1,
+    "why_it_matters": "Provides a structured and comprehensive survey on memory mechanisms for LLM agents, formalizing key concepts and taxonomies that are foundational for the development of adaptive agents.",
+    "summary_short": [],
+    "digest_summary": "Provides a structured and comprehensive survey on memory mechanisms for LLM agents, formalizing key concepts and taxonomies that are foundational for the development of adaptive agents.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.09206v1",
+    "title": "MM-Zero: Self-Evolving Multi-Model Vision Language Models From Zero Data",
+    "authors": [
+      "Zongxia Li",
+      "Hongyang Du",
+      "Chengsong Huang",
+      "Xiyang Wu",
+      "Lantao Yu",
+      "Yicheng He",
+      "Jing Xie",
+      "Xiaomin Wu",
+      "Zhichao Liu",
+      "Jiarui Zhang",
+      "Fuxiao Liu"
+    ],
+    "url": "https://arxiv.org/abs/2603.09206v1",
+    "date": "2026-03-10",
+    "source": "arxiv",
+    "topic": "multi-modal_llm",
+    "scores": {
+      "relevance": 10,
+      "novelty": 9,
+      "impact": 9,
+      "composite": 9.4,
+      "reason": "Proposes self-evolving multi-modal VLMs with zero data, directly relevant to Multi-modal LLM and LLM Agents."
+    },
+    "importance_reason": "The introduction of a zero-data self-evolving framework for VLMs is a significant methodological contribution with potential to reshape approaches to multi-modal learning.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.09206v1",
+    "id": "2603.09206v1",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.09206v1",
+      "arxiv": "https://arxiv.org/abs/2603.09206v1",
+      "pdf": "https://arxiv.org/pdf/2603.09206v1"
+    },
+    "themes": [
+      "multi-modal_llm"
+    ],
+    "theme_names": [
+      "multi-modal llm"
+    ],
+    "importance_score": 9.4,
+    "why_it_matters": "The introduction of a zero-data self-evolving framework for VLMs is a significant methodological contribution with potential to reshape approaches to multi-modal learning.",
+    "summary_short": [],
+    "digest_summary": "The introduction of a zero-data self-evolving framework for VLMs is a significant methodological contribution with potential to reshape approaches to multi-modal learning.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.09206",
+    "title": "MM-Zero: Self-Evolving Multi-Model Vision Language Models From Zero Data",
+    "authors": [
+      "Zongxia Li",
+      "Hongyang Du",
+      "Chengsong Huang",
+      "Xiyang Wu",
+      "Lantao Yu",
+      "Yicheng He",
+      "Jing Xie",
+      "Xiaomin Wu",
+      "Zhichao Liu",
+      "Jiarui Zhang",
+      "Fuxiao Liu"
+    ],
+    "url": "https://arxiv.org/abs/2603.09206",
+    "date": "2026-03-10",
+    "source": "huggingface_daily",
+    "topic": "multi-modal_llm",
+    "scores": {
+      "relevance": 10,
+      "novelty": 9,
+      "impact": 9,
+      "composite": 9.4,
+      "reason": "Duplicate of MM-Zero paper, proposing self-evolving multi-modal VLMs, highly relevant and impactful."
+    },
+    "importance_reason": "Duplicate of MM-Zero paper, which is flagged as important for its novel zero-data self-evolving framework for VLMs.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.09206",
+    "id": "2603.09206",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.09206",
+      "arxiv": "https://arxiv.org/abs/2603.09206",
+      "pdf": "https://arxiv.org/pdf/2603.09206"
+    },
+    "themes": [
+      "multi-modal_llm"
+    ],
+    "theme_names": [
+      "multi-modal llm"
+    ],
+    "importance_score": 9.4,
+    "why_it_matters": "Duplicate of MM-Zero paper, which is flagged as important for its novel zero-data self-evolving framework for VLMs.",
+    "summary_short": [],
+    "digest_summary": "Duplicate of MM-Zero paper, which is flagged as important for its novel zero-data self-evolving framework for VLMs.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.10165v1",
+    "title": "OpenClaw-RL: Train Any Agent Simply by Talking",
+    "authors": [
+      "Yinjie Wang",
+      "Xuyang Chen",
+      "Xiaolong Jin",
+      "Mengdi Wang",
+      "Ling Yang"
+    ],
+    "url": "https://arxiv.org/abs/2603.10165v1",
+    "date": "2026-03-10",
+    "source": "arxiv",
+    "topic": "llm_agents",
+    "scores": {
+      "relevance": 10,
+      "novelty": 9,
+      "impact": 9,
+      "composite": 9.4,
+      "reason": "OpenClaw-RL directly addresses Agentic RL with a novel framework for universal next-state signal learning, making it highly relevant and impactful."
+    },
+    "importance_reason": "OpenClaw-RL introduces a novel framework for universal next-state signal learning in Agentic RL, representing a significant methodological contribution with potential major impact.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.10165v1",
+    "id": "2603.10165v1",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.10165v1",
+      "arxiv": "https://arxiv.org/abs/2603.10165v1",
+      "pdf": "https://arxiv.org/pdf/2603.10165v1"
+    },
+    "themes": [
+      "llm_agents"
+    ],
+    "theme_names": [
+      "llm agents"
+    ],
+    "importance_score": 9.4,
+    "why_it_matters": "OpenClaw-RL introduces a novel framework for universal next-state signal learning in Agentic RL, representing a significant methodological contribution with potential major impact.",
+    "summary_short": [],
+    "digest_summary": "OpenClaw-RL introduces a novel framework for universal next-state signal learning in Agentic RL, representing a significant methodological contribution with potential major impact.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.09641v1",
+    "title": "PRECEPT: Planning Resilience via Experience, Context Engineering & Probing Trajectories A Unified Framework for Test-Time Adaptation with Compositional Rule Learning and Pareto-Guided Prompt Evolution",
+    "authors": [
+      "Arash Shahmansoori"
+    ],
+    "url": "https://arxiv.org/abs/2603.09641v1",
+    "date": "2026-03-10",
+    "source": "arxiv",
+    "topic": "llm_agents",
+    "scores": {
+      "relevance": 9,
+      "novelty": 8,
+      "impact": 9,
+      "composite": 8.7,
+      "reason": "PRECEPT introduces a unified framework for LLM agents with novel mechanisms for test-time adaptation, making it highly relevant and impactful."
+    },
+    "importance_reason": "PRECEPT offers a unified framework for test-time adaptation in LLM agents, addressing critical challenges in rule retrieval and memory reliability, making it highly impactful.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.09641v1",
+    "id": "2603.09641v1",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.09641v1",
+      "arxiv": "https://arxiv.org/abs/2603.09641v1",
+      "pdf": "https://arxiv.org/pdf/2603.09641v1"
+    },
+    "themes": [
+      "llm_agents"
+    ],
+    "theme_names": [
+      "llm agents"
+    ],
+    "importance_score": 8.7,
+    "why_it_matters": "PRECEPT offers a unified framework for test-time adaptation in LLM agents, addressing critical challenges in rule retrieval and memory reliability, making it highly impactful.",
+    "summary_short": [],
+    "digest_summary": "PRECEPT offers a unified framework for test-time adaptation in LLM agents, addressing critical challenges in rule retrieval and memory reliability, making it highly impactful.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.10749v1",
+    "title": "AttriGuard: Defeating Indirect Prompt Injection in LLM Agents via Causal Attribution of Tool Invocations",
+    "authors": [
+      "Yu He",
+      "Haozhe Zhu",
+      "Yiming Li",
+      "Shuo Shao",
+      "Hongwei Yao",
+      "Zhihao Liu",
+      "Zhan Qin"
+    ],
+    "url": "https://arxiv.org/abs/2603.10749v1",
+    "date": "2026-03-11",
+    "source": "arxiv",
+    "topic": "llm_agents",
+    "scores": {
+      "relevance": 9,
+      "novelty": 8,
+      "impact": 8,
+      "composite": 8.4,
+      "reason": "The causal attribution approach to secure LLM agents is highly relevant and novel, addressing a critical vulnerability in agent systems."
+    },
+    "importance_reason": "AttriGuard introduces a novel causal attribution paradigm to defend against indirect prompt injection, addressing a critical vulnerability in LLM agent systems.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.10749v1",
+    "id": "2603.10749v1",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.10749v1",
+      "arxiv": "https://arxiv.org/abs/2603.10749v1",
+      "pdf": "https://arxiv.org/pdf/2603.10749v1"
+    },
+    "themes": [
+      "llm_agents"
+    ],
+    "theme_names": [
+      "llm agents"
+    ],
+    "importance_score": 8.4,
+    "why_it_matters": "AttriGuard introduces a novel causal attribution paradigm to defend against indirect prompt injection, addressing a critical vulnerability in LLM agent systems.",
+    "summary_short": [],
+    "digest_summary": "AttriGuard introduces a novel causal attribution paradigm to defend against indirect prompt injection, addressing a critical vulnerability in LLM agent systems.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.07392",
+    "title": "Can Large Language Models Keep Up? Benchmarking Online Adaptation to Continual Knowledge Streams",
+    "authors": [
+      "Jiyeon Kim",
+      "Hyunji Lee",
+      "Dylan Zhou",
+      "Sue Hyun Park",
+      "Seunghyun Yoon",
+      "Trung Bui",
+      "Franck Dernoncourt",
+      "Sungmin Cha",
+      "Minjoon Seo"
+    ],
+    "url": "https://arxiv.org/abs/2603.07392",
+    "date": "2026-03-08",
+    "source": "huggingface_daily",
+    "topic": "llm_agents",
+    "scores": {
+      "relevance": 9,
+      "novelty": 8,
+      "impact": 8,
+      "composite": 8.4,
+      "reason": "OAKS introduces a benchmark for online adaptation in LLMs, which is highly relevant and novel for dynamic knowledge contexts."
+    },
+    "importance_reason": "OAKS establishes a benchmark for online adaptation in LLMs, addressing dynamic knowledge contexts, which is a significant contribution to the field.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.07392",
+    "id": "2603.07392",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.07392",
+      "arxiv": "https://arxiv.org/abs/2603.07392",
+      "pdf": "https://arxiv.org/pdf/2603.07392"
+    },
+    "themes": [
+      "llm_agents"
+    ],
+    "theme_names": [
+      "llm agents"
+    ],
+    "importance_score": 8.4,
+    "why_it_matters": "OAKS establishes a benchmark for online adaptation in LLMs, addressing dynamic knowledge contexts, which is a significant contribution to the field.",
+    "summary_short": [],
+    "digest_summary": "OAKS establishes a benchmark for online adaptation in LLMs, addressing dynamic knowledge contexts, which is a significant contribution to the field.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.08806",
+    "title": "Test-Driven AI Agent Definition (TDAD): Compiling Tool-Using Agents from Behavioral Specifications",
+    "authors": [
+      "Tzafrir Rehan"
+    ],
+    "url": "https://arxiv.org/abs/2603.08806",
+    "date": "2026-03-09",
+    "source": "huggingface_daily",
+    "topic": "llm_agents",
+    "scores": {
+      "relevance": 9,
+      "novelty": 8,
+      "impact": 8,
+      "composite": 8.4,
+      "reason": "Highly relevant to LLM Agents with a novel test-driven methodology for behavioral compliance, which could significantly impact agent deployment."
+    },
+    "importance_reason": "TDAD proposes a test-driven methodology for behavioral compliance in tool-using LLM agents, addressing key deployment challenges and offering impactful innovation.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.08806",
+    "id": "2603.08806",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.08806",
+      "arxiv": "https://arxiv.org/abs/2603.08806",
+      "pdf": "https://arxiv.org/pdf/2603.08806"
+    },
+    "themes": [
+      "llm_agents"
+    ],
+    "theme_names": [
+      "llm agents"
+    ],
+    "importance_score": 8.4,
+    "why_it_matters": "TDAD proposes a test-driven methodology for behavioral compliance in tool-using LLM agents, addressing key deployment challenges and offering impactful innovation.",
+    "summary_short": [],
+    "digest_summary": "TDAD proposes a test-driven methodology for behavioral compliance in tool-using LLM agents, addressing key deployment challenges and offering impactful innovation.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.11558v1",
+    "title": "RoboClaw: An Agentic Framework for Scalable Long-Horizon Robotic Tasks",
+    "authors": [
+      "Ruiying Li",
+      "Yunlang Zhou",
+      "YuYao Zhu",
+      "Kylin Chen",
+      "Jingyuan Wang",
+      "Sukai Wang",
+      "Kongtao Hu",
+      "Minhui Yu",
+      "Bowen Jiang",
+      "Zhan Su",
+      "Jiayao Ma",
+      "Xin He",
+      "Yongjian Shen",
+      " Yangyang",
+      "Guanghui Ren",
+      "Maoqing Yao",
+      "Wenhao Wang",
+      "Yao Mu"
+    ],
+    "url": "https://arxiv.org/abs/2603.11558v1",
+    "date": "2026-03-12",
+    "source": "arxiv",
+    "topic": "multi-modal_llm",
+    "scores": {
+      "relevance": 10,
+      "novelty": 9,
+      "impact": 9,
+      "composite": 9.4,
+      "reason": "Proposes a novel agentic framework for VLA in robotics, highly relevant to multi-modal LLM, VLA, and LLM Agents."
+    },
+    "importance_reason": "RoboClaw introduces a novel framework that unifies data collection, policy learning, and task execution for Vision-Language-Action systems, addressing key challenges in scaling to long-horizon tasks. The Entangled Action Pairs mechanism is a significant methodological contribution with potential to transform autonomous robotics.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.11558v1",
+    "id": "2603.11558v1",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.11558v1",
+      "arxiv": "https://arxiv.org/abs/2603.11558v1",
+      "pdf": "https://arxiv.org/pdf/2603.11558v1"
+    },
+    "themes": [
+      "multi-modal_llm"
+    ],
+    "theme_names": [
+      "multi-modal llm"
+    ],
+    "importance_score": 9.4,
+    "why_it_matters": "RoboClaw introduces a novel framework that unifies data collection, policy learning, and task execution for Vision-Language-Action systems, addressing key challenges in scaling to long-horizon tasks. The Entangled Action Pairs mechanism is a significant methodological contribution with potential to transform autonomous robotics.",
+    "summary_short": [],
+    "digest_summary": "RoboClaw introduces a novel framework that unifies data collection, policy learning, and task execution for Vision-Language-Action systems, addressing key challenges in scaling to long-horizon tasks. The Entangled Action Pairs mechanism is a significant methodological contribution with potential to transform autonomous robotics.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.09018",
+    "title": "Meissa: Multi-modal Medical Agentic Intelligence",
+    "authors": [
+      "Yixiong Chen",
+      "Xinyi Bai",
+      "Yue Pan",
+      "Zongwei Zhou",
+      "Alan Yuille"
+    ],
+    "url": "https://arxiv.org/abs/2603.09018",
+    "date": "2026-03-09",
+    "source": "huggingface_daily",
+    "topic": "multi-modal_llm",
+    "scores": {
+      "relevance": 10,
+      "novelty": 9,
+      "impact": 9,
+      "composite": 9.4,
+      "reason": "Highly relevant to multi-modal LLMs and medical agents, presenting a novel lightweight model with significant potential impact in clinical applications."
+    },
+    "importance_reason": "Meissa presents a lightweight medical multi-modal LLM with agentic capabilities that operates offline, addressing critical issues like cost, latency, and privacy in clinical environments. This innovation has the potential to significantly impact medical AI applications.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.09018",
+    "id": "2603.09018",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.09018",
+      "arxiv": "https://arxiv.org/abs/2603.09018",
+      "pdf": "https://arxiv.org/pdf/2603.09018"
+    },
+    "themes": [
+      "multi-modal_llm"
+    ],
+    "theme_names": [
+      "multi-modal llm"
+    ],
+    "importance_score": 9.4,
+    "why_it_matters": "Meissa presents a lightweight medical multi-modal LLM with agentic capabilities that operates offline, addressing critical issues like cost, latency, and privacy in clinical environments. This innovation has the potential to significantly impact medical AI applications.",
+    "summary_short": [],
+    "digest_summary": "Meissa presents a lightweight medical multi-modal LLM with agentic capabilities that operates offline, addressing critical issues like cost, latency, and privacy in clinical environments. This innovation has the potential to significantly impact medical AI applications.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.12109v1",
+    "title": "On Information Self-Locking in Reinforcement Learning for Active Reasoning of LLM agents",
+    "authors": [
+      "Deyu Zou",
+      "Yongqiang Chen",
+      "Fan Feng",
+      "Mufei Li",
+      "Pan Li",
+      "Yu Gong",
+      "James Cheng"
+    ],
+    "url": "https://arxiv.org/abs/2603.12109v1",
+    "date": "2026-03-12",
+    "source": "arxiv",
+    "topic": "llm_agents",
+    "scores": {
+      "relevance": 10,
+      "novelty": 8,
+      "impact": 9,
+      "composite": 9.1,
+      "reason": "Directly addresses reinforcement learning for LLM agents in active reasoning, introducing a novel concept of information self-locking."
+    },
+    "importance_reason": "Introduces the novel concept of 'information self-locking' in reinforcement learning for LLM agents, which could lead to significant advancements in active reasoning and decision-making capabilities of AI systems.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.12109v1",
+    "id": "2603.12109v1",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.12109v1",
+      "arxiv": "https://arxiv.org/abs/2603.12109v1",
+      "pdf": "https://arxiv.org/pdf/2603.12109v1"
+    },
+    "themes": [
+      "llm_agents"
+    ],
+    "theme_names": [
+      "llm agents"
+    ],
+    "importance_score": 9.1,
+    "why_it_matters": "Introduces the novel concept of 'information self-locking' in reinforcement learning for LLM agents, which could lead to significant advancements in active reasoning and decision-making capabilities of AI systems.",
+    "summary_short": [],
+    "digest_summary": "Introduces the novel concept of 'information self-locking' in reinforcement learning for LLM agents, which could lead to significant advancements in active reasoning and decision-making capabilities of AI systems.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.11327",
+    "title": "Meta-Reinforcement Learning with Self-Reflection for Agentic Search",
+    "authors": [
+      "Teng Xiao",
+      "Yige Yuan",
+      "Hamish Ivison",
+      "Huaisheng Zhu",
+      "Faeze Brahman",
+      "Nathan Lambert",
+      "Pradeep Dasigi",
+      "Noah A. Smith",
+      "Hannaneh Hajishirzi"
+    ],
+    "url": "https://arxiv.org/abs/2603.11327",
+    "date": "2026-03-11",
+    "source": "huggingface_daily",
+    "topic": "llm_agents",
+    "scores": {
+      "relevance": 10,
+      "novelty": 8,
+      "impact": 9,
+      "composite": 9.1,
+      "reason": "Directly addresses Agentic RL and LLM Agents with a novel self-reflection mechanism for meta-reinforcement learning."
+    },
+    "importance_reason": "The introduction of self-reflection in meta-reinforcement learning represents a novel and impactful methodological contribution to agentic RL.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.11327",
+    "id": "2603.11327",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.11327",
+      "arxiv": "https://arxiv.org/abs/2603.11327",
+      "pdf": "https://arxiv.org/pdf/2603.11327"
+    },
+    "themes": [
+      "llm_agents"
+    ],
+    "theme_names": [
+      "llm agents"
+    ],
+    "importance_score": 9.1,
+    "why_it_matters": "The introduction of self-reflection in meta-reinforcement learning represents a novel and impactful methodological contribution to agentic RL.",
+    "summary_short": [],
+    "digest_summary": "The introduction of self-reflection in meta-reinforcement learning represents a novel and impactful methodological contribution to agentic RL.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.12056",
+    "title": "XSkill: Continual Learning from Experience and Skills in Multimodal Agents",
+    "authors": [
+      "Guanyu Jiang",
+      "Zhaochen Su",
+      "Xiaoye Qu",
+      "Yi R.",
+      "Fung"
+    ],
+    "url": "https://arxiv.org/abs/2603.12056",
+    "date": "2026-03-12",
+    "source": "huggingface_daily",
+    "topic": "multi-modal_llm",
+    "scores": {
+      "relevance": 10,
+      "novelty": 8,
+      "impact": 9,
+      "composite": 9.1,
+      "reason": "Proposes continual learning for multimodal agents, directly relevant to Multi-modal LLM and LLM Agents with a novel focus on reusable knowledge."
+    },
+    "importance_reason": "The dual-stream framework for continual learning in multimodal agents is a significant methodological contribution, enabling agents to improve without parameter updates.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.12056",
+    "id": "2603.12056",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.12056",
+      "arxiv": "https://arxiv.org/abs/2603.12056",
+      "pdf": "https://arxiv.org/pdf/2603.12056"
+    },
+    "themes": [
+      "multi-modal_llm"
+    ],
+    "theme_names": [
+      "multi-modal llm"
+    ],
+    "importance_score": 9.1,
+    "why_it_matters": "The dual-stream framework for continual learning in multimodal agents is a significant methodological contribution, enabling agents to improve without parameter updates.",
+    "summary_short": [],
+    "digest_summary": "The dual-stream framework for continual learning in multimodal agents is a significant methodological contribution, enabling agents to improve without parameter updates.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.12180",
+    "title": "Strategic Navigation or Stochastic Search? How Agents and Humans Reason Over Document Collections",
+    "authors": [
+      "Łukasz Borchmann",
+      "Jordy Van Landeghem",
+      "Michał Turski",
+      "Shreyansh Padarha",
+      "Ryan Othniel Kearns",
+      "Adam Mahdi",
+      "Niels Rogge",
+      "Clémentine Fourrier",
+      "Siwei Han",
+      "Huaxiu Yao",
+      "Artemis Llabrés",
+      "Yiming Xu",
+      "Dimosthenis Karatzas",
+      "Hao Zhang",
+      "Anupam Datta"
+    ],
+    "url": "https://arxiv.org/abs/2603.12180",
+    "date": "2026-03-12",
+    "source": "huggingface_daily",
+    "topic": "multi-modal_llm",
+    "scores": {
+      "relevance": 10,
+      "novelty": 8,
+      "impact": 9,
+      "composite": 9.1,
+      "reason": "Introduces a benchmark for agentic reasoning in document workflows, highly relevant to Multi-modal LLM and LLM Agents."
+    },
+    "importance_reason": "The benchmark for agentic reasoning in document workflows fills a critical gap and could have a major impact on evaluating and improving multimodal LLMs.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.12180",
+    "id": "2603.12180",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.12180",
+      "arxiv": "https://arxiv.org/abs/2603.12180",
+      "pdf": "https://arxiv.org/pdf/2603.12180"
+    },
+    "themes": [
+      "multi-modal_llm"
+    ],
+    "theme_names": [
+      "multi-modal llm"
+    ],
+    "importance_score": 9.1,
+    "why_it_matters": "The benchmark for agentic reasoning in document workflows fills a critical gap and could have a major impact on evaluating and improving multimodal LLMs.",
+    "summary_short": [],
+    "digest_summary": "The benchmark for agentic reasoning in document workflows fills a critical gap and could have a major impact on evaluating and improving multimodal LLMs.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.11896",
+    "title": "Think While Watching: Online Streaming Segment-Level Memory for Multi-Turn Video Reasoning in Multimodal Large Language Models",
+    "authors": [
+      "Lu Wang",
+      "Zhuoran Jin",
+      "Yupu Hao",
+      "Yubo Chen",
+      "Kang Liu",
+      "Yulong Ao",
+      "Jun Zhao"
+    ],
+    "url": "https://arxiv.org/abs/2603.11896",
+    "date": "2026-03-12",
+    "source": "huggingface_daily",
+    "topic": "multi-modal_llm",
+    "scores": {
+      "relevance": 9,
+      "novelty": 8,
+      "impact": 8,
+      "composite": 8.4,
+      "reason": "Addresses online reasoning in MLLMs, highly relevant to Multi-modal LLM research with novel streaming memory techniques."
+    },
+    "importance_reason": "Proposes a novel framework for online reasoning in multimodal large language models, addressing a critical limitation in multi-turn video reasoning and introducing significant methodological innovations.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.11896",
+    "id": "2603.11896",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.11896",
+      "arxiv": "https://arxiv.org/abs/2603.11896",
+      "pdf": "https://arxiv.org/pdf/2603.11896"
+    },
+    "themes": [
+      "multi-modal_llm"
+    ],
+    "theme_names": [
+      "multi-modal llm"
+    ],
+    "importance_score": 8.4,
+    "why_it_matters": "Proposes a novel framework for online reasoning in multimodal large language models, addressing a critical limitation in multi-turn video reasoning and introducing significant methodological innovations.",
+    "summary_short": [],
+    "digest_summary": "Proposes a novel framework for online reasoning in multimodal large language models, addressing a critical limitation in multi-turn video reasoning and introducing significant methodological innovations.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.11382",
+    "title": "Detecting Intrinsic and Instrumental Self-Preservation in Autonomous Agents: The Unified Continuation-Interest Protocol",
+    "authors": [
+      "Christopher Altman"
+    ],
+    "url": "https://arxiv.org/abs/2603.11382",
+    "date": "2026-03-11",
+    "source": "huggingface_daily",
+    "topic": "llm_agents",
+    "scores": {
+      "relevance": 9,
+      "novelty": 8,
+      "impact": 8,
+      "composite": 8.4,
+      "reason": "Proposes a protocol for detecting self-preservation in autonomous agents, highly relevant to LLM Agents research."
+    },
+    "importance_reason": "Introduces a groundbreaking protocol for detecting intrinsic and instrumental self-preservation in autonomous agents, addressing a fundamental challenge in agent design and safety.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.11382",
+    "id": "2603.11382",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.11382",
+      "arxiv": "https://arxiv.org/abs/2603.11382",
+      "pdf": "https://arxiv.org/pdf/2603.11382"
+    },
+    "themes": [
+      "llm_agents"
+    ],
+    "theme_names": [
+      "llm agents"
+    ],
+    "importance_score": 8.4,
+    "why_it_matters": "Introduces a groundbreaking protocol for detecting intrinsic and instrumental self-preservation in autonomous agents, addressing a fundamental challenge in agent design and safety.",
+    "summary_short": [],
+    "digest_summary": "Introduces a groundbreaking protocol for detecting intrinsic and instrumental self-preservation in autonomous agents, addressing a fundamental challenge in agent design and safety.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.12634",
+    "title": "Spend Less, Reason Better: Budget-Aware Value Tree Search for LLM Agents",
+    "authors": [
+      "Yushu Li",
+      "Wenlong Deng",
+      "Jiajin Li",
+      "Xiaoxiao Li"
+    ],
+    "url": "https://arxiv.org/abs/2603.12634",
+    "date": "2026-03-13",
+    "source": "huggingface_daily",
+    "topic": "llm_agents",
+    "scores": {
+      "relevance": 9,
+      "novelty": 8,
+      "impact": 8,
+      "composite": 8.4,
+      "reason": "Introduces budget-aware reasoning for LLM Agents, highly relevant and impactful for agentic RL and LLM Agents research."
+    },
+    "importance_reason": "Proposes a budget-aware reasoning framework for LLM agents, addressing a critical challenge in resource-efficient multi-hop reasoning with significant potential impact.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.12634",
+    "id": "2603.12634",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.12634",
+      "arxiv": "https://arxiv.org/abs/2603.12634",
+      "pdf": "https://arxiv.org/pdf/2603.12634"
+    },
+    "themes": [
+      "llm_agents"
+    ],
+    "theme_names": [
+      "llm agents"
+    ],
+    "importance_score": 8.4,
+    "why_it_matters": "Proposes a budget-aware reasoning framework for LLM agents, addressing a critical challenge in resource-efficient multi-hop reasoning with significant potential impact.",
+    "summary_short": [],
+    "digest_summary": "Proposes a budget-aware reasoning framework for LLM agents, addressing a critical challenge in resource-efficient multi-hop reasoning with significant potential impact.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "paper_id": "2603.11653",
+    "title": "Simple Recipe Works: Vision-Language-Action Models are Natural Continual Learners with Reinforcement Learning",
+    "authors": [
+      "Jiaheng Hu",
+      "Jay Shim",
+      "Chen Tang",
+      "Yoonchang Sung",
+      "Bo Liu",
+      "Peter Stone",
+      "Roberto Martin-Martin"
+    ],
+    "url": "https://arxiv.org/abs/2603.11653",
+    "date": "2026-03-12",
+    "source": "huggingface_daily",
+    "topic": "multi-modal_llm",
+    "scores": {
+      "relevance": 9,
+      "novelty": 8,
+      "impact": 8,
+      "composite": 8.4,
+      "reason": "Studies continual RL for Vision-Language-Action models, highly relevant to VLA and agentic RL research."
+    },
+    "importance_reason": "Challenges conventional wisdom in continual reinforcement learning for Vision-Language-Action models, presenting findings that could reshape approaches to lifelong learning in agents.",
+    "pdf_downloaded": true,
+    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.11653",
+    "id": "2603.11653",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.11653",
+      "arxiv": "https://arxiv.org/abs/2603.11653",
+      "pdf": "https://arxiv.org/pdf/2603.11653"
+    },
+    "themes": [
+      "multi-modal_llm"
+    ],
+    "theme_names": [
+      "multi-modal llm"
+    ],
+    "importance_score": 8.4,
+    "why_it_matters": "Challenges conventional wisdom in continual reinforcement learning for Vision-Language-Action models, presenting findings that could reshape approaches to lifelong learning in agents.",
+    "summary_short": [],
+    "digest_summary": "Challenges conventional wisdom in continual reinforcement learning for Vision-Language-Action models, presenting findings that could reshape approaches to lifelong learning in agents.",
+    "editor_note": "",
+    "featured": false
+  },
+  {
+    "id": "2603.08127",
+    "paper_id": "2603.08127",
+    "title": "EvoScientist: Towards Multi-Agent Evolving AI Scientists for End-to-End Scientific Discovery",
+    "summary_short": [
+      "EvoScientist introduces a multi-agent AI framework for scientific discovery.",
+      "It uses persistent memory to improve research strategies over time.",
+      "Three specialized agents handle idea generation, experiment execution, and knowledge evolution.",
+      "Outperforms state-of-the-art systems in novelty, feasibility, and execution success rates.",
+      "Leverages self-evolution to avoid repeating failed experiments and refine approaches."
+    ],
+    "date": "2026-03-09",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists"
+    ],
+    "importance_score": 9.2,
+    "reason": "EvoScientist directly addresses the theme of End-to-End AI Scientists by proposing a multi-agent framework for evolving AI scientists. Its focus on persistent memory and self-evolution is methodologically significant and highly relevant to building autonomous research systems. The approach aligns well with the ecosystem needs for adaptive and iterative research workflows, and its novelty suggests it will remain impactful for months to come.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2603.08127",
+      "arxiv": "https://arxiv.org/abs/2603.08127",
+      "pdf": "https://arxiv.org/pdf/2603.08127",
+      "huggingface": "https://huggingface.co/papers/2603.08127"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "EvoScientist represents a significant step forward in AI-driven scientific discovery by addressing the limitations of static pipelines and enabling adaptive, evolving research strategies. This innovation has the potential to accelerate breakthroughs in various scientific fields by automating and optimizing the research process with persistent learning and memory capabilities.",
+    "digest_summary": "EvoScientist is a groundbreaking multi-agent AI framework designed for end-to-end scientific discovery. By leveraging persistent memory and self-evolution, it improves research strategies over time, avoiding repeated failures and refining successful approaches. It outperforms existing systems in generating novel, feasible, and relevant ideas while enhancing code execution success rates.",
+    "editor_note": "This framework could revolutionize how AI contributes to scientific research, making it more adaptive and efficient.",
+    "archive_path": "archive/papers/2026-03-16/2603-08127-evoscientist-towards-multi-agent-evolving-ai-scientists-for-end-to-end-scientific-discovery.md"
+  }
+]
