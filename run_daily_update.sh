@@ -4,14 +4,27 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-VENV_DIR="/home/sw2572/project_pi_yz875/sw2572/venvs/fars"
-ENV_FILE="/home/sw2572/Keys/env.sh"
 LOG_DIR="${SCRIPT_DIR}/logs"
+VENV_DIR="${DAILY_PAPERS_VENV:-${VIRTUAL_ENV:-}}"
+ENV_FILE="${DAILY_PAPERS_ENV_FILE:-}"
+
+if [[ -z "${VENV_DIR}" ]]; then
+  if [[ -x "${SCRIPT_DIR}/.venv/bin/python" ]]; then
+    VENV_DIR="${SCRIPT_DIR}/.venv"
+  else
+    VENV_DIR="${SCRIPT_DIR}/venv"
+  fi
+fi
+
+if [[ -z "${ENV_FILE}" && -f "${SCRIPT_DIR}/.env.sh" ]]; then
+  ENV_FILE="${SCRIPT_DIR}/.env.sh"
+fi
+
 PYTHON_BIN="${VENV_DIR}/bin/python"
 
 mkdir -p "${LOG_DIR}"
 
-if [[ -f "${ENV_FILE}" ]]; then
+if [[ -n "${ENV_FILE}" && -f "${ENV_FILE}" ]]; then
   # shellcheck disable=SC1090
   source "${ENV_FILE}"
 fi

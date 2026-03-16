@@ -22,7 +22,7 @@
     },
     "importance_reason": "Proposes a novel hybrid RL framework addressing exploration challenges in LLM agents, with significant improvements in performance and adaptability, marking a methodological advancement in reinforcement learning for LLMs.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2602.23008v1",
+    "archive_path": "archive/llm_agents/2602.23008v1",
     "id": "2602.23008v1",
     "links": {
       "paper": "https://arxiv.org/abs/2602.23008v1",
@@ -71,7 +71,7 @@
     },
     "importance_reason": "Introduces a novel benchmark for omni-modal AI agents, addressing a critical gap in multi-modal LLMs and advancing the field toward general AI capabilities.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2602.22897",
+    "archive_path": "archive/multi-modal_llm/2602.22897",
     "id": "2602.22897",
     "links": {
       "paper": "https://arxiv.org/abs/2602.22897",
@@ -120,7 +120,7 @@
     },
     "importance_reason": "Addresses a critical vulnerability in LLM agents with a novel framework for mitigating indirect prompt injection, which has significant implications for the security of autonomous systems.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2602.22724v1",
+    "archive_path": "archive/llm_agents/2602.22724v1",
     "id": "2602.22724v1",
     "links": {
       "paper": "https://arxiv.org/abs/2602.22724v1",
@@ -162,7 +162,7 @@
     },
     "importance_reason": "Identifies and demonstrates a novel implicit prompt injection vulnerability in LLM agents, providing a new perspective on system-level security risks.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2602.22450v1",
+    "archive_path": "archive/llm_agents/2602.22450v1",
     "id": "2602.22450v1",
     "links": {
       "paper": "https://arxiv.org/abs/2602.22450v1",
@@ -211,7 +211,7 @@
     },
     "importance_reason": "OmniGAIA's benchmark for omni-modal agents represents a significant step forward in evaluating and advancing multi-modal LLMs, addressing their current limitations and enabling progress toward unified AI capabilities.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2602.22897v1",
+    "archive_path": "archive/multi-modal_llm/2602.22897v1",
     "id": "2602.22897v1",
     "links": {
       "paper": "https://arxiv.org/abs/2602.22897v1",
@@ -258,7 +258,7 @@
     },
     "importance_reason": "SignVLA's gloss-free framework for sign language-guided robotic manipulation is a novel and inclusive approach that reduces annotation costs and enhances real-world applicability, representing a significant methodological contribution.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/vla/2602.22514v1",
+    "archive_path": "archive/vla/2602.22514v1",
     "id": "2602.22514v1",
     "links": {
       "paper": "https://arxiv.org/abs/2602.22514v1",
@@ -302,7 +302,7 @@
     },
     "importance_reason": "Proposes a novel solution to a critical issue in stepwise group-based policy optimization for long-horizon tasks, addressing context inconsistency and significantly improving policy optimization. This has the potential to advance reinforcement learning for agentic tasks.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2602.22817v1",
+    "archive_path": "archive/llm_agents/2602.22817v1",
     "id": "2602.22817v1",
     "links": {
       "paper": "https://arxiv.org/abs/2602.22817v1",
@@ -348,7 +348,7 @@
     },
     "importance_reason": "Introduces a groundbreaking RL framework for medical multimodal LLMs, enabling clinically grounded, open-ended reasoning. This could significantly impact medical AI by overcoming limitations of traditional multiple-choice formats.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2602.23363",
+    "archive_path": "archive/multi-modal_llm/2602.23363",
     "id": "2602.23363",
     "links": {
       "paper": "https://arxiv.org/abs/2602.23363",
@@ -391,7 +391,7 @@
     },
     "importance_reason": "Duplicates the earlier entry for 'Exploratory Memory-Augmented LLM Agent via Hybrid On- and Off-Policy Optimization,' which is already deemed important for its innovative hybrid RL framework.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2602.23008",
+    "archive_path": "archive/llm_agents/2602.23008",
     "id": "2602.23008",
     "links": {
       "paper": "https://arxiv.org/abs/2602.23008",
@@ -442,7 +442,7 @@
     },
     "importance_reason": "Addresses a critical bottleneck in agentic LLM inference with a novel dual-path KV-Cache loading system, significantly improving efficiency and scalability. This is a meaningful systems-level innovation for LLM deployment.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2602.21548",
+    "archive_path": "archive/llm_agents/2602.21548",
     "id": "2602.21548",
     "links": {
       "paper": "https://arxiv.org/abs/2602.21548",
@@ -493,7 +493,7 @@
     },
     "importance_reason": "The cardiac foundation model trained on data from 1.7 million individuals is a major contribution to medical AI, with the potential to significantly improve cardiac health assessment across diverse scenarios and devices.",
     "pdf_downloaded": false,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/10.1038_s42256-026-01180-5",
+    "archive_path": "archive/multi-modal_llm/10.1038_s42256-026-01180-5",
     "id": "10.1038/s42256-026-01180-5",
     "links": {
       "paper": "https://www.nature.com/articles/s42256-026-01180-5",
@@ -547,7 +547,7 @@
     },
     "importance_reason": "This paper introduces a novel agentic reinforcement learning framework for CUDA kernel generation, addressing a critical bottleneck in GPU optimization with potential for significant impact in performance optimization and hardware-aware AI.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2602.24286",
+    "archive_path": "archive/multi-modal_llm/2602.24286",
     "id": "2602.24286",
     "links": {
       "paper": "https://arxiv.org/abs/2602.24286",
@@ -595,7 +595,7 @@
     },
     "importance_reason": "$π$-StepNFT introduces a novel critic-and-likelihood-free framework for online RL in VLA models, addressing critical challenges in multi-step sampling and exploration spaces, with significant implications for embodied AI.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.02083v1",
+    "archive_path": "archive/multi-modal_llm/2603.02083v1",
     "id": "2603.02083v1",
     "links": {
       "paper": "https://arxiv.org/abs/2603.02083v1",
@@ -647,7 +647,7 @@
     },
     "importance_reason": "Neural Implicit Action Fields represent a paradigm shift in VLA models by transitioning from discrete waypoints to continuous action function regression, enabling higher precision and analytical differentiability.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.01766v1",
+    "archive_path": "archive/multi-modal_llm/2603.01766v1",
     "id": "2603.01766v1",
     "links": {
       "paper": "https://arxiv.org/abs/2603.01766v1",
@@ -691,7 +691,7 @@
     },
     "importance_reason": "Tool-R0 introduces a self-evolving framework for tool-learning agents under zero-data assumptions, representing a significant step toward autonomous and open-ended agent evolution.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2602.21320",
+    "archive_path": "archive/llm_agents/2602.21320",
     "id": "2602.21320",
     "links": {
       "paper": "https://arxiv.org/abs/2602.21320",
@@ -735,7 +735,7 @@
     },
     "importance_reason": "The MOSAIC framework introduces a novel safety paradigm for agentic reasoning models, addressing critical challenges in multi-step tool use and irreversible harm scenarios. This represents a significant methodological contribution with potential high impact.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.03205",
+    "archive_path": "archive/llm_agents/2603.03205",
     "id": "2603.03205",
     "links": {
       "paper": "https://arxiv.org/abs/2603.03205",
@@ -782,7 +782,7 @@
     },
     "importance_reason": "CoWVLA introduces a unified paradigm for world-model temporal reasoning and disentangled latent motion representation, addressing key limitations in Vision-Language-Action models. This is a breakthrough innovation for embodied intelligence.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.03195",
+    "archive_path": "archive/multi-modal_llm/2603.03195",
     "id": "2603.03195",
     "links": {
       "paper": "https://arxiv.org/abs/2603.03195",
@@ -827,7 +827,7 @@
     },
     "importance_reason": "The RAPO method addresses fundamental exploration challenges in Agentic RL for LLM agents, proposing a novel retrieval-augmented policy optimization framework. This has the potential to significantly advance the field of agentic reasoning.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.03078v1",
+    "archive_path": "archive/llm_agents/2603.03078v1",
     "id": "2603.03078v1",
     "links": {
       "paper": "https://arxiv.org/abs/2603.03078v1",
@@ -869,7 +869,7 @@
     },
     "importance_reason": "Introduces a novel memory mechanism, Memex, to address long-horizon limitations in LLM agents, which is a fundamental bottleneck in the field. This could have a significant impact on scaling LLM agents for complex, long-duration tasks.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.04257v1",
+    "archive_path": "archive/llm_agents/2603.04257v1",
     "id": "2603.04257v1",
     "links": {
       "paper": "https://arxiv.org/abs/2603.04257v1",
@@ -917,7 +917,7 @@
     },
     "importance_reason": "Proposes a governed autonomy framework, Mozi, for drug discovery, addressing critical challenges in tool-use governance and long-horizon reliability. This has the potential to transform the deployment of LLM agents in high-stakes domains like pharmaceuticals.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.03655v1",
+    "archive_path": "archive/llm_agents/2603.03655v1",
     "id": "2603.03655v1",
     "links": {
       "paper": "https://arxiv.org/abs/2603.03655v1",
@@ -958,7 +958,7 @@
     },
     "importance_reason": "Proposes Procedure-Aware Evaluation (PAE), a novel framework for evaluating LLM agents beyond task completion. This could significantly improve the assessment and reliability of LLM agents in high-stakes environments.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.03116v1",
+    "archive_path": "archive/llm_agents/2603.03116v1",
     "id": "2603.03116v1",
     "links": {
       "paper": "https://arxiv.org/abs/2603.03116v1",
@@ -1006,7 +1006,7 @@
     },
     "importance_reason": "Proposes a dual-layer architecture for governed autonomy in drug discovery LLM agents, addressing critical barriers in high-stakes applications like pharmaceutical pipelines. This could significantly impact the deployment of LLMs in medical research.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.03655",
+    "archive_path": "archive/llm_agents/2603.03655",
     "id": "2603.03655",
     "links": {
       "paper": "https://arxiv.org/abs/2603.03655",
@@ -1048,7 +1048,7 @@
     },
     "importance_reason": "Introduces Memex, a novel memory mechanism for scaling LLM agents in long-horizon tasks, addressing a fundamental bottleneck in context management and reasoning. This could advance the capabilities of LLM agents significantly.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.04257",
+    "archive_path": "archive/llm_agents/2603.04257",
     "id": "2603.04257",
     "links": {
       "paper": "https://arxiv.org/abs/2603.04257",
@@ -1094,7 +1094,7 @@
     },
     "importance_reason": "Proposes a novel physics-aware VLA framework for humanoid robots, addressing critical challenges in semantic guidance and dynamic coordination, which could significantly advance the field of humanoid robot control.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.05410v1",
+    "archive_path": "archive/multi-modal_llm/2603.05410v1",
     "id": "2603.05410v1",
     "links": {
       "paper": "https://arxiv.org/abs/2603.05410v1",
@@ -1145,7 +1145,7 @@
     },
     "importance_reason": "Introduces a benchmark for evaluating multimodal agents in ultra-realistic scenarios, filling a significant gap in the evaluation of practical agent capabilities.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2602.23166",
+    "archive_path": "archive/multi-modal_llm/2602.23166",
     "id": "2602.23166",
     "links": {
       "paper": "https://arxiv.org/abs/2602.23166",
@@ -1187,7 +1187,7 @@
     },
     "importance_reason": "Directly addresses the interpretability of VLA models, introducing novel concepts of feature-observability and controllability, which are critical for advancing multi-modal model understanding.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.05487v1",
+    "archive_path": "archive/multi-modal_llm/2603.05487v1",
     "id": "2603.05487v1",
     "links": {
       "paper": "https://arxiv.org/abs/2603.05487v1",
@@ -1232,7 +1232,7 @@
     },
     "importance_reason": "Proposes a hierarchical framework for long-horizon robotic manipulation, addressing a core challenge in balancing semantic reasoning with real-time control, which could significantly impact VLA applications.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.05185v1",
+    "archive_path": "archive/multi-modal_llm/2603.05185v1",
     "id": "2603.05185v1",
     "links": {
       "paper": "https://arxiv.org/abs/2603.05185v1",
@@ -1280,7 +1280,7 @@
     },
     "importance_reason": "HACRL introduces a new paradigm for collaborative reinforcement learning among heterogeneous agents, enabling mutual learning and independent execution. This represents a significant methodological innovation with broad implications for agentic RL.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/agentic_rl/2603.02604",
+    "archive_path": "archive/agentic_rl/2603.02604",
     "id": "2603.02604",
     "links": {
       "paper": "https://arxiv.org/abs/2603.02604",
@@ -1338,7 +1338,7 @@
     },
     "importance_reason": "The MM-Lifelong dataset and Recursive Multimodal Agent (ReMA) address key limitations in multimodal lifelong understanding, offering a novel approach to dynamic memory management for long-term scenarios. This has strong potential to advance the field of multimodal LLMs.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.05484",
+    "archive_path": "archive/multi-modal_llm/2603.05484",
     "id": "2603.05484",
     "links": {
       "paper": "https://arxiv.org/abs/2603.05484",
@@ -1399,7 +1399,7 @@
     },
     "importance_reason": "Introduces a comprehensive benchmark for evaluating LLM agents in real-world professional tasks, addressing a critical gap in economically consequential scenarios. This has the potential to significantly advance the field of LLM evaluation.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.07980",
+    "archive_path": "archive/llm_agents/2603.07980",
     "id": "2603.07980",
     "links": {
       "paper": "https://arxiv.org/abs/2603.07980",
@@ -1438,7 +1438,7 @@
     },
     "importance_reason": "Provides a structured and comprehensive survey on memory mechanisms for LLM agents, formalizing key concepts and taxonomies that are foundational for the development of adaptive agents.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.07670v1",
+    "archive_path": "archive/multi-modal_llm/2603.07670v1",
     "id": "2603.07670v1",
     "links": {
       "paper": "https://arxiv.org/abs/2603.07670v1",
@@ -1487,7 +1487,7 @@
     },
     "importance_reason": "The introduction of a zero-data self-evolving framework for VLMs is a significant methodological contribution with potential to reshape approaches to multi-modal learning.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.09206v1",
+    "archive_path": "archive/multi-modal_llm/2603.09206v1",
     "id": "2603.09206v1",
     "links": {
       "paper": "https://arxiv.org/abs/2603.09206v1",
@@ -1536,7 +1536,7 @@
     },
     "importance_reason": "Duplicate of MM-Zero paper, which is flagged as important for its novel zero-data self-evolving framework for VLMs.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.09206",
+    "archive_path": "archive/multi-modal_llm/2603.09206",
     "id": "2603.09206",
     "links": {
       "paper": "https://arxiv.org/abs/2603.09206",
@@ -1579,7 +1579,7 @@
     },
     "importance_reason": "OpenClaw-RL introduces a novel framework for universal next-state signal learning in Agentic RL, representing a significant methodological contribution with potential major impact.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.10165v1",
+    "archive_path": "archive/llm_agents/2603.10165v1",
     "id": "2603.10165v1",
     "links": {
       "paper": "https://arxiv.org/abs/2603.10165v1",
@@ -1618,7 +1618,7 @@
     },
     "importance_reason": "PRECEPT offers a unified framework for test-time adaptation in LLM agents, addressing critical challenges in rule retrieval and memory reliability, making it highly impactful.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.09641v1",
+    "archive_path": "archive/llm_agents/2603.09641v1",
     "id": "2603.09641v1",
     "links": {
       "paper": "https://arxiv.org/abs/2603.09641v1",
@@ -1663,7 +1663,7 @@
     },
     "importance_reason": "AttriGuard introduces a novel causal attribution paradigm to defend against indirect prompt injection, addressing a critical vulnerability in LLM agent systems.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.10749v1",
+    "archive_path": "archive/llm_agents/2603.10749v1",
     "id": "2603.10749v1",
     "links": {
       "paper": "https://arxiv.org/abs/2603.10749v1",
@@ -1710,7 +1710,7 @@
     },
     "importance_reason": "OAKS establishes a benchmark for online adaptation in LLMs, addressing dynamic knowledge contexts, which is a significant contribution to the field.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.07392",
+    "archive_path": "archive/llm_agents/2603.07392",
     "id": "2603.07392",
     "links": {
       "paper": "https://arxiv.org/abs/2603.07392",
@@ -1749,7 +1749,7 @@
     },
     "importance_reason": "TDAD proposes a test-driven methodology for behavioral compliance in tool-using LLM agents, addressing key deployment challenges and offering impactful innovation.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.08806",
+    "archive_path": "archive/llm_agents/2603.08806",
     "id": "2603.08806",
     "links": {
       "paper": "https://arxiv.org/abs/2603.08806",
@@ -1805,7 +1805,7 @@
     },
     "importance_reason": "RoboClaw introduces a novel framework that unifies data collection, policy learning, and task execution for Vision-Language-Action systems, addressing key challenges in scaling to long-horizon tasks. The Entangled Action Pairs mechanism is a significant methodological contribution with potential to transform autonomous robotics.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.11558v1",
+    "archive_path": "archive/multi-modal_llm/2603.11558v1",
     "id": "2603.11558v1",
     "links": {
       "paper": "https://arxiv.org/abs/2603.11558v1",
@@ -1848,7 +1848,7 @@
     },
     "importance_reason": "Meissa presents a lightweight medical multi-modal LLM with agentic capabilities that operates offline, addressing critical issues like cost, latency, and privacy in clinical environments. This innovation has the potential to significantly impact medical AI applications.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.09018",
+    "archive_path": "archive/multi-modal_llm/2603.09018",
     "id": "2603.09018",
     "links": {
       "paper": "https://arxiv.org/abs/2603.09018",
@@ -1893,7 +1893,7 @@
     },
     "importance_reason": "Introduces the novel concept of 'information self-locking' in reinforcement learning for LLM agents, which could lead to significant advancements in active reasoning and decision-making capabilities of AI systems.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.12109v1",
+    "archive_path": "archive/llm_agents/2603.12109v1",
     "id": "2603.12109v1",
     "links": {
       "paper": "https://arxiv.org/abs/2603.12109v1",
@@ -1940,7 +1940,7 @@
     },
     "importance_reason": "The introduction of self-reflection in meta-reinforcement learning represents a novel and impactful methodological contribution to agentic RL.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.11327",
+    "archive_path": "archive/llm_agents/2603.11327",
     "id": "2603.11327",
     "links": {
       "paper": "https://arxiv.org/abs/2603.11327",
@@ -1983,7 +1983,7 @@
     },
     "importance_reason": "The dual-stream framework for continual learning in multimodal agents is a significant methodological contribution, enabling agents to improve without parameter updates.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.12056",
+    "archive_path": "archive/multi-modal_llm/2603.12056",
     "id": "2603.12056",
     "links": {
       "paper": "https://arxiv.org/abs/2603.12056",
@@ -2036,7 +2036,7 @@
     },
     "importance_reason": "The benchmark for agentic reasoning in document workflows fills a critical gap and could have a major impact on evaluating and improving multimodal LLMs.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.12180",
+    "archive_path": "archive/multi-modal_llm/2603.12180",
     "id": "2603.12180",
     "links": {
       "paper": "https://arxiv.org/abs/2603.12180",
@@ -2081,7 +2081,7 @@
     },
     "importance_reason": "Proposes a novel framework for online reasoning in multimodal large language models, addressing a critical limitation in multi-turn video reasoning and introducing significant methodological innovations.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.11896",
+    "archive_path": "archive/multi-modal_llm/2603.11896",
     "id": "2603.11896",
     "links": {
       "paper": "https://arxiv.org/abs/2603.11896",
@@ -2120,7 +2120,7 @@
     },
     "importance_reason": "Introduces a groundbreaking protocol for detecting intrinsic and instrumental self-preservation in autonomous agents, addressing a fundamental challenge in agent design and safety.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.11382",
+    "archive_path": "archive/llm_agents/2603.11382",
     "id": "2603.11382",
     "links": {
       "paper": "https://arxiv.org/abs/2603.11382",
@@ -2162,7 +2162,7 @@
     },
     "importance_reason": "Proposes a budget-aware reasoning framework for LLM agents, addressing a critical challenge in resource-efficient multi-hop reasoning with significant potential impact.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.12634",
+    "archive_path": "archive/llm_agents/2603.12634",
     "id": "2603.12634",
     "links": {
       "paper": "https://arxiv.org/abs/2603.12634",
@@ -2207,7 +2207,7 @@
     },
     "importance_reason": "Challenges conventional wisdom in continual reinforcement learning for Vision-Language-Action models, presenting findings that could reshape approaches to lifelong learning in agents.",
     "pdf_downloaded": true,
-    "archive_path": "/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.11653",
+    "archive_path": "archive/multi-modal_llm/2603.11653",
     "id": "2603.11653",
     "links": {
       "paper": "https://arxiv.org/abs/2603.11653",

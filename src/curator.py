@@ -72,6 +72,15 @@ def _paper_link(paper: dict) -> str:
     return paper.get("url", "")
 
 
+def _archive_path(value: str) -> str:
+    if not value:
+        return ""
+    marker = "/archive/"
+    if marker in value:
+        return value[value.index(marker) + 1:]
+    return value
+
+
 def _paper_theme_names(paper: dict) -> list[str]:
     theme_names = paper.get("theme_names")
     if isinstance(theme_names, list) and theme_names:
@@ -145,7 +154,7 @@ def _render_recent(papers: list[dict], limit: int) -> str:
         return "- No archived additions yet."
     lines = []
     for paper in papers[:limit]:
-        archive_path = paper.get("archive_path", "")
+        archive_path = _archive_path(paper.get("archive_path", ""))
         paper_link = _paper_link(paper)
         theme_names = _paper_theme_names(paper)
         lines.append(

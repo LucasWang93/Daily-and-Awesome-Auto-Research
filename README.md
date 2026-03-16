@@ -69,16 +69,16 @@ The default daily job is `python run.py ingest`, which collects new papers from 
 ## Recent Additions
 
 <!-- BEGIN: recent-papers -->
-- **2026-03-13** [Spend Less, Reason Better: Budget-Aware Value Tree Search for LLM Agents](https://arxiv.org/abs/2603.12634) (llm agents) - card: [2603.12634](/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.12634)
-- **2026-03-12** [RoboClaw: An Agentic Framework for Scalable Long-Horizon Robotic Tasks](https://arxiv.org/abs/2603.11558v1) (multi-modal llm) - card: [2603.11558v1](/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.11558v1)
-- **2026-03-12** [On Information Self-Locking in Reinforcement Learning for Active Reasoning of LLM agents](https://arxiv.org/abs/2603.12109v1) (llm agents) - card: [2603.12109v1](/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.12109v1)
-- **2026-03-12** [XSkill: Continual Learning from Experience and Skills in Multimodal Agents](https://arxiv.org/abs/2603.12056) (multi-modal llm) - card: [2603.12056](/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.12056)
-- **2026-03-12** [Strategic Navigation or Stochastic Search? How Agents and Humans Reason Over Document Collections](https://arxiv.org/abs/2603.12180) (multi-modal llm) - card: [2603.12180](/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.12180)
-- **2026-03-12** [Think While Watching: Online Streaming Segment-Level Memory for Multi-Turn Video Reasoning in Multimodal Large Language Models](https://arxiv.org/abs/2603.11896) (multi-modal llm) - card: [2603.11896](/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.11896)
-- **2026-03-12** [Simple Recipe Works: Vision-Language-Action Models are Natural Continual Learners with Reinforcement Learning](https://arxiv.org/abs/2603.11653) (multi-modal llm) - card: [2603.11653](/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/multi-modal_llm/2603.11653)
-- **2026-03-11** [Meta-Reinforcement Learning with Self-Reflection for Agentic Search](https://arxiv.org/abs/2603.11327) (llm agents) - card: [2603.11327](/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.11327)
-- **2026-03-11** [AttriGuard: Defeating Indirect Prompt Injection in LLM Agents via Causal Attribution of Tool Invocations](https://arxiv.org/abs/2603.10749v1) (llm agents) - card: [2603.10749v1](/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.10749v1)
-- **2026-03-11** [Detecting Intrinsic and Instrumental Self-Preservation in Autonomous Agents: The Unified Continuation-Interest Protocol](https://arxiv.org/abs/2603.11382) (llm agents) - card: [2603.11382](/nfs/roberts/project/pi_yz875/sw2572/daily_papers/archive/llm_agents/2603.11382)
+- **2026-03-13** [Spend Less, Reason Better: Budget-Aware Value Tree Search for LLM Agents](https://arxiv.org/abs/2603.12634) (llm agents) - card: [2603.12634](archive/llm_agents/2603.12634)
+- **2026-03-12** [RoboClaw: An Agentic Framework for Scalable Long-Horizon Robotic Tasks](https://arxiv.org/abs/2603.11558v1) (multi-modal llm) - card: [2603.11558v1](archive/multi-modal_llm/2603.11558v1)
+- **2026-03-12** [On Information Self-Locking in Reinforcement Learning for Active Reasoning of LLM agents](https://arxiv.org/abs/2603.12109v1) (llm agents) - card: [2603.12109v1](archive/llm_agents/2603.12109v1)
+- **2026-03-12** [XSkill: Continual Learning from Experience and Skills in Multimodal Agents](https://arxiv.org/abs/2603.12056) (multi-modal llm) - card: [2603.12056](archive/multi-modal_llm/2603.12056)
+- **2026-03-12** [Strategic Navigation or Stochastic Search? How Agents and Humans Reason Over Document Collections](https://arxiv.org/abs/2603.12180) (multi-modal llm) - card: [2603.12180](archive/multi-modal_llm/2603.12180)
+- **2026-03-12** [Think While Watching: Online Streaming Segment-Level Memory for Multi-Turn Video Reasoning in Multimodal Large Language Models](https://arxiv.org/abs/2603.11896) (multi-modal llm) - card: [2603.11896](archive/multi-modal_llm/2603.11896)
+- **2026-03-12** [Simple Recipe Works: Vision-Language-Action Models are Natural Continual Learners with Reinforcement Learning](https://arxiv.org/abs/2603.11653) (multi-modal llm) - card: [2603.11653](archive/multi-modal_llm/2603.11653)
+- **2026-03-11** [Meta-Reinforcement Learning with Self-Reflection for Agentic Search](https://arxiv.org/abs/2603.11327) (llm agents) - card: [2603.11327](archive/llm_agents/2603.11327)
+- **2026-03-11** [AttriGuard: Defeating Indirect Prompt Injection in LLM Agents via Causal Attribution of Tool Invocations](https://arxiv.org/abs/2603.10749v1) (llm agents) - card: [2603.10749v1](archive/llm_agents/2603.10749v1)
+- **2026-03-11** [Detecting Intrinsic and Instrumental Self-Preservation in Autonomous Agents: The Unified Continuation-Interest Protocol](https://arxiv.org/abs/2603.11382) (llm agents) - card: [2603.11382](archive/llm_agents/2603.11382)
 <!-- END: recent-papers -->
 
 ## Featured This Week

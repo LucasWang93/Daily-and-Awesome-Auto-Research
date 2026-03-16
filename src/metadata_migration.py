@@ -7,6 +7,15 @@ def _normalize_topic_name(value: str) -> str:
     return value.replace("_", " ").strip() if value else "unclassified"
 
 
+def _normalize_archive_path(value: str) -> str:
+    if not value:
+        return ""
+    marker = "/archive/"
+    if marker in value:
+        return value[value.index(marker) + 1:]
+    return value
+
+
 def _normalize_links(record: dict) -> dict:
     links = record.get("links")
     if isinstance(links, dict) and links:
@@ -58,4 +67,5 @@ def normalize_archive_record(record: dict) -> dict:
     )
     normalized["editor_note"] = record.get("editor_note", "")
     normalized["featured"] = bool(record.get("featured", False))
+    normalized["archive_path"] = _normalize_archive_path(record.get("archive_path", ""))
     return normalized
