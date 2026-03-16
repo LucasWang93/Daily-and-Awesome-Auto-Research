@@ -15,9 +15,9 @@ RANKING_SYSTEM_PROMPT = (
     "3. ecosystem_relevance: usefulness to builders of research agents, workflows, or tooling\n"
     "4. likely_longevity: chance this work still matters months later\n\n"
     "Known themes: {themes}\n\n"
-    'Return JSON: { "scores": [ { "paper_id": str, "fit_to_auto_research": int, '
+    'Return JSON: {{ "scores": [ {{ "paper_id": str, "fit_to_auto_research": int, '
     '"methodological_significance": int, "ecosystem_relevance": int, "likely_longevity": int, '
-    '"reason": str, "featured": bool } ] }\n'
+    '"reason": str, "featured": bool }} ] }}\n'
     "Return scores for every paper in the same order and only valid JSON."
 )
 

@@ -6,7 +6,7 @@ import time
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from typing import Optional
-from urllib.error import URLError
+from urllib.error import HTTPError, URLError
 from urllib.parse import quote_plus
 from urllib.request import Request, urlopen
 
@@ -22,20 +22,41 @@ LOGGER = get_logger(__name__)
 
 ARXIV_API_URL = "https://export.arxiv.org/api/query"
 HF_DAILY_URL = "https://huggingface.co/api/daily_papers"
+ARXIV_MIN_INTERVAL_SECONDS = 3.5
+_LAST_ARXIV_REQUEST_AT = 0.0
+
+
+def _compute_retry_delay(exc: Exception, attempt: int) -> float:
+    if isinstance(exc, HTTPError) and exc.code == 429:
+        return 15.0 * attempt
+    return float(2 ** (attempt - 1))
+
+
+def _throttle_arxiv() -> None:
+    global _LAST_ARXIV_REQUEST_AT
+    now = time.monotonic()
+    elapsed = now - _LAST_ARXIV_REQUEST_AT
+    if elapsed < ARXIV_MIN_INTERVAL_SECONDS:
+        time.sleep(ARXIV_MIN_INTERVAL_SECONDS - elapsed)
+    _LAST_ARXIV_REQUEST_AT = time.monotonic()
 
 
 def _http_get(url: str, retries: int = 3, timeout: int = 30) -> Optional[str]:
-    for attempt in range(retries):
+    for attempt in range(1, retries + 1):
         try:
+            if url.startswith(ARXIV_API_URL):
+                _throttle_arxiv()
             req = Request(url, headers={
                 "User-Agent": "AwesomeAutoResearch/1.0 (academic research curation)",
             })
             with urlopen(req, timeout=timeout) as resp:
                 return resp.read().decode("utf-8")
         except (URLError, TimeoutError, OSError) as exc:
-            LOGGER.warning("HTTP GET %s attempt %d failed: %s", url, attempt + 1, exc)
-            if attempt < retries - 1:
-                time.sleep(2 ** attempt)
+            LOGGER.warning("HTTP GET %s attempt %d failed: %s", url, attempt, exc)
+            if attempt < retries:
+                delay = _compute_retry_delay(exc, attempt)
+                LOGGER.info("Retrying in %.1f seconds", delay)
+                time.sleep(delay)
     return None
 
 
@@ -116,8 +137,6 @@ def collect_arxiv(queries: list[str], max_results_per_query: int = 20, days_look
                 "slug": _slugify(f"{paper_id}-{title}"),
             })
             seen_ids.add(paper_id)
-        time.sleep(1)
-
     LOGGER.info("ArXiv: collected %d deduplicated entries", len(papers))
     return papers
 

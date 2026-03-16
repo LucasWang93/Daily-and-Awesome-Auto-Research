@@ -1,6 +1,7 @@
 import unittest
+from urllib.error import HTTPError
 
-from src.collector import _deduplicate
+from src.collector import _compute_retry_delay, _deduplicate
 from src.taxonomy import find_theme_matches
 
 
@@ -38,6 +39,11 @@ class TaxonomyTests(unittest.TestCase):
         self.assertEqual(len(merged), 1)
         self.assertEqual(merged[0]["source"], "arxiv")
         self.assertEqual(sorted(merged[0]["themes"]), ["agentic_research", "ai_scientist"])
+
+    def test_retry_delay_for_arxiv_rate_limit_is_longer(self):
+        exc = HTTPError("https://export.arxiv.org/api/query", 429, "rate limited", hdrs=None, fp=None)
+        self.assertEqual(_compute_retry_delay(exc, 1), 15.0)
+        self.assertEqual(_compute_retry_delay(exc, 2), 30.0)
 
 
 if __name__ == "__main__":
