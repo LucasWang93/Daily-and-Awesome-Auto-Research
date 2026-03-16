@@ -10,11 +10,11 @@ from .taxonomy import normalize_theme_id
 
 README_TEMPLATE = """# Awesome Auto-Research
 
-An English-first curated knowledge base for agentic research, AI scientist systems, literature-review agents, and related automation for scientific work.
+An English-first curated knowledge base for autoresearch loops, AI scientist systems, automated discovery frameworks, and research-agent infrastructure.
 
 ## What Is Auto-Research?
 
-Auto-research refers to systems that help automate parts of the research loop: literature discovery, synthesis, hypothesis generation, experiment planning, implementation, evaluation, and reporting. This repository is intentionally selective. It tracks the most important repositories, landmark papers, and recent additions that matter for building or understanding research agents.
+This repository follows the spirit of `karpathy/autoresearch`: agents run tight research loops, modify code or plans, measure outcomes, keep what works, and accumulate progress. From that baseline, we also track broader AI scientist systems, closed-loop empirical science frameworks, and infrastructure that makes continual machine-driven research possible.
 
 ## Most Important GitHub Repos
 
@@ -67,17 +67,36 @@ def _replace_block(content: str, marker: str, block: str) -> str:
 
 def _render_repos(repos: list[dict]) -> str:
     required = {"name", "url", "positioning", "why_it_matters", "relation", "representative", "status"}
-    lines = []
+    category_titles = {
+        "reference_loop": "### Reference Loop",
+        "end_to_end_ai_scientists": "### End-to-End AI Scientist Systems",
+        "closed_loop_science": "### Closed-Loop Science Frameworks",
+        "literature_and_review_agents": "### Literature And Review Agents",
+        "infrastructure_and_tools": "### Infrastructure And Tools",
+    }
+    grouped = defaultdict(list)
     for repo in repos:
         missing = sorted(required - repo.keys())
         if missing:
             raise ValueError(f"Curated repo '{repo.get('name', 'unknown')}' missing fields: {', '.join(missing)}")
-        lines.append(
+        category = repo.get("category", "infrastructure_and_tools")
+        grouped[category].append(
             f"- [{repo['name']}]({repo['url']}) [{repo['status']}]: {repo['positioning']}. "
             f"Why it matters: {repo['why_it_matters']} Relation to auto-research: {repo['relation']} "
             f"Representative reference: {repo['representative']}."
         )
-    return "\n".join(lines) if lines else "- Curated repos will appear here."
+    if not grouped:
+        return "- Curated repos will appear here."
+
+    lines = []
+    for category in category_titles:
+        items = grouped.get(category, [])
+        if not items:
+            continue
+        lines.append(category_titles[category])
+        lines.extend(items)
+        lines.append("")
+    return "\n".join(lines).strip()
 
 
 def _render_theme_papers(taxonomy: list[dict], landmark_papers: list[dict]) -> str:

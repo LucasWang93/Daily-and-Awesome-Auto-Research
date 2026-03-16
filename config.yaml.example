@@ -1,58 +1,76 @@
 taxonomy:
-  - id: "agentic_research"
-    name: "Agentic Research"
+  - id: "autoresearch_loops"
+    name: "Autoresearch Loops"
     query_keywords:
-      - "agentic research"
+      - "autoresearch"
+      - "auto research"
+      - "self-improving training loop"
+      - "research loop"
+      - "automated research loop"
+      - "autonomous research loop"
+      - "karpathy autoresearch"
+    exclude_keywords: []
+    repo_tags: ["reference-loop", "overnight-research"]
+    readme_section: "Key Papers By Theme"
+  - id: "end_to_end_ai_scientists"
+    name: "End-to-End AI Scientists"
+    query_keywords:
+      - "AI scientist"
+      - "AI-Scientist"
+      - "automated AI researcher"
+      - "autonomous scientific innovation"
+      - "agentic tree search"
+      - "scientist bench"
       - "research agent"
-      - "autonomous research"
-      - "AI scientist"
     exclude_keywords: []
-    repo_tags: ["agents", "research-workflows"]
+    repo_tags: ["ai-scientist", "end-to-end"]
     readme_section: "Key Papers By Theme"
-  - id: "ai_scientist"
-    name: "AI Scientist"
+  - id: "closed_loop_empirical_science"
+    name: "Closed-Loop Empirical Science"
     query_keywords:
-      - "AI scientist"
-      - "automated science"
-      - "scientific discovery agent"
+      - "closed-loop empirical research"
+      - "automated research assistant"
+      - "AutoRA"
+      - "experimentalist"
+      - "theorist"
+      - "equation discovery"
     exclude_keywords: []
-    repo_tags: ["ai-scientist"]
+    repo_tags: ["closed-loop-science"]
     readme_section: "Key Papers By Theme"
-  - id: "literature_review_agents"
-    name: "Literature Review Agents"
+  - id: "autonomous_discovery"
+    name: "Autonomous Discovery"
+    query_keywords:
+      - "autodiscovery"
+      - "autonomous discovery"
+      - "scientific discovery agent"
+      - "hypothesis search"
+      - "bayesian surprise"
+      - "open-ended discovery"
+    exclude_keywords: []
+    repo_tags: ["discovery"]
+    readme_section: "Key Papers By Theme"
+  - id: "literature_and_survey_agents"
+    name: "Literature And Survey Agents"
     query_keywords:
       - "literature review agent"
-      - "paper summarization"
+      - "survey generation"
+      - "deep research"
       - "research survey agent"
+      - "paper synthesis"
     exclude_keywords: []
     repo_tags: ["retrieval", "survey"]
     readme_section: "Key Papers By Theme"
-  - id: "paper_to_code"
-    name: "Paper-to-Code"
+  - id: "research_infrastructure_and_benchmarks"
+    name: "Research Infrastructure And Benchmarks"
     query_keywords:
-      - "paper to code"
-      - "reproduce paper"
-      - "implementation agent"
-    exclude_keywords: []
-    repo_tags: ["paper-to-code"]
-    readme_section: "Key Papers By Theme"
-  - id: "experiment_planning_and_execution"
-    name: "Experiment Planning And Execution"
-    query_keywords:
-      - "experiment planning agent"
-      - "autonomous experimentation"
-      - "experiment execution agent"
-    exclude_keywords: []
-    repo_tags: ["experiments"]
-    readme_section: "Key Papers By Theme"
-  - id: "research_benchmarks_and_eval"
-    name: "Research Benchmarks And Evaluation"
-    query_keywords:
+      - "scientist bench"
+      - "science automation framework"
       - "research benchmark"
-      - "scientific evaluation"
-      - "agent benchmark"
+      - "continual science automation"
+      - "multiagent research framework"
+      - "research infrastructure"
     exclude_keywords: []
-    repo_tags: ["benchmarks"]
+    repo_tags: ["benchmarks", "infra"]
     readme_section: "Key Papers By Theme"
 
 sources:
