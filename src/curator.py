@@ -65,6 +65,26 @@ def _replace_block(content: str, marker: str, block: str) -> str:
     return content[:start] + "\n" + block.rstrip() + "\n" + content[finish:]
 
 
+def _paper_link(paper: dict) -> str:
+    links = paper.get("links")
+    if isinstance(links, dict):
+        return links.get("paper") or links.get("arxiv") or paper.get("url", "")
+    return paper.get("url", "")
+
+
+def _paper_theme_names(paper: dict) -> list[str]:
+    theme_names = paper.get("theme_names")
+    if isinstance(theme_names, list) and theme_names:
+        return theme_names
+    themes = paper.get("themes")
+    if isinstance(themes, list) and themes:
+        return themes
+    topic = paper.get("topic")
+    if topic:
+        return [str(topic).replace("_", " ")]
+    return ["unclassified"]
+
+
 def _render_repos(repos: list[dict]) -> str:
     required = {"name", "url", "positioning", "why_it_matters", "relation", "representative", "status"}
     category_titles = {
@@ -126,9 +146,11 @@ def _render_recent(papers: list[dict], limit: int) -> str:
     lines = []
     for paper in papers[:limit]:
         archive_path = paper.get("archive_path", "")
+        paper_link = _paper_link(paper)
+        theme_names = _paper_theme_names(paper)
         lines.append(
-            f"- **{paper['date']}** [{paper['title']}]({paper['links'].get('paper', '')})"
-            f" ({', '.join(paper.get('theme_names', paper.get('themes', [])))})"
+            f"- **{paper['date']}** [{paper['title']}]({paper_link})"
+            f" ({', '.join(theme_names)})"
             f" - card: [{Path(archive_path).name}]({archive_path})"
         )
     return "\n".join(lines)
@@ -141,7 +163,7 @@ def _render_featured(papers: list[dict], limit: int) -> str:
     lines = []
     for paper in featured[:limit]:
         lines.append(
-            f"- [{paper['title']}]({paper['links'].get('paper', '')}): {paper.get('why_it_matters', paper.get('reason', ''))}"
+            f"- [{paper['title']}]({_paper_link(paper)}): {paper.get('why_it_matters', paper.get('reason', ''))}"
         )
     return "\n".join(lines)
 
@@ -151,8 +173,8 @@ def _render_latest_entry(papers: list[dict]) -> str:
         return "No archive entries yet."
     latest = papers[0]
     return (
-        f"[{latest['title']}]({latest['links'].get('paper', '')})"
-        f" is the latest archived addition. Themes: {', '.join(latest.get('theme_names', latest.get('themes', [])))}. "
+        f"[{latest['title']}]({_paper_link(latest)})"
+        f" is the latest archived addition. Themes: {', '.join(_paper_theme_names(latest))}. "
         f"Why it matters: {latest.get('why_it_matters', latest.get('reason', ''))}"
     )
 

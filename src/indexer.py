@@ -5,6 +5,7 @@ from pathlib import Path
 
 import yaml
 
+from .metadata_migration import normalize_archive_record
 from .taxonomy import normalize_theme_id
 
 
@@ -44,7 +45,7 @@ def sync_indexes(project_dir: Path, cfg: dict, archived_papers: list[dict] | Non
     archive_dir_name = output_cfg.get("archive_dir", "archive")
 
     curated = _load_curated(data_dir)
-    papers = _load_archive_metadata(project_dir, archive_dir_name)
+    papers = [normalize_archive_record(record) for record in _load_archive_metadata(project_dir, archive_dir_name)]
     repos = curated.get("repos", [])
     taxonomy = _taxonomy_index(cfg.get("taxonomy", []))
 

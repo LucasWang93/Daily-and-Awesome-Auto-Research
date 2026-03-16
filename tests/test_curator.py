@@ -7,6 +7,7 @@ import yaml
 
 from src.curator import README_TEMPLATE, build_readme
 from src.indexer import sync_indexes
+from src.metadata_migration import normalize_archive_record
 from src.summarizer import generate_report
 
 
@@ -98,6 +99,40 @@ class CuratorTests(unittest.TestCase):
         self.assertIn("## Today in Auto-Research", content)
         self.assertIn("## Top Papers Today", content)
         self.assertIn("readable end-to-end workflow", content.lower())
+
+    def test_build_readme_supports_legacy_archive_records_without_links(self):
+        legacy = [
+            {
+                "paper_id": "legacy-1",
+                "title": "Legacy Record",
+                "date": "2026-03-15",
+                "topic": "legacy_topic",
+                "importance_reason": "legacy reason",
+                "url": "https://arxiv.org/abs/legacy-1",
+                "archive_path": "archive/papers/2026-03-15/legacy-record.md",
+            }
+        ]
+        (self.project_dir / "archive" / "metadata.json").write_text(json.dumps(legacy), encoding="utf-8")
+        sync_indexes(self.project_dir, self.cfg)
+        readme_path = build_readme(self.project_dir, self.cfg)
+        content = readme_path.read_text(encoding="utf-8")
+        self.assertIn("Legacy Record", content)
+        self.assertIn("legacy topic", content)
+
+    def test_normalize_archive_record_backfills_new_fields(self):
+        legacy = {
+            "paper_id": "legacy-2",
+            "title": "Legacy Normalized",
+            "date": "2026-03-15",
+            "topic": "legacy_topic",
+            "importance_reason": "legacy reason",
+            "url": "https://arxiv.org/abs/legacy-2",
+        }
+        normalized = normalize_archive_record(legacy)
+        self.assertEqual(normalized["id"], "legacy-2")
+        self.assertEqual(normalized["links"]["paper"], "https://arxiv.org/abs/legacy-2")
+        self.assertEqual(normalized["theme_names"], ["legacy topic"])
+        self.assertEqual(normalized["digest_summary"], "legacy reason")
 
 
 if __name__ == "__main__":
