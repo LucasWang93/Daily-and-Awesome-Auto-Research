@@ -6,7 +6,6 @@ dist/
 build/
 
 # Runtime outputs
-reports/
 archive/
 logs/
 

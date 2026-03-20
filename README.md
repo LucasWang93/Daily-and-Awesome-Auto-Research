@@ -9,13 +9,15 @@ This repository follows the spirit of [`karpathy/autoresearch`](https://github.c
 ## Workflow
 
 ```bash
+./run_daily_update.sh run
+./run_daily_update.sh install-cron 8 0
 python run.py ingest
 python run.py build-readme
 python run.py sync-index
 python run.py curate-report
 ```
 
-The default daily job is `python run.py ingest`, which collects new papers from ArXiv and HuggingFace, archives high-signal paper cards, refreshes structured indexes in `data/`, updates curated README sections, and writes a digest in `reports/`.
+The default daily job is `./run_daily_update.sh run`, which wraps `python run.py ingest`, sends the daily email, stages tracked updates in `README.md`, `data/`, and `reports/`, and pushes the result to GitHub. Use `./run_daily_update.sh install-cron 8 0` to install the daily cron entry through the same script.
 
 ## Most Important GitHub Repos
 
@@ -37,6 +39,7 @@ The default daily job is `python run.py ingest`, which collects new papers from 
 
 ### Infrastructure And Tools
 - [ltjed/freephdlabor](https://github.com/ltjed/freephdlabor) [active]: A customizable multiagent framework for continual and interactive science automation. Why it matters: It emphasizes persistent workflows, modular agents, and domain customization instead of one-shot demos Relation to auto-research: Important for building durable research-agent infrastructure Representative reference: Build Your Personalized Research Group technical report.
+- [wanshuiyin/Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) [active]: A practical Claude Code workflow that runs research review, diagnosis, and experiment loops overnight. Why it matters: It turns autoresearch into an operational nightly workflow rather than a one-off showcase Relation to auto-research: Useful as a hands-on automation layer for code-centric research loops Representative reference: ARIS README and Claude Code skills workflow.
 <!-- END: curated-repos -->
 
 ## Key Papers By Theme
@@ -69,28 +72,32 @@ The default daily job is `python run.py ingest`, which collects new papers from 
 ## Recent Additions
 
 <!-- BEGIN: recent-papers -->
-- **2026-03-13** [Spend Less, Reason Better: Budget-Aware Value Tree Search for LLM Agents](https://arxiv.org/abs/2603.12634) (llm agents) - card: [2603.12634](archive/llm_agents/2603.12634)
-- **2026-03-12** [RoboClaw: An Agentic Framework for Scalable Long-Horizon Robotic Tasks](https://arxiv.org/abs/2603.11558v1) (multi-modal llm) - card: [2603.11558v1](archive/multi-modal_llm/2603.11558v1)
-- **2026-03-12** [On Information Self-Locking in Reinforcement Learning for Active Reasoning of LLM agents](https://arxiv.org/abs/2603.12109v1) (llm agents) - card: [2603.12109v1](archive/llm_agents/2603.12109v1)
-- **2026-03-12** [XSkill: Continual Learning from Experience and Skills in Multimodal Agents](https://arxiv.org/abs/2603.12056) (multi-modal llm) - card: [2603.12056](archive/multi-modal_llm/2603.12056)
-- **2026-03-12** [Strategic Navigation or Stochastic Search? How Agents and Humans Reason Over Document Collections](https://arxiv.org/abs/2603.12180) (multi-modal llm) - card: [2603.12180](archive/multi-modal_llm/2603.12180)
-- **2026-03-12** [Think While Watching: Online Streaming Segment-Level Memory for Multi-Turn Video Reasoning in Multimodal Large Language Models](https://arxiv.org/abs/2603.11896) (multi-modal llm) - card: [2603.11896](archive/multi-modal_llm/2603.11896)
-- **2026-03-12** [Simple Recipe Works: Vision-Language-Action Models are Natural Continual Learners with Reinforcement Learning](https://arxiv.org/abs/2603.11653) (multi-modal llm) - card: [2603.11653](archive/multi-modal_llm/2603.11653)
-- **2026-03-11** [Meta-Reinforcement Learning with Self-Reflection for Agentic Search](https://arxiv.org/abs/2603.11327) (llm agents) - card: [2603.11327](archive/llm_agents/2603.11327)
-- **2026-03-11** [AttriGuard: Defeating Indirect Prompt Injection in LLM Agents via Causal Attribution of Tool Invocations](https://arxiv.org/abs/2603.10749v1) (llm agents) - card: [2603.10749v1](archive/llm_agents/2603.10749v1)
-- **2026-03-11** [Detecting Intrinsic and Instrumental Self-Preservation in Autonomous Agents: The Unified Continuation-Interest Protocol](https://arxiv.org/abs/2603.11382) (llm agents) - card: [2603.11382](archive/llm_agents/2603.11382)
+- **2026-03-19** [Total Recall QA: A Verifiable Evaluation Suite for Deep Research Agents](https://arxiv.org/abs/2603.18516v1) (End-to-End AI Scientists, Literature And Survey Agents, Research Infrastructure And Benchmarks) - card: [2603-18516v1-total-recall-qa-a-verifiable-evaluation-suite-for-deep-research-agents.md](archive/papers/2026-03-20/2603-18516v1-total-recall-qa-a-verifiable-evaluation-suite-for-deep-research-agents.md)
+- **2026-03-18** [Toward Reliable, Safe, and Secure LLMs for Scientific Applications](https://arxiv.org/abs/2603.18235v1) (End-to-End AI Scientists) - card: [2603-18235v1-toward-reliable-safe-and-secure-llms-for-scientific-applications.md](archive/papers/2026-03-20/2603-18235v1-toward-reliable-safe-and-secure-llms-for-scientific-applications.md)
+- **2026-03-18** [Is Your LLM-as-a-Recommender Agent Trustable? LLMs' Recommendation is Easily Hacked by Biases (Preferences)](https://arxiv.org/abs/2603.17417v1) (Literature And Survey Agents) - card: [2603-17417v1-is-your-llm-as-a-recommender-agent-trustable-llms-recommendation-is-easily-hacked-by-biases-preferences.md](archive/papers/2026-03-20/2603-17417v1-is-your-llm-as-a-recommender-agent-trustable-llms-recommendation-is-easily-hacked-by-biases-preferences.md)
+- **2026-03-17** [AI Scientist via Synthetic Task Scaling](https://arxiv.org/abs/2603.17216v1) (End-to-End AI Scientists) - card: [2603-17216v1-ai-scientist-via-synthetic-task-scaling.md](archive/papers/2026-03-19/2603-17216v1-ai-scientist-via-synthetic-task-scaling.md)
+- **2026-03-17** [AI Scientist via Synthetic Task Scaling](https://huggingface.co/papers/2603.17216) (End-to-End AI Scientists) - card: [2603-17216-ai-scientist-via-synthetic-task-scaling.md](archive/papers/2026-03-19/2603-17216-ai-scientist-via-synthetic-task-scaling.md)
+- **2026-03-17** [MetaClaw: Just Talk -- An Agent That Meta-Learns and Evolves in the Wild](https://huggingface.co/papers/2603.17187) (Autoresearch Loops) - card: [2603-17187-metaclaw-just-talk-an-agent-that-meta-learns-and-evolves-in-the-wild.md](archive/papers/2026-03-19/2603-17187-metaclaw-just-talk-an-agent-that-meta-learns-and-evolves-in-the-wild.md)
+- **2026-03-17** [Machine Learning Reconstruction of High-Dimensional Electronic Structure from Angle-Resolved Photoemission Spectroscopy](https://arxiv.org/abs/2603.16725v1) (Autonomous Discovery) - card: [2603-16725v1-machine-learning-reconstruction-of-high-dimensional-electronic-structure-from-angle-resolved-photoemission-spectroscopy.md](archive/papers/2026-03-20/2603-16725v1-machine-learning-reconstruction-of-high-dimensional-electronic-structure-from-angle-resolved-photoemission-spectroscopy.md)
+- **2026-03-17** [VisBrowse-Bench: Benchmarking Visual-Native Search for Multimodal Browsing Agents](https://arxiv.org/abs/2603.16289v1) (Literature And Survey Agents) - card: [2603-16289v1-visbrowse-bench-benchmarking-visual-native-search-for-multimodal-browsing-agents.md](archive/papers/2026-03-18/2603-16289v1-visbrowse-bench-benchmarking-visual-native-search-for-multimodal-browsing-agents.md)
+- **2026-03-17** [Language Models Don't Know What You Want: Evaluating Personalization in Deep Research Needs Real Users](https://arxiv.org/abs/2603.16120v1) (Literature And Survey Agents) - card: [2603-16120v1-language-models-don-t-know-what-you-want-evaluating-personalization-in-deep-research-needs-real-users.md](archive/papers/2026-03-19/2603-16120v1-language-models-don-t-know-what-you-want-evaluating-personalization-in-deep-research-needs-real-users.md)
+- **2026-03-16** [Semi-Autonomous Formalization of the Vlasov-Maxwell-Landau Equilibrium](https://arxiv.org/abs/2603.15929v1) (Autoresearch Loops) - card: [2603-15929v1-semi-autonomous-formalization-of-the-vlasov-maxwell-landau-equilibrium.md](archive/papers/2026-03-18/2603-15929v1-semi-autonomous-formalization-of-the-vlasov-maxwell-landau-equilibrium.md)
 <!-- END: recent-papers -->
 
 ## Featured This Week
 
 <!-- BEGIN: featured-papers -->
-- [EvoScientist: Towards Multi-Agent Evolving AI Scientists for End-to-End Scientific Discovery](https://huggingface.co/papers/2603.08127): EvoScientist represents a significant step forward in AI-driven scientific discovery by addressing the limitations of static pipelines and enabling adaptive, evolving research strategies. This innovation has the potential to accelerate breakthroughs in various scientific fields by automating and optimizing the research process with persistent learning and memory capabilities.
+- [Total Recall QA: A Verifiable Evaluation Suite for Deep Research Agents](https://arxiv.org/abs/2603.18516v1): As large language models (LLMs) increasingly power deep research agents, ensuring their ability to accurately synthesize and reason over complex, multi-source information is critical. TRQA provides a robust, verifiable framework to evaluate these systems, addressing gaps in existing benchmarks and enabling more reliable advancements in AI-driven research capabilities.
+- [Toward Reliable, Safe, and Secure LLMs for Scientific Applications](https://arxiv.org/abs/2603.18235v1): As LLMs increasingly contribute to scientific discovery, ensuring their reliability, safety, and security is critical to prevent harm and misuse while unlocking their transformative potential. This research addresses gaps in current evaluation methods and proposes robust frameworks to safeguard scientific applications of AI, fostering trust and innovation in the field.
+- [Is Your LLM-as-a-Recommender Agent Trustable? LLMs' Recommendation is Easily Hacked by Biases (Preferences)](https://arxiv.org/abs/2603.17417v1): As LLMs become integral to decision-making in critical domains like research, hiring, and e-commerce, their susceptibility to biases poses significant risks to fairness, reliability, and trustworthiness. Addressing these vulnerabilities is essential to ensure ethical and effective deployment of AI systems in real-world applications.
+- [AI Scientist via Synthetic Task Scaling](https://arxiv.org/abs/2603.17216v1): This work addresses a critical gap in training AI agents for scientific discovery by providing a principled, automated way to generate and validate machine learning tasks. It paves the way for more reliable and effective AI systems capable of advancing research autonomously, which could accelerate innovation across fields.
+- [AI Scientist via Synthetic Task Scaling](https://huggingface.co/papers/2603.17216): This work addresses a critical gap in training AI agents for scientific discovery by providing a principled framework to generate high-quality, realistic machine learning tasks. It demonstrates how synthetic environments can effectively train AI systems to perform better on real-world benchmarks, paving the way for more autonomous and capable AI researchers.
 <!-- END: featured-papers -->
 
 ## Latest Archive Entry
 
 <!-- BEGIN: latest-entry -->
-[Spend Less, Reason Better: Budget-Aware Value Tree Search for LLM Agents](https://arxiv.org/abs/2603.12634) is the latest archived addition. Themes: llm agents. Why it matters: Proposes a budget-aware reasoning framework for LLM agents, addressing a critical challenge in resource-efficient multi-hop reasoning with significant potential impact.
+[Total Recall QA: A Verifiable Evaluation Suite for Deep Research Agents](https://arxiv.org/abs/2603.18516v1) is the latest archived addition. Themes: End-to-End AI Scientists, Literature And Survey Agents, Research Infrastructure And Benchmarks. Why it matters: As large language models (LLMs) increasingly power deep research agents, ensuring their ability to accurately synthesize and reason over complex, multi-source information is critical. TRQA provides a robust, verifiable framework to evaluate these systems, addressing gaps in existing benchmarks and enabling more reliable advancements in AI-driven research capabilities.
 <!-- END: latest-entry -->
 
 ## License

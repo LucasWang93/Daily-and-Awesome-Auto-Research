@@ -78,5 +78,15 @@
     "representative": "Build Your Personalized Research Group technical report",
     "status": "active",
     "category": "infrastructure_and_tools"
+  },
+  {
+    "name": "wanshuiyin/Auto-claude-code-research-in-sleep",
+    "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+    "positioning": "A practical Claude Code workflow that runs research review, diagnosis, and experiment loops overnight",
+    "why_it_matters": "It turns autoresearch into an operational nightly workflow rather than a one-off showcase",
+    "relation": "Useful as a hands-on automation layer for code-centric research loops",
+    "representative": "ARIS README and Claude Code skills workflow",
+    "status": "active",
+    "category": "infrastructure_and_tools"
   }
 ]

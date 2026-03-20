@@ -2263,5 +2263,562 @@
     "digest_summary": "EvoScientist is a groundbreaking multi-agent AI framework designed for end-to-end scientific discovery. By leveraging persistent memory and self-evolution, it improves research strategies over time, avoiding repeated failures and refining successful approaches. It outperforms existing systems in generating novel, feasible, and relevant ideas while enhancing code execution success rates.",
     "editor_note": "This framework could revolutionize how AI contributes to scientific research, making it more adaptive and efficient.",
     "archive_path": "archive/papers/2026-03-16/2603-08127-evoscientist-towards-multi-agent-evolving-ai-scientists-for-end-to-end-scientific-discovery.md"
+  },
+  {
+    "id": "2603.14575v1",
+    "paper_id": "2603.14575v1",
+    "title": "CausalEvolve: Towards Open-Ended Discovery with Causal Scratchpad",
+    "summary_short": [
+      "CausalEvolve introduces a causal scratchpad to guide evolution in AI-driven scientific discovery.",
+      "It leverages LLMs for abductive reasoning and identifying outcome-level factors.",
+      "Improves evolutionary efficiency and reduces oscillatory behavior near performance boundaries.",
+      "Demonstrates success in solving 4 challenging open-ended scientific tasks."
+    ],
+    "date": "2026-03-15",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists",
+      "autonomous_discovery"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists",
+      "Autonomous Discovery"
+    ],
+    "importance_score": 8.55,
+    "reason": "CausalEvolve directly addresses challenges in evolve-based AI scientists, proposing mechanisms for targeted guidance and knowledge organization. This is highly relevant to autonomous discovery and end-to-end AI scientists.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.14575v1",
+      "pdf": "https://arxiv.org/pdf/2603.14575v1",
+      "arxiv": "https://arxiv.org/abs/2603.14575v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "CausalEvolve addresses critical inefficiencies in evolve-based AI systems by introducing structured reasoning and targeted guidance, enabling more effective autonomous discovery in scientific research. This innovation could accelerate breakthroughs in complex, open-ended problems where human intuition alone may fall short.",
+    "digest_summary": "CausalEvolve enhances evolve-based AI systems with a causal scratchpad, leveraging LLMs for structured reasoning and targeted guidance. By improving evolutionary efficiency and reducing oscillatory behavior, it successfully tackles 4 open-ended scientific tasks, paving the way for more effective AI-driven discovery.",
+    "editor_note": "As AI continues to advance, tools like CausalEvolve could redefine how we approach scientific research, making autonomous discovery more efficient and impactful.",
+    "archive_path": "archive/papers/2026-03-17/2603-14575v1-causalevolve-towards-open-ended-discovery-with-causal-scratchpad.md"
+  },
+  {
+    "id": "2603.15929v1",
+    "paper_id": "2603.15929v1",
+    "title": "Semi-Autonomous Formalization of the Vlasov-Maxwell-Landau Equilibrium",
+    "summary_short": [
+      "Lean 4 formalization of Vlasov-Maxwell-Landau equilibrium achieved.",
+      "AI tools handled conjecture, proof generation, coding, and verification.",
+      "Single mathematician supervised process with zero manual coding.",
+      "Project highlights AI failure modes and effective strategies.",
+      "Development completed before corresponding math paper draft."
+    ],
+    "date": "2026-03-16",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autoresearch_loops"
+    ],
+    "theme_names": [
+      "Autoresearch Loops"
+    ],
+    "importance_score": 9.35,
+    "reason": "This paper showcases a complete AI-assisted mathematical research loop, demonstrating the integration of multiple agentic tools. It is highly relevant to autoresearch loops and provides a detailed case study that could inspire future systems.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.15929v1",
+      "pdf": "https://arxiv.org/pdf/2603.15929v1",
+      "arxiv": "https://arxiv.org/abs/2603.15929v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "This work showcases the transformative potential of AI-assisted research loops in formalizing complex mathematical systems, significantly reducing human effort and time while maintaining rigor. It highlights how AI can complement human expertise in advancing scientific discovery and formalization processes, paving the way for scalable and reproducible research methodologies in mathematics and beyond.",
+    "digest_summary": "Researchers have achieved a Lean 4 formalization of the Vlasov-Maxwell-Landau equilibrium using a fully AI-assisted workflow. AI tools handled conjecture generation, proof development, coding, and verification, supervised by a single mathematician over 10 days. The project provides insights into AI failure modes and strategies for success, marking a milestone in automated mathematical research.",
+    "editor_note": "This breakthrough underscores the growing role of AI in accelerating formalization tasks, a timely development as AI tools increasingly integrate into academic workflows.",
+    "archive_path": "archive/papers/2026-03-18/2603-15929v1-semi-autonomous-formalization-of-the-vlasov-maxwell-landau-equilibrium.md"
+  },
+  {
+    "id": "2603.15929",
+    "paper_id": "2603.15929",
+    "title": "Semi-Autonomous Formalization of the Vlasov-Maxwell-Landau Equilibrium",
+    "summary_short": [
+      "Complete Lean 4 formalization of VML equilibrium achieved.",
+      "AI tools handled conjecture, proof, coding, and verification.",
+      "Human supervision required only for review and prompts.",
+      "Process archived with 229 prompts and 213 commits.",
+      "Highlights AI failure modes and successful strategies."
+    ],
+    "date": "2026-03-16",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "autoresearch_loops"
+    ],
+    "theme_names": [
+      "Autoresearch Loops"
+    ],
+    "importance_score": 9.35,
+    "reason": "Duplicate entry of 2603.15929v1. The paper is highly relevant to autoresearch loops and demonstrates a complete AI-assisted mathematical research loop.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2603.15929",
+      "arxiv": "https://arxiv.org/abs/2603.15929",
+      "pdf": "https://arxiv.org/pdf/2603.15929",
+      "huggingface": "https://huggingface.co/papers/2603.15929"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "This project showcases the potential of AI-assisted research loops to accelerate mathematical formalization, reduce human effort, and improve reproducibility in complex domains like plasma physics. It also provides critical insights into AI limitations and effective collaboration strategies between humans and AI systems.",
+    "digest_summary": "Researchers formalized the Vlasov-Maxwell-Landau equilibrium using a fully AI-assisted workflow in Lean 4. AI tools handled conjecture generation, proof construction, coding, and verification, with minimal human intervention. The process was completed in 10 days for $200, highlighting both the promise and challenges of autoresearch loops.",
+    "editor_note": "This work underscores the growing role of AI in advancing mathematical research, particularly in high-stakes domains like plasma physics.",
+    "archive_path": "archive/papers/2026-03-18/2603-15929-semi-autonomous-formalization-of-the-vlasov-maxwell-landau-equilibrium.md"
+  },
+  {
+    "id": "2603.15726v1",
+    "paper_id": "2603.15726v1",
+    "title": "MiroThinker-1.7 & H1: Towards Heavy-Duty Research Agents via Verification",
+    "summary_short": [
+      "MiroThinker-1.7 enhances structured planning and tool interaction for complex tasks.",
+      "MiroThinker-H1 introduces verification at local and global reasoning levels.",
+      "Achieves state-of-the-art performance in open-web research and scientific reasoning.",
+      "Intermediate reasoning decisions are audited for coherence and reliability.",
+      "Open-source release includes MiroThinker-1.7 and a mini version for efficiency."
+    ],
+    "date": "2026-03-16",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists",
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists",
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 8.55,
+    "reason": "MiroThinker-1.7 and H1 focus on heavy-duty reasoning and verification, which are critical for robust research agents. The emphasis on structured planning and tool interaction aligns well with ecosystem needs.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.15726v1",
+      "pdf": "https://arxiv.org/pdf/2603.15726v1",
+      "arxiv": "https://arxiv.org/abs/2603.15726v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "MiroThinker-H1 pushes the boundaries of AI research agents by integrating verification mechanisms into reasoning processes, ensuring reliable and evidence-backed results. This advancement is crucial for tackling complex, multi-step problems in domains like science, finance, and open-web research, where accuracy and coherence are paramount.",
+    "digest_summary": "MiroThinker-1.7 and MiroThinker-H1 redefine AI research agents with structured planning and verification-driven reasoning. MiroThinker-H1 achieves state-of-the-art results across benchmarks, ensuring reliable multi-step problem solving. Open-source versions of MiroThinker-1.7 provide accessible, efficient tools for advanced research tasks.",
+    "editor_note": "With growing reliance on AI for complex problem-solving, verification-driven reasoning is a timely innovation to ensure trustworthiness and accuracy.",
+    "archive_path": "archive/papers/2026-03-18/2603-15726v1-mirothinker-1-7-h1-towards-heavy-duty-research-agents-via-verification.md"
+  },
+  {
+    "id": "2603.15726",
+    "paper_id": "2603.15726",
+    "title": "MiroThinker-1.7 & H1: Towards Heavy-Duty Research Agents via Verification",
+    "summary_short": [
+      "MiroThinker-1.7 enhances multi-step reasoning with structured planning and tool interaction.",
+      "MiroThinker-H1 introduces verification mechanisms for reliable reasoning processes.",
+      "Achieves state-of-the-art performance in open-web research, scientific reasoning, and financial analysis.",
+      "Open-source release includes MiroThinker-1.7 and a lightweight MiroThinker-1.7-mini model."
+    ],
+    "date": "2026-03-16",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists",
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists",
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 8.55,
+    "reason": "Duplicate entry of 2603.15726v1. MiroThinker-1.7 and H1 focus on heavy-duty reasoning and verification, which are critical for robust research agents.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2603.15726",
+      "arxiv": "https://arxiv.org/abs/2603.15726",
+      "pdf": "https://arxiv.org/pdf/2603.15726",
+      "huggingface": "https://huggingface.co/papers/2603.15726"
+    },
+    "code_repos": [
+      "https://huggingface.co/papers/2603.15726"
+    ],
+    "featured": true,
+    "why_it_matters": "As research tasks grow increasingly complex, tools like MiroThinker-H1 offer a transformative approach to automating deep reasoning and verification, enabling breakthroughs in scientific discovery, financial modeling, and beyond. By integrating structured reasoning and verification, these agents set a new standard for reliability and efficiency in AI-driven research workflows.",
+    "digest_summary": "MiroThinker-1.7 and its advanced counterpart, MiroThinker-H1, redefine AI research agents with structured reasoning and verification capabilities. These models excel in complex tasks like scientific analysis and financial modeling, achieving state-of-the-art results. Open-source versions are now available, making advanced research tools accessible to the community.",
+    "editor_note": "With the rise of AI in research, tools like MiroThinker-H1 are pivotal for tackling increasingly intricate problems across domains.",
+    "archive_path": "archive/papers/2026-03-18/2603-15726-mirothinker-1-7-h1-towards-heavy-duty-research-agents-via-verification.md"
+  },
+  {
+    "id": "2603.15916v1",
+    "paper_id": "2603.15916v1",
+    "title": "Auto Researching, not hyperparameter tuning: Convergence Analysis of 10,000 Experiments",
+    "summary_short": [
+      "Analyzed 10,469 experiments by LLM agents in ML architecture search.",
+      "Architectural choices explain 94% of performance variance, hyperparameters only 6%.",
+      "LLM agents discovered novel configurations outperforming human proposals.",
+      "Cross-task validation confirmed genuine architecture discovery across datasets.",
+      "Introduced entropy cycles and Jensen-Shannon metrics for multi-agent dynamics."
+    ],
+    "date": "2026-03-16",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autoresearch_loops"
+    ],
+    "theme_names": [
+      "Autoresearch Loops"
+    ],
+    "importance_score": 8.5,
+    "reason": "This paper directly addresses the behavior of LLM agents in autoresearch loops, analyzing a large dataset of experiments. Its findings on architectural choices vs. hyperparameter tuning are highly relevant to understanding and improving agentic research systems.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.15916v1",
+      "pdf": "https://arxiv.org/pdf/2603.15916v1",
+      "arxiv": "https://arxiv.org/abs/2603.15916v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "This research demonstrates the potential of LLM agents to autonomously explore and optimize machine learning architectures, surpassing traditional human-driven or random search methods. It highlights a shift from hyperparameter tuning to genuine architectural innovation, paving the way for more efficient and creative AI-driven experiment design in complex domains like computer vision and beyond.",
+    "digest_summary": "A study of 10,469 experiments by LLM agents reveals that architectural choices drive 94% of performance variance, while hyperparameters contribute only 6%. The agents discovered novel configurations, achieving superior results compared to human proposals and random search. This marks a significant step in autonomous ML architecture discovery and optimization.",
+    "editor_note": "As AI systems increasingly design experiments autonomously, understanding their capabilities and limitations is crucial for advancing machine learning research.",
+    "archive_path": "archive/papers/2026-03-18/2603-15916v1-auto-researching-not-hyperparameter-tuning-convergence-analysis-of-10-000-experiments.md"
+  },
+  {
+    "id": "2603.16289v1",
+    "paper_id": "2603.16289v1",
+    "title": "VisBrowse-Bench: Benchmarking Visual-Native Search for Multimodal Browsing Agents",
+    "summary_short": [
+      "Introduces VisBrowse-Bench, a benchmark for visual-native search in multimodal browsing agents.",
+      "Focuses on evaluating visual reasoning capabilities using text-image retrieval and joint reasoning.",
+      "Contains 169 VQA instances across multiple domains, rigorously verified by human experts.",
+      "Proposes an agent workflow for active visual information collection and reasoning.",
+      "Experimental results show significant performance gaps in current models like Claude-4.6-Opus and o3-deep-research."
+    ],
+    "date": "2026-03-17",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 7.7,
+    "reason": "VisBrowse-Bench provides a benchmark for multimodal browsing agents, addressing gaps in visual reasoning evaluation. It is highly relevant to literature and survey agents.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.16289v1",
+      "pdf": "https://arxiv.org/pdf/2603.16289v1",
+      "arxiv": "https://arxiv.org/abs/2603.16289v1"
+    },
+    "code_repos": [
+      "https://github.com/ZhengboZhang/VisBrowse-Bench"
+    ],
+    "featured": true,
+    "why_it_matters": "As multimodal large language models become increasingly integral to real-world applications, benchmarks like VisBrowse-Bench are crucial for assessing their ability to reason over visual and textual data. This research highlights the limitations of current models and provides a structured framework to drive advancements in multimodal browsing agents, paving the way for more capable AI systems in domains like education, e-commerce, and accessibility tools.",
+    "digest_summary": "VisBrowse-Bench is a new benchmark designed to evaluate visual-native search capabilities in multimodal browsing agents. With 169 VQA instances verified by experts, it tests models' ability to reason over visual and textual data. Results reveal significant performance gaps, with top models achieving less than 50% accuracy, underscoring the need for further innovation in this space.",
+    "editor_note": "This benchmark is timely as multimodal AI systems are increasingly deployed in real-world applications, highlighting critical areas for improvement.",
+    "archive_path": "archive/papers/2026-03-18/2603-16289v1-visbrowse-bench-benchmarking-visual-native-search-for-multimodal-browsing-agents.md"
+  },
+  {
+    "id": "2603.17216v1",
+    "paper_id": "2603.17216v1",
+    "title": "AI Scientist via Synthetic Task Scaling",
+    "summary_short": [
+      "Introduces a synthetic task pipeline for training AI research agents.",
+      "Tasks are grounded in real ML datasets verified via Huggingface API.",
+      "Incorporates a self-debugging loop for higher task quality.",
+      "Demonstrates improved performance on MLGym benchmark using trained models."
+    ],
+    "date": "2026-03-17",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists"
+    ],
+    "importance_score": 8.55,
+    "reason": "This work introduces a synthetic task generation pipeline for training AI scientists, addressing a key challenge in end-to-end agentic research. Its focus on principled training methods and compatibility with existing frameworks makes it highly relevant.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.17216v1",
+      "pdf": "https://arxiv.org/pdf/2603.17216v1",
+      "arxiv": "https://arxiv.org/abs/2603.17216v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "This work addresses a critical gap in training AI agents for scientific discovery by providing a principled, automated way to generate and validate machine learning tasks. It paves the way for more reliable and effective AI systems capable of advancing research autonomously, which could accelerate innovation across fields.",
+    "digest_summary": "A novel synthetic task pipeline enables AI agents to autonomously tackle machine learning research challenges. By grounding tasks in real datasets and employing a self-debugging loop, the approach improves model training outcomes. Tested on the MLGym benchmark, the method boosts performance metrics by up to 12%, showcasing its potential for advancing AI-driven scientific discovery.",
+    "editor_note": "This research is timely as the demand for scalable, autonomous AI research systems continues to grow.",
+    "archive_path": "archive/papers/2026-03-19/2603-17216v1-ai-scientist-via-synthetic-task-scaling.md"
+  },
+  {
+    "id": "2603.17216",
+    "paper_id": "2603.17216",
+    "title": "AI Scientist via Synthetic Task Scaling",
+    "summary_short": [
+      "Introduces a synthetic task pipeline for training AI research agents.",
+      "Tasks are grounded in real ML datasets via Huggingface API verification.",
+      "Includes a self-debugging loop for higher task quality.",
+      "Validated on MLGym benchmark with notable performance gains.",
+      "Student models trained on synthetic tasks outperform baselines by 9-12%."
+    ],
+    "date": "2026-03-17",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists"
+    ],
+    "importance_score": 8.55,
+    "reason": "Duplicate entry of 2603.17216v1. The synthetic task generation pipeline is highly relevant to training AI scientists and aligns well with end-to-end agentic research themes.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2603.17216",
+      "arxiv": "https://arxiv.org/abs/2603.17216",
+      "pdf": "https://arxiv.org/pdf/2603.17216",
+      "huggingface": "https://huggingface.co/papers/2603.17216"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "This work addresses a critical gap in training AI agents for scientific discovery by providing a principled framework to generate high-quality, realistic machine learning tasks. It demonstrates how synthetic environments can effectively train AI systems to perform better on real-world benchmarks, paving the way for more autonomous and capable AI researchers.",
+    "digest_summary": "A novel pipeline for generating synthetic machine learning tasks enables AI agents to learn from doing, improving their research capabilities. Grounded in real datasets and enhanced by a self-debugging loop, the tasks boost performance on the MLGym benchmark by up to 12%. This innovation could accelerate progress toward autonomous AI scientists.",
+    "editor_note": "This research highlights the growing potential of AI systems to autonomously advance machine learning research.",
+    "archive_path": "archive/papers/2026-03-19/2603-17216-ai-scientist-via-synthetic-task-scaling.md"
+  },
+  {
+    "id": "2603.17187",
+    "paper_id": "2603.17187",
+    "title": "MetaClaw: Just Talk -- An Agent That Meta-Learns and Evolves in the Wild",
+    "summary_short": [
+      "MetaClaw enables LLM agents to evolve and adapt in real-time without downtime.",
+      "Combines skill-driven fast adaptation and opportunistic policy optimization.",
+      "Improves task accuracy and robustness through meta-learning mechanisms.",
+      "Scales to production-size LLMs without requiring local GPUs.",
+      "Code available at https://github.com/aiming-lab/MetaClaw."
+    ],
+    "date": "2026-03-17",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "autoresearch_loops"
+    ],
+    "theme_names": [
+      "Autoresearch Loops"
+    ],
+    "importance_score": 8.55,
+    "reason": "MetaClaw introduces a continual meta-learning framework for evolving LLM agents, addressing a critical need for adaptability in auto-research loops. Its focus on reusable skills and dynamic policy evolution is highly relevant.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2603.17187",
+      "arxiv": "https://arxiv.org/abs/2603.17187",
+      "pdf": "https://arxiv.org/pdf/2603.17187",
+      "huggingface": "https://huggingface.co/papers/2603.17187"
+    },
+    "code_repos": [
+      "https://github.com/aiming-lab/MetaClaw"
+    ],
+    "featured": true,
+    "why_it_matters": "As user needs and task distributions evolve, static AI systems struggle to keep up, leading to inefficiencies and reduced effectiveness. MetaClaw addresses this by enabling large language models to adapt dynamically and continuously, ensuring they remain relevant and performant in real-world applications. This innovation has significant implications for AI deployment in dynamic environments like customer service, research, and automation platforms.",
+    "digest_summary": "MetaClaw introduces a novel framework for continual meta-learning in large language models, allowing them to adapt and evolve in real-time without downtime. By combining skill-driven adaptation and opportunistic policy optimization, it achieves significant improvements in accuracy and robustness. This scalable approach is a step forward in making AI systems more dynamic and responsive to changing user needs.",
+    "editor_note": "Dynamic AI systems like MetaClaw are crucial as industries increasingly demand adaptive and resilient solutions.",
+    "archive_path": "archive/papers/2026-03-19/2603-17187-metaclaw-just-talk-an-agent-that-meta-learns-and-evolves-in-the-wild.md"
+  },
+  {
+    "id": "2603.16120v1",
+    "paper_id": "2603.16120v1",
+    "title": "Language Models Don't Know What You Want: Evaluating Personalization in Deep Research Needs Real Users",
+    "summary_short": [
+      "Deep Research tools struggle to understand user-specific needs.",
+      "MyScholarQA (MySQA) introduces personalized profiling and action-following for research queries.",
+      "Synthetic benchmarks show MySQA outperforms baselines in citation metrics.",
+      "Real user interviews reveal nuanced personalization errors missed by LLM judges.",
+      "Future DR tools must prioritize real user feedback for meaningful personalization."
+    ],
+    "date": "2026-03-17",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 7.55,
+    "reason": "The personalized deep research tool addresses user-specific needs in literature synthesis, which is relevant to survey agents. However, its reliance on synthetic benchmarks limits its methodological significance.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.16120v1",
+      "pdf": "https://arxiv.org/pdf/2603.16120v1",
+      "arxiv": "https://arxiv.org/abs/2603.16120v1"
+    },
+    "code_repos": [],
+    "featured": false,
+    "why_it_matters": "As scientific publishing grows exponentially, researchers increasingly rely on AI tools to synthesize information. However, these tools often fail to account for individual user needs, leading to suboptimal outcomes. MyScholarQA highlights the importance of personalization and real user feedback, paving the way for more effective and user-centric research assistants in the future.",
+    "digest_summary": "MyScholarQA (MySQA) is a personalized Deep Research tool that profiles user interests, proposes tailored actions, and generates detailed reports. While synthetic benchmarks show promising results, real user interviews uncover critical personalization gaps. This study emphasizes the need for real user feedback to advance AI-driven research tools.",
+    "editor_note": "With the rise of AI in academia, tools like MySQA could redefine how researchers navigate overwhelming publication volumes.",
+    "archive_path": "archive/papers/2026-03-19/2603-16120v1-language-models-don-t-know-what-you-want-evaluating-personalization-in-deep-research-needs-real-users.md"
+  },
+  {
+    "id": "2603.18235v1",
+    "paper_id": "2603.18235v1",
+    "title": "Toward Reliable, Safe, and Secure LLMs for Scientific Applications",
+    "summary_short": [
+      "LLMs are evolving into autonomous 'AI scientists' with transformative potential.",
+      "Scientific applications of LLMs face unique risks like biosafety and malicious misuse.",
+      "Existing benchmarks fail to address science-specific vulnerabilities effectively.",
+      "Proposes a multilayered defense framework for reliable, safe, and secure LLM deployment.",
+      "Introduces domain-specific adversarial benchmarks using multi-agent systems."
+    ],
+    "date": "2026-03-18",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists"
+    ],
+    "importance_score": 8.55,
+    "reason": "Addresses critical safety, reliability, and security concerns for deploying LLMs as autonomous AI scientists, which are foundational for the field.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.18235v1",
+      "pdf": "https://arxiv.org/pdf/2603.18235v1",
+      "arxiv": "https://arxiv.org/abs/2603.18235v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "As LLMs increasingly contribute to scientific discovery, ensuring their reliability, safety, and security is critical to prevent harm and misuse while unlocking their transformative potential. This research addresses gaps in current evaluation methods and proposes robust frameworks to safeguard scientific applications of AI, fostering trust and innovation in the field.",
+    "digest_summary": "Large language models (LLMs) are poised to revolutionize scientific research but bring unique risks, from biosafety concerns to malicious misuse. This paper outlines a taxonomy of threats and proposes a multilayered defense framework, including domain-specific adversarial benchmarks, to ensure safe and reliable deployment of LLMs in scientific disciplines.",
+    "editor_note": "With AI increasingly integrated into critical scientific workflows, addressing safety and security gaps is more urgent than ever.",
+    "archive_path": "archive/papers/2026-03-20/2603-18235v1-toward-reliable-safe-and-secure-llms-for-scientific-applications.md"
+  },
+  {
+    "id": "2603.18516v1",
+    "paper_id": "2603.18516v1",
+    "title": "Total Recall QA: A Verifiable Evaluation Suite for Deep Research Agents",
+    "summary_short": [
+      "Introduces Total Recall QA (TRQA) for evaluating deep research agents.",
+      "Focuses on multi-step reasoning over open-domain sources.",
+      "Uses structured knowledge bases and text corpora for precise evaluation.",
+      "Benchmarks with Wikidata-Wikipedia and synthetic e-commerce datasets.",
+      "Establishes baseline results for future comparative studies."
+    ],
+    "date": "2026-03-19",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists",
+      "literature_and_survey_agents",
+      "research_infrastructure_and_benchmarks"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists",
+      "Literature And Survey Agents",
+      "Research Infrastructure And Benchmarks"
+    ],
+    "importance_score": 8.55,
+    "reason": "Develops a verifiable evaluation suite for deep research agents, addressing a key challenge in benchmarking agentic systems.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.18516v1",
+      "pdf": "https://arxiv.org/pdf/2603.18516v1",
+      "arxiv": "https://arxiv.org/abs/2603.18516v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "As large language models (LLMs) increasingly power deep research agents, ensuring their ability to accurately synthesize and reason over complex, multi-source information is critical. TRQA provides a robust, verifiable framework to evaluate these systems, addressing gaps in existing benchmarks and enabling more reliable advancements in AI-driven research capabilities.",
+    "digest_summary": "Total Recall QA (TRQA) introduces a verifiable evaluation framework for deep research agents, focusing on multi-step reasoning and synthesis over large, open-domain sources. Built using Wikidata-Wikipedia and synthetic datasets, TRQA establishes baseline metrics for future comparisons. This benchmark aims to address gaps in current evaluation methods, ensuring more reliable assessments of AI research systems.",
+    "editor_note": "With the rise of AI-driven research tools, robust evaluation frameworks like TRQA are essential to ensure trust and reliability in their outputs.",
+    "archive_path": "archive/papers/2026-03-20/2603-18516v1-total-recall-qa-a-verifiable-evaluation-suite-for-deep-research-agents.md"
+  },
+  {
+    "id": "2603.16725v1",
+    "paper_id": "2603.16725v1",
+    "title": "Machine Learning Reconstruction of High-Dimensional Electronic Structure from Angle-Resolved Photoemission Spectroscopy",
+    "summary_short": [
+      "Introduces a deep learning framework for analyzing high-dimensional photoemission spectra.",
+      "Focuses on transition-metal oxides like perovskite nickelates and manganites.",
+      "Outperforms traditional methods in extracting Hamiltonian parameters.",
+      "Enables superior agreement with experimental Fermi surface and energy-momentum data.",
+      "Paves the way for autonomous, high-throughput quantum material discovery."
+    ],
+    "date": "2026-03-17",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autonomous_discovery"
+    ],
+    "theme_names": [
+      "Autonomous Discovery"
+    ],
+    "importance_score": 7.8,
+    "reason": "Introduces a deep learning framework for extracting Hamiltonian parameters, advancing autonomous discovery workflows in quantum materials.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.16725v1",
+      "pdf": "https://arxiv.org/pdf/2603.16725v1",
+      "arxiv": "https://arxiv.org/abs/2603.16725v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "This research addresses a critical bottleneck in quantum material studies by automating the analysis of complex electronic structures, which traditionally required expert intervention. By leveraging deep learning, it accelerates the discovery process, making it more efficient and scalable, and opens new possibilities for understanding and designing quantum materials with emergent properties.",
+    "digest_summary": "A new deep learning framework simplifies the analysis of high-dimensional electronic structures from photoemission spectroscopy, focusing on transition-metal oxides. This method outperforms traditional approaches, offering better alignment with experimental data and enabling faster, autonomous discovery in quantum materials research. It represents a significant step toward bridging theory and experiment in the field.",
+    "editor_note": "This work is timely as quantum materials research increasingly demands scalable, automated tools to handle complex datasets.",
+    "archive_path": "archive/papers/2026-03-20/2603-16725v1-machine-learning-reconstruction-of-high-dimensional-electronic-structure-from-angle-resolved-photoemission-spectroscopy.md"
+  },
+  {
+    "id": "2603.17417v1",
+    "paper_id": "2603.17417v1",
+    "title": "Is Your LLM-as-a-Recommender Agent Trustable? LLMs' Recommendation is Easily Hacked by Biases (Preferences)",
+    "summary_short": [
+      "LLMs are increasingly used as recommenders in research, e-commerce, and hiring.",
+      "BiasRecBench highlights LLM vulnerability to contextual biases in recommendations.",
+      "A Bias Synthesis Pipeline evaluates LLMs' susceptibility to logical biases.",
+      "State-of-the-art LLMs often fail to resist injected biases despite reasoning capabilities.",
+      "Findings call for improved alignment strategies for trustworthy LLM recommendations."
+    ],
+    "date": "2026-03-18",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 7.55,
+    "reason": "Highlights vulnerabilities in LLM-based recommendation agents and introduces a benchmark, relevant to literature and survey agents.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.17417v1",
+      "pdf": "https://arxiv.org/pdf/2603.17417v1",
+      "arxiv": "https://arxiv.org/abs/2603.17417v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "As LLMs become integral to decision-making in critical domains like research, hiring, and e-commerce, their susceptibility to biases poses significant risks to fairness, reliability, and trustworthiness. Addressing these vulnerabilities is essential to ensure ethical and effective deployment of AI systems in real-world applications.",
+    "digest_summary": "A new study reveals that LLMs used as recommenders in domains like research, e-commerce, and hiring are highly vulnerable to contextual biases. Using a novel BiasRecBench framework, researchers show that even state-of-the-art models often fail to resist logical biases despite sufficient reasoning capabilities. These findings underscore the urgent need for better alignment strategies to ensure trustworthy AI recommendations.",
+    "editor_note": "With LLMs increasingly influencing high-stakes decisions, addressing their bias vulnerabilities is more critical than ever.",
+    "archive_path": "archive/papers/2026-03-20/2603-17417v1-is-your-llm-as-a-recommender-agent-trustable-llms-recommendation-is-easily-hacked-by-biases-preferences.md"
   }
 ]
