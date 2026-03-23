@@ -2820,5 +2820,77 @@
     "digest_summary": "A new study reveals that LLMs used as recommenders in domains like research, e-commerce, and hiring are highly vulnerable to contextual biases. Using a novel BiasRecBench framework, researchers show that even state-of-the-art models often fail to resist logical biases despite sufficient reasoning capabilities. These findings underscore the urgent need for better alignment strategies to ensure trustworthy AI recommendations.",
     "editor_note": "With LLMs increasingly influencing high-stakes decisions, addressing their bias vulnerabilities is more critical than ever.",
     "archive_path": "archive/papers/2026-03-20/2603-17417v1-is-your-llm-as-a-recommender-agent-trustable-llms-recommendation-is-easily-hacked-by-biases-preferences.md"
+  },
+  {
+    "id": "2603.20101v1",
+    "paper_id": "2603.20101v1",
+    "title": "Pitfalls in Evaluating Interpretability Agents",
+    "summary_short": [
+      "Explores challenges in evaluating automated interpretability systems.",
+      "Focuses on LLM-based agents for circuit analysis tasks.",
+      "Highlights pitfalls like subjectivity, memorization, and process opacity.",
+      "Proposes intrinsic evaluation via functional interchangeability.",
+      "Reveals limitations of replication-based evaluation methods."
+    ],
+    "date": "2026-03-20",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists"
+    ],
+    "importance_score": 8.55,
+    "reason": "This paper directly addresses the evaluation of interpretability agents, which are highly relevant to the theme of End-to-End AI Scientists. The methodological contribution is substantial as it explores scaling evaluation approaches for autonomous systems. It is highly relevant to builders of research agents and workflows, and the focus on evaluation challenges ensures its relevance over time.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.20101v1",
+      "pdf": "https://arxiv.org/pdf/2603.20101v1",
+      "arxiv": "https://arxiv.org/abs/2603.20101v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "As AI models grow in complexity, understanding their inner workings becomes critical for trust, safety, and innovation. Automated interpretability agents promise to scale this understanding, but evaluating their effectiveness is fraught with challenges. This research identifies key pitfalls and proposes new evaluation methods, paving the way for more reliable and transparent AI systems.",
+    "digest_summary": "Automated interpretability agents, powered by large language models, aim to explain AI model behaviors at scale. This study uncovers challenges in evaluating these systems, such as subjectivity in human comparisons and risks of memorization. It introduces a novel intrinsic evaluation method based on functional interchangeability, offering a path to more robust assessments of interpretability tools.",
+    "editor_note": "As AI systems become more autonomous, ensuring their interpretability is crucial for ethical and practical deployment.",
+    "archive_path": "archive/papers/2026-03-23/2603-20101v1-pitfalls-in-evaluating-interpretability-agents.md"
+  },
+  {
+    "id": "2603.19987v1",
+    "paper_id": "2603.19987v1",
+    "title": "Breaking the Capability Ceiling of LLM Post-Training by Reintroducing Markov States",
+    "summary_short": [
+      "Identifies a 'capability ceiling' in LLM post-training using RL.",
+      "Proposes reintroducing Markov states to overcome structural bottlenecks.",
+      "Theoretical guarantees show reduced sample complexity with Markov states.",
+      "Empirical results demonstrate improved performance on complex logic tasks.",
+      "Advocates for structured Markovian representations over 'history-as-state' models."
+    ],
+    "date": "2026-03-20",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autonomous_discovery"
+    ],
+    "theme_names": [
+      "Autonomous Discovery"
+    ],
+    "importance_score": 8.25,
+    "reason": "This paper introduces a novel approach to overcoming limitations in LLM post-training by reintroducing Markov states, which is relevant to Autonomous Discovery. The methodological contribution is significant, as it revisits and adapts a classical RL principle for modern LLMs. While its direct application to research agents may be less immediate, its theoretical insights are likely to have lasting impact.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.19987v1",
+      "pdf": "https://arxiv.org/pdf/2603.19987v1",
+      "arxiv": "https://arxiv.org/abs/2603.19987v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "This research addresses a critical limitation in how Large Language Models are refined post-training, offering a pathway to unlock genuinely novel reasoning and discovery capabilities. By revisiting classical RL principles like Markov states, it challenges the status quo of relying on extensive action histories, potentially enabling more efficient and innovative AI systems that can tackle complex, open-ended problems.",
+    "digest_summary": "A new study identifies a 'capability ceiling' in how reinforcement learning refines Large Language Models (LLMs), often failing to discover novel strategies. By reintroducing Markov states, a classical RL principle, researchers demonstrate both theoretical and empirical improvements in efficiency and performance. This approach could enable LLMs to achieve open-ended discovery and advanced reasoning capabilities.",
+    "editor_note": "This work is timely as the demand for more innovative and efficient AI systems continues to grow.",
+    "archive_path": "archive/papers/2026-03-23/2603-19987v1-breaking-the-capability-ceiling-of-llm-post-training-by-reintroducing-markov-states.md"
   }
 ]
