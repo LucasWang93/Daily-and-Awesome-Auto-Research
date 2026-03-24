@@ -2892,5 +2892,191 @@
     "digest_summary": "A new study identifies a 'capability ceiling' in how reinforcement learning refines Large Language Models (LLMs), often failing to discover novel strategies. By reintroducing Markov states, a classical RL principle, researchers demonstrate both theoretical and empirical improvements in efficiency and performance. This approach could enable LLMs to achieve open-ended discovery and advanced reasoning capabilities.",
     "editor_note": "This work is timely as the demand for more innovative and efficient AI systems continues to grow.",
     "archive_path": "archive/papers/2026-03-23/2603-19987v1-breaking-the-capability-ceiling-of-llm-post-training-by-reintroducing-markov-states.md"
+  },
+  {
+    "id": "2603.20278",
+    "paper_id": "2603.20278",
+    "title": "OpenResearcher: A Fully Open Pipeline for Long-Horizon Deep Research Trajectory Synthesis",
+    "summary_short": [
+      "OpenResearcher is a fully open pipeline for synthesizing long-horizon research trajectories.",
+      "It operates offline using explicit browser primitives over a 15M-document corpus.",
+      "The pipeline enables reproducible, large-scale data collection without proprietary APIs.",
+      "Supervised fine-tuning on synthesized data significantly improves model performance.",
+      "All resources, including code and data, are publicly available."
+    ],
+    "date": "2026-03-17",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists",
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists",
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 9.55,
+    "reason": "OpenResearcher provides a fully open pipeline for synthesizing long-horizon research trajectories, addressing critical gaps in reproducibility and scalability. Its offline search-and-browse loop and corpus bootstrapping are highly impactful for literature and survey agents.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2603.20278",
+      "arxiv": "https://arxiv.org/abs/2603.20278",
+      "pdf": "https://arxiv.org/pdf/2603.20278",
+      "huggingface": "https://huggingface.co/papers/2603.20278"
+    },
+    "code_repos": [
+      "https://github.com/TIGER-AI-Lab/OpenResearcher"
+    ],
+    "featured": true,
+    "why_it_matters": "OpenResearcher addresses critical challenges in training deep research agents by providing an open, reproducible, and cost-effective pipeline for synthesizing long-horizon trajectories. By decoupling data collection from online dependencies and enabling offline experimentation, it democratizes access to advanced research tools and fosters innovation in AI-driven literature review and reasoning tasks.",
+    "digest_summary": "OpenResearcher introduces a fully open and offline pipeline for synthesizing long-horizon research trajectories, eliminating reliance on proprietary APIs. With over 97K synthesized trajectories and significant performance gains in benchmark tasks, it sets a new standard for reproducible AI research. The release includes the pipeline, data, and models, empowering the community to explore and innovate further.",
+    "editor_note": "This release is particularly timely as reproducibility and open access are becoming central to AI research ethics.",
+    "archive_path": "archive/papers/2026-03-24/2603-20278-openresearcher-a-fully-open-pipeline-for-long-horizon-deep-research-trajectory-synthesis.md"
+  },
+  {
+    "id": "2603.21340v1",
+    "paper_id": "2603.21340v1",
+    "title": "ARYA: A Physics-Constrained Composable & Deterministic World Model Architecture",
+    "summary_short": [
+      "ARYA is a physics-constrained, deterministic world model architecture.",
+      "Built on nano models for composability, efficiency, and scalability.",
+      "Features an immutable safety kernel ensuring human control.",
+      "Achieves state-of-the-art performance in 6 of 9 benchmarks.",
+      "Operates across diverse domains with zero neural network parameters."
+    ],
+    "date": "2026-03-22",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists"
+    ],
+    "importance_score": 8.55,
+    "reason": "ARYA introduces a physics-constrained deterministic world model architecture, which aligns well with themes like End-to-End AI Scientists and autonomous research agents. Its composable nano-model approach and integration with AARA make it highly relevant for building research agents and workflows.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.21340v1",
+      "pdf": "https://arxiv.org/pdf/2603.21340v1",
+      "arxiv": "https://arxiv.org/abs/2603.21340v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "ARYA introduces a groundbreaking approach to AI world modeling by combining physics constraints, deterministic design, and architectural safety. Its innovative use of nano models and an immutable safety kernel ensures both computational efficiency and robust human oversight, addressing critical challenges in AI scalability and safety. This positions ARYA as a transformative tool for high-stakes industries requiring reliable, autonomous systems.",
+    "digest_summary": "The ARYA world model architecture redefines AI with a physics-constrained, deterministic design built on nano models for scalability and efficiency. It features an immutable safety kernel to ensure human control and delivers state-of-the-art performance across diverse domains without relying on neural networks. ARYA’s innovative approach addresses key challenges in AI safety and computational efficiency, making it a promising solution for high-stakes applications.",
+    "editor_note": "ARYA's emphasis on safety and efficiency is particularly relevant as AI systems become increasingly autonomous and integrated into critical industries.",
+    "archive_path": "archive/papers/2026-03-24/2603-21340v1-arya-a-physics-constrained-composable-deterministic-world-model-architecture.md"
+  },
+  {
+    "id": "2603.21152v1",
+    "paper_id": "2603.21152v1",
+    "title": "TRACE: A Multi-Agent System for Autonomous Physical Reasoning in Seismological Science",
+    "summary_short": [
+      "TRACE is a multi-agent system for autonomous physical reasoning in seismology.",
+      "It integrates large language models with formal seismological constraints.",
+      "TRACE autonomously interprets earthquake sequences and underlying mechanisms.",
+      "The system enhances reproducibility and systematic transfer of insights across tectonic settings.",
+      "Applied to real-world cases, TRACE identifies stress and structural dynamics in seismic events."
+    ],
+    "date": "2026-03-22",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autonomous_discovery"
+    ],
+    "theme_names": [
+      "Autonomous Discovery"
+    ],
+    "importance_score": 8.55,
+    "reason": "TRACE introduces a multi-agent system for autonomous physical reasoning in seismology, combining LLM planning with formal constraints. Its focus on auditable and transferable insights makes it highly relevant to autonomous discovery and research workflows.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.21152v1",
+      "pdf": "https://arxiv.org/pdf/2603.21152v1",
+      "arxiv": "https://arxiv.org/abs/2603.21152v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "Understanding earthquake mechanisms is critical for hazard assessment and mitigation, yet traditional methods rely heavily on expert interpretation, which can be subjective and difficult to scale. TRACE introduces a reproducible, autonomous framework for analyzing seismic phenomena, enabling faster and more systematic insights into complex geophysical processes. This innovation has the potential to transform earthquake science and improve preparedness in tectonically active regions worldwide.",
+    "digest_summary": "TRACE is a cutting-edge multi-agent system that combines AI-driven planning with seismological constraints to autonomously interpret earthquake mechanisms. By analyzing seismic events like the Ridgecrest sequence and Santorini-Kolumbo case, TRACE demonstrates its ability to uncover stress dynamics and structural interactions. This tool marks a leap toward autonomous discovery in Earth sciences, reducing reliance on expert-driven analysis.",
+    "editor_note": "With increasing seismic risks globally, tools like TRACE could revolutionize how we understand and prepare for earthquakes.",
+    "archive_path": "archive/papers/2026-03-24/2603-21152v1-trace-a-multi-agent-system-for-autonomous-physical-reasoning-in-seismological-science.md"
+  },
+  {
+    "id": "2603.19987",
+    "paper_id": "2603.19987",
+    "title": "Breaking the Capability Ceiling of LLM Post-Training by Reintroducing Markov States",
+    "summary_short": [
+      "Identifies a 'capability ceiling' in RL-based LLM post-training.",
+      "Proposes reintroducing Markov states to overcome structural bottlenecks.",
+      "Theoretically reduces sample complexity with Markovian representations.",
+      "Empirically improves LLM performance on complex logic tasks.",
+      "Advocates for structured states over 'history-as-state' modeling."
+    ],
+    "date": "2026-03-20",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "autonomous_discovery"
+    ],
+    "theme_names": [
+      "Autonomous Discovery"
+    ],
+    "importance_score": 7.8,
+    "reason": "This paper revisits Markov states to address capability ceilings in LLM post-training, which is relevant to autonomous discovery and improving agentic systems. Its theoretical insights may have lasting impact on RL-based research agents.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2603.19987",
+      "arxiv": "https://arxiv.org/abs/2603.19987",
+      "pdf": "https://arxiv.org/pdf/2603.19987",
+      "huggingface": "https://huggingface.co/papers/2603.19987"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "This research addresses a critical limitation in the post-training of Large Language Models, where reinforcement learning often fails to foster novel reasoning capabilities. By reintroducing Markov states, the study not only enhances performance but also opens pathways for more autonomous and innovative AI systems, pushing the boundaries of generative AI's potential in solving complex problems.",
+    "digest_summary": "A new study identifies a 'capability ceiling' in reinforcement learning for LLM post-training and proposes reintroducing Markov states to overcome it. This approach reduces sample complexity and enables LLMs to break through performance barriers, particularly in solving complex logic puzzles. The findings highlight the importance of structured Markovian representations for fostering novel reasoning in generative AI.",
+    "editor_note": "This work is timely as the demand for more autonomous and innovative AI systems continues to grow.",
+    "archive_path": "archive/papers/2026-03-24/2603-19987-breaking-the-capability-ceiling-of-llm-post-training-by-reintroducing-markov-states.md"
+  },
+  {
+    "id": "2603.20910v1",
+    "paper_id": "2603.20910v1",
+    "title": "LLM-ODE: Data-driven Discovery of Dynamical Systems with Large Language Models",
+    "summary_short": [
+      "Introduces LLM-ODE for discovering dynamical system equations.",
+      "Combines large language models (LLMs) with genetic programming (GP).",
+      "Improves search efficiency and solution quality over classical GP methods.",
+      "Scales better to high-dimensional systems than existing approaches.",
+      "Tested on 91 systems, showing consistent performance gains."
+    ],
+    "date": "2026-03-21",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "closed_loop_empirical_science"
+    ],
+    "theme_names": [
+      "Closed-Loop Empirical Science"
+    ],
+    "importance_score": 7.55,
+    "reason": "LLM-ODE leverages large language models for symbolic evolution in discovering dynamical systems, which is highly relevant to closed-loop empirical science and autonomous discovery. Its novel approach to guiding symbolic search enhances its ecosystem relevance.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.20910v1",
+      "pdf": "https://arxiv.org/pdf/2603.20910v1",
+      "arxiv": "https://arxiv.org/abs/2603.20910v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "Understanding the governing equations of dynamical systems is crucial for advancements in fields like physics, biology, and engineering. LLM-ODE leverages the power of large language models to enhance traditional equation discovery methods, making the process faster, more accurate, and scalable to complex systems. This innovation could significantly accelerate scientific discovery and improve our ability to model real-world phenomena.",
+    "digest_summary": "LLM-ODE combines large language models with genetic programming to discover governing equations for dynamical systems. It outperforms traditional methods in efficiency and accuracy, scaling effectively to high-dimensional problems. Tested on 91 systems, it demonstrates the potential to revolutionize data-driven scientific discovery.",
+    "editor_note": "This work highlights the growing role of AI in automating and accelerating scientific breakthroughs.",
+    "archive_path": "archive/papers/2026-03-24/2603-20910v1-llm-ode-data-driven-discovery-of-dynamical-systems-with-large-language-models.md"
   }
 ]
