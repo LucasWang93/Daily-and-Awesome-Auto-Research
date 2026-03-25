@@ -3078,5 +3078,77 @@
     "digest_summary": "LLM-ODE combines large language models with genetic programming to discover governing equations for dynamical systems. It outperforms traditional methods in efficiency and accuracy, scaling effectively to high-dimensional problems. Tested on 91 systems, it demonstrates the potential to revolutionize data-driven scientific discovery.",
     "editor_note": "This work highlights the growing role of AI in automating and accelerating scientific breakthroughs.",
     "archive_path": "archive/papers/2026-03-24/2603-20910v1-llm-ode-data-driven-discovery-of-dynamical-systems-with-large-language-models.md"
+  },
+  {
+    "id": "2603.22429v1",
+    "paper_id": "2603.22429v1",
+    "title": "Neural Structure Embedding for Symbolic Regression via Continuous Structure Search and Coefficient Optimization",
+    "summary_short": [
+      "Proposes SRCO, a unified framework for symbolic regression using continuous embeddings.",
+      "Transforms symbolic structures into optimizable representation spaces via a trained Transformer model.",
+      "Enables efficient structure search using gradient-based or sampling-based optimization.",
+      "Optimizes symbolic coefficients with gradient methods for improved accuracy.",
+      "Outperforms state-of-the-art methods in robustness, efficiency, and equation accuracy."
+    ],
+    "date": "2026-03-23",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "closed_loop_empirical_science"
+    ],
+    "theme_names": [
+      "Closed-Loop Empirical Science"
+    ],
+    "importance_score": 8.3,
+    "reason": "SRCO addresses symbolic regression challenges with a novel embedding-driven framework, which is highly relevant to Closed-Loop Empirical Science. Its continuous structure search and coefficient optimization are significant methodological contributions, and its scalability makes it valuable for research agent ecosystems.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.22429v1",
+      "pdf": "https://arxiv.org/pdf/2603.22429v1",
+      "arxiv": "https://arxiv.org/abs/2603.22429v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "Symbolic regression is a cornerstone of interpretable machine learning, enabling the discovery of human-readable equations from data. By introducing continuous embeddings and optimization techniques, SRCO addresses computational inefficiencies and scalability issues in traditional methods, paving the way for faster and more robust equation discovery across diverse applications in science and engineering.",
+    "digest_summary": "A new framework, SRCO, revolutionizes symbolic regression by embedding symbolic structures into continuous spaces for efficient optimization. Using a Transformer model and gradient-based methods, SRCO achieves superior accuracy, robustness, and scalability compared to traditional approaches. This innovation could accelerate equation discovery in scientific research and data-driven fields.",
+    "editor_note": "With increasing demand for interpretable AI in science, SRCO's approach is timely and impactful.",
+    "archive_path": "archive/papers/2026-03-25/2603-22429v1-neural-structure-embedding-for-symbolic-regression-via-continuous-structure-search-and-coefficient-optimization.md"
+  },
+  {
+    "id": "2603.22648v1",
+    "paper_id": "2603.22648v1",
+    "title": "AwesomeLit: Towards Hypothesis Generation with Agent-Supported Literature Research",
+    "summary_short": [
+      "Introduces AwesomeLit, a human-agent collaborative system for literature research.",
+      "Focuses on helping inexperienced researchers identify gaps and generate hypotheses.",
+      "Features include transparent workflows, query exploration trees, and semantic similarity views.",
+      "Designed to improve trust and reduce hallucination issues in LLM-based tools.",
+      "Qualitative study shows effectiveness in exploring topics and boosting research confidence."
+    ],
+    "date": "2026-03-23",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 8.25,
+    "reason": "AwesomeLit introduces a human-agent collaborative system for literature research, directly addressing challenges in hypothesis generation and literature gap identification. Its focus on visualization and trust in agent-supported workflows makes it highly relevant to Literature And Survey Agents and research infrastructure.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.22648v1",
+      "pdf": "https://arxiv.org/pdf/2603.22648v1",
+      "arxiv": "https://arxiv.org/abs/2603.22648v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "AwesomeLit addresses a critical gap in literature research tools by providing a transparent and user-steerable system tailored for hypothesis generation. It empowers early-stage researchers to navigate unfamiliar topics, identify research gaps, and confidently propose new directions, fostering innovation and reducing barriers to entry in academic research.",
+    "digest_summary": "AwesomeLit is a novel system designed to assist researchers, especially those new to a field, in exploring literature, identifying gaps, and generating hypotheses. By combining human-agent collaboration with visual tools like query trees and semantic similarity views, it enhances transparency and trust in research workflows. Early studies highlight its potential to boost confidence and effectiveness in academic exploration.",
+    "editor_note": "With the rapid growth of academic publications, tools like AwesomeLit are increasingly vital for navigating complex research landscapes.",
+    "archive_path": "archive/papers/2026-03-25/2603-22648v1-awesomelit-towards-hypothesis-generation-with-agent-supported-literature-research.md"
   }
 ]
