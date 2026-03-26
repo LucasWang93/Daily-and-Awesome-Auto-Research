@@ -3150,5 +3150,116 @@
     "digest_summary": "AwesomeLit is a novel system designed to assist researchers, especially those new to a field, in exploring literature, identifying gaps, and generating hypotheses. By combining human-agent collaboration with visual tools like query trees and semantic similarity views, it enhances transparency and trust in research workflows. Early studies highlight its potential to boost confidence and effectiveness in academic exploration.",
     "editor_note": "With the rapid growth of academic publications, tools like AwesomeLit are increasingly vital for navigating complex research landscapes.",
     "archive_path": "archive/papers/2026-03-25/2603-22648v1-awesomelit-towards-hypothesis-generation-with-agent-supported-literature-research.md"
+  },
+  {
+    "id": "2603.23420v1",
+    "paper_id": "2603.23420v1",
+    "title": "Bilevel Autoresearch: Meta-Autoresearching Itself",
+    "summary_short": [
+      "Introduces Bilevel Autoresearch: an autoresearch loop optimizing itself.",
+      "Outer loop meta-optimizes the inner loop by injecting new mechanisms as Python code.",
+      "Achieves 5x improvement on GPT pretraining benchmark over standard methods.",
+      "Autonomously discovers optimization techniques without human guidance.",
+      "Breaks deterministic search patterns to explore overlooked directions."
+    ],
+    "date": "2026-03-24",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autoresearch_loops"
+    ],
+    "theme_names": [
+      "Autoresearch Loops"
+    ],
+    "importance_score": 9.65,
+    "reason": "This paper explores the meta-level optimization of autoresearch loops, which is a groundbreaking concept in the field. The methodological significance is high due to its bilevel framework for self-improvement. It is highly relevant to the ecosystem as it could enhance the efficiency of all autoresearch systems. The idea has strong longevity potential as it addresses foundational aspects of autoresearch.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.23420v1",
+      "pdf": "https://arxiv.org/pdf/2603.23420v1",
+      "arxiv": "https://arxiv.org/abs/2603.23420v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "Bilevel Autoresearch demonstrates the potential of AI systems to autonomously improve their own research processes, reducing reliance on human intervention and accelerating innovation. By enabling meta-optimization, this framework could revolutionize how we approach complex problems across domains, leveraging AI's ability to explore solutions beyond human intuition.",
+    "digest_summary": "Bilevel Autoresearch introduces a groundbreaking framework where an AI system optimizes its own research process. By using an outer loop to meta-optimize an inner autoresearch loop, it autonomously discovers advanced optimization techniques, achieving significant performance gains. This approach showcases the potential of AI to self-improve and tackle complex challenges with minimal human input.",
+    "editor_note": "This research highlights the growing autonomy of AI systems, a timely topic as AI continues to reshape innovation.",
+    "archive_path": "archive/papers/2026-03-26/2603-23420v1-bilevel-autoresearch-meta-autoresearching-itself.md"
+  },
+  {
+    "id": "2603.24511v1",
+    "paper_id": "2603.24511v1",
+    "title": "Claudini: Autoresearch Discovers State-of-the-Art Adversarial Attack Algorithms for LLMs",
+    "summary_short": [
+      "Claudini uses autoresearch pipelines to discover state-of-the-art adversarial attack algorithms for LLMs.",
+      "Discovered attacks achieve up to 40% success rates, outperforming existing methods by a wide margin.",
+      "Algorithms generalize well, achieving 100% attack success rates on held-out models.",
+      "Demonstrates the potential of automating safety and security research using LLM agents.",
+      "Released code includes discovered attacks, baselines, and evaluation tools."
+    ],
+    "date": "2026-03-25",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autoresearch_loops"
+    ],
+    "theme_names": [
+      "Autoresearch Loops"
+    ],
+    "importance_score": 9.15,
+    "reason": "This paper directly addresses autoresearch loops by demonstrating their application to discovering state-of-the-art adversarial attack algorithms for LLMs. The methodological contribution is substantial, showcasing novel algorithms with significant performance improvements. It is highly relevant to builders of research agents and has strong potential for long-term impact given the importance of adversarial robustness in AI systems.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.24511v1",
+      "pdf": "https://arxiv.org/pdf/2603.24511v1",
+      "arxiv": "https://arxiv.org/abs/2603.24511v1"
+    },
+    "code_repos": [
+      "https://github.com/romovpa/claudini"
+    ],
+    "featured": true,
+    "why_it_matters": "Claudini showcases the transformative potential of autoresearch pipelines powered by LLMs, enabling rapid discovery of advanced adversarial attack algorithms. This highlights both the promise and risks of autonomous AI research in critical areas like security, emphasizing the need for robust safeguards as AI systems evolve.",
+    "digest_summary": "Claudini leverages autoresearch pipelines to discover cutting-edge adversarial attack algorithms for large language models, achieving unprecedented success rates in jailbreaking and prompt injection tests. These algorithms generalize effectively across models, demonstrating the potential of automating AI safety and security research. The code is publicly available for further exploration.",
+    "editor_note": "With LLMs increasingly integrated into sensitive applications, understanding their vulnerabilities is more critical than ever.",
+    "archive_path": "archive/papers/2026-03-26/2603-24511v1-claudini-autoresearch-discovers-state-of-the-art-adversarial-attack-algorithms-for-llms.md"
+  },
+  {
+    "id": "2603.23951v1",
+    "paper_id": "2603.23951v1",
+    "title": "From AI Assistant to AI Scientist: Autonomous Discovery of LLM-RL Algorithms with LLM Agents",
+    "summary_short": [
+      "POISE automates discovery of policy optimization algorithms for language models.",
+      "It uses a closed-loop framework with genealogical archives for evidence-driven iteration.",
+      "Discovered mechanisms improve performance metrics like weighted Overall and AIME25 pass rates.",
+      "Supports interpretable design principles in algorithm discovery."
+    ],
+    "date": "2026-03-25",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists",
+      "autonomous_discovery"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists",
+      "Autonomous Discovery"
+    ],
+    "importance_score": 8.8,
+    "reason": "This paper introduces POISE, a closed-loop framework for autonomous discovery of policy optimization algorithms for LLMs, aligning well with themes of end-to-end AI scientists and autonomous discovery. The structured archive and evidence-driven iteration are methodologically significant. It is relevant to the ecosystem for advancing autonomous algorithm discovery and has strong longevity potential due to its focus on improving LLM training dynamics.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.23951v1",
+      "pdf": "https://arxiv.org/pdf/2603.23951v1",
+      "arxiv": "https://arxiv.org/abs/2603.23951v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "Automating the discovery of optimization algorithms for language models could significantly accelerate advancements in AI research, reducing manual effort and enabling more efficient exploration of novel mechanisms. This approach has the potential to democratize AI innovation and improve the performance of language models in practical applications.",
+    "digest_summary": "Researchers introduce POISE, a framework for automating the discovery of policy optimization algorithms for language models. By evaluating 64 candidate algorithms, POISE identified mechanisms that improved key performance metrics, such as a 4.6-point gain in weighted Overall and a leap in AIME25 pass rates. This work highlights the potential of AI systems to autonomously innovate and refine their own training processes.",
+    "editor_note": "This research underscores the growing role of AI in automating complex scientific discovery, a trend that could reshape innovation across industries.",
+    "archive_path": "archive/papers/2026-03-26/2603-23951v1-from-ai-assistant-to-ai-scientist-autonomous-discovery-of-llm-rl-algorithms-with-llm-agents.md"
   }
 ]
