@@ -3261,5 +3261,83 @@
     "digest_summary": "Researchers introduce POISE, a framework for automating the discovery of policy optimization algorithms for language models. By evaluating 64 candidate algorithms, POISE identified mechanisms that improved key performance metrics, such as a 4.6-point gain in weighted Overall and a leap in AIME25 pass rates. This work highlights the potential of AI systems to autonomously innovate and refine their own training processes.",
     "editor_note": "This research underscores the growing role of AI in automating complex scientific discovery, a trend that could reshape innovation across industries.",
     "archive_path": "archive/papers/2026-03-26/2603-23951v1-from-ai-assistant-to-ai-scientist-autonomous-discovery-of-llm-rl-algorithms-with-llm-agents.md"
+  },
+  {
+    "id": "2603.24647v1",
+    "paper_id": "2603.24647v1",
+    "title": "Can LLMs Beat Classical Hyperparameter Optimization Algorithms? A Study on autoresearch",
+    "summary_short": [
+      "LLMs can edit training code for hyperparameter optimization in unconstrained search spaces.",
+      "Classical HPO methods like CMA-ES and TPE outperform LLMs in fixed search spaces.",
+      "Centaur, a hybrid combining LLMs and classical optimizers, achieves the best results.",
+      "A small 0.8B LLM paired with a classical optimizer outperforms larger models in hybrid setups.",
+      "Code for the autoresearch framework is available on GitHub."
+    ],
+    "date": "2026-03-25",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autoresearch_loops"
+    ],
+    "theme_names": [
+      "Autoresearch Loops"
+    ],
+    "importance_score": 8.05,
+    "reason": "This paper directly addresses the performance of LLM-based agents in hyperparameter optimization, a core task in autoresearch loops. It provides comparative insights against classical methods, which are valuable for understanding the strengths and limitations of LLMs in this domain.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.24647v1",
+      "pdf": "https://arxiv.org/pdf/2603.24647v1",
+      "arxiv": "https://arxiv.org/abs/2603.24647v1"
+    },
+    "code_repos": [
+      "https://github.com/ferreirafabio/autoresearch-automl"
+    ],
+    "featured": true,
+    "why_it_matters": "This research highlights the potential of combining LLMs with classical optimization techniques to improve hyperparameter tuning, a critical task in machine learning. By leveraging the strengths of both approaches, it opens up new possibilities for efficient and reliable optimization, even with smaller, cost-effective models.",
+    "digest_summary": "Can LLMs outperform classical hyperparameter optimization (HPO) methods? A study using the autoresearch framework finds that while classical methods like CMA-ES dominate in fixed search spaces, LLMs excel in unconstrained scenarios. The hybrid Centaur approach, combining LLMs with classical optimizers, achieves the best results, showing that smaller, cheaper LLMs can be highly effective when paired with strong classical methods.",
+    "editor_note": "This research is timely as it explores cost-effective ways to enhance machine learning workflows amidst growing model sizes and compute demands.",
+    "archive_path": "archive/papers/2026-03-27/2603-24647v1-can-llms-beat-classical-hyperparameter-optimization-algorithms-a-study-on-autoresearch.md"
+  },
+  {
+    "id": "2603.25342v1",
+    "paper_id": "2603.25342v1",
+    "title": "From Intent to Evidence: A Categorical Approach for Structural Evaluation of Deep Research Agents",
+    "summary_short": [
+      "Introduces a category theory framework for evaluating deep research agents (DRAs).",
+      "Proposes a benchmark with 296 questions targeting structural synthesis and reasoning.",
+      "Finds state-of-the-art DRAs achieve only 19.9% accuracy, exposing significant challenges.",
+      "Reveals performance gaps in multi-hop synthesis and reliance on brittle heuristics.",
+      "Highlights the need for systemic understanding in autonomous research agents."
+    ],
+    "date": "2026-03-26",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists",
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists",
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 7.55,
+    "reason": "This paper introduces a categorical framework for evaluating deep research agents, addressing gaps in current benchmarks. While it is less directly tied to autoresearch loops, it provides valuable tools for assessing agent performance in complex workflows.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.25342v1",
+      "pdf": "https://arxiv.org/pdf/2603.25342v1",
+      "arxiv": "https://arxiv.org/abs/2603.25342v1"
+    },
+    "code_repos": [
+      "https://github.com/tzq1999/CDR"
+    ],
+    "featured": false,
+    "why_it_matters": "As AI systems increasingly take on roles in research and knowledge synthesis, robust evaluation methods are critical to ensure their reliability and effectiveness. This work provides a formalized, rigorous approach to stress-test deep research agents, exposing their current limitations and guiding future advancements in AI-driven research workflows.",
+    "digest_summary": "A new study leverages category theory to evaluate deep research agents (DRAs), introducing a benchmark that rigorously tests their ability to handle complex structural synthesis and reasoning. Results show that even state-of-the-art models struggle, achieving only 19.9% accuracy on average. The findings highlight significant gaps in multi-hop reasoning and a reliance on heuristics, emphasizing the need for more systemic AI capabilities in research automation.",
+    "editor_note": "This research is timely as AI's role in automating scientific discovery continues to expand, demanding robust evaluation frameworks.",
+    "archive_path": "archive/papers/2026-03-27/2603-25342v1-from-intent-to-evidence-a-categorical-approach-for-structural-evaluation-of-deep-research-agents.md"
   }
 ]
