@@ -3339,5 +3339,153 @@
     "digest_summary": "A new study leverages category theory to evaluate deep research agents (DRAs), introducing a benchmark that rigorously tests their ability to handle complex structural synthesis and reasoning. Results show that even state-of-the-art models struggle, achieving only 19.9% accuracy on average. The findings highlight significant gaps in multi-hop reasoning and a reliance on heuristics, emphasizing the need for more systemic AI capabilities in research automation.",
     "editor_note": "This research is timely as AI's role in automating scientific discovery continues to expand, demanding robust evaluation frameworks.",
     "archive_path": "archive/papers/2026-03-27/2603-25342v1-from-intent-to-evidence-a-categorical-approach-for-structural-evaluation-of-deep-research-agents.md"
+  },
+  {
+    "id": "2603.28376",
+    "paper_id": "2603.28376",
+    "title": "Marco DeepResearch: Unlocking Efficient Deep Research Agents via Verification-Centric Design",
+    "summary_short": [
+      "Marco DeepResearch introduces a verification-centric framework for deep research agents.",
+      "It enhances QA synthesis, trajectory construction, and test-time scaling with explicit verification mechanisms.",
+      "Outperforms 8B-scale agents and rivals 30B-scale agents under constrained tool budgets.",
+      "Optimized for long-horizon tasks requiring multi-step reasoning and reliable information retrieval."
+    ],
+    "date": "2026-03-30",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists",
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists",
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 9.0,
+    "reason": "Marco DeepResearch addresses critical bottlenecks in deep research agents through a verification-centric design, making it highly relevant to End-to-End AI Scientists and Literature And Survey Agents. The methodological significance is high due to its focus on verification mechanisms, and its ecosystem relevance is strong as it tackles long-horizon task reliability. The longevity is excellent given the importance of verification in autonomous systems.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2603.28376",
+      "arxiv": "https://arxiv.org/abs/2603.28376",
+      "pdf": "https://arxiv.org/pdf/2603.28376",
+      "huggingface": "https://huggingface.co/papers/2603.28376"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "Marco DeepResearch tackles a critical bottleneck in autonomous research agents by integrating robust verification mechanisms, ensuring higher accuracy and reliability in solving complex, real-world problems. This innovation has the potential to redefine how AI systems approach open-ended investigations and long-horizon tasks, making them more dependable and scalable for practical applications across industries and academia.",
+    "digest_summary": "Marco DeepResearch introduces a verification-centric design for deep research agents, optimizing QA synthesis, trajectory construction, and test-time scaling. It significantly outperforms 8B-scale agents and rivals 30B-scale agents under constrained budgets, showcasing its efficiency in handling complex, long-horizon tasks. This advancement could reshape AI-driven research workflows.",
+    "editor_note": "With increasing reliance on AI for complex problem-solving, robust verification mechanisms like those in Marco DeepResearch are crucial for ensuring reliability and scalability.",
+    "archive_path": "archive/papers/2026-03-31/2603-28376-marco-deepresearch-unlocking-efficient-deep-research-agents-via-verification-centric-design.md"
+  },
+  {
+    "id": "2603.27813",
+    "paper_id": "2603.27813",
+    "title": "MuSEAgent: A Multimodal Reasoning Agent with Stateful Experiences",
+    "summary_short": [
+      "Introduces MuSEAgent, a multimodal reasoning agent leveraging stateful experiences.",
+      "Proposes a novel stateful experience learning paradigm for decision-making.",
+      "Uses hindsight reasoning to abstract interaction data into atomic decision experiences.",
+      "Employs adaptive wide- and deep-search strategies for multimodal guidance retrieval.",
+      "Outperforms trajectory-level baselines in visual perception and multimodal reasoning tasks."
+    ],
+    "date": "2026-03-29",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists"
+    ],
+    "importance_score": 8.45,
+    "reason": "MuSEAgent introduces a novel multimodal reasoning agent with stateful experiences, which is highly relevant to End-to-End AI Scientists. The methodological contribution is substantial due to its innovative hindsight reasoning and experience bank design. It has strong ecosystem relevance for builders of research agents and is likely to remain impactful due to its focus on multimodal reasoning and decision-making.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2603.27813",
+      "arxiv": "https://arxiv.org/abs/2603.27813",
+      "pdf": "https://arxiv.org/pdf/2603.27813",
+      "huggingface": "https://huggingface.co/papers/2603.27813"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "MuSEAgent represents a significant advancement in AI research agents by enabling more nuanced decision-making through stateful experience modeling. This approach enhances the ability to synthesize information across textual and visual sources, paving the way for smarter, more adaptive AI systems capable of tackling complex reasoning tasks in diverse domains.",
+    "digest_summary": "MuSEAgent is a cutting-edge multimodal reasoning agent that introduces stateful experience modeling to improve decision-making. By abstracting interaction data into atomic decision experiences and employing adaptive retrieval strategies, MuSEAgent outperforms traditional trajectory-based methods in visual perception and multimodal reasoning tasks. This innovation marks a leap forward in AI's ability to synthesize and reason across diverse data sources.",
+    "editor_note": "This research is timely as multimodal AI systems are increasingly critical for solving real-world problems requiring complex reasoning.",
+    "archive_path": "archive/papers/2026-03-31/2603-27813-museagent-a-multimodal-reasoning-agent-with-stateful-experiences.md"
+  },
+  {
+    "id": "2603.27416v1",
+    "paper_id": "2603.27416v1",
+    "title": "Agent-Driven Autonomous Reinforcement Learning Research: Iterative Policy Improvement for Quadruped Locomotion",
+    "summary_short": [
+      "Documents agent-driven autonomous RL research for quadruped locomotion.",
+      "Agent handled iterative tasks like diagnosing failures and proposing experiments.",
+      "Achieved significant progress across 70+ experiments with minimal human intervention.",
+      "Highlighted challenges in robotics RL, including simulator-specific constraints.",
+      "Empirical case study showcasing agent capabilities in iterative research loops."
+    ],
+    "date": "2026-03-28",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autoresearch_loops"
+    ],
+    "theme_names": [
+      "Autoresearch Loops"
+    ],
+    "importance_score": 8.15,
+    "reason": "This paper demonstrates a practical application of agent-driven autonomous research loops in reinforcement learning, aligning well with the theme of Autoresearch Loops. The methodology is significant due to its iterative policy improvement approach, but the ecosystem relevance is slightly lower as it focuses on a specific domain (quadruped locomotion). The longevity is strong given the growing interest in autonomous RL systems.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.27416v1",
+      "pdf": "https://arxiv.org/pdf/2603.27416v1",
+      "arxiv": "https://arxiv.org/abs/2603.27416v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "This research demonstrates the potential of agent-driven systems to autonomously execute complex reinforcement learning tasks, reducing human workload while advancing robotics capabilities. It highlights how automation can streamline iterative experimentation in challenging domains like quadruped locomotion, paving the way for more scalable and efficient research methodologies in AI and robotics engineering.",
+    "digest_summary": "A case study on agent-driven autonomous reinforcement learning research showcases how an agent executed iterative tasks for quadruped locomotion experiments with minimal human intervention. Over 70 experiments, the agent improved performance metrics while navigating challenges like simulator-specific constraints and multi-GPU management. This work underscores the promise of autonomous systems in advancing robotics research.",
+    "editor_note": "With robotics and AI rapidly evolving, this study highlights how automation can accelerate progress in complex domains like locomotion.",
+    "archive_path": "archive/papers/2026-03-31/2603-27416v1-agent-driven-autonomous-reinforcement-learning-research-iterative-policy-improvement-for-quadruped-locomotion.md"
+  },
+  {
+    "id": "2603.28589",
+    "paper_id": "2603.28589",
+    "title": "Towards a Medical AI Scientist",
+    "summary_short": [
+      "Introduces the first autonomous research framework tailored to clinical medicine.",
+      "Transforms medical literature into actionable evidence via clinician-engineer co-reasoning.",
+      "Supports evidence-grounded manuscript drafting with ethical and compositional guidelines.",
+      "Operates in three research modes with increasing levels of autonomy.",
+      "Outperforms commercial LLMs in quality and success rates across diverse clinical tasks."
+    ],
+    "date": "2026-03-30",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists"
+    ],
+    "importance_score": 7.8,
+    "reason": "This paper introduces a domain-specific autonomous research framework tailored to clinical medicine, aligning with the theme of End-to-End AI Scientists. The methodological contribution is significant due to its clinician-engineer co-reasoning mechanism, but its ecosystem relevance is slightly lower as it focuses on a specialized domain. Longevity is strong given the importance of medical AI research.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2603.28589",
+      "arxiv": "https://arxiv.org/abs/2603.28589",
+      "pdf": "https://arxiv.org/pdf/2603.28589",
+      "huggingface": "https://huggingface.co/papers/2603.28589"
+    },
+    "code_repos": [],
+    "featured": false,
+    "why_it_matters": "The Medical AI Scientist represents a significant leap in applying AI to healthcare research, addressing the need for domain-specific, evidence-based scientific discovery. By automating hypothesis generation, experimentation, and manuscript drafting, it has the potential to accelerate breakthroughs in clinical medicine while maintaining ethical and methodological rigor. This innovation could transform how medical research is conducted, making it faster, more efficient, and more accessible to healthcare professionals worldwide.",
+    "digest_summary": "A groundbreaking framework, Medical AI Scientist, brings autonomous research to clinical medicine by generating high-quality, evidence-based hypotheses and manuscripts. It leverages clinician-engineer collaboration and operates in three research modes, achieving superior results compared to commercial LLMs. Evaluations suggest its outputs approach top-tier conference quality, signaling a new era for AI-driven healthcare research.",
+    "editor_note": "This innovation is particularly timely as the demand for efficient, evidence-based medical research continues to grow globally.",
+    "archive_path": "archive/papers/2026-03-31/2603-28589-towards-a-medical-ai-scientist.md"
   }
 ]
