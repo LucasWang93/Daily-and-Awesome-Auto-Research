@@ -3487,5 +3487,296 @@
     "digest_summary": "A groundbreaking framework, Medical AI Scientist, brings autonomous research to clinical medicine by generating high-quality, evidence-based hypotheses and manuscripts. It leverages clinician-engineer collaboration and operates in three research modes, achieving superior results compared to commercial LLMs. Evaluations suggest its outputs approach top-tier conference quality, signaling a new era for AI-driven healthcare research.",
     "editor_note": "This innovation is particularly timely as the demand for efficient, evidence-based medical research continues to grow globally.",
     "archive_path": "archive/papers/2026-03-31/2603-28589-towards-a-medical-ai-scientist.md"
+  },
+  {
+    "id": "2603.29640v1",
+    "paper_id": "2603.29640v1",
+    "title": "ASI-Evolve: AI Accelerates AI",
+    "summary_short": [
+      "Introduces ASI-Evolve, an AI-for-AI research framework.",
+      "Uses a learn-design-experiment-analyze loop for AI development.",
+      "Achieved breakthroughs in data, architectures, and learning algorithms.",
+      "Demonstrated transferability to fields like mathematics and biomedicine.",
+      "Outperformed human-designed systems in multiple benchmarks."
+    ],
+    "date": "2026-03-31",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autoresearch_loops"
+    ],
+    "theme_names": [
+      "Autoresearch Loops"
+    ],
+    "importance_score": 9.35,
+    "reason": "ASI-Evolve introduces a novel agentic framework for AI-for-AI research, aligning perfectly with autoresearch loops. Its learn-design-experiment-analyze cycle and integration of human priors are methodologically significant and likely to influence future research workflows.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.29640v1",
+      "pdf": "https://arxiv.org/pdf/2603.29640v1",
+      "arxiv": "https://arxiv.org/abs/2603.29640v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "ASI-Evolve represents a significant leap in using AI to autonomously accelerate its own development, potentially reducing the time and cost of innovation in AI and other scientific fields. By automating complex research loops and achieving state-of-the-art results, it opens the door to a future where AI can independently drive progress in foundational technologies and beyond.",
+    "digest_summary": "ASI-Evolve is a groundbreaking framework that uses AI to accelerate AI development through a closed-loop research cycle. It achieved state-of-the-art results in neural architecture design, data curation, and reinforcement learning algorithms, outperforming human-designed systems. Early experiments suggest its potential to extend beyond AI into fields like mathematics and biomedicine.",
+    "editor_note": "This is a pivotal moment as AI begins to autonomously advance its own capabilities, reshaping the pace of innovation.",
+    "archive_path": "archive/papers/2026-04-01/2603-29640v1-asi-evolve-ai-accelerates-ai.md"
+  },
+  {
+    "id": "2603.29632v1",
+    "paper_id": "2603.29632v1",
+    "title": "An Empirical Study of Multi-Agent Collaboration for Automated Research",
+    "summary_short": [
+      "Explores multi-agent systems (MAS) for automated research tasks.",
+      "Benchmarks single-agent vs. two multi-agent paradigms.",
+      "Finds trade-offs between operational stability and theoretical depth.",
+      "Proposes dynamic architectures for task-adaptive collaboration."
+    ],
+    "date": "2026-03-31",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autoresearch_loops"
+    ],
+    "theme_names": [
+      "Autoresearch Loops"
+    ],
+    "importance_score": 8.55,
+    "reason": "This paper directly addresses multi-agent collaboration for automated research, a core theme of autoresearch loops. The empirical study and benchmarking provide significant methodological contributions and are highly relevant for builders of multi-agent systems.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.29632v1",
+      "pdf": "https://arxiv.org/pdf/2603.29632v1",
+      "arxiv": "https://arxiv.org/abs/2603.29632v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "As AI systems increasingly tackle complex research problems, understanding how to structure multi-agent collaboration is critical for optimizing performance and efficiency. This study provides empirical insights into designing adaptive systems that balance speed and depth, paving the way for more effective automated research workflows in AI-driven domains.",
+    "digest_summary": "A new study benchmarks multi-agent systems (MAS) for automated research, comparing single-agent setups with two collaborative paradigms: subagent and agent team architectures. Results highlight a trade-off between stability and depth, with subagents excelling in fast, shallow tasks and agent teams better suited for complex, deep optimizations. The findings suggest dynamically adaptive architectures for future autoresearch systems.",
+    "editor_note": "This research is timely as AI-driven collaboration tools are becoming essential in accelerating scientific discovery.",
+    "archive_path": "archive/papers/2026-04-01/2603-29632v1-an-empirical-study-of-multi-agent-collaboration-for-automated-research.md"
+  },
+  {
+    "id": "2603.29727v1",
+    "paper_id": "2603.29727v1",
+    "title": "Latent-Y: A Lab-Validated Autonomous Agent for De Novo Drug Design",
+    "summary_short": [
+      "Latent-Y is an AI agent for autonomous antibody design.",
+      "Executes end-to-end workflows from literature review to lab-ready candidates.",
+      "Achieved a 67% success rate in lab-confirmed nanobody binders.",
+      "Compresses weeks of drug design work into hours.",
+      "Integrated into Latent Labs Platform for collaborative or autonomous use."
+    ],
+    "date": "2026-03-31",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autonomous_discovery"
+    ],
+    "theme_names": [
+      "Autonomous Discovery"
+    ],
+    "importance_score": 8.55,
+    "reason": "Latent-Y is a lab-validated autonomous agent for drug design, showcasing end-to-end autonomous discovery workflows. Its integration into a platform with bioinformatics tools enhances ecosystem relevance.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.29727v1",
+      "pdf": "https://arxiv.org/pdf/2603.29727v1",
+      "arxiv": "https://arxiv.org/abs/2603.29727v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "Latent-Y represents a significant leap in drug discovery efficiency, addressing the bottlenecks of traditional workflows by automating complex processes. Its ability to autonomously design and validate therapeutic candidates not only accelerates research timelines but also broadens accessibility to cutting-edge biologics design, potentially transforming how new treatments are developed across multiple therapeutic areas.",
+    "digest_summary": "Latent-Y, an AI agent for autonomous drug design, compresses weeks of antibody development into hours by executing complete workflows from literature review to lab-ready candidates. Demonstrating a 67% success rate in lab-confirmed binders, it integrates seamlessly into the Latent Labs Platform for collaborative or fully autonomous use. This innovation could redefine efficiency in biologics discovery.",
+    "editor_note": "With increasing demand for rapid therapeutic development, Latent-Y's capabilities are especially relevant in addressing global health challenges today.",
+    "archive_path": "archive/papers/2026-04-01/2603-29727v1-latent-y-a-lab-validated-autonomous-agent-for-de-novo-drug-design.md"
+  },
+  {
+    "id": "2603.28407v1",
+    "paper_id": "2603.28407v1",
+    "title": "MiroEval: Benchmarking Multimodal Deep Research Agents in Process and Outcome",
+    "summary_short": [
+      "MiroEval introduces a benchmark for evaluating deep research systems in process and outcome.",
+      "It includes 100 tasks (70 text-only, 30 multimodal) grounded in real user needs.",
+      "Evaluation spans synthesis quality, factuality verification, and process-centric audits.",
+      "Multimodal tasks are notably more challenging for systems, with performance drops of 3-10 points.",
+      "MiroThinker-H1 achieves the highest balanced performance across evaluation dimensions."
+    ],
+    "date": "2026-03-30",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists",
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists",
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 8.55,
+    "reason": "MiroEval addresses critical gaps in benchmarking deep research agents, focusing on both process and outcome evaluation. Its multimodal and real-world task design is highly relevant for research infrastructure and benchmarks.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.28407v1",
+      "pdf": "https://arxiv.org/pdf/2603.28407v1",
+      "arxiv": "https://arxiv.org/abs/2603.28407v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "As AI systems increasingly assist in complex research tasks, robust evaluation frameworks like MiroEval are essential to ensure these systems can meet real-world demands. By assessing both the research process and outcomes, MiroEval provides a comprehensive diagnostic tool that highlights strengths, weaknesses, and areas for improvement, paving the way for more reliable and capable AI research agents in diverse domains.",
+    "digest_summary": "MiroEval sets a new standard for evaluating deep research systems, focusing on both process and outcomes across 100 real-world tasks. It highlights the challenges of multimodal tasks and the importance of process quality as a predictor of overall performance. The MiroThinker series leads the pack, with MiroThinker-H1 achieving the most balanced results. This benchmark promises to drive advancements in AI-powered research agents.",
+    "editor_note": "With AI increasingly shaping research workflows, tools like MiroEval are critical for ensuring systems evolve to meet real-world complexity and multimodal demands.",
+    "archive_path": "archive/papers/2026-04-01/2603-28407v1-miroeval-benchmarking-multimodal-deep-research-agents-in-process-and-outcome.md"
+  },
+  {
+    "id": "2603.28376v1",
+    "paper_id": "2603.28376v1",
+    "title": "Marco DeepResearch: Unlocking Efficient Deep Research Agents via Verification-Centric Design",
+    "summary_short": [
+      "Marco DeepResearch enhances deep research agents with verification-centric design.",
+      "Introduces verification mechanisms in QA synthesis, trajectory construction, and test-time scaling.",
+      "Outperforms 8B-scale agents and rivals 30B-scale agents under constrained budgets.",
+      "Optimized for long-horizon tasks with robust error mitigation strategies.",
+      "Demonstrates superior performance on challenging benchmarks like BrowseComp."
+    ],
+    "date": "2026-03-30",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists",
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists",
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 8.0,
+    "reason": "Marco DeepResearch emphasizes verification-centric design for deep research agents, addressing a key bottleneck in long-horizon tasks. Its contributions are significant for literature and survey agents.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.28376v1",
+      "pdf": "https://arxiv.org/pdf/2603.28376v1",
+      "arxiv": "https://arxiv.org/abs/2603.28376v1"
+    },
+    "code_repos": [],
+    "featured": false,
+    "why_it_matters": "Marco DeepResearch addresses critical bottlenecks in autonomous research agents by embedding verification mechanisms at every stage of their operation. This innovation ensures higher reliability and accuracy in solving complex, real-world problems, paving the way for scalable AI systems capable of conducting nuanced investigations across diverse domains. Its ability to outperform larger models under resource constraints highlights its efficiency and potential for broader applications in AI-driven research and problem-solving tasks.",
+    "digest_summary": "Marco DeepResearch introduces a verification-centric framework to optimize deep research agents for complex, long-horizon tasks. By embedding verification mechanisms in QA synthesis, trajectory construction, and inference, it significantly improves performance on benchmarks like BrowseComp, outperforming 8B-scale agents and rivaling 30B-scale models under constrained budgets. This innovation sets a new standard for reliable and efficient autonomous research systems.",
+    "editor_note": "With increasing reliance on AI for complex problem-solving, Marco DeepResearch's efficiency and accuracy make it highly relevant for advancing autonomous research capabilities today.",
+    "archive_path": "archive/papers/2026-04-01/2603-28376v1-marco-deepresearch-unlocking-efficient-deep-research-agents-via-verification-centric-design.md"
+  },
+  {
+    "id": "2603.28935v1",
+    "paper_id": "2603.28935v1",
+    "title": "Autonomous Discovery of Particle Physics Theories from Experimental Data",
+    "summary_short": [
+      "Introduces \u001b[Albert\u001b], a neuro-symbolic AI for particle physics theory discovery.",
+      "Encodes physics as a formal language to avoid AI hallucinations.",
+      "Uses reinforcement learning to enforce theoretical and experimental constraints.",
+      "Rediscovered the Standard Model and predicted the top quark's mass accurately.",
+      "Demonstrates AI's potential for scalable, rigorous exploration of new physics."
+    ],
+    "date": "2026-03-30",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autonomous_discovery"
+    ],
+    "theme_names": [
+      "Autonomous Discovery"
+    ],
+    "importance_score": 7.8,
+    "reason": "Albert applies neuro-symbolic AI to particle physics theory discovery, showcasing autonomous discovery in a highly specialized domain. Its reinforcement learning environment and grammar-based approach are methodologically significant.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.28935v1",
+      "pdf": "https://arxiv.org/pdf/2603.28935v1",
+      "arxiv": "https://arxiv.org/abs/2603.28935v1"
+    },
+    "code_repos": [],
+    "featured": false,
+    "why_it_matters": "The vast space of possible particle physics theories makes manual exploration infeasible, and traditional AI models often struggle with hallucinations or lack of rigor. By combining symbolic reasoning with machine learning, \u001b[Albert\u001b] offers a groundbreaking approach to autonomously and systematically discover new physics, potentially accelerating breakthroughs in our understanding of the universe.",
+    "digest_summary": "A new AI framework, \u001b[Albert\u001b], combines symbolic reasoning and machine learning to autonomously explore particle physics theories. It rediscovered the Standard Model and accurately predicted the top quark's mass using legacy data. This approach could revolutionize how we uncover physics beyond the Standard Model, offering a scalable and rigorous alternative to traditional methods.",
+    "editor_note": "With the Large Hadron Collider continuing its search for new physics, tools like \u001b[Albert\u001b] could be pivotal in interpreting experimental data and guiding future discoveries.",
+    "archive_path": "archive/papers/2026-04-01/2603-28935v1-autonomous-discovery-of-particle-physics-theories-from-experimental-data.md"
+  },
+  {
+    "id": "2603.28589v1",
+    "paper_id": "2603.28589v1",
+    "title": "Towards a Medical AI Scientist",
+    "summary_short": [
+      "Introduces the first autonomous research framework tailored for clinical medicine.",
+      "Transforms medical literature into actionable evidence via clinician-engineer co-reasoning.",
+      "Supports evidence-grounded manuscript drafting with ethical and compositional guidelines.",
+      "Operates under three research modes with increasing levels of autonomy.",
+      "Outperforms commercial LLMs in quality and success rates across diverse clinical tasks."
+    ],
+    "date": "2026-03-30",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists"
+    ],
+    "importance_score": 7.7,
+    "reason": "The Medical AI Scientist is a specialized application of end-to-end AI scientists tailored to clinical medicine. While domain-specific, its clinician-engineer co-reasoning mechanism is a notable methodological contribution.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.28589v1",
+      "pdf": "https://arxiv.org/pdf/2603.28589v1",
+      "arxiv": "https://arxiv.org/abs/2603.28589v1"
+    },
+    "code_repos": [],
+    "featured": false,
+    "why_it_matters": "The Medical AI Scientist represents a significant step forward in leveraging AI for healthcare research, addressing the need for domain-specific, evidence-grounded tools that can accelerate clinical discovery while maintaining ethical and scientific rigor. This innovation could transform how medical research is conducted, enabling faster and more reliable advancements in patient care and treatment development.",
+    "digest_summary": "A new framework, Medical AI Scientist, is pioneering autonomous research tailored for clinical medicine. By combining clinician-engineer co-reasoning and structured manuscript drafting, it generates high-quality, evidence-based research ideas and experiments. Evaluations show it surpasses commercial LLMs and produces near-publication-ready manuscripts, highlighting its potential to revolutionize healthcare research.",
+    "editor_note": "This work is timely as AI's role in healthcare continues to expand, demanding tools that are both innovative and ethically grounded.",
+    "archive_path": "archive/papers/2026-04-01/2603-28589v1-towards-a-medical-ai-scientist.md"
+  },
+  {
+    "id": "2603.29353v1",
+    "paper_id": "2603.29353v1",
+    "title": "Nomad: Autonomous Exploration and Discovery",
+    "summary_short": [
+      "Nomad autonomously explores data to uncover insights beyond human-framed queries.",
+      "It builds an Exploration Map to balance breadth and depth in discovery.",
+      "The system generates, tests, and verifies hypotheses before reporting findings.",
+      "Evaluation shows Nomad produces trustworthy, high-quality, and diverse insights.",
+      "Tested on UN and WHO reports, it outperforms baseline systems."
+    ],
+    "date": "2026-03-31",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autonomous_discovery"
+    ],
+    "theme_names": [
+      "Autonomous Discovery"
+    ],
+    "importance_score": 7.55,
+    "reason": "Nomad focuses on autonomous exploration and insight discovery, which aligns with autonomous discovery themes. Its exploration-first architecture is methodologically interesting but less directly impactful for autoresearch loops.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.29353v1",
+      "pdf": "https://arxiv.org/pdf/2603.29353v1",
+      "arxiv": "https://arxiv.org/abs/2603.29353v1"
+    },
+    "code_repos": [],
+    "featured": false,
+    "why_it_matters": "Nomad represents a significant leap in autonomous research by shifting from reactive, query-driven systems to proactive, exploration-first architectures. This approach enables the discovery of unexpected insights and connections, which are often missed in traditional research workflows. Such systems could revolutionize fields like policy-making, science, and business by uncovering valuable information that humans might not think to ask for or investigate.",
+    "digest_summary": "Nomad is an autonomous system designed to explore data and uncover insights beyond human-framed queries. By constructing an Exploration Map and systematically investigating hypotheses, it produces trustworthy, high-quality, and diverse reports. Tested on UN and WHO datasets, Nomad outperformed traditional baselines, marking a step forward in autonomous discovery systems.",
+    "editor_note": "With the explosion of data, tools like Nomad are crucial for uncovering hidden insights and driving informed decision-making.",
+    "archive_path": "archive/papers/2026-04-01/2603-29353v1-nomad-autonomous-exploration-and-discovery.md"
   }
 ]
