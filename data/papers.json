@@ -3778,5 +3778,156 @@
     "digest_summary": "Nomad is an autonomous system designed to explore data and uncover insights beyond human-framed queries. By constructing an Exploration Map and systematically investigating hypotheses, it produces trustworthy, high-quality, and diverse reports. Tested on UN and WHO datasets, Nomad outperformed traditional baselines, marking a step forward in autonomous discovery systems.",
     "editor_note": "With the explosion of data, tools like Nomad are crucial for uncovering hidden insights and driving informed decision-making.",
     "archive_path": "archive/papers/2026-04-01/2603-29353v1-nomad-autonomous-exploration-and-discovery.md"
+  },
+  {
+    "id": "2603.29727v2",
+    "paper_id": "2603.29727v2",
+    "title": "Latent-Y: A Lab-Validated Autonomous Agent for De Novo Drug Design",
+    "summary_short": [
+      "Latent-Y is an AI agent for autonomous antibody design from text prompts.",
+      "It integrates literature review, target analysis, epitope identification, and lab-ready candidate generation.",
+      "Achieved a 67% success rate in lab-confirmed nanobody binders across nine targets.",
+      "Compresses weeks of drug design work into hours with expert collaboration options.",
+      "Extends to other biologics like macrocyclic peptides and mini-binders."
+    ],
+    "date": "2026-03-31",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autonomous_discovery"
+    ],
+    "theme_names": [
+      "Autonomous Discovery"
+    ],
+    "importance_score": 9.0,
+    "reason": "Latent-Y demonstrates a fully autonomous agent for de novo drug design, covering the entire pipeline from literature review to lab-ready outputs. Its end-to-end capabilities make it a standout contribution to autonomous discovery.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.29727v2",
+      "pdf": "https://arxiv.org/pdf/2603.29727v2",
+      "arxiv": "https://arxiv.org/abs/2603.29727v2"
+    },
+    "code_repos": [
+      "https://platform.latentlabs.com"
+    ],
+    "featured": true,
+    "why_it_matters": "Latent-Y represents a significant leap in drug discovery efficiency, enabling faster, scalable, and autonomous design of therapeutic antibodies and biologics. By reducing the time and expertise bottlenecks traditionally associated with drug development, it has the potential to accelerate breakthroughs in medicine and improve global health outcomes. Its success in lab validation and adaptability across therapeutic modalities underscores its transformative impact on the pharmaceutical industry.",
+    "digest_summary": "Latent-Y, an AI agent for autonomous drug design, compresses weeks of antibody development into hours by integrating literature review, computational validation, and lab-ready candidate generation. Demonstrating a 67% success rate in lab-confirmed nanobody binders, it showcases the potential to revolutionize drug discovery workflows. The platform also extends to other biologics, broadening its therapeutic impact.",
+    "editor_note": "With increasing demand for rapid therapeutic development, Latent-Y's capabilities are particularly relevant in addressing global health challenges today.",
+    "archive_path": "archive/papers/2026-04-02/2603-29727v2-latent-y-a-lab-validated-autonomous-agent-for-de-novo-drug-design.md"
+  },
+  {
+    "id": "2603.28407",
+    "paper_id": "2603.28407",
+    "title": "MiroEval: Benchmarking Multimodal Deep Research Agents in Process and Outcome",
+    "summary_short": [
+      "MiroEval introduces a benchmark for evaluating deep research systems in both process and outcome.",
+      "It assesses systems across text-only and multimodal tasks grounded in real user needs.",
+      "Evaluation dimensions include synthesis quality, factuality verification, and process-centric audits.",
+      "Findings highlight multimodal challenges and the importance of process quality as a predictor of outcomes.",
+      "MiroThinker-H1 achieves the highest balanced performance across evaluation metrics."
+    ],
+    "date": "2026-03-30",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists",
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists",
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 8.7,
+    "reason": "Duplicate entry of MiroEval, which is highly relevant for benchmarking deep research systems with a focus on real-world tasks and periodic updates.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2603.28407",
+      "arxiv": "https://arxiv.org/abs/2603.28407",
+      "pdf": "https://arxiv.org/pdf/2603.28407",
+      "huggingface": "https://huggingface.co/papers/2603.28407"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "As AI systems increasingly assist in complex research tasks, robust evaluation frameworks like MiroEval ensure these systems are not only producing accurate outputs but also reasoning and refining effectively throughout the research process. This is critical for building trustworthy and capable AI agents that can adapt to evolving knowledge and real-world complexities.",
+    "digest_summary": "MiroEval sets a new standard for evaluating deep research systems by focusing on both process and outcome across text-only and multimodal tasks. Its innovative framework highlights the importance of process quality and reveals challenges in multimodal research. The MiroThinker series leads the pack, with MiroThinker-H1 achieving top performance. This benchmark is a step forward in diagnosing and improving next-gen AI research agents.",
+    "editor_note": "With AI increasingly integrated into research workflows, tools like MiroEval are vital to ensure systems meet real-world demands and adapt to evolving complexities.",
+    "archive_path": "archive/papers/2026-04-02/2603-28407-miroeval-benchmarking-multimodal-deep-research-agents-in-process-and-outcome.md"
+  },
+  {
+    "id": "2604.00550v1",
+    "paper_id": "2604.00550v1",
+    "title": "BloClaw: An Omniscient, Multi-Modal Agentic Workspace for Next-Generation Scientific Discovery",
+    "summary_short": [
+      "BloClaw is a multi-modal operating system for AI-driven scientific discovery.",
+      "It introduces XML-Regex routing to reduce serialization errors compared to JSON.",
+      "Features include dynamic visualization capture and adaptive UI for complex data.",
+      "Benchmarked across cheminformatics, protein folding, and molecular docking tasks.",
+      "Open-source repository available for community use and development."
+    ],
+    "date": "2026-04-01",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists"
+    ],
+    "importance_score": 8.55,
+    "reason": "BloClaw introduces a novel multi-modal operating system tailored for AI4S, addressing critical infrastructural challenges in deploying AI Scientists. Its focus on agent-computer interaction and multi-modal capabilities makes it highly relevant to auto-research.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.00550v1",
+      "pdf": "https://arxiv.org/pdf/2604.00550v1",
+      "arxiv": "https://arxiv.org/abs/2604.00550v1"
+    },
+    "code_repos": [
+      "https://github.com/qinheming/BloClaw"
+    ],
+    "featured": true,
+    "why_it_matters": "BloClaw addresses critical limitations in deploying AI-driven research environments by introducing robust infrastructural solutions for handling complex scientific workflows. Its innovations in data routing, visualization, and adaptive interfaces pave the way for more reliable and versatile AI research assistants, accelerating scientific discovery in life sciences and beyond.",
+    "digest_summary": "BloClaw is a next-gen operating system designed for AI-driven scientific discovery, tackling key challenges in serialization, visualization, and user interaction. With benchmarks in cheminformatics and protein folding, it offers a robust framework for computational research assistants. The open-source project is now available for exploration.",
+    "editor_note": "As AI continues to transform scientific research, tools like BloClaw are vital for overcoming infrastructural bottlenecks and enabling seamless workflows.",
+    "archive_path": "archive/papers/2026-04-02/2604-00550v1-bloclaw-an-omniscient-multi-modal-agentic-workspace-for-next-generation-scientific-discovery.md"
+  },
+  {
+    "id": "2604.01195v1",
+    "paper_id": "2604.01195v1",
+    "title": "ORBIT: Scalable and Verifiable Data Generation for Search Agents on a Tight Budget",
+    "summary_short": [
+      "ORBIT introduces a scalable framework for generating reasoning-intensive datasets.",
+      "The dataset includes 20K queries spanning 15 domains with multi-step reasoning.",
+      "It uses a frugal, modular approach without paid API services for data generation.",
+      "Trained Qwen3-4B model on ORBIT shows strong performance among sub-4B LLMs.",
+      "Framework, code, and datasets are open-sourced for public use."
+    ],
+    "date": "2026-04-01",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 7.55,
+    "reason": "ORBIT provides a scalable and verifiable dataset for training search agents, addressing a key bottleneck in dataset generation. Its modular framework is useful but may not directly impact broader auto-research workflows.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.01195v1",
+      "pdf": "https://arxiv.org/pdf/2604.01195v1",
+      "arxiv": "https://arxiv.org/abs/2604.01195v1"
+    },
+    "code_repos": [],
+    "featured": false,
+    "why_it_matters": "ORBIT addresses the challenge of creating high-quality training datasets for search agents without relying on costly human annotation or paid APIs. By enabling scalable and verifiable data generation, it empowers researchers and developers to train more effective language models for complex reasoning tasks, democratizing access to advanced AI capabilities in search and research domains.",
+    "digest_summary": "ORBIT introduces a scalable, cost-effective framework for generating reasoning-intensive datasets, featuring 20K queries across 15 domains. The Qwen3-4B model trained on ORBIT demonstrates strong performance among sub-4B LLMs, highlighting the utility of synthetic datasets for search agents. The framework, code, and datasets are open-sourced for public use.",
+    "editor_note": "With the increasing reliance on AI for research and search tasks, ORBIT's open-source approach is a timely contribution to democratizing access to advanced tools.",
+    "archive_path": "archive/papers/2026-04-02/2604-01195v1-orbit-scalable-and-verifiable-data-generation-for-search-agents-on-a-tight-budget.md"
   }
 ]
