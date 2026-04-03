@@ -3929,5 +3929,229 @@
     "digest_summary": "ORBIT introduces a scalable, cost-effective framework for generating reasoning-intensive datasets, featuring 20K queries across 15 domains. The Qwen3-4B model trained on ORBIT demonstrates strong performance among sub-4B LLMs, highlighting the utility of synthetic datasets for search agents. The framework, code, and datasets are open-sourced for public use.",
     "editor_note": "With the increasing reliance on AI for research and search tasks, ORBIT's open-source approach is a timely contribution to democratizing access to advanced tools.",
     "archive_path": "archive/papers/2026-04-02/2604-01195v1-orbit-scalable-and-verifiable-data-generation-for-search-agents-on-a-tight-budget.md"
+  },
+  {
+    "id": "2603.29640",
+    "paper_id": "2603.29640",
+    "title": "ASI-Evolve: AI Accelerates AI",
+    "summary_short": [
+      "Introduces ASI-Evolve, an AI-for-AI research framework.",
+      "Uses a learn-design-experiment-analyze cycle for discovery.",
+      "Achieved breakthroughs in data, architectures, and algorithms.",
+      "Outperformed human-designed models and methods significantly.",
+      "Demonstrates potential for cross-domain applications."
+    ],
+    "date": "2026-03-31",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "autoresearch_loops"
+    ],
+    "theme_names": [
+      "Autoresearch Loops"
+    ],
+    "importance_score": 9.35,
+    "reason": "ASI-Evolve exemplifies Autoresearch Loops by proposing a framework for AI-for-AI research. Its focus on long-horizon, weakly supervised research loops and integration of human priors ensures its relevance and impact.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2603.29640",
+      "arxiv": "https://arxiv.org/abs/2603.29640",
+      "pdf": "https://arxiv.org/pdf/2603.29640",
+      "huggingface": "https://huggingface.co/papers/2603.29640"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "ASI-Evolve represents a paradigm shift in AI development by enabling AI systems to autonomously accelerate their own progress. This closed-loop approach could drastically reduce the time and cost of innovation, pushing the boundaries of what AI can achieve in both its own domain and beyond, such as in mathematics and biomedicine.",
+    "digest_summary": "ASI-Evolve is a groundbreaking framework that uses AI to accelerate AI research through a closed-loop cycle of learning, designing, experimenting, and analyzing. It has already achieved state-of-the-art results in neural architecture design, data curation, and reinforcement learning algorithms, outperforming human-designed methods. Early experiments suggest its potential to extend beyond AI into fields like mathematics and biomedicine.",
+    "editor_note": "This research highlights the growing potential of AI systems to autonomously drive innovation, a trend with profound implications for the future of technology and science.",
+    "archive_path": "archive/papers/2026-04-03/2603-29640-asi-evolve-ai-accelerates-ai.md"
+  },
+  {
+    "id": "2604.01007v2",
+    "paper_id": "2604.01007v2",
+    "title": "Omni-SimpleMem: Autoresearch-Guided Discovery of Lifelong Multimodal Agent Memory",
+    "summary_short": [
+      "Introduces Omni-SimpleMem, a multimodal memory framework for lifelong AI agents.",
+      "Uses an autonomous research pipeline to explore design space and improve performance.",
+      "Achieves state-of-the-art results with +411% and +214% F1 improvements on benchmarks.",
+      "Highlights bug fixes, architectural changes, and prompt engineering as key drivers of success.",
+      "Provides a taxonomy of discoveries and guidance for applying autoresearch to other domains."
+    ],
+    "date": "2026-04-01",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autoresearch_loops"
+    ],
+    "theme_names": [
+      "Autoresearch Loops"
+    ],
+    "importance_score": 9.15,
+    "reason": "This paper directly addresses the theme of Autoresearch Loops by using an autonomous research pipeline to optimize lifelong multimodal memory for agents. The methodological contribution is substantial, and the work is highly relevant to builders of agentic systems. Its focus on memory, a critical bottleneck, ensures its relevance over time.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.01007v2",
+      "pdf": "https://arxiv.org/pdf/2604.01007v2",
+      "arxiv": "https://arxiv.org/abs/2604.01007v2"
+    },
+    "code_repos": [
+      "https://github.com/aiming-lab/SimpleMem"
+    ],
+    "featured": true,
+    "why_it_matters": "As AI systems increasingly operate over long time horizons, their ability to effectively manage and recall multimodal experiences is critical for real-world applications. Omni-SimpleMem demonstrates how autonomous research pipelines can surpass traditional methods by uncovering impactful design improvements, paving the way for more robust and adaptive lifelong AI systems.",
+    "digest_summary": "Omni-SimpleMem leverages an autonomous research pipeline to create a state-of-the-art multimodal memory framework for lifelong AI agents. By autonomously diagnosing issues and proposing solutions, it achieves dramatic F1 score improvements (+411% and +214%) on two benchmarks. This work highlights the potential of autoresearch to address complex design challenges beyond the reach of traditional AutoML.",
+    "editor_note": "This research underscores the growing importance of autonomous pipelines in advancing AI capabilities for real-world, long-term applications.",
+    "archive_path": "archive/papers/2026-04-03/2604-01007v2-omni-simplemem-autoresearch-guided-discovery-of-lifelong-multimodal-agent-memory.md"
+  },
+  {
+    "id": "2604.01007",
+    "paper_id": "2604.01007",
+    "title": "Omni-SimpleMem: Autoresearch-Guided Discovery of Lifelong Multimodal Agent Memory",
+    "summary_short": [
+      "Omni-SimpleMem is a unified multimodal memory framework for lifelong AI agents.",
+      "An autonomous research pipeline conducted ~50 experiments to optimize memory design.",
+      "Achieved state-of-the-art results on two benchmarks with significant F1 score improvements.",
+      "Key discoveries include bug fixes, architectural changes, and prompt engineering.",
+      "Demonstrates autoresearch's potential beyond traditional AutoML approaches."
+    ],
+    "date": "2026-04-02",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "autoresearch_loops"
+    ],
+    "theme_names": [
+      "Autoresearch Loops"
+    ],
+    "importance_score": 9.15,
+    "reason": "This is a duplicate of 2604.01007v2 and shares the same scores and reasoning. It directly addresses Autoresearch Loops with a focus on lifelong multimodal memory.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2604.01007",
+      "arxiv": "https://arxiv.org/abs/2604.01007",
+      "pdf": "https://arxiv.org/pdf/2604.01007",
+      "huggingface": "https://huggingface.co/papers/2604.01007"
+    },
+    "code_repos": [
+      "https://github.com/aiming-lab/SimpleMem"
+    ],
+    "featured": true,
+    "why_it_matters": "As AI systems increasingly operate in complex, long-term environments, their ability to effectively retain and utilize multimodal memory is critical for advancing capabilities in real-world applications. Omni-SimpleMem showcases how autonomous research pipelines can drive innovation in areas too complex for manual or traditional automated exploration, paving the way for more adaptive and intelligent AI systems.",
+    "digest_summary": "Omni-SimpleMem, a multimodal memory framework for lifelong AI agents, was developed using an autonomous research pipeline that conducted ~50 experiments to optimize design. The system achieved state-of-the-art results on two benchmarks, with significant improvements in F1 scores. Key discoveries included bug fixes, architectural changes, and prompt engineering, highlighting the potential of autoresearch to surpass traditional AutoML methods.",
+    "editor_note": "This research underscores the growing importance of autonomous pipelines in tackling complex AI challenges, especially as systems scale in scope and duration.",
+    "archive_path": "archive/papers/2026-04-03/2604-01007-omni-simplemem-autoresearch-guided-discovery-of-lifelong-multimodal-agent-memory.md"
+  },
+  {
+    "id": "2604.01658v1",
+    "paper_id": "2604.01658v1",
+    "title": "CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery",
+    "summary_short": [
+      "Introduces CORAL, a framework for autonomous multi-agent evolution.",
+      "Focuses on open-ended discovery using LLM-based agents.",
+      "Features shared memory, asynchronous execution, and safeguards for agent autonomy.",
+      "Achieves state-of-the-art results on 10 diverse tasks with fewer evaluations.",
+      "Code available at https://github.com/Human-Agent-Society/CORAL."
+    ],
+    "date": "2026-04-02",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autonomous_discovery"
+    ],
+    "theme_names": [
+      "Autonomous Discovery"
+    ],
+    "importance_score": 8.35,
+    "reason": "CORAL advances Autonomous Discovery by enabling multi-agent evolution for open-ended problems. Its focus on autonomy and practical safeguards enhances its ecosystem relevance, though its long-term impact will depend on adoption.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.01658v1",
+      "pdf": "https://arxiv.org/pdf/2604.01658v1",
+      "arxiv": "https://arxiv.org/abs/2604.01658v1"
+    },
+    "code_repos": [
+      "https://github.com/Human-Agent-Society/CORAL"
+    ],
+    "featured": true,
+    "why_it_matters": "CORAL represents a significant step towards autonomous systems capable of sustained, open-ended discovery. By enabling multi-agent collaboration and knowledge reuse, it addresses the limitations of fixed heuristics and rigid exploration rules, paving the way for breakthroughs in complex problem-solving across domains like mathematics, algorithms, and systems optimization.",
+    "digest_summary": "CORAL is a groundbreaking framework for autonomous multi-agent evolution, leveraging LLM-based agents to achieve open-ended discovery. It introduces shared memory, asynchronous execution, and robust safeguards, enabling state-of-the-art performance on diverse tasks. With 3-10x higher improvement rates and fewer evaluations, CORAL demonstrates the power of agent autonomy and collaboration.",
+    "editor_note": "This work highlights the growing potential of autonomous systems to tackle complex, evolving challenges in real-world applications.",
+    "archive_path": "archive/papers/2026-04-03/2604-01658v1-coral-towards-autonomous-multi-agent-evolution-for-open-ended-discovery.md"
+  },
+  {
+    "id": "2604.00599v1",
+    "paper_id": "2604.00599v1",
+    "title": "Predicting Dynamics of Ultra-Large Complex Systems by Inferring Governing Equations",
+    "summary_short": [
+      "SIGN bridges interpretability and scalability for predicting ultra-large complex systems.",
+      "Infers governing equations from data using symbolic discovery at edge-level information.",
+      "Scales to networks with over 100,000 nodes while remaining robust to noise and missing data.",
+      "Achieves accurate long-term predictions across diverse systems like climate and epidemics.",
+      "Successfully models sea surface temperature dynamics up to two years in advance."
+    ],
+    "date": "2026-04-01",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "closed_loop_empirical_science"
+    ],
+    "theme_names": [
+      "Closed-Loop Empirical Science"
+    ],
+    "importance_score": 8.1,
+    "reason": "The Sparse Identification Graph Neural Network (SIGN) bridges interpretability and scalability in equation discovery for complex systems. Its focus on governing equations aligns with Closed-Loop Empirical Science, and its methodological innovation is noteworthy.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.00599v1",
+      "pdf": "https://arxiv.org/pdf/2604.00599v1",
+      "arxiv": "https://arxiv.org/abs/2604.00599v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "Understanding and predicting the behavior of ultra-large complex systems is crucial for tackling global challenges such as climate change, epidemic control, and technological optimization. SIGN's ability to combine interpretability with scalability opens new avenues for reliable, data-driven insights into systems previously deemed too complex to model effectively.",
+    "digest_summary": "A new framework, Sparse Identification Graph Neural Network (SIGN), enables scalable and interpretable predictions for ultra-large complex systems. By inferring governing equations from data, SIGN achieves robust long-term predictions across diverse domains, including climate modeling and epidemic dynamics. This breakthrough could transform how we analyze and predict real-world systems at unprecedented scales.",
+    "editor_note": "With climate change and global health crises at the forefront, tools like SIGN are increasingly vital for informed decision-making.",
+    "archive_path": "archive/papers/2026-04-03/2604-00599v1-predicting-dynamics-of-ultra-large-complex-systems-by-inferring-governing-equations.md"
+  },
+  {
+    "id": "2604.01195v2",
+    "paper_id": "2604.01195v2",
+    "title": "ORBIT: Scalable and Verifiable Data Generation for Search Agents on a Tight Budget",
+    "summary_short": [
+      "Introduces ORBIT, a scalable dataset for training search agents.",
+      "Features 20K reasoning-intensive queries with verifiable answers.",
+      "Built using a cost-effective, modular framework without paid APIs.",
+      "Covers 15 domains requiring multi-step reasoning and web verification.",
+      "Open-sourced framework, code, and datasets for public use."
+    ],
+    "date": "2026-04-01",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 8.0,
+    "reason": "ORBIT addresses data generation for search agents, a critical component for Literature and Survey Agents. Its cost-effective framework and focus on reasoning-intensive queries enhance its ecosystem relevance.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.01195v2",
+      "pdf": "https://arxiv.org/pdf/2604.01195v2",
+      "arxiv": "https://arxiv.org/abs/2604.01195v2"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "As search agents powered by language models become essential for handling complex queries, the need for high-quality, scalable, and cost-efficient training datasets is critical. ORBIT addresses this gap by providing a verifiable, reasoning-intensive dataset that is both budget-friendly and open-source, enabling advancements in search agent capabilities without prohibitive costs or dependencies on proprietary services.",
+    "digest_summary": "The ORBIT framework introduces a scalable, cost-effective way to generate high-quality datasets for training search agents. With 20K reasoning-intensive queries spanning 15 domains, it enables multi-step retrieval and reasoning tasks without relying on paid APIs. The open-source release of the framework, code, and datasets empowers researchers to advance search agent development on a tight budget.",
+    "editor_note": "This work is especially relevant as the demand for efficient and scalable AI tools grows in both academia and industry.",
+    "archive_path": "archive/papers/2026-04-03/2604-01195v2-orbit-scalable-and-verifiable-data-generation-for-search-agents-on-a-tight-budget.md"
   }
 ]
