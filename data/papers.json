@@ -4153,5 +4153,116 @@
     "digest_summary": "The ORBIT framework introduces a scalable, cost-effective way to generate high-quality datasets for training search agents. With 20K reasoning-intensive queries spanning 15 domains, it enables multi-step retrieval and reasoning tasks without relying on paid APIs. The open-source release of the framework, code, and datasets empowers researchers to advance search agent development on a tight budget.",
     "editor_note": "This work is especially relevant as the demand for efficient and scalable AI tools grows in both academia and industry.",
     "archive_path": "archive/papers/2026-04-03/2604-01195v2-orbit-scalable-and-verifiable-data-generation-for-search-agents-on-a-tight-budget.md"
+  },
+  {
+    "id": "2604.01658",
+    "paper_id": "2604.01658",
+    "title": "CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery",
+    "summary_short": [
+      "Introduces CORAL, a framework for autonomous multi-agent evolution.",
+      "Enables agents to explore, reflect, and collaborate via shared memory and asynchronous execution.",
+      "Achieves state-of-the-art results on 10 diverse tasks with fewer evaluations.",
+      "Improves performance on Anthropic's kernel engineering task significantly.",
+      "Code and resources are openly available for further exploration."
+    ],
+    "date": "2026-04-02",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "autonomous_discovery"
+    ],
+    "theme_names": [
+      "Autonomous Discovery"
+    ],
+    "importance_score": 9.35,
+    "reason": "Duplicate of 2604.01658v1. CORAL's focus on autonomous multi-agent evolution and open-ended discovery is highly relevant and impactful for the field of auto-research.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2604.01658",
+      "arxiv": "https://arxiv.org/abs/2604.01658",
+      "pdf": "https://arxiv.org/pdf/2604.01658",
+      "huggingface": "https://huggingface.co/papers/2604.01658"
+    },
+    "code_repos": [
+      "https://github.com/Human-Agent-Society/CORAL"
+    ],
+    "featured": true,
+    "why_it_matters": "CORAL represents a significant step forward in autonomous multi-agent systems, enabling more efficient and effective open-ended discovery. By reducing reliance on fixed heuristics and fostering collaboration among agents, it opens new possibilities for solving complex problems in fields like mathematics, algorithms, and systems optimization. This innovation could accelerate advancements in AI-driven research and development across multiple domains.",
+    "digest_summary": "CORAL is a groundbreaking framework for autonomous multi-agent evolution, designed to tackle open-ended discovery tasks. By enabling agents to collaborate and reuse knowledge through shared memory and asynchronous execution, CORAL achieves state-of-the-art results on 10 tasks, including a major improvement in Anthropic's kernel engineering challenge. This innovation highlights the potential of autonomous systems to drive progress in complex problem-solving.",
+    "editor_note": "With AI-driven research gaining momentum, CORAL's approach to autonomous multi-agent evolution could redefine how we tackle open-ended challenges.",
+    "archive_path": "archive/papers/2026-04-04/2604-01658-coral-towards-autonomous-multi-agent-evolution-for-open-ended-discovery.md"
+  },
+  {
+    "id": "2604.01520v1",
+    "paper_id": "2604.01520v1",
+    "title": "LLM Agents as Social Scientists: A Human-AI Collaborative Platform for Social Science Automation",
+    "summary_short": [
+      "Introduces S-Researcher, an LLM-agent-based platform for automating social science research.",
+      "Uses YuLan-OneSim to simulate human behavior with up to 100,000 concurrent agents.",
+      "Supports full research workflows: experiment design, simulation, analysis, and reporting.",
+      "Validates through case studies on cultural dynamics, hypothesis testing, and cooperation mechanisms.",
+      "Enables scalable, cost-effective, and efficient social science research."
+    ],
+    "date": "2026-04-02",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autoresearch_loops"
+    ],
+    "theme_names": [
+      "Autoresearch Loops"
+    ],
+    "importance_score": 8.15,
+    "reason": "The paper introduces an LLM-agent-based platform for automating social science research, aligning well with Autoresearch Loops. While the methodological contribution is notable, its ecosystem relevance is slightly lower due to its domain-specific focus on social sciences.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.01520v1",
+      "pdf": "https://arxiv.org/pdf/2604.01520v1",
+      "arxiv": "https://arxiv.org/abs/2604.01520v1"
+    },
+    "code_repos": [],
+    "featured": false,
+    "why_it_matters": "S-Researcher represents a transformative step in social science research by leveraging AI to automate and scale traditionally labor-intensive processes. This approach not only reduces costs and time but also opens up new possibilities for exploring complex social phenomena at unprecedented scales, fostering innovation and discovery in the field of social inquiry.",
+    "digest_summary": "S-Researcher is a groundbreaking platform that uses LLM agents to automate and scale social science research. By simulating human behavior and supporting full research workflows, it enables researchers to efficiently design experiments, analyze results, and generate insights. Validated through case studies, this platform redefines human-AI collaboration in social science, accelerating discovery and reducing costs.",
+    "editor_note": "This is especially relevant today as interdisciplinary research increasingly relies on scalable, AI-driven methodologies.",
+    "archive_path": "archive/papers/2026-04-04/2604-01520v1-llm-agents-as-social-scientists-a-human-ai-collaborative-platform-for-social-science-automation.md"
+  },
+  {
+    "id": "2604.01592v1",
+    "paper_id": "2604.01592v1",
+    "title": "Symmetry-Informed Term Filtering for Continuum Equation Discovery",
+    "summary_short": [
+      "Proposes a symmetry-informed filtering method for continuum equation discovery.",
+      "Uses algebraic techniques to enforce symmetry constraints systematically.",
+      "Reduces symmetry enforcement to solving linear kernel equations.",
+      "Demonstrates effectiveness on dihedral symmetry and known physical systems.",
+      "Facilitates data-driven discovery of governing equations with symmetry constraints."
+    ],
+    "date": "2026-04-02",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "closed_loop_empirical_science"
+    ],
+    "theme_names": [
+      "Closed-Loop Empirical Science"
+    ],
+    "importance_score": 7.8,
+    "reason": "The paper proposes a symmetry-informed filtering method for equation discovery, aligning with Closed-Loop Empirical Science. Its methodological contribution is significant, but its ecosystem relevance is slightly limited to physics and related domains.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.01592v1",
+      "pdf": "https://arxiv.org/pdf/2604.01592v1",
+      "arxiv": "https://arxiv.org/abs/2604.01592v1"
+    },
+    "code_repos": [],
+    "featured": false,
+    "why_it_matters": "Symmetry constraints are fundamental in physics and engineering, but enforcing them in complex systems or data-driven models is often computationally expensive and challenging. This method provides a systematic and efficient way to ensure symmetry compliance, enabling more accurate and physically consistent discovery of governing equations, which is crucial for advancing scientific understanding and predictive modeling in various domains.",
+    "digest_summary": "A new method simplifies the discovery of governing equations by systematically enforcing symmetry constraints using algebraic filtering. By reducing symmetry enforcement to solving linear kernel equations, the approach ensures a complete and efficient identification of symmetry-allowed terms. Demonstrated on systems like Toner--Tu and Kardar--Parisi--Zhang, this innovation aids data-driven equation discovery while maintaining physical consistency.",
+    "editor_note": "This research is timely as it addresses the growing need for efficient, symmetry-compliant methods in data-driven scientific discovery.",
+    "archive_path": "archive/papers/2026-04-04/2604-01592v1-symmetry-informed-term-filtering-for-continuum-equation-discovery.md"
   }
 ]
