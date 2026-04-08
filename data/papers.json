@@ -4457,5 +4457,267 @@
     "digest_summary": "GeoBrowse is a new geolocation benchmark that challenges AI agents to combine ambiguous visual cues with multi-hop, knowledge-intensive queries. It introduces GATE, a workflow with specialized tools, and provides expert-annotated reasoning traces for evaluation. Early experiments show that coherent tool-use strategies outperform simpler setups, advancing multimodal reasoning research.",
     "editor_note": "This benchmark is timely as it bridges gaps in multimodal AI, crucial for real-world applications like geolocation and beyond.",
     "archive_path": "archive/papers/2026-04-07/2604-04017v1-geobrowse-a-geolocation-benchmark-for-agentic-tool-use-with-expert-annotated-reasoning-traces.md"
+  },
+  {
+    "id": "2604.05550v1",
+    "paper_id": "2604.05550v1",
+    "title": "AutoSOTA: An End-to-End Automated Research System for State-of-the-Art AI Model Discovery",
+    "summary_short": [
+      "AutoSOTA automates the discovery of new SOTA AI models from top-tier research papers.",
+      "Uses a multi-agent system to replicate, optimize, and innovate AI models.",
+      "Achieves strong performance, discovering 105 improved SOTA models in diverse domains.",
+      "Reduces repetitive experimental burden and fosters scientific creativity.",
+      "Evaluates papers from eight top AI conferences with filters for code and cost."
+    ],
+    "date": "2026-04-07",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "research_infrastructure_and_benchmarks"
+    ],
+    "theme_names": [
+      "Research Infrastructure And Benchmarks"
+    ],
+    "importance_score": 9.0,
+    "reason": "AutoSOTA introduces an end-to-end automated research system for advancing SOTA AI models, aligning perfectly with research infrastructure and benchmarks. Its multi-agent architecture and focus on empirical optimization make it highly significant and likely to have lasting impact.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.05550v1",
+      "pdf": "https://arxiv.org/pdf/2604.05550v1",
+      "arxiv": "https://arxiv.org/abs/2604.05550v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "AutoSOTA addresses the growing complexity and time demands of AI research by automating the pipeline for reproducing and improving SOTA models. This system not only accelerates innovation but also serves as a foundational infrastructure for researchers, enabling them to focus on creative and high-level scientific tasks rather than repetitive experimentation. Its success across diverse domains highlights its potential to transform how AI research is conducted globally.",
+    "digest_summary": "AutoSOTA is an automated research system designed to replicate and optimize AI models from top-tier papers, achieving 105 new SOTA models across domains like NLP, computer vision, and optimization. By leveraging a multi-agent architecture, it reduces experimental overhead and fosters architectural and algorithmic innovation. This system could redefine research workflows and accelerate scientific discovery in AI.",
+    "editor_note": "With AI research growing increasingly complex, tools like AutoSOTA are crucial for maintaining innovation momentum while reducing resource strain.",
+    "archive_path": "archive/papers/2026-04-08/2604-05550v1-autosota-an-end-to-end-automated-research-system-for-state-of-the-art-ai-model-discovery.md"
+  },
+  {
+    "id": "2604.05854v1",
+    "paper_id": "2604.05854v1",
+    "title": "Deep Researcher Agent: An Autonomous Framework for 24/7 Deep Learning Experimentation with Zero-Cost Monitoring",
+    "summary_short": [
+      "Introduces Deep Researcher Agent for autonomous deep learning experimentation.",
+      "Covers the full experiment lifecycle: hypothesis, coding, training, analysis, and refinement.",
+      "Features zero-cost monitoring, capped memory, and a minimal-toolset multi-agent design.",
+      "Achieved 500+ experiments in 30 days with an average cost of $0.08 per day.",
+      "Open-source code available for replication and use."
+    ],
+    "date": "2026-04-07",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 8.55,
+    "reason": "Deep Researcher Agent introduces a framework for autonomous deep learning experimentation, covering the full lifecycle of research. Its innovations like zero-cost monitoring and memory systems are highly relevant for literature and survey agents and research workflows. The methodology is substantial and likely to have lasting impact.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.05854v1",
+      "pdf": "https://arxiv.org/pdf/2604.05854v1",
+      "arxiv": "https://arxiv.org/abs/2604.05854v1"
+    },
+    "code_repos": [
+      "https://github.com/Xiangyue-Zhang/auto-deep-researcher-24x7"
+    ],
+    "featured": true,
+    "why_it_matters": "Deep Researcher Agent represents a significant step forward in automating deep learning research, enabling continuous experimentation with minimal costs and resource usage. By addressing challenges like monitoring expenses, memory limitations, and token overhead, it democratizes access to high-efficiency AI research tools, making advanced experimentation feasible for a broader audience of researchers and developers.",
+    "digest_summary": "Deep Researcher Agent is an open-source framework that automates deep learning experiments 24/7, covering hypothesis formation to result refinement. Its innovations include zero-cost monitoring, capped memory, and a minimal-toolset multi-agent design, enabling 500+ experiments in 30 days at just $0.08/day. This tool could revolutionize how researchers approach AI experimentation.",
+    "editor_note": "This framework is especially relevant as AI research scales, offering cost-effective and efficient solutions for continuous experimentation.",
+    "archive_path": "archive/papers/2026-04-08/2604-05854v1-deep-researcher-agent-an-autonomous-framework-for-24-7-deep-learning-experimentation-with-zero-cost-monitoring.md"
+  },
+  {
+    "id": "2604.04949",
+    "paper_id": "2604.04949",
+    "title": "Learning to Retrieve from Agent Trajectories",
+    "summary_short": [
+      "Traditional IR systems rely on human interaction data like clicks and dwell time.",
+      "Agentic search powered by LLMs requires retrieval models tailored to agent behaviors.",
+      "LRAT framework uses agent trajectories to train retrieval models effectively.",
+      "Key signals include browsing actions, rejections, and reasoning traces.",
+      "Experiments show LRAT improves recall, task success, and efficiency."
+    ],
+    "date": "2026-03-30",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "literature_and_survey_agents",
+      "research_infrastructure_and_benchmarks"
+    ],
+    "theme_names": [
+      "Literature And Survey Agents",
+      "Research Infrastructure And Benchmarks"
+    ],
+    "importance_score": 8.2,
+    "reason": "Learning to Retrieve from Agent Trajectories addresses retrieval models tailored for agentic search, a critical component of literature and survey agents. The methodology is significant and ecosystem relevance is high, with good prospects for longevity.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2604.04949",
+      "arxiv": "https://arxiv.org/abs/2604.04949",
+      "pdf": "https://arxiv.org/pdf/2604.04949",
+      "huggingface": "https://huggingface.co/papers/2604.04949"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "As large language models increasingly drive search and reasoning tasks, traditional human-centric retrieval models fail to align with agent behaviors. Training retrieval systems directly from agent interactions ensures better performance and adaptability in multi-turn reasoning scenarios, paving the way for more efficient and accurate AI-driven research tools.",
+    "digest_summary": "A new paradigm for information retrieval emerges with LRAT, a framework that trains models using agent trajectories instead of human interaction data. By leveraging signals like browsing actions and reasoning traces, LRAT enhances evidence recall and task success in agentic search systems. This approach addresses the growing need for retrieval models optimized for AI-driven workflows.",
+    "editor_note": "With AI agents increasingly dominating search tasks, this research highlights a timely shift in how retrieval systems are trained.",
+    "archive_path": "archive/papers/2026-04-08/2604-04949-learning-to-retrieve-from-agent-trajectories.md"
+  },
+  {
+    "id": "2604.05952v1",
+    "paper_id": "2604.05952v1",
+    "title": "Towards Trustworthy Report Generation: A Deep Research Agent with Progressive Confidence Estimation and Calibration",
+    "summary_short": [
+      "Introduces a deep research agent for generating trustworthy reports.",
+      "Incorporates confidence estimation and calibration to enhance reliability.",
+      "Uses deliberative search with multi-hop reasoning for evidence grounding.",
+      "Improves interpretability and user trust in generated content.",
+      "Targets open-ended research scenarios with no ground-truth answers."
+    ],
+    "date": "2026-04-07",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists",
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists",
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 7.55,
+    "reason": "The paper focuses on trustworthy report generation by deep research agents, addressing epistemic confidence and calibration. This is relevant for literature and survey agents, though the methodology is less groundbreaking compared to other works. It has moderate longevity due to its focus on trustworthiness in agent-generated content.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.05952v1",
+      "pdf": "https://arxiv.org/pdf/2604.05952v1",
+      "arxiv": "https://arxiv.org/abs/2604.05952v1"
+    },
+    "code_repos": [],
+    "featured": false,
+    "why_it_matters": "As AI systems increasingly assist in research and knowledge synthesis, ensuring the trustworthiness of their outputs is critical to prevent misinformation and enhance user confidence. This work addresses the challenge by introducing mechanisms for confidence estimation and calibration, paving the way for more reliable AI-driven research tools in diverse domains.",
+    "digest_summary": "A novel deep research agent aims to revolutionize report generation by focusing on trustworthiness. It combines progressive confidence estimation and evidence-grounding techniques to produce transparent and reliable outputs. This approach addresses the critical challenge of epistemic confidence in open-ended research scenarios, boosting user trust and interpretability.",
+    "editor_note": "With AI's growing role in research, tools like this are essential to ensure accuracy and reliability in knowledge dissemination.",
+    "archive_path": "archive/papers/2026-04-08/2604-05952v1-towards-trustworthy-report-generation-a-deep-research-agent-with-progressive-confidence-estimation-and-calibration.md"
+  },
+  {
+    "id": "2604.05557v1",
+    "paper_id": "2604.05557v1",
+    "title": "EpiBench: Benchmarking Multi-turn Research Workflows for Multimodal Agents",
+    "summary_short": [
+      "EpiBench benchmarks multi-turn research workflows for multimodal AI agents.",
+      "Focuses on proactive search, evidence integration, and sustained use over time.",
+      "Introduces episodic tasks requiring cross-paper and multi-figure analysis.",
+      "Current leading model achieves only 29.23% accuracy, highlighting challenges.",
+      "Aims to advance reproducible and verifiable AI research agents."
+    ],
+    "date": "2026-04-07",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists"
+    ],
+    "importance_score": 7.55,
+    "reason": "EpiBench provides a benchmark for multi-turn research workflows, focusing on multimodal agents. While benchmarks are critical for ecosystem development, the methodology is less innovative compared to other papers. Its relevance to end-to-end AI scientists is clear, but longevity depends on adoption.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.05557v1",
+      "pdf": "https://arxiv.org/pdf/2604.05557v1",
+      "arxiv": "https://arxiv.org/abs/2604.05557v1"
+    },
+    "code_repos": [],
+    "featured": false,
+    "why_it_matters": "EpiBench addresses critical gaps in evaluating AI agents for scientific research, emphasizing the need for systems capable of handling complex, multi-step workflows that mirror real-world research processes. This benchmark could accelerate the development of AI tools that support reproducible and rigorous scientific inquiry, a cornerstone of progress in science and technology.",
+    "digest_summary": "EpiBench introduces a groundbreaking benchmark for evaluating multimodal AI agents in multi-turn research workflows. By testing capabilities like proactive literature search, evidence integration, and sustained reasoning, it highlights the challenges of creating AI systems that can support reproducible scientific research. Current models show significant room for improvement, with top accuracy at only 29.23%.",
+    "editor_note": "As AI's role in scientific discovery grows, tools like EpiBench are crucial for ensuring rigor and reproducibility in automated research workflows.",
+    "archive_path": "archive/papers/2026-04-08/2604-05557v1-epibench-benchmarking-multi-turn-research-workflows-for-multimodal-agents.md"
+  },
+  {
+    "id": "2604.04503v2",
+    "paper_id": "2604.04503v2",
+    "title": "Memory Intelligence Agent",
+    "summary_short": [
+      "Introduces the Memory Intelligence Agent (MIA) framework for efficient reasoning and autonomous evolution.",
+      "Combines parametric and non-parametric memory systems for dynamic memory evolution.",
+      "Uses alternating reinforcement learning to enhance Planner-Executor cooperation.",
+      "Supports test-time learning with on-the-fly updates during inference.",
+      "Demonstrates superior performance across eleven benchmarks."
+    ],
+    "date": "2026-04-06",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists",
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists",
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 7.55,
+    "reason": "Memory Intelligence Agent proposes a novel memory framework for deep research agents, addressing memory evolution and cost issues. It is relevant for literature and survey agents, though the methodology is incremental rather than transformative. Longevity depends on further development of memory systems.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.04503v2",
+      "pdf": "https://arxiv.org/pdf/2604.04503v2",
+      "arxiv": "https://arxiv.org/abs/2604.04503v2"
+    },
+    "code_repos": [],
+    "featured": false,
+    "why_it_matters": "The MIA framework addresses critical limitations in memory systems for deep research agents, enabling more efficient reasoning, reduced storage costs, and autonomous evolution. By integrating advanced memory mechanisms and adaptive learning strategies, MIA paves the way for more capable and scalable AI systems that can handle complex, open-world tasks with greater reliability and adaptability.",
+    "digest_summary": "The Memory Intelligence Agent (MIA) framework revolutionizes deep research agents by integrating advanced memory systems and adaptive learning. With features like test-time learning and bidirectional memory evolution, MIA enhances reasoning efficiency and scalability. Extensive benchmarks highlight its superior performance, making it a promising tool for autonomous AI research and problem-solving.",
+    "editor_note": "As AI systems increasingly tackle complex, open-world tasks, frameworks like MIA are crucial for advancing autonomous reasoning and adaptability.",
+    "archive_path": "archive/papers/2026-04-08/2604-04503v2-memory-intelligence-agent.md"
+  },
+  {
+    "id": "2604.02648",
+    "paper_id": "2604.02648",
+    "title": "GBQA: A Game Benchmark for Evaluating LLMs as Quality Assurance Engineers",
+    "summary_short": [
+      "Introduces GBQA, a benchmark for testing LLMs in bug discovery within game development.",
+      "Features 30 games and 124 human-verified bugs across three difficulty levels.",
+      "Uses a multi-agent system to create games and inject bugs, with human oversight.",
+      "Baseline agent employs a ReAct loop and memory for long-horizon exploration.",
+      "Top-performing LLM detects only 48.39% of bugs, highlighting the challenge."
+    ],
+    "date": "2026-04-03",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "autonomous_discovery"
+    ],
+    "theme_names": [
+      "Autonomous Discovery"
+    ],
+    "importance_score": 7.55,
+    "reason": "GBQA provides a benchmark for autonomous bug discovery in software development, relevant to autonomous discovery themes. While the methodology is solid, its focus on game development may limit broader applicability.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2604.02648",
+      "arxiv": "https://arxiv.org/abs/2604.02648",
+      "pdf": "https://arxiv.org/pdf/2604.02648",
+      "huggingface": "https://huggingface.co/papers/2604.02648"
+    },
+    "code_repos": [],
+    "featured": false,
+    "why_it_matters": "As software systems grow increasingly complex, the ability to autonomously detect bugs could revolutionize quality assurance processes. GBQA provides a structured, scalable, and human-verified benchmark to evaluate and improve LLMs in this critical domain, particularly in dynamic environments like game development. Progress here could lead to more robust and efficient software engineering practices across industries.",
+    "digest_summary": "The GBQA benchmark tests large language models (LLMs) for their ability to autonomously detect bugs in game development. With 30 games and 124 human-verified bugs, it highlights the challenges of bug discovery in dynamic environments. Current LLMs, like Claude-4.6-Opus, detect less than half of the bugs, underscoring the need for advancements in autonomous software engineering.",
+    "editor_note": "This research is timely as industries increasingly rely on AI for software development and quality assurance.",
+    "archive_path": "archive/papers/2026-04-08/2604-02648-gbqa-a-game-benchmark-for-evaluating-llms-as-quality-assurance-engineers.md"
   }
 ]
