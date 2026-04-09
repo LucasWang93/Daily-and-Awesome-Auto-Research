@@ -4719,5 +4719,41 @@
     "digest_summary": "The GBQA benchmark tests large language models (LLMs) for their ability to autonomously detect bugs in game development. With 30 games and 124 human-verified bugs, it highlights the challenges of bug discovery in dynamic environments. Current LLMs, like Claude-4.6-Opus, detect less than half of the bugs, underscoring the need for advancements in autonomous software engineering.",
     "editor_note": "This research is timely as industries increasingly rely on AI for software development and quality assurance.",
     "archive_path": "archive/papers/2026-04-08/2604-02648-gbqa-a-game-benchmark-for-evaluating-llms-as-quality-assurance-engineers.md"
+  },
+  {
+    "id": "2604.06474v1",
+    "paper_id": "2604.06474v1",
+    "title": "DataSTORM: Deep Research on Large-Scale Databases using Exploratory Data Analysis and Data Storytelling",
+    "summary_short": [
+      "DataSTORM enables deep research on structured databases using LLMs.",
+      "It combines Exploratory Data Analysis and Data Storytelling principles.",
+      "Achieves state-of-the-art results on InsightBench with improved recall and summary scores.",
+      "Outperforms proprietary systems like ChatGPT Deep Research on real-world datasets.",
+      "Introduces a new dataset based on the ACLED database for evaluation."
+    ],
+    "date": "2026-04-07",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 8.35,
+    "reason": "DataSTORM addresses deep research over structured databases, introducing exploratory data analysis and storytelling capabilities. It is highly relevant for Literature and Survey Agents and contributes significantly to the ecosystem.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.06474v1",
+      "pdf": "https://arxiv.org/pdf/2604.06474v1",
+      "arxiv": "https://arxiv.org/abs/2604.06474v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "DataSTORM bridges the gap between unstructured web data research and structured database analysis, enabling more robust and insightful data-centric investigations. Its ability to autonomously generate, validate, and narrate analytical theses has the potential to revolutionize fields reliant on large-scale structured data, from social sciences to business intelligence.",
+    "digest_summary": "DataSTORM is a cutting-edge LLM-based system designed for deep research on structured databases, combining Exploratory Data Analysis and Data Storytelling. It achieves state-of-the-art performance on InsightBench and outperforms systems like ChatGPT Deep Research on real-world datasets. This innovation could redefine how structured data is analyzed and narrated in research and industry.",
+    "editor_note": "With the increasing reliance on structured data for decision-making, tools like DataSTORM are critical for advancing data-driven insights.",
+    "archive_path": "archive/papers/2026-04-09/2604-06474v1-datastorm-deep-research-on-large-scale-databases-using-exploratory-data-analysis-and-data-storytelling.md"
   }
 ]
