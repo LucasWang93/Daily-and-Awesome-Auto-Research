@@ -4755,5 +4755,150 @@
     "digest_summary": "DataSTORM is a cutting-edge LLM-based system designed for deep research on structured databases, combining Exploratory Data Analysis and Data Storytelling. It achieves state-of-the-art performance on InsightBench and outperforms systems like ChatGPT Deep Research on real-world datasets. This innovation could redefine how structured data is analyzed and narrated in research and industry.",
     "editor_note": "With the increasing reliance on structured data for decision-making, tools like DataSTORM are critical for advancing data-driven insights.",
     "archive_path": "archive/papers/2026-04-09/2604-06474v1-datastorm-deep-research-on-large-scale-databases-using-exploratory-data-analysis-and-data-storytelling.md"
+  },
+  {
+    "id": "2604.07927v1",
+    "paper_id": "2604.07927v1",
+    "title": "EigentSearch-Q+: Enhancing Deep Research Agents with Structured Reasoning Tools",
+    "summary_short": [
+      "Introduces Q+, a structured reasoning toolset for web search.",
+      "Enhances Eigent's browser agent with deliberate query planning and evidence handling.",
+      "Improves benchmark accuracy for multiple AI model backends.",
+      "Focuses on reducing redundant exploration and improving evidence aggregation."
+    ],
+    "date": "2026-04-09",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists",
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists",
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 8.55,
+    "reason": "EigentSearch-Q+ enhances deep research agents with structured reasoning tools, directly improving literature and survey agents. Its integration into Eigent's multi-agent system makes it highly relevant for builders of research workflows.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.07927v1",
+      "pdf": "https://arxiv.org/pdf/2604.07927v1",
+      "arxiv": "https://arxiv.org/abs/2604.07927v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "EigentSearch-Q+ addresses a critical challenge in AI-driven research by introducing structured reasoning tools that enhance the accuracy and efficiency of deep research agents. This advancement not only improves the performance of AI models but also sets a precedent for more deliberate and transparent approaches to information retrieval and reasoning in AI systems.",
+    "digest_summary": "EigentSearch-Q+ integrates structured reasoning tools into Eigent's browser agent, improving AI-driven web search for deep research tasks. By guiding query planning and evidence handling, it boosts benchmark accuracy across multiple AI models. This innovation reduces redundant exploration and enhances evidence aggregation, advancing the capabilities of AI research agents.",
+    "editor_note": "This work is timely as AI tools are increasingly relied upon for complex research tasks requiring precision and transparency.",
+    "archive_path": "archive/papers/2026-04-10/2604-07927v1-eigentsearch-q-enhancing-deep-research-agents-with-structured-reasoning-tools.md"
+  },
+  {
+    "id": "2604.07512v1",
+    "paper_id": "2604.07512v1",
+    "title": "Rhizome OS-1: Rhizome's Semi-Autonomous Operating System for Small Molecule Drug Discovery",
+    "summary_short": [
+      "Rhizome OS-1 is a semi-autonomous operating system for small molecule drug discovery.",
+      "Multi-modal AI agents act as computational chemists, medicinal chemists, and patent agents.",
+      "The system generates structurally distinct molecules using a 246M-parameter Graph Neural Network (GNN).",
+      "Binding affinity predictions achieved high accuracy with ROC AUC values of 0.88 to 0.93.",
+      "Supports rapid, adaptive, and scalable inverse design for drug discovery."
+    ],
+    "date": "2026-04-08",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autonomous_discovery"
+    ],
+    "theme_names": [
+      "Autonomous Discovery"
+    ],
+    "importance_score": 8.55,
+    "reason": "Rhizome OS-1 introduces a semi-autonomous system for small molecule drug discovery, aligning well with autonomous discovery themes. Its multi-modal AI agents and practical applications make it highly relevant.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.07512v1",
+      "pdf": "https://arxiv.org/pdf/2604.07512v1",
+      "arxiv": "https://arxiv.org/abs/2604.07512v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "Rhizome OS-1 represents a significant leap in drug discovery by combining AI-driven molecular generation with multi-disciplinary agent collaboration, enabling faster and more innovative approaches to identifying novel therapeutic compounds. This could accelerate the development of treatments for complex diseases like cancer, while reducing costs and increasing efficiency in early-stage research processes.",
+    "digest_summary": "Rhizome OS-1 introduces a semi-autonomous system for small molecule drug discovery, leveraging multi-modal AI agents and a powerful Graph Neural Network to generate novel chemical matter. The system demonstrated high accuracy in binding affinity predictions and produced structurally distinct molecules for oncology targets, showcasing its potential to revolutionize early-stage drug design.",
+    "editor_note": "With the growing need for innovative treatments in oncology and other fields, Rhizome OS-1 highlights how AI can transform drug discovery today.",
+    "archive_path": "archive/papers/2026-04-10/2604-07512v1-rhizome-os-1-rhizome-s-semi-autonomous-operating-system-for-small-molecule-drug-discovery.md"
+  },
+  {
+    "id": "2604.08318v1",
+    "paper_id": "2604.08318v1",
+    "title": "A Model Context Protocol Server for Quantum Execution in Hybrid Quantum-HPC Environments",
+    "summary_short": [
+      "Introduces a Model Context Protocol (MCP) server for quantum execution.",
+      "Enables LLM agents to autonomously execute quantum workflows.",
+      "Supports OpenQASM code interpretation and CUDA-Q integration.",
+      "Demonstrates asynchronous execution on remote quantum hardware.",
+      "Facilitates automation in hybrid quantum-HPC environments."
+    ],
+    "date": "2026-04-09",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists"
+    ],
+    "importance_score": 7.55,
+    "reason": "The paper addresses a critical gap in executing quantum computing tasks within the context of autonomous AI scientists, which is highly relevant to end-to-end AI systems. The proposed Model Context Protocol server is methodologically significant and useful for research workflows involving quantum computing.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.08318v1",
+      "pdf": "https://arxiv.org/pdf/2604.08318v1",
+      "arxiv": "https://arxiv.org/abs/2604.08318v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "Quantum computing holds immense potential for solving complex scientific problems, but its practical application is hindered by the intricate management of hardware and computational resources. This framework bridges the gap by enabling AI agents to autonomously execute quantum workflows, paving the way for more accessible and scalable quantum research in hybrid environments.",
+    "digest_summary": "A new framework introduces a Model Context Protocol (MCP) server that allows large language models (LLMs) to autonomously execute quantum computing workflows. By abstracting hardware complexities, the system integrates OpenQASM code interpretation, CUDA-Q pipelines, and asynchronous execution on remote quantum hardware, advancing automation in hybrid quantum-HPC environments.",
+    "editor_note": "This innovation is timely as quantum computing continues to expand its role in solving real-world scientific challenges.",
+    "archive_path": "archive/papers/2026-04-10/2604-08318v1-a-model-context-protocol-server-for-quantum-execution-in-hybrid-quantum-hpc-environments.md"
+  },
+  {
+    "id": "2604.07720v1",
+    "paper_id": "2604.07720v1",
+    "title": "Towards Knowledgeable Deep Research: Framework and Benchmark",
+    "summary_short": [
+      "Introduces Knowledgeable Deep Research (KDR) for generating reports using structured and unstructured knowledge.",
+      "Proposes the Hybrid Knowledge Analysis (HKA) framework with multi-agent architecture for multimodal reasoning.",
+      "Develops KDR-Bench, a benchmark with 9 domains, 41 expert-level questions, and 1,252 structured tables.",
+      "HKA outperforms existing DR agents on knowledge-centric and vision-enhanced metrics.",
+      "Aims to advance structured knowledge analysis in autonomous research agents."
+    ],
+    "date": "2026-04-09",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 7.55,
+    "reason": "The paper proposes a framework for Knowledgeable Deep Research, emphasizing structured and unstructured knowledge integration. This is highly relevant to literature and survey agents and research workflows.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.07720v1",
+      "pdf": "https://arxiv.org/pdf/2604.07720v1",
+      "arxiv": "https://arxiv.org/abs/2604.07720v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "As AI agents increasingly assist in research tasks, integrating structured knowledge alongside unstructured data is crucial for generating reliable, data-driven insights. This work sets a new standard for multimodal reasoning and evaluation, paving the way for more robust and comprehensive autonomous research systems that can tackle complex, expert-level inquiries across diverse domains.",
+    "digest_summary": "A new framework, Hybrid Knowledge Analysis (HKA), is advancing autonomous research by enabling AI agents to integrate structured and unstructured knowledge into multimodal reports. Paired with the KDR-Bench benchmark, this approach demonstrates superior performance in structured knowledge analysis and vision-enhanced metrics, setting a foundation for future multimodal research studies.",
+    "editor_note": "With the growing reliance on AI for research, frameworks like HKA are essential to ensure depth, accuracy, and multimodal reasoning in complex tasks.",
+    "archive_path": "archive/papers/2026-04-10/2604-07720v1-towards-knowledgeable-deep-research-framework-and-benchmark.md"
   }
 ]
