@@ -4900,5 +4900,43 @@
     "digest_summary": "A new framework, Hybrid Knowledge Analysis (HKA), is advancing autonomous research by enabling AI agents to integrate structured and unstructured knowledge into multimodal reports. Paired with the KDR-Bench benchmark, this approach demonstrates superior performance in structured knowledge analysis and vision-enhanced metrics, setting a foundation for future multimodal research studies.",
     "editor_note": "With the growing reliance on AI for research, frameworks like HKA are essential to ensure depth, accuracy, and multimodal reasoning in complex tasks.",
     "archive_path": "archive/papers/2026-04-10/2604-07720v1-towards-knowledgeable-deep-research-framework-and-benchmark.md"
+  },
+  {
+    "id": "2604.09251v1",
+    "paper_id": "2604.09251v1",
+    "title": "DRBENCHER: Can Your Agent Identify the Entity, Retrieve Its Properties and Do the Math?",
+    "summary_short": [
+      "DRBENCHER evaluates agents on browsing and computation tasks together.",
+      "Benchmarks span five domains: biochemistry, finance, geophysics, security, and history.",
+      "Gold answers are derived from parameterized code and knowledge-graph values.",
+      "Human evaluation shows 76% validity, with 35% of errors due to outdated data.",
+      "Frontier models achieve only 20% accuracy, highlighting challenges in multi-step reasoning."
+    ],
+    "date": "2026-04-10",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists",
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists",
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 8.55,
+    "reason": "The paper introduces DRBENCHER, a benchmark generator that evaluates the integration of browsing and computation in research agents, which is highly relevant to auto-research. The methodological contribution is substantial, as it enforces criteria like verifiability and complexity. It is highly useful for builders of research agents and workflows, and its focus on multi-step tasks ensures its relevance over time.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.09251v1",
+      "pdf": "https://arxiv.org/pdf/2604.09251v1",
+      "arxiv": "https://arxiv.org/abs/2604.09251v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "DRBENCHER addresses a critical gap in AI evaluation by combining browsing and computation tasks, reflecting real-world scenarios where agents must synthesize information across domains and perform complex reasoning. This benchmark pushes the boundaries of AI capabilities and highlights limitations in reasoning over dynamic, evolving datasets, paving the way for more robust and adaptable systems in research and decision-making contexts.",
+    "digest_summary": "DRBENCHER introduces a synthetic benchmark for evaluating AI agents on tasks requiring both web browsing and multi-step computation. Covering five diverse domains, it emphasizes verifiability, complexity, and diversity. Human evaluation reveals challenges with outdated data, while frontier models achieve only 20% accuracy, underscoring the difficulty of multi-step reasoning in dynamic environments.",
+    "editor_note": "As AI agents increasingly tackle real-world research tasks, benchmarks like DRBENCHER are crucial for understanding their limitations and guiding future advancements.",
+    "archive_path": "archive/papers/2026-04-13/2604-09251v1-drbencher-can-your-agent-identify-the-entity-retrieve-its-properties-and-do-the-math.md"
   }
 ]
