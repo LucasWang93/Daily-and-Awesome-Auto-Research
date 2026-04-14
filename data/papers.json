@@ -4938,5 +4938,259 @@
     "digest_summary": "DRBENCHER introduces a synthetic benchmark for evaluating AI agents on tasks requiring both web browsing and multi-step computation. Covering five diverse domains, it emphasizes verifiability, complexity, and diversity. Human evaluation reveals challenges with outdated data, while frontier models achieve only 20% accuracy, underscoring the difficulty of multi-step reasoning in dynamic environments.",
     "editor_note": "As AI agents increasingly tackle real-world research tasks, benchmarks like DRBENCHER are crucial for understanding their limitations and guiding future advancements.",
     "archive_path": "archive/papers/2026-04-13/2604-09251v1-drbencher-can-your-agent-identify-the-entity-retrieve-its-properties-and-do-the-math.md"
+  },
+  {
+    "id": "2604.11307v1",
+    "paper_id": "2604.11307v1",
+    "title": "PaperScope: A Multi-Modal Multi-Document Benchmark for Agentic Deep Research Across Massive Scientific Papers",
+    "summary_short": [
+      "Introduces PaperScope, a benchmark for multi-modal, multi-document scientific reasoning.",
+      "Built on a knowledge graph of 2,000 AI papers spanning three years.",
+      "Includes over 2,000 QA pairs for evaluating reasoning, retrieval, summarization, and problem-solving.",
+      "Highlights challenges in long-context retrieval and multi-source reasoning for advanced systems.",
+      "Provides a scalable pipeline for constructing deep research datasets."
+    ],
+    "date": "2026-04-13",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 9.25,
+    "reason": "PaperScope introduces a benchmark for multi-modal, multi-document scientific reasoning, directly addressing gaps in evaluating agentic deep research. Its structured grounding and focus on real-world workflows make it highly relevant to auto-research. The benchmark's utility for evaluating research agents ensures its ecosystem relevance and longevity.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.11307v1",
+      "pdf": "https://arxiv.org/pdf/2604.11307v1",
+      "arxiv": "https://arxiv.org/abs/2604.11307v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "PaperScope addresses a critical gap in evaluating AI systems for scientific research, focusing on multi-modal and multi-document reasoning. By providing a structured benchmark, it enables the development of systems capable of integrating complex evidence across diverse scientific sources, which is essential for advancing AI-driven research workflows and tackling real-world scientific challenges.",
+    "digest_summary": "PaperScope is a groundbreaking benchmark designed to evaluate multi-modal, multi-document scientific reasoning. Built on a knowledge graph of 2,000 AI papers, it includes over 2,000 QA pairs across tasks like retrieval and problem-solving. Experimental results reveal the difficulty of deep multi-source reasoning, even for advanced AI systems, underscoring the importance of this benchmark for future research.",
+    "editor_note": "With the rapid growth of AI in scientific research, PaperScope provides a timely tool to push the boundaries of multi-source reasoning capabilities.",
+    "archive_path": "archive/papers/2026-04-14/2604-11307v1-paperscope-a-multi-modal-multi-document-benchmark-for-agentic-deep-research-across-massive-scientific-papers.md"
+  },
+  {
+    "id": "2604.10696v1",
+    "paper_id": "2604.10696v1",
+    "title": "Camyla: Scaling Autonomous Research in Medical Image Segmentation",
+    "summary_short": [
+      "Camyla autonomously conducts medical image segmentation research end-to-end.",
+      "Addresses challenges like search drift, knowledge degradation, and failure recovery.",
+      "Evaluated on 31 datasets, surpassing baselines on 24/31 datasets.",
+      "Generated 2,700+ models and 40 manuscripts in 28 days on an 8-GPU cluster.",
+      "Manuscripts scored at T1/T2 journal quality by senior reviewers."
+    ],
+    "date": "2026-04-12",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists"
+    ],
+    "importance_score": 9.2,
+    "reason": "Camyla directly addresses autonomous research in medical image segmentation, aligning perfectly with the theme of End-to-End AI Scientists. Its methodological contributions are substantial, tackling challenges in long-horizon autonomous experimentation. The system's relevance to builders of research agents is high, and its focus on medical imaging ensures its longevity in a critical domain.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.10696v1",
+      "pdf": "https://arxiv.org/pdf/2604.10696v1",
+      "arxiv": "https://arxiv.org/abs/2604.10696v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "Camyla demonstrates the potential of autonomous systems to revolutionize scientific research by automating complex workflows, reducing human intervention, and achieving state-of-the-art results in medical image segmentation—a critical field for healthcare advancements.",
+    "digest_summary": "Camyla is a groundbreaking system for fully autonomous research in medical image segmentation. It transforms raw datasets into experiments and publishable manuscripts without human input, outperforming established baselines on 24 out of 31 datasets. Over 28 days, it generated 2,700+ models and 40 manuscripts, with reviewers rating its outputs at the quality of top-tier medical imaging journals. This showcases the feasibility of domain-scale autonomous research.",
+    "editor_note": "This innovation could accelerate progress in medical imaging, a field vital for diagnostics and treatment planning.",
+    "archive_path": "archive/papers/2026-04-14/2604-10696v1-camyla-scaling-autonomous-research-in-medical-image-segmentation.md"
+  },
+  {
+    "id": "2604.11753v1",
+    "paper_id": "2604.11753v1",
+    "title": "Agentic Aggregation for Parallel Scaling of Long-Horizon Agentic Tasks",
+    "summary_short": [
+      "Proposes AggAgent for aggregating parallel trajectories in long-horizon agentic tasks.",
+      "Addresses challenges like multi-turn, tool-augmented, and open-ended outputs.",
+      "Outperforms existing aggregation methods across six benchmarks and three model families.",
+      "Minimizes computational overhead with aggregation cost bounded by a single rollout."
+    ],
+    "date": "2026-04-13",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 8.55,
+    "reason": "AggAgent tackles a critical challenge in scaling long-horizon agentic tasks, making it highly relevant to auto-research. Its methodological contributions in trajectory aggregation are significant, and its utility for builders of agentic workflows is clear. The approach is likely to remain relevant as agentic tasks grow in complexity.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.11753v1",
+      "pdf": "https://arxiv.org/pdf/2604.11753v1",
+      "arxiv": "https://arxiv.org/abs/2604.11753v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "As AI systems tackle increasingly complex tasks like deep research and agentic search, efficient methods for scaling and synthesizing information are crucial. AggAgent introduces a novel approach to aggregate parallel trajectories, enabling better performance and cost-efficiency in handling long-horizon, multi-turn tasks. This advancement could significantly enhance the capabilities of AI in domains requiring nuanced reasoning and decision-making over extended periods.",
+    "digest_summary": "AggAgent is a new method for aggregating parallel trajectories in long-horizon agentic tasks, such as deep research and agentic search. It leverages lightweight tools to synthesize information across trajectories, outperforming existing methods by up to 10.3% on certain benchmarks while maintaining minimal computational overhead. This innovation paves the way for more efficient and effective scaling of complex AI tasks.",
+    "editor_note": "With AI increasingly being applied to complex, multi-step problems, solutions like AggAgent are timely and impactful.",
+    "archive_path": "archive/papers/2026-04-14/2604-11753v1-agentic-aggregation-for-parallel-scaling-of-long-horizon-agentic-tasks.md"
+  },
+  {
+    "id": "2604.11201v1",
+    "paper_id": "2604.11201v1",
+    "title": "CocoaBench: Evaluating Unified Digital Agents in the Wild",
+    "summary_short": [
+      "CocoaBench evaluates unified digital agents on complex, multi-capability tasks.",
+      "Benchmarks focus on combining vision, search, and coding in long-horizon scenarios.",
+      "Tasks are human-designed with automatic evaluation for scalability and reliability.",
+      "CocoaAgent provides a shared scaffold for controlled model comparisons.",
+      "Current agents show significant gaps, achieving only 45.1% success on CocoaBench."
+    ],
+    "date": "2026-04-13",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 8.55,
+    "reason": "CocoaBench evaluates unified digital agents across diverse, long-horizon tasks, making it highly relevant to auto-research. Its methodological contributions in benchmarking are solid, and its focus on multi-capability agents ensures ecosystem relevance. Longevity depends on continued interest in unified agent systems.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.11201v1",
+      "pdf": "https://arxiv.org/pdf/2604.11201v1",
+      "arxiv": "https://arxiv.org/abs/2604.11201v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "As AI systems increasingly integrate diverse capabilities, evaluating their performance on complex, real-world tasks becomes critical. CocoaBench addresses this by providing a benchmark that tests unified agents on tasks requiring flexible composition of skills, highlighting areas for improvement in reasoning, planning, and execution. This research pushes the boundaries of what AI agents can achieve in practical applications, paving the way for more robust and versatile systems.",
+    "digest_summary": "CocoaBench introduces a benchmark for unified digital agents, testing their ability to combine vision, search, and coding in complex tasks. With a success rate of only 45.1%, current systems show room for improvement in reasoning, planning, and execution. CocoaAgent offers a scaffold for controlled comparisons, driving advancements in multi-capability AI systems.",
+    "editor_note": "This research is timely as unified AI agents are becoming central to solving diverse, real-world challenges.",
+    "archive_path": "archive/papers/2026-04-14/2604-11201v1-cocoabench-evaluating-unified-digital-agents-in-the-wild.md"
+  },
+  {
+    "id": "2604.10741v1",
+    "paper_id": "2604.10741v1",
+    "title": "Deep-Reporter: Deep Research for Grounded Multimodal Long-Form Generation",
+    "summary_short": [
+      "Introduces Deep-Reporter for grounded multimodal long-form generation.",
+      "Combines text and visuals via agentic search and filtering.",
+      "Ensures coherence with checklist-guided synthesis and context management.",
+      "Includes M2LongBench, a testbed with 247 tasks across 9 domains.",
+      "Highlights challenges in multimodal selection and integration."
+    ],
+    "date": "2026-04-12",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 8.55,
+    "reason": "Deep-Reporter addresses multimodal long-form generation, a critical task for agentic research. Its methodological contributions in multimodal search and synthesis are significant, and its relevance to builders of research agents is high. Longevity is likely given the growing importance of multimodal research.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.10741v1",
+      "pdf": "https://arxiv.org/pdf/2604.10741v1",
+      "arxiv": "https://arxiv.org/abs/2604.10741v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "Deep-Reporter addresses the growing demand for AI systems capable of generating expert-level, multimodal reports by integrating textual and visual evidence. This innovation is crucial for applications in research, journalism, and technical documentation, where factual accuracy and multimodal coherence are paramount. By tackling the challenges of multimodal synthesis, it sets a new benchmark for grounded AI-driven content creation.",
+    "digest_summary": "Deep-Reporter is a novel framework for generating grounded multimodal long-form content by integrating text and visuals through advanced agentic search and synthesis techniques. It introduces M2LongBench, a testbed with 247 tasks across 9 domains, to evaluate performance. This work highlights the challenges of multimodal integration and demonstrates how post-training optimization can improve coherence and factual grounding.",
+    "editor_note": "With the rise of multimodal AI applications, Deep-Reporter could redefine how we approach expert-level content creation today.",
+    "archive_path": "archive/papers/2026-04-14/2604-10741v1-deep-reporter-deep-research-for-grounded-multimodal-long-form-generation.md"
+  },
+  {
+    "id": "2604.11201",
+    "paper_id": "2604.11201",
+    "title": "CocoaBench: Evaluating Unified Digital Agents in the Wild",
+    "summary_short": [
+      "CocoaBench evaluates unified digital agents on diverse, long-horizon tasks.",
+      "Focuses on combining vision, search, and coding capabilities in agents.",
+      "Introduces CocoaAgent for controlled comparisons across model backbones.",
+      "Current agents achieve only 45.1% success rate on benchmark tasks.",
+      "Highlights gaps in reasoning, planning, tool use, and visual grounding."
+    ],
+    "date": "2026-04-13",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 8.55,
+    "reason": "Duplicate entry of CocoaBench. The evaluation of unified digital agents across diverse tasks remains highly relevant to auto-research. Its methodological contributions and ecosystem relevance are strong, with longevity depending on the continued interest in unified agent systems.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2604.11201",
+      "arxiv": "https://arxiv.org/abs/2604.11201",
+      "pdf": "https://arxiv.org/pdf/2604.11201",
+      "huggingface": "https://huggingface.co/papers/2604.11201"
+    },
+    "code_repos": [],
+    "featured": false,
+    "why_it_matters": "As AI agents become increasingly integrated into real-world applications, benchmarks like CocoaBench are crucial for assessing their ability to handle complex, multi-modal tasks. This research highlights the limitations of current systems and provides a framework for driving progress in unified agent capabilities, which are essential for advancing automation and human-AI collaboration in diverse domains.",
+    "digest_summary": "CocoaBench introduces a benchmark for evaluating unified digital agents on complex tasks requiring vision, search, and coding. Despite advancements, current systems achieve only a 45.1% success rate, revealing significant gaps in reasoning, planning, and execution. CocoaAgent provides a shared scaffold for controlled comparisons, paving the way for improvements in multi-modal AI systems.",
+    "editor_note": "Unified AI agents are increasingly relevant as industries seek robust solutions for complex, real-world challenges.",
+    "archive_path": "archive/papers/2026-04-14/2604-11201-cocoabench-evaluating-unified-digital-agents-in-the-wild.md"
+  },
+  {
+    "id": "2604.10938v1",
+    "paper_id": "2604.10938v1",
+    "title": "AgentWebBench: Benchmarking Multi-Agent Coordination in Agentic Web",
+    "summary_short": [
+      "Introduces AgentWebBench for evaluating multi-agent coordination on the web.",
+      "Focuses on decentralized information access via user and content agents.",
+      "Covers tasks like web search, recommendation, and question answering.",
+      "Finds decentralized coordination can rival centralized retrieval with scaling.",
+      "Reveals challenges in planning, synthesis, and evidence quality."
+    ],
+    "date": "2026-04-13",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 7.55,
+    "reason": "AgentWebBench focuses on multi-agent coordination in the emerging Agentic Web paradigm. While relevant to auto-research, its focus on web-specific tasks limits its broader applicability. The methodological contributions are solid but not groundbreaking, and its longevity depends on the adoption of the Agentic Web paradigm.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.10938v1",
+      "pdf": "https://arxiv.org/pdf/2604.10938v1",
+      "arxiv": "https://arxiv.org/abs/2604.10938v1"
+    },
+    "code_repos": [
+      "https://github.com/cxcscmu/AgentWebBench"
+    ],
+    "featured": false,
+    "why_it_matters": "As the web evolves into a more decentralized, agent-driven ecosystem, tools like AgentWebBench are crucial for understanding how autonomous agents can effectively collaborate to meet user needs. This research highlights both the potential and the challenges of this paradigm shift, paving the way for more robust and reliable agentic web systems.",
+    "digest_summary": "AgentWebBench is a new benchmark designed to evaluate multi-agent coordination in the emerging Agentic Web, where autonomous agents interact to fulfill user information needs. The study finds that while decentralized coordination lags behind centralized retrieval, it can outperform in specific tasks like question answering with proper scaling and planning. This work sheds light on the challenges and opportunities of decentralized web interactions.",
+    "editor_note": "This research is timely as decentralized web paradigms gain traction, emphasizing the need for robust benchmarks.",
+    "archive_path": "archive/papers/2026-04-14/2604-10938v1-agentwebbench-benchmarking-multi-agent-coordination-in-agentic-web.md"
   }
 ]
