@@ -5192,5 +5192,149 @@
     "digest_summary": "AgentWebBench is a new benchmark designed to evaluate multi-agent coordination in the emerging Agentic Web, where autonomous agents interact to fulfill user information needs. The study finds that while decentralized coordination lags behind centralized retrieval, it can outperform in specific tasks like question answering with proper scaling and planning. This work sheds light on the challenges and opportunities of decentralized web interactions.",
     "editor_note": "This research is timely as decentralized web paradigms gain traction, emphasizing the need for robust benchmarks.",
     "archive_path": "archive/papers/2026-04-14/2604-10938v1-agentwebbench-benchmarking-multi-agent-coordination-in-agentic-web.md"
+  },
+  {
+    "id": "2604.12198v1",
+    "paper_id": "2604.12198v1",
+    "title": "Towards grounded autonomous research: an end-to-end LLM mini research loop on published computational physics",
+    "summary_short": [
+      "Introduces an autonomous LLM agent for computational physics research.",
+      "Performs a mini research loop: read, reproduce, critique, and extend papers.",
+      "Tested on 111 papers, raising substantive concerns on ~42% of them.",
+      "Demonstrates depth by producing a publishable critique of a Nature Communications paper.",
+      "Highlights the potential for grounded, automated scientific inquiry."
+    ],
+    "date": "2026-04-14",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autoresearch_loops"
+    ],
+    "theme_names": [
+      "Autoresearch Loops"
+    ],
+    "importance_score": 9.35,
+    "reason": "This paper directly addresses the theme of Autoresearch Loops by implementing an end-to-end mini research loop for computational physics. Its focus on reproducing, critiquing, and extending research is highly relevant to autonomous research systems.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.12198v1",
+      "pdf": "https://arxiv.org/pdf/2604.12198v1",
+      "arxiv": "https://arxiv.org/abs/2604.12198v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "This work showcases the potential for autonomous AI systems to contribute meaningfully to complex, real-world scientific research by grounding their reasoning in physical truths and existing literature. It represents a step toward scalable, automated scientific discovery, which could accelerate progress in fields like computational physics and beyond.",
+    "digest_summary": "A new study demonstrates an autonomous LLM agent capable of performing a mini research loop in computational physics: reading, reproducing, critiquing, and extending published papers. Tested on 111 papers, it raised substantive concerns on ~42% and even produced a publishable critique of a Nature Communications paper. This approach highlights the potential for AI to drive grounded, automated scientific discovery.",
+    "editor_note": "This research is timely as AI's role in advancing scientific discovery becomes increasingly critical.",
+    "archive_path": "archive/papers/2026-04-15/2604-12198v1-towards-grounded-autonomous-research-an-end-to-end-llm-mini-research-loop-on-published-computational-physics.md"
+  },
+  {
+    "id": "2604.11957v1",
+    "paper_id": "2604.11957v1",
+    "title": "Agentic LLM Reasoning in a Self-Driving Laboratory for Air-Sensitive Lithium Halide Spinel Conductors",
+    "summary_short": [
+      "Introduces A-Lab GPSS, a robotic platform for air-sensitive material synthesis.",
+      "Integrates agentic AI reasoning for autonomous experimental design.",
+      "Explores lithium halide spinel conductors with 352 synthesized samples.",
+      "Achieves improved ionic conductivity and phase purity over time.",
+      "Highlights complementary AI reasoning strategies: abductive and inductive."
+    ],
+    "date": "2026-04-13",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autonomous_discovery"
+    ],
+    "theme_names": [
+      "Autonomous Discovery"
+    ],
+    "importance_score": 8.0,
+    "reason": "The integration of agentic AI frameworks into a self-driving laboratory for materials discovery is a strong contribution to Autonomous Discovery. Its focus on air-sensitive materials adds a unique dimension.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.11957v1",
+      "pdf": "https://arxiv.org/pdf/2604.11957v1",
+      "arxiv": "https://arxiv.org/abs/2604.11957v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "This research demonstrates a scalable approach to autonomous materials discovery, addressing the challenge of synthesizing air-sensitive compounds. By combining advanced robotics and agentic AI reasoning, it opens new pathways for accelerating innovation in solid-state materials critical for energy storage and electronics applications.",
+    "digest_summary": "A-Lab GPSS, a self-driving laboratory for air-sensitive materials, integrates agentic AI reasoning to autonomously explore lithium halide spinel conductors. Over 352 samples, the platform improved ionic conductivity and phase purity, leveraging abductive and inductive reasoning strategies. This work sets a precedent for scalable autonomous discovery in complex material systems.",
+    "editor_note": "With increasing demand for advanced solid-state materials, this research is timely in addressing synthesis challenges for air-sensitive compounds.",
+    "archive_path": "archive/papers/2026-04-15/2604-11957v1-agentic-llm-reasoning-in-a-self-driving-laboratory-for-air-sensitive-lithium-halide-spinel-conductors.md"
+  },
+  {
+    "id": "2604.11753",
+    "paper_id": "2604.11753",
+    "title": "Agentic Aggregation for Parallel Scaling of Long-Horizon Agentic Tasks",
+    "summary_short": [
+      "Introduces AggAgent for parallel scaling of long-horizon agentic tasks.",
+      "Aggregates information from parallel trajectories without exceeding context limits.",
+      "Outperforms existing methods on six benchmarks and three model families.",
+      "Achieves up to 10.3% improvement on deep research tasks with minimal overhead."
+    ],
+    "date": "2026-04-13",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 8.0,
+    "reason": "Duplicate entry of AggAgent. Its approach to parallel scaling for long-horizon agentic tasks remains highly relevant to Literature and Survey Agents.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2604.11753",
+      "arxiv": "https://arxiv.org/abs/2604.11753",
+      "pdf": "https://arxiv.org/pdf/2604.11753",
+      "huggingface": "https://huggingface.co/papers/2604.11753"
+    },
+    "code_repos": [],
+    "featured": false,
+    "why_it_matters": "As AI systems tackle increasingly complex, multi-step tasks, efficient methods for aggregating parallel outputs are critical. AggAgent offers a novel solution for synthesizing information from long, tool-augmented trajectories, enabling more effective and scalable performance in agentic tasks like research and search. This innovation could significantly enhance the capabilities of AI in domains requiring deep reasoning and exploration.",
+    "digest_summary": "AggAgent is a new method for scaling long-horizon agentic tasks by aggregating parallel trajectories effectively. It addresses challenges like long, multi-turn outputs and limited context windows, outperforming existing methods by up to 10.3% on deep research tasks. With minimal computational overhead, AggAgent sets a new standard for parallel test-time scaling in AI research.",
+    "editor_note": "This research is timely as AI systems increasingly tackle complex, multi-step reasoning tasks requiring efficient scaling.",
+    "archive_path": "archive/papers/2026-04-15/2604-11753-agentic-aggregation-for-parallel-scaling-of-long-horizon-agentic-tasks.md"
+  },
+  {
+    "id": "2604.12102v1",
+    "paper_id": "2604.12102v1",
+    "title": "Spatial Atlas: Compute-Grounded Reasoning for Spatial-Aware Research Agent Benchmarks",
+    "summary_short": [
+      "Introduces Compute-Grounded Reasoning (CGR) for spatial-aware AI agents.",
+      "Spatial Atlas handles multimodal benchmarks like FieldWorkArena and MLE-Bench.",
+      "Uses deterministic spatial computations to avoid hallucinations in reasoning.",
+      "Incorporates entropy-guided action selection and self-healing ML pipelines.",
+      "Achieves competitive accuracy with interpretable intermediate representations."
+    ],
+    "date": "2026-04-13",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists"
+    ],
+    "importance_score": 7.8,
+    "reason": "The introduction of compute-grounded reasoning and its application to spatial-aware research agents is innovative and relevant to end-to-end AI scientists. However, its focus on spatial reasoning may limit its broader applicability.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.12102v1",
+      "pdf": "https://arxiv.org/pdf/2604.12102v1",
+      "arxiv": "https://arxiv.org/abs/2604.12102v1"
+    },
+    "code_repos": [],
+    "featured": false,
+    "why_it_matters": "Spatial Atlas represents a significant step forward in creating AI systems that can reason about and interact with spatial environments in a reliable and interpretable way. By combining deterministic computations with language models, it avoids common pitfalls like hallucinations, making it highly applicable to real-world scenarios such as robotics, logistics, and automated machine learning workflows.",
+    "digest_summary": "Spatial Atlas introduces Compute-Grounded Reasoning (CGR), a paradigm that combines deterministic spatial computations with language models to tackle spatial-aware benchmarks. It excels in multimodal tasks like FieldWorkArena and MLE-Bench by avoiding hallucinations and ensuring interpretability. The system also features entropy-guided action selection and self-healing ML pipelines for robust performance.",
+    "editor_note": "This research is timely as spatial reasoning is critical for advancing AI in robotics and real-world applications.",
+    "archive_path": "archive/papers/2026-04-15/2604-12102v1-spatial-atlas-compute-grounded-reasoning-for-spatial-aware-research-agent-benchmarks.md"
   }
 ]
