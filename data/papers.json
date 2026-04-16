@@ -5336,5 +5336,259 @@
     "digest_summary": "Spatial Atlas introduces Compute-Grounded Reasoning (CGR), a paradigm that combines deterministic spatial computations with language models to tackle spatial-aware benchmarks. It excels in multimodal tasks like FieldWorkArena and MLE-Bench by avoiding hallucinations and ensuring interpretability. The system also features entropy-guided action selection and self-healing ML pipelines for robust performance.",
     "editor_note": "This research is timely as spatial reasoning is critical for advancing AI in robotics and real-world applications.",
     "archive_path": "archive/papers/2026-04-15/2604-12102v1-spatial-atlas-compute-grounded-reasoning-for-spatial-aware-research-agent-benchmarks.md"
+  },
+  {
+    "id": "2604.14116v1",
+    "paper_id": "2604.14116v1",
+    "title": "TREX: Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration",
+    "summary_short": [
+      "TREX automates the entire LLM fine-tuning lifecycle.",
+      "Uses a multi-agent system: Researcher and Executor modules.",
+      "Employs tree-based exploration for efficient experimentation.",
+      "Introduces FT-Bench, a benchmark for real-world fine-tuning tasks.",
+      "Demonstrates consistent optimization of LLM performance."
+    ],
+    "date": "2026-04-15",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists"
+    ],
+    "importance_score": 8.55,
+    "reason": "TREX automates the LLM training lifecycle, which is critical for advancing end-to-end AI scientists. The tree-based exploration method adds methodological depth and relevance to research workflows.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.14116v1",
+      "pdf": "https://arxiv.org/pdf/2604.14116v1",
+      "arxiv": "https://arxiv.org/abs/2604.14116v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "TREX represents a significant step toward fully automating complex AI workflows, such as fine-tuning large language models. By leveraging multi-agent collaboration and tree-based exploration, it reduces the need for human intervention in iterative experimentation, making advanced AI research more accessible and scalable. This could accelerate innovation in AI applications across diverse domains, from healthcare to finance.",
+    "digest_summary": "TREX is a novel system that automates the fine-tuning of large language models (LLMs) using a multi-agent framework and tree-based exploration. It handles everything from data preparation to model evaluation, and introduces FT-Bench, a benchmark for real-world fine-tuning tasks. Early results show TREX consistently improves LLM performance, paving the way for more scalable AI research workflows.",
+    "editor_note": "With the growing complexity of LLMs, tools like TREX could democratize advanced AI research by automating tedious workflows.",
+    "archive_path": "archive/papers/2026-04-16/2604-14116v1-trex-automating-llm-fine-tuning-via-agent-driven-tree-based-exploration.md"
+  },
+  {
+    "id": "2604.14116",
+    "paper_id": "2604.14116",
+    "title": "TREX: Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration",
+    "summary_short": [
+      "Introduces TREX, a multi-agent system for automating LLM fine-tuning.",
+      "Combines Researcher and Executor modules for seamless workflow orchestration.",
+      "Uses a tree-based exploration model to optimize iterative training processes.",
+      "Evaluated on FT-Bench, a benchmark of 10 real-world tasks.",
+      "Demonstrates consistent performance optimization on target tasks."
+    ],
+    "date": "2026-04-15",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists"
+    ],
+    "importance_score": 8.55,
+    "reason": "Duplicate entry of TREX with identical relevance and significance. It continues to be a critical contribution to automating LLM training workflows.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2604.14116",
+      "arxiv": "https://arxiv.org/abs/2604.14116",
+      "pdf": "https://arxiv.org/pdf/2604.14116",
+      "huggingface": "https://huggingface.co/papers/2604.14116"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "TREX represents a significant step toward automating complex AI workflows, such as fine-tuning large language models, which are traditionally resource-intensive and require expert intervention. By leveraging multi-agent collaboration and tree-based exploration, TREX not only accelerates the training process but also enhances reproducibility and efficiency in AI research. This innovation could democratize access to advanced AI capabilities and streamline the development of domain-specific applications.",
+    "digest_summary": "TREX is a novel multi-agent system designed to automate the fine-tuning of large language models (LLMs). By combining a Researcher and Executor module, it handles the entire training lifecycle, from data preparation to model evaluation, using a tree-based exploration framework. Tested on FT-Bench, TREX consistently improves model performance across diverse real-world tasks, showcasing its potential to revolutionize AI workflows.",
+    "editor_note": "Automating LLM fine-tuning could drastically lower barriers to entry for advanced AI development, making this a timely innovation.",
+    "archive_path": "archive/papers/2026-04-16/2604-14116-trex-automating-llm-fine-tuning-via-agent-driven-tree-based-exploration.md"
+  },
+  {
+    "id": "2604.13282v1",
+    "paper_id": "2604.13282v1",
+    "title": "Agentic MR sequence development: leveraging LLMs with MR skills for automatic physics-informed sequence development",
+    "summary_short": [
+      "Agent4MR leverages LLMs for automatic MRI sequence development.",
+      "Uses physics-aware validation to ensure artifact-free, valid sequences.",
+      "Reduces user interactions compared to human developers.",
+      "Supports autonomous research for refining sequences to meet target contrasts.",
+      "Enables non-experts to innovate in MRI sequence programming."
+    ],
+    "date": "2026-04-14",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autoresearch_loops"
+    ],
+    "theme_names": [
+      "Autoresearch Loops"
+    ],
+    "importance_score": 8.35,
+    "reason": "Agent4MR directly addresses the automation of MRI sequence development, a niche but impactful application of autoresearch loops. The physics-aware validation report adds methodological depth and relevance to research tooling.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.13282v1",
+      "pdf": "https://arxiv.org/pdf/2604.13282v1",
+      "arxiv": "https://arxiv.org/abs/2604.13282v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "MRI sequence development is traditionally a complex and time-intensive process requiring deep expertise. Agent4MR introduces a framework that combines large language models with physics-informed validation, streamlining the process and enabling broader accessibility. This innovation could accelerate diagnostic tool creation and imaging biomarker discovery, democratizing MRI research and development for non-experts and fostering rapid advancements in medical imaging technology.",
+    "digest_summary": "Agent4MR is a novel framework that uses large language models (LLMs) and physics-aware validation to automate MRI sequence development. It consistently produces artifact-free sequences with fewer user interactions compared to human developers. The system also supports autonomous research, enabling refinement of sequences to meet specific imaging goals. This could revolutionize MRI programming by making it accessible to non-experts and accelerating innovation in medical imaging.",
+    "editor_note": "This research is timely as AI-driven automation continues to reshape healthcare and scientific innovation.",
+    "archive_path": "archive/papers/2026-04-16/2604-13282v1-agentic-mr-sequence-development-leveraging-llms-with-mr-skills-for-automatic-physics-informed-sequence-development.md"
+  },
+  {
+    "id": "2604.13418v1",
+    "paper_id": "2604.13418v1",
+    "title": "MERRIN: A Benchmark for Multimodal Evidence Retrieval and Reasoning in Noisy Web Environments",
+    "summary_short": [
+      "MERRIN is a benchmark for evaluating multimodal evidence retrieval and reasoning in noisy web environments.",
+      "It tests AI agents on natural language queries, multimodal evidence, and multi-hop reasoning.",
+      "The benchmark incorporates underexplored modalities like video and audio alongside text.",
+      "Results show current AI agents struggle with noisy, conflicting web content, achieving only 22.3% average accuracy.",
+      "Human performance surpasses AI due to better source selection and multimodal reasoning."
+    ],
+    "date": "2026-04-15",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 8.0,
+    "reason": "MERRIN provides a benchmark for multimodal evidence retrieval and reasoning, which is highly relevant to literature and survey agents. Its focus on noisy web environments adds practical significance.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.13418v1",
+      "pdf": "https://arxiv.org/pdf/2604.13418v1",
+      "arxiv": "https://arxiv.org/abs/2604.13418v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "As AI systems increasingly assist in web-based research and decision-making, their ability to handle noisy, multimodal, and conflicting information is critical. MERRIN provides a rigorous testbed to push the boundaries of search-augmented AI agents, ensuring they can perform robust reasoning and retrieval in real-world scenarios where precision and efficiency are paramount.",
+    "digest_summary": "MERRIN introduces a benchmark for testing AI agents' ability to retrieve and reason over multimodal evidence in noisy web environments. Evaluating ten models across diverse search settings, the study reveals significant challenges, with agents achieving only 22.3% average accuracy. The findings highlight the need for improved multimodal reasoning and efficient source selection in AI systems.",
+    "editor_note": "With the rise of AI-driven search tools, benchmarks like MERRIN are crucial for ensuring these systems can handle real-world complexity effectively.",
+    "archive_path": "archive/papers/2026-04-16/2604-13418v1-merrin-a-benchmark-for-multimodal-evidence-retrieval-and-reasoning-in-noisy-web-environments.md"
+  },
+  {
+    "id": "2604.13346v1",
+    "paper_id": "2604.13346v1",
+    "title": "AgentSPEX: An Agent SPecification and EXecution Language",
+    "summary_short": [
+      "Introduces AgentSPEX, a language for specifying LLM-agent workflows.",
+      "Supports modular, typed steps with explicit control flow and state management.",
+      "Includes a visual editor for synchronized graph and workflow views.",
+      "Provides a customizable agent harness with tools for checkpointing and logging.",
+      "Evaluated on 7 benchmarks and shown to improve workflow interpretability."
+    ],
+    "date": "2026-04-14",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 8.0,
+    "reason": "AgentSPEX introduces a specification language for LLM-agent workflows, addressing orchestration challenges in research agents. Its modular structure enhances ecosystem relevance.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.13346v1",
+      "pdf": "https://arxiv.org/pdf/2604.13346v1",
+      "arxiv": "https://arxiv.org/abs/2604.13346v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "AgentSPEX addresses key limitations in current LLM-agent systems by introducing a structured, modular, and interpretable approach to workflow design. This makes it easier to build, maintain, and modify complex agent behaviors, which is crucial for advancing research and practical applications in AI-driven systems.",
+    "digest_summary": "AgentSPEX is a new language for designing structured workflows for LLM-agent systems, offering features like explicit control flow, modularity, and state management. It includes a visual editor and a customizable agent harness for enhanced usability. Evaluated on benchmarks and through a user study, it demonstrates improved interpretability and accessibility over existing frameworks.",
+    "editor_note": "This is particularly relevant as AI systems grow more complex and require better tools for transparency and control.",
+    "archive_path": "archive/papers/2026-04-16/2604-13346v1-agentspex-an-agent-specification-and-execution-language.md"
+  },
+  {
+    "id": "2604.13418",
+    "paper_id": "2604.13418",
+    "title": "MERRIN: A Benchmark for Multimodal Evidence Retrieval and Reasoning in Noisy Web Environments",
+    "summary_short": [
+      "MERRIN is a benchmark for evaluating multimodal evidence retrieval and reasoning in noisy web environments.",
+      "It tests AI agents on natural language queries, multimodal evidence, and multi-hop reasoning.",
+      "The benchmark includes underexplored modalities like video and audio.",
+      "Results show agents struggle with noisy, conflicting web content, achieving low accuracy compared to humans.",
+      "MERRIN highlights the need for robust multimodal search and reasoning capabilities."
+    ],
+    "date": "2026-04-15",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 8.0,
+    "reason": "Duplicate entry of MERRIN with identical relevance and significance. It remains a strong contribution to multimodal evidence retrieval and reasoning benchmarks.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2604.13418",
+      "arxiv": "https://arxiv.org/abs/2604.13418",
+      "pdf": "https://arxiv.org/pdf/2604.13418",
+      "huggingface": "https://huggingface.co/papers/2604.13418"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "As web environments grow increasingly complex and multimodal, AI agents must evolve to handle noisy, conflicting, and diverse sources effectively. MERRIN provides a critical testbed to evaluate and improve these capabilities, paving the way for more reliable and efficient search-augmented systems in real-world applications like research, education, and decision-making.",
+    "digest_summary": "MERRIN introduces a challenging benchmark for evaluating AI agents' ability to retrieve and reason over multimodal evidence in noisy web environments. Testing agents across diverse modalities like text, video, and audio, results reveal significant gaps in accuracy and efficiency compared to humans. This underscores the need for advancements in multimodal search and reasoning technologies.",
+    "editor_note": "With the increasing reliance on AI for research and decision-making, benchmarks like MERRIN are crucial to ensure agents can handle real-world complexity effectively.",
+    "archive_path": "archive/papers/2026-04-16/2604-13418-merrin-a-benchmark-for-multimodal-evidence-retrieval-and-reasoning-in-noisy-web-environments.md"
+  },
+  {
+    "id": "2604.12102v2",
+    "paper_id": "2604.12102v2",
+    "title": "Spatial Atlas: Compute-Grounded Reasoning for Spatial-Aware Research Agent Benchmarks",
+    "summary_short": [
+      "Introduces Compute-Grounded Reasoning (CGR) for spatial-aware AI agents.",
+      "Spatial Atlas handles two benchmarks: FieldWorkArena and MLE-Bench.",
+      "Uses deterministic spatial computations to avoid hallucinated reasoning.",
+      "Incorporates entropy-guided action selection and self-healing ML pipelines.",
+      "Achieves competitive accuracy with interpretable intermediate outputs."
+    ],
+    "date": "2026-04-13",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists"
+    ],
+    "importance_score": 7.55,
+    "reason": "Spatial Atlas introduces compute-grounded reasoning for spatial-aware benchmarks, which is relevant to research agents but less directly tied to autoresearch loops. Its structured approach is useful for multimodal reasoning tasks.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.12102v2",
+      "pdf": "https://arxiv.org/pdf/2604.12102v2",
+      "arxiv": "https://arxiv.org/abs/2604.12102v2"
+    },
+    "code_repos": [],
+    "featured": false,
+    "why_it_matters": "Spatial Atlas demonstrates a novel approach to integrating deterministic computation with language models, enabling more reliable and interpretable AI systems for complex spatial and multimodal tasks. This paradigm shift could significantly improve AI performance in real-world applications like robotics, logistics, and automated machine learning engineering, where spatial reasoning and accuracy are critical.",
+    "digest_summary": "Spatial Atlas introduces Compute-Grounded Reasoning (CGR), a paradigm combining deterministic spatial computations with language models to tackle complex benchmarks like FieldWorkArena and MLE-Bench. By avoiding hallucinated reasoning and leveraging structured intermediate representations, it achieves competitive accuracy and interpretability. This innovation could redefine AI's role in spatial and multimodal problem-solving.",
+    "editor_note": "This research is timely as spatial reasoning is critical for advancing AI in robotics and real-world applications.",
+    "archive_path": "archive/papers/2026-04-16/2604-12102v2-spatial-atlas-compute-grounded-reasoning-for-spatial-aware-research-agent-benchmarks.md"
   }
 ]
