@@ -5590,5 +5590,120 @@
     "digest_summary": "Spatial Atlas introduces Compute-Grounded Reasoning (CGR), a paradigm combining deterministic spatial computations with language models to tackle complex benchmarks like FieldWorkArena and MLE-Bench. By avoiding hallucinated reasoning and leveraging structured intermediate representations, it achieves competitive accuracy and interpretability. This innovation could redefine AI's role in spatial and multimodal problem-solving.",
     "editor_note": "This research is timely as spatial reasoning is critical for advancing AI in robotics and real-world applications.",
     "archive_path": "archive/papers/2026-04-16/2604-12102v2-spatial-atlas-compute-grounded-reasoning-for-spatial-aware-research-agent-benchmarks.md"
+  },
+  {
+    "id": "2604.14518v1",
+    "paper_id": "2604.14518v1",
+    "title": "Mind DeepResearch Technical Report",
+    "summary_short": [
+      "Mind DeepResearch (MindDR) is a multi-agent deep research framework using ~30B-parameter models.",
+      "Features a collaborative three-agent architecture: Planning Agent, DeepSearch Agent, and Report Agent.",
+      "Employs a four-stage training pipeline: SFT cold-start, Search-RL, Report-RL, and preference alignment.",
+      "Achieves state-of-the-art performance on benchmarks like BrowseComp-ZH, WideSearch, and MindDR Bench.",
+      "Deployed as an online product in Li Auto, showcasing real-world applicability."
+    ],
+    "date": "2026-04-16",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 8.0,
+    "reason": "Mind DeepResearch introduces a multi-agent framework for literature and survey tasks, aligning well with themes like literature agents and research infrastructure.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.14518v1",
+      "pdf": "https://arxiv.org/pdf/2604.14518v1",
+      "arxiv": "https://arxiv.org/abs/2604.14518v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "MindDR demonstrates that smaller-scale models (~30B parameters) can achieve competitive or superior performance compared to larger-scale systems through innovative architecture and training pipelines. This approach could democratize access to high-performing AI systems, reduce computational costs, and accelerate real-world adoption in industries like automotive and research automation.",
+    "digest_summary": "Mind DeepResearch (MindDR) introduces a multi-agent framework that achieves leading performance with ~30B-parameter models through a novel training pipeline and collaborative agent architecture. It outperforms comparable systems on benchmarks like BrowseComp-ZH and MindDR Bench, and has been successfully deployed in Li Auto. This innovation highlights the potential of smaller-scale models to rival larger ones in efficiency and effectiveness.",
+    "editor_note": "With AI adoption accelerating, frameworks like MindDR could redefine efficiency standards for research and industry applications.",
+    "archive_path": "archive/papers/2026-04-17/2604-14518v1-mind-deepresearch-technical-report.md"
+  },
+  {
+    "id": "2604.14683v1",
+    "paper_id": "2604.14683v1",
+    "title": "DR$^{3}$-Eval: Towards Realistic and Reproducible Deep Research Evaluation",
+    "summary_short": [
+      "Introduces DR$^{3}$-Eval, a benchmark for evaluating deep research agents.",
+      "Focuses on multimodal, multi-file report generation in simulated research environments.",
+      "Includes a static research sandbox with authentic user-provided materials and noise.",
+      "Proposes a multi-dimensional evaluation framework aligned with human judgments.",
+      "Reveals critical failure modes in retrieval robustness and hallucination control."
+    ],
+    "date": "2026-04-16",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists",
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists",
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 7.7,
+    "reason": "DR$^{3}$-Eval provides a reproducible benchmark for evaluating deep research agents, which is critical for advancing end-to-end AI scientists and literature agents.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.14683v1",
+      "pdf": "https://arxiv.org/pdf/2604.14683v1",
+      "arxiv": "https://arxiv.org/abs/2604.14683v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "As AI systems increasingly tackle complex research tasks, robust evaluation frameworks like DR$^{3}$-Eval are essential to ensure their reliability, reproducibility, and alignment with human expectations. This benchmark not only highlights current limitations but also provides a pathway for improving AI-driven research agents, which could revolutionize fields like scientific discovery and knowledge synthesis.",
+    "digest_summary": "DR$^{3}$-Eval is a new benchmark designed to evaluate deep research agents on complex, multimodal tasks like report generation. It uses a static research sandbox to simulate open-web challenges while ensuring reproducibility. The framework introduces multi-dimensional metrics and reveals key weaknesses in current AI systems, such as retrieval robustness and hallucination control. Publicly available code and data make it a valuable tool for advancing AI research.",
+    "editor_note": "With the rise of AI in research, tools like DR$^{3}$-Eval are crucial for ensuring these systems are both effective and trustworthy.",
+    "archive_path": "archive/papers/2026-04-17/2604-14683v1-dr-3-eval-towards-realistic-and-reproducible-deep-research-evaluation.md"
+  },
+  {
+    "id": "2604.14683",
+    "paper_id": "2604.14683",
+    "title": "DR^{3}-Eval: Towards Realistic and Reproducible Deep Research Evaluation",
+    "summary_short": [
+      "Introduces DR^{3}-Eval, a benchmark for evaluating deep research agents.",
+      "Focuses on multimodal, multi-file report generation tasks.",
+      "Simulates open-web complexity with a static research sandbox corpus.",
+      "Provides a multi-dimensional evaluation framework aligned with human judgments.",
+      "Reveals critical failure modes in retrieval robustness and hallucination control."
+    ],
+    "date": "2026-04-16",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists",
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists",
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 7.7,
+    "reason": "Duplicate entry of DR$^{3}$-Eval, which is highly relevant for evaluating deep research agents and advancing end-to-end AI scientists.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2604.14683",
+      "arxiv": "https://arxiv.org/abs/2604.14683",
+      "pdf": "https://arxiv.org/pdf/2604.14683",
+      "huggingface": "https://huggingface.co/papers/2604.14683"
+    },
+    "code_repos": [
+      "https://huggingface.co/papers/2604.14683"
+    ],
+    "featured": false,
+    "why_it_matters": "As AI systems increasingly tackle complex research tasks, robust evaluation frameworks like DR^{3}-Eval are essential to ensure their reliability, reproducibility, and alignment with human standards. This benchmark addresses key challenges in assessing AI agents' ability to handle real-world research scenarios, paving the way for more trustworthy and capable AI researchers.",
+    "digest_summary": "DR^{3}-Eval sets a new standard for evaluating deep research agents by introducing a realistic and reproducible benchmark for multimodal report generation. It uses a static research sandbox corpus to simulate web complexity and offers a multi-dimensional evaluation framework aligned with human judgments. Experiments reveal critical challenges in retrieval and hallucination control, highlighting areas for improvement in AI research systems.",
+    "editor_note": "With AI increasingly used for research tasks, frameworks like DR^{3}-Eval are vital to ensure these systems are both effective and trustworthy.",
+    "archive_path": "archive/papers/2026-04-17/2604-14683-dr-3-eval-towards-realistic-and-reproducible-deep-research-evaluation.md"
   }
 ]
