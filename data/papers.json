@@ -5705,5 +5705,41 @@
     "digest_summary": "DR^{3}-Eval sets a new standard for evaluating deep research agents by introducing a realistic and reproducible benchmark for multimodal report generation. It uses a static research sandbox corpus to simulate web complexity and offers a multi-dimensional evaluation framework aligned with human judgments. Experiments reveal critical challenges in retrieval and hallucination control, highlighting areas for improvement in AI research systems.",
     "editor_note": "With AI increasingly used for research tasks, frameworks like DR^{3}-Eval are vital to ensure these systems are both effective and trustworthy.",
     "archive_path": "archive/papers/2026-04-17/2604-14683-dr-3-eval-towards-realistic-and-reproducible-deep-research-evaluation.md"
+  },
+  {
+    "id": "2604.15145v1",
+    "paper_id": "2604.15145v1",
+    "title": "An Axiomatic Benchmark for Evaluation of Scientific Novelty Metrics",
+    "summary_short": [
+      "Proposes an axiomatic benchmark for evaluating scientific novelty metrics.",
+      "Defines axioms based on human scientific norms and practices.",
+      "Evaluates existing metrics across ten tasks in AI research.",
+      "Finds no single metric satisfies all axioms consistently.",
+      "Combining diverse metrics improves performance significantly."
+    ],
+    "date": "2026-04-16",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists"
+    ],
+    "importance_score": 7.55,
+    "reason": "This paper addresses the evaluation of scientific novelty metrics, which is crucial for AI systems involved in research automation. The axiomatic benchmark proposed has methodological significance and relevance to the ecosystem, though its longevity depends on adoption and further validation.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.15145v1",
+      "pdf": "https://arxiv.org/pdf/2604.15145v1",
+      "arxiv": "https://arxiv.org/abs/2604.15145v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "As AI increasingly contributes to scientific discovery and paper writing, ensuring reliable and automated evaluation of novelty is critical to avoid wasting resources on redundant ideas. This benchmark provides a structured framework to assess and improve novelty metrics, fostering innovation and efficiency in scientific research evaluation.",
+    "digest_summary": "A new benchmark for evaluating scientific novelty metrics has been proposed, grounded in axioms reflecting human scientific norms. Testing across ten AI research tasks revealed that no single metric satisfies all criteria, but combining diverse metrics significantly improves performance. This work aims to enhance the reliability of novelty evaluation, crucial for AI-driven scientific discovery.",
+    "editor_note": "With AI's growing role in research, robust novelty evaluation is more relevant than ever.",
+    "archive_path": "archive/papers/2026-04-18/2604-15145v1-an-axiomatic-benchmark-for-evaluation-of-scientific-novelty-metrics.md"
   }
 ]
