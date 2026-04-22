@@ -5741,5 +5741,193 @@
     "digest_summary": "A new benchmark for evaluating scientific novelty metrics has been proposed, grounded in axioms reflecting human scientific norms. Testing across ten AI research tasks revealed that no single metric satisfies all criteria, but combining diverse metrics significantly improves performance. This work aims to enhance the reliability of novelty evaluation, crucial for AI-driven scientific discovery.",
     "editor_note": "With AI's growing role in research, robust novelty evaluation is more relevant than ever.",
     "archive_path": "archive/papers/2026-04-18/2604-15145v1-an-axiomatic-benchmark-for-evaluation-of-scientific-novelty-metrics.md"
+  },
+  {
+    "id": "2604.17931v1",
+    "paper_id": "2604.17931v1",
+    "title": "LiteResearcher: A Scalable Agentic RL Training Framework for Deep Research Agent",
+    "summary_short": [
+      "Introduces LiteResearcher, a scalable RL training framework for research agents.",
+      "Uses a lite virtual world to mimic real-world search dynamics for stable training.",
+      "Outperforms large-scale models like Tongyi DeepResearch and Claude-4.5 Sonnet.",
+      "Achieves state-of-the-art results on GAIA (71.3%) and Xbench (78.0%) benchmarks.",
+      "Focuses on enabling scalable RL for deep research capabilities."
+    ],
+    "date": "2026-04-20",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists",
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists",
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 9.0,
+    "reason": "LiteResearcher addresses scalability challenges in Agentic RL training for research agents, proposing a novel framework. Its contributions are highly significant for builders of research agents and workflows.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.17931v1",
+      "pdf": "https://arxiv.org/pdf/2604.17931v1",
+      "arxiv": "https://arxiv.org/abs/2604.17931v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "LiteResearcher addresses critical challenges in scaling reinforcement learning for research agents by creating a cost-effective and stable training environment. This innovation not only improves performance on key benchmarks but also democratizes access to advanced research capabilities, paving the way for more efficient and capable AI-driven scientific exploration.",
+    "digest_summary": "LiteResearcher is a novel RL training framework designed to scale deep research agents by simulating real-world search dynamics in a virtual environment. It achieves state-of-the-art results on benchmarks like GAIA and Xbench, outperforming larger models. This approach highlights the potential of scalable RL in advancing AI-driven research capabilities.",
+    "editor_note": "This framework could redefine how AI agents are trained for scientific discovery, making advanced tools more accessible and efficient.",
+    "archive_path": "archive/papers/2026-04-22/2604-17931v1-literesearcher-a-scalable-agentic-rl-training-framework-for-deep-research-agent.md"
+  },
+  {
+    "id": "2604.18805v1",
+    "paper_id": "2604.18805v1",
+    "title": "AI scientists produce results without reasoning scientifically",
+    "summary_short": [
+      "LLM-based scientific agents lack adherence to epistemic norms of scientific reasoning.",
+      "Base model performance dominates over scaffold engineering, accounting for 41.4% of variance.",
+      "Evidence is ignored in 68% of traces, and belief revision occurs in only 26%.",
+      "Agents fail to reliably produce justified scientific knowledge across repeated trials.",
+      "Training models for reasoning itself is essential for trustworthy scientific outputs."
+    ],
+    "date": "2026-04-20",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists"
+    ],
+    "importance_score": 8.5,
+    "reason": "This paper evaluates LLM-based scientific agents across multiple domains, providing insights into their reasoning and performance. It is highly relevant to End-to-End AI Scientists and contributes significantly to understanding agent behavior and epistemology.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.18805v1",
+      "pdf": "https://arxiv.org/pdf/2604.18805v1",
+      "arxiv": "https://arxiv.org/abs/2604.18805v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "As AI systems increasingly take on autonomous roles in scientific research, understanding their reasoning processes is critical to ensure the reliability and self-correcting nature of scientific inquiry. Without proper epistemic reasoning, the knowledge produced by these systems risks being unjustified and potentially misleading, undermining the integrity of scientific advancements driven by AI agents.",
+    "digest_summary": "A study evaluating LLM-based scientific agents reveals significant shortcomings in their reasoning processes. Despite executing workflows, these agents fail to adhere to epistemic norms, ignoring evidence in 68% of cases and rarely revising beliefs based on refutation. The findings highlight the need for training models to reason scientifically to ensure trustworthy AI-driven research outcomes.",
+    "editor_note": "With AI increasingly integrated into research workflows, addressing these reasoning gaps is urgent to maintain scientific integrity.",
+    "archive_path": "archive/papers/2026-04-22/2604-18805v1-ai-scientists-produce-results-without-reasoning-scientifically.md"
+  },
+  {
+    "id": "2604.17745v1",
+    "paper_id": "2604.17745v1",
+    "title": "HiRAS: A Hierarchical Multi-Agent Framework for Paper-to-Code Generation and Execution",
+    "summary_short": [
+      "HiRAS introduces a hierarchical multi-agent framework for automating paper-to-code generation and execution.",
+      "Supervisory manager agents coordinate specialized agents for improved robustness and performance.",
+      "Paper2Code-Extra (P2C-Ex) refines evaluation protocols with repository-level information.",
+      "Achieves >10% performance improvement over previous state-of-the-art methods.",
+      "Reduces hallucination in evaluation using open-source backbone models."
+    ],
+    "date": "2026-04-20",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists"
+    ],
+    "importance_score": 8.35,
+    "reason": "HiRAS introduces a hierarchical multi-agent framework for experiment reproduction, enhancing robustness and coordination. It is highly relevant to End-to-End AI Scientists and contributes to improving research infrastructure.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.17745v1",
+      "pdf": "https://arxiv.org/pdf/2604.17745v1",
+      "arxiv": "https://arxiv.org/abs/2604.17745v1"
+    },
+    "code_repos": [
+      "https://github.com/KOU-199024/HiRAS"
+    ],
+    "featured": true,
+    "why_it_matters": "HiRAS addresses critical challenges in automating computational research, enabling more accurate reproduction of experimental results from academic papers. By improving coordination among agents and refining evaluation metrics, it sets a new benchmark for AI-driven research automation, paving the way for faster and more reliable scientific advancements.",
+    "digest_summary": "HiRAS proposes a hierarchical multi-agent framework to enhance paper-to-code generation and execution, improving robustness and reducing errors. It introduces Paper2Code-Extra, a refined evaluation protocol, and achieves over 10% performance gains compared to previous methods. This innovation could significantly accelerate computational research automation.",
+    "editor_note": "With the growing complexity of scientific research, frameworks like HiRAS are crucial for scaling reproducibility and innovation efficiently.",
+    "archive_path": "archive/papers/2026-04-22/2604-17745v1-hiras-a-hierarchical-multi-agent-framework-for-paper-to-code-generation-and-execution.md"
+  },
+  {
+    "id": "2604.13346",
+    "paper_id": "2604.13346",
+    "title": "AgentSPEX: An Agent SPecification and EXecution Language",
+    "summary_short": [
+      "Introduces AgentSPEX, a language for specifying LLM-agent workflows.",
+      "Supports modular design with explicit control flow and state management.",
+      "Includes a visual editor for synchronized graph and workflow views.",
+      "Offers ready-to-use agents for deep and scientific research.",
+      "Evaluated on 7 benchmarks and validated through a user study."
+    ],
+    "date": "2026-04-14",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 7.9,
+    "reason": "AgentSPEX introduces a specification and execution language for LLM-agent workflows, addressing orchestration challenges. It is highly relevant to Literature and Survey Agents and research infrastructure.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2604.13346",
+      "arxiv": "https://arxiv.org/abs/2604.13346",
+      "pdf": "https://arxiv.org/pdf/2604.13346",
+      "huggingface": "https://huggingface.co/papers/2604.13346"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "AgentSPEX addresses the challenges of controlling and maintaining LLM-agent workflows by introducing a structured, modular, and interpretable framework. This innovation enhances the usability, flexibility, and reliability of AI agents, making them more accessible for research and practical applications in complex domains.",
+    "digest_summary": "AgentSPEX is a new language for designing and executing LLM-agent workflows with explicit control flow, modularity, and state management. It features a visual editor, reusable submodules, and a customizable agent harness for enhanced usability. Evaluated on benchmarks and validated through a user study, it offers a more interpretable alternative to existing frameworks.",
+    "editor_note": "AgentSPEX could significantly streamline AI agent development, a timely advancement as LLMs grow more complex.",
+    "archive_path": "archive/papers/2026-04-22/2604-13346-agentspex-an-agent-specification-and-execution-language.md"
+  },
+  {
+    "id": "2604.18418v1",
+    "paper_id": "2604.18418v1",
+    "title": "MedProbeBench: Systematic Benchmarking at Deep Evidence Integration for Expert-level Medical Guideline",
+    "summary_short": [
+      "Introduces MedProbeBench, a benchmark for expert-level medical guideline generation.",
+      "Focuses on deep evidence integration and multi-step reasoning in clinical workflows.",
+      "Features MedProbe-Eval with 1,200+ rubrics and 5,130+ atomic claims for evaluation.",
+      "Reveals significant gaps in current LLMs for expert-level medical guideline tasks."
+    ],
+    "date": "2026-04-20",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists",
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists",
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 7.7,
+    "reason": "MedProbeBench introduces a benchmark for deep evidence integration in medical guidelines, which is crucial for Literature and Survey Agents. It has strong ecosystem relevance and methodological significance for evaluating AI systems in expert-level workflows.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.18418v1",
+      "pdf": "https://arxiv.org/pdf/2604.18418v1",
+      "arxiv": "https://arxiv.org/abs/2604.18418v1"
+    },
+    "code_repos": [
+      "https://github.com/uni-medical/MedProbeBench"
+    ],
+    "featured": true,
+    "why_it_matters": "MedProbeBench addresses a critical gap in evaluating AI systems for expert-level medical guideline development, a domain where precision, neutrality, and evidence-based reasoning are paramount. By setting a new standard for benchmarking, it pushes the boundaries of AI's ability to assist in high-stakes, real-world applications like healthcare decision-making.",
+    "digest_summary": "MedProbeBench introduces a groundbreaking benchmark for evaluating AI systems in expert-level medical guideline generation. With a robust evaluation framework, it highlights the challenges of deep evidence integration and multi-step reasoning in clinical workflows. Initial results show that current AI models fall short of meeting the rigorous standards required for this domain.",
+    "editor_note": "This benchmark is timely as AI's role in healthcare continues to expand, demanding higher standards of reliability and precision.",
+    "archive_path": "archive/papers/2026-04-22/2604-18418v1-medprobebench-systematic-benchmarking-at-deep-evidence-integration-for-expert-level-medical-guideline.md"
   }
 ]
