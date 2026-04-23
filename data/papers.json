@@ -5929,5 +5929,161 @@
     "digest_summary": "MedProbeBench introduces a groundbreaking benchmark for evaluating AI systems in expert-level medical guideline generation. With a robust evaluation framework, it highlights the challenges of deep evidence integration and multi-step reasoning in clinical workflows. Initial results show that current AI models fall short of meeting the rigorous standards required for this domain.",
     "editor_note": "This benchmark is timely as AI's role in healthcare continues to expand, demanding higher standards of reliability and precision.",
     "archive_path": "archive/papers/2026-04-22/2604-18418v1-medprobebench-systematic-benchmarking-at-deep-evidence-integration-for-expert-level-medical-guideline.md"
+  },
+  {
+    "id": "2604.19859v1",
+    "paper_id": "2604.19859v1",
+    "title": "DR-Venus: Towards Frontier Edge-Scale Deep Research Agents with Only 10K Open Data",
+    "summary_short": [
+      "DR-Venus is a 4B deep research agent optimized for edge-scale deployment using only 10K open data.",
+      "It employs a two-stage training process: supervised fine-tuning and reinforcement learning.",
+      "Innovative techniques like turn-level rewards and format-aware regularization enhance small model performance.",
+      "DR-Venus outperforms larger 9B models and approaches the capabilities of 30B-class systems.",
+      "The project emphasizes cost-effective, privacy-friendly AI for real-world applications."
+    ],
+    "date": "2026-04-21",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists",
+      "literature_and_survey_agents",
+      "research_infrastructure_and_benchmarks"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists",
+      "Literature And Survey Agents",
+      "Research Infrastructure And Benchmarks"
+    ],
+    "importance_score": 8.55,
+    "reason": "DR-Venus explores edge-scale deployment of deep research agents using small language models and limited open data, which aligns well with themes like End-to-End AI Scientists and Research Infrastructure. The methodological innovations in data utilization and training are significant, and the focus on edge-scale deployment enhances ecosystem relevance.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.19859v1",
+      "pdf": "https://arxiv.org/pdf/2604.19859v1",
+      "arxiv": "https://arxiv.org/abs/2604.19859v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "DR-Venus demonstrates that small language models can achieve competitive performance in deep research tasks using limited open data, paving the way for cost-effective, privacy-conscious AI systems suitable for edge-scale deployment. This innovation could democratize access to advanced AI capabilities while reducing resource demands and environmental impact.",
+    "digest_summary": "DR-Venus, a 4B deep research agent, achieves remarkable performance using only 10K open data. By leveraging supervised fine-tuning and reinforcement learning, it outperforms larger 9B models and approaches the capabilities of 30B-class systems. This breakthrough highlights the potential of small, efficient AI models for edge-scale applications.",
+    "editor_note": "As AI adoption grows, DR-Venus exemplifies how smaller models can deliver impactful results while addressing cost and privacy concerns.",
+    "archive_path": "archive/papers/2026-04-23/2604-19859v1-dr-venus-towards-frontier-edge-scale-deep-research-agents-with-only-10k-open-data.md"
+  },
+  {
+    "id": "2604.18805",
+    "paper_id": "2604.18805",
+    "title": "AI scientists produce results without reasoning scientifically",
+    "summary_short": [
+      "LLM-based agents struggle with scientific reasoning norms.",
+      "Evidence is ignored in 68% of traces, limiting reliability.",
+      "Base model quality dominates agent performance (41.4% variance).",
+      "Scaffold engineering alone cannot fix reasoning flaws.",
+      "Scientific outputs lack justification without reasoning-focused training."
+    ],
+    "date": "2026-04-20",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists"
+    ],
+    "importance_score": 8.55,
+    "reason": "This paper evaluates LLM-based scientific agents across multiple domains, providing insights into their reasoning and epistemological structure. It is highly relevant to End-to-End AI Scientists and contributes significantly to understanding the limitations and strengths of autonomous research agents. The findings are likely to remain relevant as LLM-based systems evolve.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2604.18805",
+      "arxiv": "https://arxiv.org/abs/2604.18805",
+      "pdf": "https://arxiv.org/pdf/2604.18805",
+      "huggingface": "https://huggingface.co/papers/2604.18805"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "As AI systems increasingly take on roles in scientific research, their inability to adhere to core scientific reasoning norms poses a significant challenge. Without epistemically sound reasoning, the outputs of these systems risk being unreliable, undermining trust in AI-driven discoveries. Addressing this gap is critical to ensuring that AI contributes meaningfully and responsibly to scientific progress.",
+    "digest_summary": "A study evaluating LLM-based scientific agents reveals that while these systems can execute workflows, they fail to adhere to core scientific reasoning norms. Evidence is often ignored, and belief revision is rare, leading to unreliable outputs. The findings highlight the need for reasoning-focused training to ensure AI systems produce scientifically justified results.",
+    "editor_note": "This research underscores the urgency of improving AI reasoning as these systems become integral to scientific discovery.",
+    "archive_path": "archive/papers/2026-04-23/2604-18805-ai-scientists-produce-results-without-reasoning-scientifically.md"
+  },
+  {
+    "id": "2604.19859",
+    "paper_id": "2604.19859",
+    "title": "DR-Venus: Towards Frontier Edge-Scale Deep Research Agents with Only 10K Open Data",
+    "summary_short": [
+      "DR-Venus is a 4B deep research agent optimized for edge-scale deployment.",
+      "Trained on only 10K open data using agentic supervised fine-tuning and reinforcement learning.",
+      "Outperforms larger 9B models on deep research benchmarks.",
+      "Introduces turn-level rewards for enhanced credit assignment and reliability.",
+      "Models, code, and recipes are released for reproducible research."
+    ],
+    "date": "2026-04-21",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists",
+      "literature_and_survey_agents",
+      "research_infrastructure_and_benchmarks"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists",
+      "Literature And Survey Agents",
+      "Research Infrastructure And Benchmarks"
+    ],
+    "importance_score": 8.55,
+    "reason": "Duplicate entry of DR-Venus. The same reasoning applies as above: it explores edge-scale deployment of deep research agents using small language models and limited open data, aligning well with themes like End-to-End AI Scientists and Research Infrastructure.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2604.19859",
+      "arxiv": "https://arxiv.org/abs/2604.19859",
+      "pdf": "https://arxiv.org/pdf/2604.19859",
+      "huggingface": "https://huggingface.co/papers/2604.19859"
+    },
+    "code_repos": [
+      "https://huggingface.co/papers/2604.19859"
+    ],
+    "featured": true,
+    "why_it_matters": "DR-Venus demonstrates that small language models can achieve competitive performance in deep research tasks with limited data, paving the way for cost-effective, privacy-preserving AI systems suitable for edge-scale deployment. This innovation challenges the assumption that larger models are always necessary for high-quality results, offering new possibilities for accessible AI research tools and applications.",
+    "digest_summary": "DR-Venus, a 4B deep research agent, achieves frontier performance using only 10K open data. By combining agentic supervised fine-tuning and reinforcement learning, it outperforms larger 9B models on benchmarks while narrowing the gap to 30B-class systems. This work highlights the potential of small models for edge-scale deployment and reproducible AI research.",
+    "editor_note": "This research is timely as the demand for cost-efficient and privacy-focused AI systems continues to grow.",
+    "archive_path": "archive/papers/2026-04-23/2604-19859-dr-venus-towards-frontier-edge-scale-deep-research-agents-with-only-10k-open-data.md"
+  },
+  {
+    "id": "2604.20441v1",
+    "paper_id": "2604.20441v1",
+    "title": "MedSkillAudit: A Domain-Specific Audit Framework for Medical Research Agent Skills",
+    "summary_short": [
+      "MedSkillAudit is a domain-specific audit framework for medical research agent skills.",
+      "Evaluates skills for scientific integrity, reproducibility, and boundary safety.",
+      "Achieved higher reliability than human inter-rater agreement in preliminary tests.",
+      "Assesses readiness for deployment using structured workflows tailored to medical use cases.",
+      "Highlights challenges in aligning rubrics with expert judgment in certain categories."
+    ],
+    "date": "2026-04-22",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists"
+    ],
+    "importance_score": 7.55,
+    "reason": "MedSkillAudit introduces a domain-specific audit framework for medical research agent skills, which is highly relevant to ensuring the reliability and safety of AI systems in research. The methodological contribution is solid, and its focus on medical research agents makes it valuable for the ecosystem. Longevity is likely due to the importance of auditing frameworks in sensitive domains.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.20441v1",
+      "pdf": "https://arxiv.org/pdf/2604.20441v1",
+      "arxiv": "https://arxiv.org/abs/2604.20441v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "As AI systems increasingly contribute to medical research, ensuring their reliability and adherence to scientific standards is critical. MedSkillAudit offers a specialized framework to evaluate these systems before deployment, addressing risks unique to the medical domain and enhancing trust in AI-driven research outcomes.",
+    "digest_summary": "MedSkillAudit introduces a domain-specific audit framework for evaluating medical research agent skills, emphasizing scientific integrity and deployment readiness. Preliminary tests show it outperforms human inter-rater reliability in assessing skill quality. This framework could become a cornerstone for governing AI systems in medical research, ensuring safer and more reliable applications.",
+    "editor_note": "With AI's growing role in healthcare, frameworks like MedSkillAudit are essential to safeguard scientific rigor and patient safety.",
+    "archive_path": "archive/papers/2026-04-23/2604-20441v1-medskillaudit-a-domain-specific-audit-framework-for-medical-research-agent-skills.md"
   }
 ]
