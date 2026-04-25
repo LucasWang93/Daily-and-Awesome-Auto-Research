@@ -6085,5 +6085,41 @@
     "digest_summary": "MedSkillAudit introduces a domain-specific audit framework for evaluating medical research agent skills, emphasizing scientific integrity and deployment readiness. Preliminary tests show it outperforms human inter-rater reliability in assessing skill quality. This framework could become a cornerstone for governing AI systems in medical research, ensuring safer and more reliable applications.",
     "editor_note": "With AI's growing role in healthcare, frameworks like MedSkillAudit are essential to safeguard scientific rigor and patient safety.",
     "archive_path": "archive/papers/2026-04-23/2604-20441v1-medskillaudit-a-domain-specific-audit-framework-for-medical-research-agent-skills.md"
+  },
+  {
+    "id": "2604.21006v1",
+    "paper_id": "2604.21006v1",
+    "title": "Deep FinResearch Bench: Evaluating AI's Ability to Conduct Professional Financial Investment Research",
+    "summary_short": [
+      "Introduces Deep FinResearch Bench for evaluating AI in financial research.",
+      "Assesses report quality across rigor, accuracy, and credibility.",
+      "Automates scoring for scalable benchmarking.",
+      "Finds AI reports lag behind professional standards.",
+      "Highlights need for finance-specialized AI agents."
+    ],
+    "date": "2026-04-22",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 7.55,
+    "reason": "The paper introduces a benchmark specifically for evaluating AI agents in financial research, which aligns well with the theme of Literature and Survey Agents. The methodological contribution is solid, with defined metrics and automated scoring, making it relevant for builders of research agents. However, its focus on financial investment research may limit its broader applicability.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.21006v1",
+      "pdf": "https://arxiv.org/pdf/2604.21006v1",
+      "arxiv": "https://arxiv.org/abs/2604.21006v1"
+    },
+    "code_repos": [],
+    "featured": false,
+    "why_it_matters": "As AI increasingly enters high-stakes domains like financial investment research, robust evaluation frameworks like Deep FinResearch Bench are critical to ensure these systems meet professional standards. This work not only identifies current gaps in AI performance but also lays the groundwork for developing more capable, domain-specific AI agents that can reliably support financial decision-making processes.",
+    "digest_summary": "Deep FinResearch Bench is a new framework for evaluating AI's ability to conduct professional financial investment research. It measures report quality across rigor, accuracy, and credibility, using automated scoring for scalability. Initial findings reveal that AI-generated reports still fall short compared to those by financial professionals, emphasizing the need for specialized AI tools in finance.",
+    "editor_note": "This research is timely as AI adoption in finance continues to grow, demanding reliable benchmarks for trust and accountability.",
+    "archive_path": "archive/papers/2026-04-25/2604-21006v1-deep-finresearch-bench-evaluating-ai-s-ability-to-conduct-professional-financial-investment-research.md"
   }
 ]
