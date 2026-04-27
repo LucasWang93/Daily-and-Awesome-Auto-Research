@@ -6121,5 +6121,41 @@
     "digest_summary": "Deep FinResearch Bench is a new framework for evaluating AI's ability to conduct professional financial investment research. It measures report quality across rigor, accuracy, and credibility, using automated scoring for scalability. Initial findings reveal that AI-generated reports still fall short compared to those by financial professionals, emphasizing the need for specialized AI tools in finance.",
     "editor_note": "This research is timely as AI adoption in finance continues to grow, demanding reliable benchmarks for trust and accountability.",
     "archive_path": "archive/papers/2026-04-25/2604-21006v1-deep-finresearch-bench-evaluating-ai-s-ability-to-conduct-professional-financial-investment-research.md"
+  },
+  {
+    "id": "2604.22541v1",
+    "paper_id": "2604.22541v1",
+    "title": "Dr.Sai: An agentic AI for real-world physics analysis at BESIII",
+    "summary_short": [
+      "Dr.Sai is an LLM-powered AI for autonomous physics analysis.",
+      "It integrates with HEP tools like ROOT and BOSS for real-world workflows.",
+      "Validated by re-measuring J/psi decay branching fractions at BESIII.",
+      "Achieved benchmark-level results without manual coding.",
+      "Blueprint for autonomous discovery in data-intensive sciences."
+    ],
+    "date": "2026-04-24",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autonomous_discovery"
+    ],
+    "theme_names": [
+      "Autonomous Discovery"
+    ],
+    "importance_score": 8.55,
+    "reason": "Dr.Sai directly addresses autonomous discovery in a high-impact domain (HEP), leveraging LLMs for complex workflows. Its integration with domain-specific tools like ROOT and BOSS makes it highly relevant to auto-research themes. The methodological contribution is substantial, though somewhat domain-specific, and its focus on scaling discovery ensures its relevance over time.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.22541v1",
+      "pdf": "https://arxiv.org/pdf/2604.22541v1",
+      "arxiv": "https://arxiv.org/abs/2604.22541v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "Dr.Sai represents a transformative leap in high-energy physics research by automating complex, time-intensive workflows. This innovation not only accelerates discovery but also reduces human bias and enables large-scale systematic studies, paving the way for similar advancements in other data-heavy fields like genomics and astronomy.",
+    "digest_summary": "Dr.Sai, an LLM-powered AI system, automates physics analysis for high-energy experiments like BESIII. By integrating with tools like ROOT and BOSS, it translates natural language into rigorous workflows, achieving benchmark-level results without manual coding. This breakthrough could revolutionize data-intensive sciences by enabling autonomous discovery.",
+    "editor_note": "As data scales exponentially, tools like Dr.Sai are critical for keeping pace with scientific discovery.",
+    "archive_path": "archive/papers/2026-04-27/2604-22541v1-dr-sai-an-agentic-ai-for-real-world-physics-analysis-at-besiii.md"
   }
 ]
