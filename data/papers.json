@@ -6157,5 +6157,43 @@
     "digest_summary": "Dr.Sai, an LLM-powered AI system, automates physics analysis for high-energy experiments like BESIII. By integrating with tools like ROOT and BOSS, it translates natural language into rigorous workflows, achieving benchmark-level results without manual coding. This breakthrough could revolutionize data-intensive sciences by enabling autonomous discovery.",
     "editor_note": "As data scales exponentially, tools like Dr.Sai are critical for keeping pace with scientific discovery.",
     "archive_path": "archive/papers/2026-04-27/2604-22541v1-dr-sai-an-agentic-ai-for-real-world-physics-analysis-at-besiii.md"
+  },
+  {
+    "id": "2604.23815v1",
+    "paper_id": "2604.23815v1",
+    "title": "DRACULA: Hunting for the Actions Users Want Deep Research Agents to Execute",
+    "summary_short": [
+      "Introduces DRACULA, a dataset capturing user feedback on intermediate actions for deep research agents.",
+      "Collects 8,103 action preferences and 5,230 execution judgments from expert CS researchers.",
+      "Finds LLMs improve action prediction using full user selection history over self-reported context.",
+      "Highlights the importance of user steering in generating actionable research reports.",
+      "Open-sources study design, feedback, and tasks to advance long-horizon agent research."
+    ],
+    "date": "2026-04-26",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists",
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists",
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 8.55,
+    "reason": "DRACULA introduces a novel dataset and methodology for improving research agents through user feedback on intermediate actions. This is highly relevant to auto-research workflows and provides actionable insights for builders of research agents. The dataset and approach are likely to have lasting value in the ecosystem.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.23815v1",
+      "pdf": "https://arxiv.org/pdf/2604.23815v1",
+      "arxiv": "https://arxiv.org/abs/2604.23815v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "Understanding and predicting user-preferred actions is critical for improving the utility of deep research agents, which synthesize complex scientific information. DRACULA addresses a key gap by focusing on intermediate actions rather than just final outputs, paving the way for more adaptive and user-driven AI systems in research contexts.",
+    "digest_summary": "The DRACULA dataset captures user feedback on intermediate actions for deep research agents, enabling insights into how users steer report generation. Findings show LLMs improve action prediction when leveraging full user interaction history, highlighting the importance of adaptive systems. Open-sourced resources aim to advance research on long-horizon AI agents.",
+    "editor_note": "With AI increasingly used in scientific research, tools like DRACULA are vital for creating systems that align with user needs and goals.",
+    "archive_path": "archive/papers/2026-04-28/2604-23815v1-dracula-hunting-for-the-actions-users-want-deep-research-agents-to-execute.md"
   }
 ]
