@@ -6236,5 +6236,191 @@
     "digest_summary": "AutoResearchBench introduces a challenging benchmark for AI agents focused on autonomous scientific literature discovery. It evaluates agents on two tasks: Deep Research, requiring multi-step probing for specific papers, and Wide Research, demanding comprehensive collection of relevant papers. Current AI models struggle with these tasks, achieving less than 10% accuracy, underscoring the benchmark's difficulty and importance.",
     "editor_note": "As AI's role in research grows, tools like AutoResearchBench are crucial for refining its capabilities in navigating complex scientific landscapes.",
     "archive_path": "archive/papers/2026-04-29/2604-25256-autoresearchbench-benchmarking-ai-agents-on-complex-scientific-literature-discovery.md"
+  },
+  {
+    "id": "2604.25256v1",
+    "paper_id": "2604.25256v1",
+    "title": "AutoResearchBench: Benchmarking AI Agents on Complex Scientific Literature Discovery",
+    "summary_short": [
+      "AutoResearchBench benchmarks AI agents on scientific literature discovery tasks.",
+      "Includes Deep Research (targeted paper tracking) and Wide Research (comprehensive paper collection).",
+      "Focuses on research-oriented, literature-focused, and open-ended challenges.",
+      "Current AI models show low performance, highlighting the difficulty of these tasks.",
+      "Dataset, evaluation pipeline, and code are publicly available for further research."
+    ],
+    "date": "2026-04-28",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autoresearch_loops",
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "Autoresearch Loops",
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 9.55,
+    "reason": "AutoResearchBench is a foundational benchmark for evaluating AI agents in literature discovery, directly addressing key themes in auto-research loops and survey agents. Its dual-task design is highly significant and ecosystem-relevant.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.25256v1",
+      "pdf": "https://arxiv.org/pdf/2604.25256v1",
+      "arxiv": "https://arxiv.org/abs/2604.25256v1"
+    },
+    "code_repos": [
+      "https://github.com/CherYou/AutoResearchBench"
+    ],
+    "featured": true,
+    "why_it_matters": "AutoResearchBench addresses a critical gap in evaluating AI agents for autonomous scientific discovery, a field with immense potential to accelerate research across disciplines. By focusing on complex literature discovery tasks, it challenges AI systems to go beyond general web browsing and engage in nuanced reasoning and comprehension, paving the way for more capable research assistants in the future.",
+    "digest_summary": "AutoResearchBench introduces a benchmark for evaluating AI agents on scientific literature discovery tasks, including targeted paper tracking and comprehensive collection. Despite advancements in AI, current models struggle with these challenges, achieving less than 10% accuracy. The dataset and tools are publicly available to drive progress in autonomous research capabilities.",
+    "editor_note": "This benchmark is timely as AI's role in scientific discovery continues to expand, demanding more sophisticated evaluation frameworks.",
+    "archive_path": "archive/papers/2026-04-30/2604-25256v1-autoresearchbench-benchmarking-ai-agents-on-complex-scientific-literature-discovery.md"
+  },
+  {
+    "id": "2604.25610v1",
+    "paper_id": "2604.25610v1",
+    "title": "Optimizing ground state preparation protocols with autoresearch",
+    "summary_short": [
+      "Autoresearch uses coding agents to optimize ground-state preparation protocols.",
+      "AI agents mutate baseline algorithms into improved quantum protocols.",
+      "Protocols like VQE, DMRG, and AFQMC benefit from automated hyperparameter tuning.",
+      "Energy proxies guide optimization under computational constraints.",
+      "Validated on spin models and molecular Hamiltonians."
+    ],
+    "date": "2026-04-28",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autoresearch_loops"
+    ],
+    "theme_names": [
+      "Autoresearch Loops"
+    ],
+    "importance_score": 8.15,
+    "reason": "This paper directly addresses autoresearch loops in quantum computing, showcasing a practical application of AI-driven optimization. The methodology is significant, though ecosystem relevance is slightly lower due to its niche focus.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.25610v1",
+      "pdf": "https://arxiv.org/pdf/2604.25610v1",
+      "arxiv": "https://arxiv.org/abs/2604.25610v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "Ground-state preparation is a critical task in quantum computing and simulation, often requiring extensive manual tuning of protocols. By leveraging autoresearch and coding agents, researchers can automate this process, enabling faster and more efficient exploration of quantum systems while reducing human intervention. This approach has the potential to accelerate advancements in quantum technologies and computational physics.",
+    "digest_summary": "Researchers demonstrate how autoresearch, powered by AI coding agents, can optimize ground-state preparation protocols in quantum computing. By automating hyperparameter tuning for methods like VQE, DMRG, and AFQMC, the study shows improved energy proxies under constrained computational budgets. This innovation could streamline quantum simulation workflows significantly.",
+    "editor_note": "With quantum computing gaining momentum, automating protocol optimization could be a game-changer for researchers and industry alike.",
+    "archive_path": "archive/papers/2026-04-30/2604-25610v1-optimizing-ground-state-preparation-protocols-with-autoresearch.md"
+  },
+  {
+    "id": "2604.24978v1",
+    "paper_id": "2604.24978v1",
+    "title": "Dont Stop Early: Scalable Enterprise Deep Research with Controlled Information Flow and Evidence-Aware Termination",
+    "summary_short": [
+      "Proposes a scalable Enterprise Deep Research (EDR) architecture.",
+      "Focuses on controlled information flow and evidence-aware termination.",
+      "Addresses uneven coverage, context explosion, and premature stopping.",
+      "Achieves top performance on DeepResearch Bench and internal tasks.",
+      "Improves research depth and consistency in enterprise settings."
+    ],
+    "date": "2026-04-27",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 8.0,
+    "reason": "The proposed Enterprise Deep Research architecture addresses critical challenges in scalable research workflows. Its focus on controlled information flow and evidence-aware termination is methodologically robust and relevant to literature agents.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.24978v1",
+      "pdf": "https://arxiv.org/pdf/2604.24978v1",
+      "arxiv": "https://arxiv.org/abs/2604.24978v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "Enterprise research often struggles with incomplete or inconsistent outputs, which can hinder decision-making processes. This paper introduces a novel architecture that ensures comprehensive information gathering and evidence-based termination, enabling organizations to produce more reliable and actionable research reports. By addressing common pitfalls like premature stopping and context overload, this approach has the potential to significantly enhance enterprise productivity and decision quality.",
+    "digest_summary": "A new Enterprise Deep Research (EDR) architecture tackles common challenges like uneven coverage and premature stopping in enterprise research workflows. By using dependency-guided execution and evidence-aware termination criteria, the system ensures deeper and more consistent outputs. Evaluations show it outperforms competitive baselines, making it a promising tool for scalable, decision-ready research in enterprise contexts.",
+    "editor_note": "With enterprises increasingly relying on AI-driven research, this paper's focus on improving reliability and depth is especially relevant today.",
+    "archive_path": "archive/papers/2026-04-30/2604-24978v1-dont-stop-early-scalable-enterprise-deep-research-with-controlled-information-flow-and-evidence-aware-termination.md"
+  },
+  {
+    "id": "2604.26835v1",
+    "paper_id": "2604.26835v1",
+    "title": "HalluCiteChecker: A Lightweight Toolkit for Hallucinated Citation Detection and Verification in the Era of AI Scientists",
+    "summary_short": [
+      "HalluCiteChecker detects and verifies hallucinated citations in scientific papers.",
+      "Addresses credibility issues caused by AI-generated false citations.",
+      "Lightweight toolkit runs efficiently offline on standard laptops using CPUs.",
+      "Supports reviewers and organizers with systematic pre-review checks.",
+      "Available as an installable package via PyPI under Apache 2.0 license."
+    ],
+    "date": "2026-04-29",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists"
+    ],
+    "importance_score": 7.9,
+    "reason": "HalluCiteChecker tackles a critical issue in AI-assisted research workflows: hallucinated citations. Its toolkit is highly relevant to builders of research agents and has strong longevity potential due to the importance of citation verification.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.26835v1",
+      "pdf": "https://arxiv.org/pdf/2604.26835v1",
+      "arxiv": "https://arxiv.org/abs/2604.26835v1"
+    },
+    "code_repos": [
+      "https://github.com/HalluCiteChecker"
+    ],
+    "featured": true,
+    "why_it_matters": "As AI tools increasingly assist in academic writing, the risk of hallucinated citations—references to non-existent works—has grown, threatening the integrity of scientific literature. HalluCiteChecker provides a practical solution to detect and verify citations, ensuring credibility and reducing the workload for reviewers and publishers in an era of AI-driven research workflows.",
+    "digest_summary": "HalluCiteChecker is a lightweight toolkit designed to detect and verify hallucinated citations in scientific papers, addressing a growing challenge posed by AI-assisted writing tools. It operates efficiently offline on standard laptops and aims to reduce reviewer workload while ensuring publication integrity. The toolkit is freely available via PyPI and GitHub under an Apache 2.0 license.",
+    "editor_note": "With AI tools becoming integral to research, ensuring citation accuracy is critical to maintaining scientific credibility.",
+    "archive_path": "archive/papers/2026-04-30/2604-26835v1-hallucitechecker-a-lightweight-toolkit-for-hallucinated-citation-detection-and-verification-in-the-era-of-ai-scientists.md"
+  },
+  {
+    "id": "2604.26747v1",
+    "paper_id": "2604.26747v1",
+    "title": "From Hypotheses to Factors: Constrained LLM Agents in Cryptocurrency Markets",
+    "summary_short": [
+      "LLM agents are used for empirical discovery in cryptocurrency markets.",
+      "Framework ensures reproducibility via constrained hypothesis testing.",
+      "Agents propose falsifiable hypotheses and map them to executable recipes.",
+      "Auditable factor DSL restricts actions for transparency and control.",
+      "Achieved 44.55% annualized return with Sharpe ratio of 1.55 in out-of-sample tests."
+    ],
+    "date": "2026-04-29",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autonomous_discovery"
+    ],
+    "theme_names": [
+      "Autonomous Discovery"
+    ],
+    "importance_score": 7.8,
+    "reason": "This paper introduces a reproducible protocol for hypothesis-driven discovery in cryptocurrency markets, aligning well with autonomous discovery themes. The constrained agent framework is methodologically significant and relevant to controlled empirical workflows.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.26747v1",
+      "pdf": "https://arxiv.org/pdf/2604.26747v1",
+      "arxiv": "https://arxiv.org/abs/2604.26747v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "This research demonstrates how constrained LLM agents can be effectively utilized for empirical discovery in high-stakes domains like cryptocurrency markets, ensuring reproducibility, transparency, and robust performance. It highlights the potential of combining AI-driven hypothesis generation with deterministic protocols to achieve actionable insights and measurable financial outcomes.",
+    "digest_summary": "Researchers propose a framework for using constrained LLM agents to discover cryptocurrency market factors under a reproducible protocol. By restricting actions to an auditable DSL and enforcing deterministic testing conditions, the framework achieved a 44.55% annualized return and Sharpe ratio of 1.55 in out-of-sample tests. This approach balances AI flexibility with rigorous empirical validation.",
+    "editor_note": "As cryptocurrency markets remain volatile, tools like this could help investors navigate uncertainty with data-driven strategies.",
+    "archive_path": "archive/papers/2026-04-30/2604-26747v1-from-hypotheses-to-factors-constrained-llm-agents-in-cryptocurrency-markets.md"
   }
 ]
