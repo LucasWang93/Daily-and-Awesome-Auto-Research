@@ -6650,5 +6650,265 @@
     "digest_summary": "Personalized Deep Research (PDR) revolutionizes scholarly discovery by integrating user profiles into the retrieval-reasoning loop, ensuring outputs align with individual expertise and interests. With a benchmark dataset and hybrid evaluation framework, PDR demonstrates superior relevance and utility compared to existing systems. Explore the resource on GitHub for cutting-edge personalization in AI research tools.",
     "editor_note": "This framework is especially relevant as personalized AI tools gain traction in academia and industry.",
     "archive_path": "archive/papers/2026-05-12/2605-10530v1-personalized-deep-research-a-user-centric-framework-dataset-and-hybrid-evaluation-for-knowledge-discovery.md"
+  },
+  {
+    "id": "2605.11518",
+    "paper_id": "2605.11518",
+    "title": "AutoLLMResearch: Training Research Agents for Automating LLM Experiment Configuration -- Learning from Cheap, Optimizing Expensive",
+    "summary_short": [
+      "Introduces AutoLLMResearch for automating LLM experiment configuration.",
+      "Focuses on learning from low-cost experiments to optimize expensive ones.",
+      "Proposes LLMConfig-Gym, a multi-fidelity environment with over 1M GPU hours of data.",
+      "Uses a Markov Decision Process to train agents for cross-fidelity reasoning.",
+      "Outperforms baselines in scalability, generalization, and interpretability."
+    ],
+    "date": "2026-05-12",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists"
+    ],
+    "importance_score": 9.55,
+    "reason": "AutoLLMResearch tackles a critical gap in automating high-cost LLM experiment configurations, directly addressing End-to-End AI Scientists themes. Its focus on optimizing expensive experiments is highly relevant and likely to have lasting impact.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2605.11518",
+      "arxiv": "https://arxiv.org/abs/2605.11518",
+      "pdf": "https://arxiv.org/pdf/2605.11518",
+      "huggingface": "https://huggingface.co/papers/2605.11518"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "Configuring large language model experiments is a costly and complex process that often relies on expert intuition, making it inaccessible and inefficient. AutoLLMResearch addresses this challenge by automating the process, enabling researchers to optimize configurations with fewer resources and greater accuracy, potentially accelerating advancements in LLM research and reducing computational waste.",
+    "digest_summary": "AutoLLMResearch introduces a novel framework for automating the configuration of large language model (LLM) experiments by learning from low-cost trials to optimize high-cost setups. It features LLMConfig-Gym, a multi-fidelity environment backed by over one million GPU hours, and uses a Markov Decision Process for efficient decision-making. This approach shows promise in reducing the labor and resources required for scalable LLM research.",
+    "editor_note": "With the rising costs of training large language models, tools like AutoLLMResearch are increasingly critical for sustainable AI development.",
+    "archive_path": "archive/papers/2026-05-13/2605-11518-autollmresearch-training-research-agents-for-automating-llm-experiment-configuration-learning-from-cheap-optimizing-expensive.md"
+  },
+  {
+    "id": "2605.11732v1",
+    "paper_id": "2605.11732v1",
+    "title": "AgentDisCo: Towards Disentanglement and Collaboration in Open-ended Deep Research Agents",
+    "summary_short": [
+      "Introduces AgentDisCo, a disentangled and collaborative agent architecture for deep research.",
+      "Separates exploration and exploitation processes using critic and generator agents.",
+      "Supports self-refinement via meta-optimization and reusable design strategies.",
+      "Evaluates on established benchmarks and introduces a new user-centric benchmark, GALA.",
+      "Delivers personalized research recommendations and visual presentations."
+    ],
+    "date": "2026-05-12",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autoresearch_loops",
+      "end_to_end_ai_scientists",
+      "literature_and_survey_agents",
+      "research_infrastructure_and_benchmarks"
+    ],
+    "theme_names": [
+      "Autoresearch Loops",
+      "End-to-End AI Scientists",
+      "Literature And Survey Agents",
+      "Research Infrastructure And Benchmarks"
+    ],
+    "importance_score": 9.35,
+    "reason": "AgentDisCo introduces a novel disentangled and collaborative architecture for deep research agents, aligning closely with themes like Autoresearch Loops and End-to-End AI Scientists. Its adversarial optimization framework and iterative refinement process are methodologically significant and highly relevant for building research agents.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.11732v1",
+      "pdf": "https://arxiv.org/pdf/2605.11732v1",
+      "arxiv": "https://arxiv.org/abs/2605.11732v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "AgentDisCo represents a significant step forward in automating deep research workflows, enabling AI systems to independently explore, refine, and synthesize knowledge. By disentangling exploration and exploitation processes, it enhances the quality and relevance of research outputs while reducing human intervention. Its ability to personalize research recommendations based on user behavior could transform how individuals and organizations access and utilize information in real-time contexts.",
+    "digest_summary": "AgentDisCo is a novel AI framework that disentangles exploration and exploitation in deep research workflows using collaborative agents. It introduces GALA, a benchmark for personalized research recommendations derived from user browsing history, and delivers visually rich research outputs. Evaluated on multiple benchmarks, it achieves competitive or superior performance, showcasing its potential to revolutionize automated research processes.",
+    "editor_note": "As AI-driven research tools gain traction, AgentDisCo's focus on personalization and collaboration addresses critical gaps in existing systems, making it highly relevant today.",
+    "archive_path": "archive/papers/2026-05-13/2605-11732v1-agentdisco-towards-disentanglement-and-collaboration-in-open-ended-deep-research-agents.md"
+  },
+  {
+    "id": "2605.11117v1",
+    "paper_id": "2605.11117v1",
+    "title": "GRAFT-ATHENA: Self-Improving Agentic Teams for Autonomous Discovery and Evolutionary Numerical Algorithms",
+    "summary_short": [
+      "GRAFT-ATHENA is a self-improving AI framework for scientific discovery.",
+      "It learns from past problems and autonomously expands its action space across domains.",
+      "Uses graph-based factorization to simplify combinatorial decision spaces.",
+      "Improves over human and prior AI baselines on physics-informed benchmarks.",
+      "Discovers new numerical methods and grows its knowledge substrate autonomously."
+    ],
+    "date": "2026-05-11",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autonomous_discovery"
+    ],
+    "theme_names": [
+      "Autonomous Discovery"
+    ],
+    "importance_score": 9.0,
+    "reason": "GRAFT-ATHENA introduces a self-improving agentic framework for autonomous discovery, emphasizing learning from past problems and expanding action spaces. Its focus on agentic teams and evolutionary algorithms is highly innovative.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.11117v1",
+      "pdf": "https://arxiv.org/pdf/2605.11117v1",
+      "arxiv": "https://arxiv.org/abs/2605.11117v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "GRAFT-ATHENA represents a significant step toward autonomous laboratories capable of solving increasingly complex scientific and engineering problems. By learning from past experiences and proposing novel methods, it has the potential to accelerate discovery across diverse domains, reducing human effort and enabling breakthroughs in areas like physics-informed machine learning and computational engineering.",
+    "digest_summary": "GRAFT-ATHENA is a groundbreaking self-improving AI framework that learns from past problems to autonomously expand its capabilities. By simplifying decision spaces and embedding methodological fingerprints, it outperforms human and AI baselines on physics-informed benchmarks while discovering new numerical methods. This innovation paves the way for autonomous labs that grow smarter with every solved problem.",
+    "editor_note": "With increasing demand for scalable scientific discovery, frameworks like GRAFT-ATHENA could redefine how we approach complex challenges in engineering and computational science.",
+    "archive_path": "archive/papers/2026-05-13/2605-11117v1-graft-athena-self-improving-agentic-teams-for-autonomous-discovery-and-evolutionary-numerical-algorithms.md"
+  },
+  {
+    "id": "2605.11518v1",
+    "paper_id": "2605.11518v1",
+    "title": "AutoLLMResearch: Training Research Agents for Automating LLM Experiment Configuration -- Learning from Cheap, Optimizing Expensive",
+    "summary_short": [
+      "Introduces AutoLLMResearch for automating LLM experiment configuration.",
+      "Targets high-cost LLM settings where trial-and-error is infeasible.",
+      "Proposes LLMConfig-Gym, a multi-fidelity environment with 1M+ GPU hours of data.",
+      "Uses a Markov Decision Process to train agents for cross-fidelity reasoning.",
+      "Demonstrates strong performance and generalization on held-out experiments."
+    ],
+    "date": "2026-05-12",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists"
+    ],
+    "importance_score": 8.55,
+    "reason": "AutoLLMResearch tackles the automation of high-cost LLM experiment configurations, a key challenge in scaling AI research. Its focus on optimizing expensive experiments is methodologically significant and ecosystem-relevant.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.11518v1",
+      "pdf": "https://arxiv.org/pdf/2605.11518v1",
+      "arxiv": "https://arxiv.org/abs/2605.11518v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "Configuring large language model (LLM) experiments is a resource-intensive and complex process that often relies on expert intuition. AutoLLMResearch addresses this challenge by automating the process, enabling researchers to efficiently optimize LLM configurations while reducing computational waste and accelerating innovation in AI research. This framework could democratize access to advanced LLM experimentation by lowering the barrier to entry for non-expert researchers.",
+    "digest_summary": "AutoLLMResearch introduces a novel framework to automate the configuration of large language model (LLM) experiments, a traditionally labor-intensive and costly process. By leveraging a multi-fidelity environment (LLMConfig-Gym) and a structured training pipeline, it enables agents to efficiently identify optimal configurations in high-cost settings. This innovation has the potential to significantly reduce computational waste and streamline LLM research, making it more accessible and scalable.",
+    "editor_note": "With the rapid growth of LLMs, tools like AutoLLMResearch are critical for optimizing resources and accelerating breakthroughs in AI.",
+    "archive_path": "archive/papers/2026-05-13/2605-11518v1-autollmresearch-training-research-agents-for-automating-llm-experiment-configuration-learning-from-cheap-optimizing-expensive.md"
+  },
+  {
+    "id": "2605.12478v1",
+    "paper_id": "2605.12478v1",
+    "title": "Automated multiphase identification and refinement in powder diffraction using mismatch-tolerant machine learning",
+    "summary_short": [
+      "Introduces RADAR-PD, a machine learning framework for powder diffraction analysis.",
+      "Supports both X-ray and neutron diffraction with mismatch-tolerant phase identification.",
+      "Combines neural networks, lattice nudging, and physics-constrained Rietveld refinement.",
+      "Outperforms existing tools like DARA on benchmark datasets.",
+      "Addresses automation gaps in neutron diffraction analysis."
+    ],
+    "date": "2026-05-12",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autonomous_discovery"
+    ],
+    "theme_names": [
+      "Autonomous Discovery"
+    ],
+    "importance_score": 8.55,
+    "reason": "RADAR-PD addresses a critical bottleneck in autonomous discovery workflows for materials science, introducing a machine learning framework for phase identification. Its focus on automation and mismatch tolerance is highly relevant.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.12478v1",
+      "pdf": "https://arxiv.org/pdf/2605.12478v1",
+      "arxiv": "https://arxiv.org/abs/2605.12478v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "Automating phase identification in powder diffraction is critical for accelerating materials discovery and characterization. RADAR-PD bridges a significant gap, particularly in neutron diffraction, by providing a robust, auditable, and instrument-agnostic solution. This advancement enables researchers to streamline workflows and focus on innovation rather than manual analysis bottlenecks.",
+    "digest_summary": "RADAR-PD is a new machine learning framework that automates phase identification and refinement in powder diffraction, supporting both X-ray and neutron modalities. By integrating mismatch-tolerant neural networks and physics-based verification, it outperforms existing tools like DARA and addresses critical gaps in neutron diffraction automation. This innovation paves the way for faster, more reliable materials discovery.",
+    "editor_note": "This breakthrough is timely as automation continues to transform materials science research.",
+    "archive_path": "archive/papers/2026-05-13/2605-12478v1-automated-multiphase-identification-and-refinement-in-powder-diffraction-using-mismatch-tolerant-machine-learning.md"
+  },
+  {
+    "id": "2605.11388v1",
+    "paper_id": "2605.11388v1",
+    "title": "Deep Reasoning in General Purpose Agents via Structured Meta-Cognition",
+    "summary_short": [
+      "Introduces 'Deep Reasoning' for adaptive task-specific scaffolding.",
+      "Uses structured meta-reasoning to guide reasoning dynamically.",
+      "Outperforms state-of-the-art scaffolding methods by 24.8% on average.",
+      "DOLORES agent bridges scaling gaps with smaller models outperforming larger ones.",
+      "Reduces hallucinations and premature reasoning termination."
+    ],
+    "date": "2026-05-12",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 8.0,
+    "reason": "Deep Reasoning introduces structured meta-cognition for general-purpose agents, addressing flexibility in reasoning. Its methodological contribution is significant for literature and survey agents.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.11388v1",
+      "pdf": "https://arxiv.org/pdf/2605.11388v1",
+      "arxiv": "https://arxiv.org/abs/2605.11388v1"
+    },
+    "code_repos": [],
+    "featured": false,
+    "why_it_matters": "This research addresses a critical limitation in current AI systems: their inability to adapt reasoning structures dynamically to complex tasks. By enabling agents to construct task-specific scaffolds at inference time, it paves the way for more flexible, reliable, and efficient AI systems capable of handling diverse real-world challenges with reduced errors and computational overhead.",
+    "digest_summary": "A new approach called 'Deep Reasoning' enables AI agents to dynamically adapt their reasoning structures to complex tasks. The DOLORES agent, implementing this method, outperforms state-of-the-art scaffolding techniques by 24.8% on average, even surpassing larger models in many cases. This innovation reduces errors like hallucinations and premature reasoning, marking a step forward in flexible, general-purpose AI systems.",
+    "editor_note": "This research is timely as adaptive reasoning is crucial for advancing AI's reliability in real-world applications.",
+    "archive_path": "archive/papers/2026-05-13/2605-11388v1-deep-reasoning-in-general-purpose-agents-via-structured-meta-cognition.md"
+  },
+  {
+    "id": "2605.10848v1",
+    "paper_id": "2605.10848v1",
+    "title": "Rethinking Agentic Search with Pi-Serini: Is Lexical Retrieval Sufficient?",
+    "summary_short": [
+      "Introduces Pi-Serini, a search agent combining BM25 with advanced LLMs.",
+      "Achieves 83.1% answer accuracy and 94.7% evidence recall on BrowseComp-Plus.",
+      "Demonstrates that tuned lexical retrieval can rival dense retrievers.",
+      "Highlights the importance of retrieval depth and BM25 optimization."
+    ],
+    "date": "2026-05-11",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 7.55,
+    "reason": "Pi-Serini revisits lexical retrieval in agentic loops, providing insights into retrieval depth and LLM integration. While relevant, its methodological contribution is incremental.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.10848v1",
+      "pdf": "https://arxiv.org/pdf/2605.10848v1",
+      "arxiv": "https://arxiv.org/abs/2605.10848v1"
+    },
+    "code_repos": [
+      "https://github.com/justram/pi-serini"
+    ],
+    "featured": false,
+    "why_it_matters": "As large language models become more capable, understanding how to best integrate them with retrieval systems is critical for advancing research workflows. Pi-Serini demonstrates that well-tuned lexical retrieval, when paired with cutting-edge LLMs, can achieve high performance, challenging the dominance of dense retrieval methods. This has implications for building cost-effective and efficient research tools in the era of AI-driven discovery.",
+    "digest_summary": "Pi-Serini pairs the BM25 lexical retriever with advanced LLMs to explore whether lexical retrieval suffices in deep research tasks. Achieving 83.1% answer accuracy and 94.7% evidence recall, it outperforms dense retriever-based agents on BrowseComp-Plus. The study underscores the potential of optimized lexical retrieval for cost-efficient, high-performance research systems.",
+    "editor_note": "This research is timely as it challenges the trend toward dense retrieval methods, offering a simpler yet effective alternative.",
+    "archive_path": "archive/papers/2026-05-13/2605-10848v1-rethinking-agentic-search-with-pi-serini-is-lexical-retrieval-sufficient.md"
   }
 ]
