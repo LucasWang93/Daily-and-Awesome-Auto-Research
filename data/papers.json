@@ -6910,5 +6910,118 @@
     "digest_summary": "Pi-Serini pairs the BM25 lexical retriever with advanced LLMs to explore whether lexical retrieval suffices in deep research tasks. Achieving 83.1% answer accuracy and 94.7% evidence recall, it outperforms dense retriever-based agents on BrowseComp-Plus. The study underscores the potential of optimized lexical retrieval for cost-efficient, high-performance research systems.",
     "editor_note": "This research is timely as it challenges the trend toward dense retrieval methods, offering a simpler yet effective alternative.",
     "archive_path": "archive/papers/2026-05-13/2605-10848v1-rethinking-agentic-search-with-pi-serini-is-lexical-retrieval-sufficient.md"
+  },
+  {
+    "id": "2605.13034v1",
+    "paper_id": "2605.13034v1",
+    "title": "ViDR: Grounding Multimodal Deep Research Reports in Source Visual Evidence",
+    "summary_short": [
+      "ViDR is a multimodal framework for grounding research reports in visual evidence.",
+      "It refines noisy web images into usable evidence through filtering and reranking.",
+      "ViDR links claims to both textual and visual evidence for better report verifiability.",
+      "Introduces MMR Bench+, a benchmark for evaluating visual evidence use in reports.",
+      "Outperforms baselines in integrating and validating source figures in research outputs."
+    ],
+    "date": "2026-05-13",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 7.55,
+    "reason": "ViDR enhances multimodal research agents by grounding reports in visual evidence, which is relevant to Literature And Survey Agents. Its focus on integrating visual and textual evidence is a valuable contribution.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.13034v1",
+      "pdf": "https://arxiv.org/pdf/2605.13034v1",
+      "arxiv": "https://arxiv.org/abs/2605.13034v1"
+    },
+    "code_repos": [],
+    "featured": false,
+    "why_it_matters": "ViDR addresses a critical gap in multimodal research systems by leveraging source visual evidence, such as figures and charts, to enhance the grounding, accuracy, and verifiability of long-form research reports. This innovation is crucial for advancing the reliability of AI-generated scientific outputs, particularly in domains where visual data is integral to analysis and communication.",
+    "digest_summary": "ViDR is a new multimodal framework that improves the grounding of research reports by integrating source visual evidence, such as figures and charts, alongside textual data. It refines noisy images, validates visual references, and links claims to evidence for better report quality and verifiability. The framework also introduces MMR Bench+, a benchmark for evaluating visual evidence use in research systems.",
+    "editor_note": "As AI-generated research becomes more prevalent, frameworks like ViDR are essential for ensuring scientific rigor and trustworthiness.",
+    "archive_path": "archive/papers/2026-05-14/2605-13034v1-vidr-grounding-multimodal-deep-research-reports-in-source-visual-evidence.md"
+  },
+  {
+    "id": "2605.11363v1",
+    "paper_id": "2605.11363v1",
+    "title": "PresentAgent-2: Towards Generalist Multimodal Presentation Agents",
+    "summary_short": [
+      "PresentAgent-2 generates presentation videos from user queries.",
+      "Supports multimodal resources: text, images, GIFs, and videos.",
+      "Offers three modes: Single Presentation, Discussion, and Interaction.",
+      "Includes a benchmark for evaluating multimodal presentation quality.",
+      "Extends beyond static slides to dynamic, research-grounded presentations."
+    ],
+    "date": "2026-05-12",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 7.55,
+    "reason": "PresentAgent-2 aligns well with Literature and Survey Agents by automating multimodal presentation generation, which is relevant for research workflows. The methodology is substantial, introducing an agentic framework for multimodal synthesis. Its relevance to research tooling is high, but longevity depends on adoption and further development.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.11363v1",
+      "pdf": "https://arxiv.org/pdf/2605.11363v1",
+      "arxiv": "https://arxiv.org/abs/2605.11363v1"
+    },
+    "code_repos": [
+      "https://github.com/AIGeeksGroup/PresentAgent-2"
+    ],
+    "featured": true,
+    "why_it_matters": "PresentAgent-2 represents a significant step forward in automating the creation of dynamic, research-grounded presentations, making it easier for users to communicate complex ideas effectively using multimodal media and interactive features. This innovation has potential applications in education, business, and content creation, where engaging presentations are crucial.",
+    "digest_summary": "PresentAgent-2 is a cutting-edge framework for generating research-grounded, multimodal presentation videos from user queries. It supports three modes—Single Presentation, Discussion, and Interaction—while integrating text, images, GIFs, and videos. By moving beyond static slide creation, it enables dynamic and interactive presentations tailored to user needs.",
+    "editor_note": "This tool is especially relevant as demand for engaging, AI-driven content creation continues to grow.",
+    "archive_path": "archive/papers/2026-05-14/2605-11363v1-presentagent-2-towards-generalist-multimodal-presentation-agents.md"
+  },
+  {
+    "id": "2605.11363",
+    "paper_id": "2605.11363",
+    "title": "PresentAgent-2: Towards Generalist Multimodal Presentation Agents",
+    "summary_short": [
+      "PresentAgent-2 generates presentation videos from user queries.",
+      "Supports three modes: Single Presentation, Discussion, and Interaction.",
+      "Performs deep research to gather multimodal resources like text, images, and videos.",
+      "Creates slides, scripts, and integrates dynamic media for polished outputs.",
+      "Includes a benchmark to evaluate content quality, media use, and interaction grounding."
+    ],
+    "date": "2026-05-12",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 7.55,
+    "reason": "This is a duplicate entry of PresentAgent-2 from a different source. The scores remain consistent with the previous evaluation, as the paper's content and relevance are unchanged.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2605.11363",
+      "arxiv": "https://arxiv.org/abs/2605.11363",
+      "pdf": "https://arxiv.org/pdf/2605.11363",
+      "huggingface": "https://huggingface.co/papers/2605.11363"
+    },
+    "code_repos": [
+      "https://github.com/AIGeeksGroup/PresentAgent-2"
+    ],
+    "featured": false,
+    "why_it_matters": "PresentAgent-2 represents a significant leap in automating presentation creation by integrating research, multimodal media, and interactive elements. It moves beyond static slides to dynamic, query-driven, and contextually grounded video presentations, making it a valuable tool for education, business, and content creation. This innovation could redefine how we communicate complex ideas effectively and efficiently in a digital-first world.",
+    "digest_summary": "PresentAgent-2 is a cutting-edge framework for generating research-grounded, multimodal presentation videos from user queries. It supports three modes—Single Presentation, Discussion, and Interaction—while integrating slides, scripts, and dynamic media into polished outputs. With its benchmark for evaluating content quality and interaction, it sets a new standard for automated presentation tools.",
+    "editor_note": "This tool is particularly relevant as remote work and digital communication continue to dominate professional and educational spaces.",
+    "archive_path": "archive/papers/2026-05-14/2605-11363-presentagent-2-towards-generalist-multimodal-presentation-agents.md"
   }
 ]
