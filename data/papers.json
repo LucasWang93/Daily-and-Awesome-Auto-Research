@@ -7023,5 +7023,198 @@
     "digest_summary": "PresentAgent-2 is a cutting-edge framework for generating research-grounded, multimodal presentation videos from user queries. It supports three modes—Single Presentation, Discussion, and Interaction—while integrating slides, scripts, and dynamic media into polished outputs. With its benchmark for evaluating content quality and interaction, it sets a new standard for automated presentation tools.",
     "editor_note": "This tool is particularly relevant as remote work and digital communication continue to dominate professional and educational spaces.",
     "archive_path": "archive/papers/2026-05-14/2605-11363-presentagent-2-towards-generalist-multimodal-presentation-agents.md"
+  },
+  {
+    "id": "2605.13941v1",
+    "paper_id": "2605.13941v1",
+    "title": "EvolveMem:Self-Evolving Memory Architecture via AutoResearch for LLM Agents",
+    "summary_short": [
+      "Introduces EvolveMem, a self-evolving memory architecture for LLM agents.",
+      "Optimizes both stored knowledge and retrieval mechanisms via AutoResearch loops.",
+      "Autonomously diagnoses and adjusts retrieval configurations for improved performance.",
+      "Achieves significant performance gains on LoCoMo and MemBench benchmarks.",
+      "Code available at GitHub for reproducibility."
+    ],
+    "date": "2026-05-13",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autoresearch_loops"
+    ],
+    "theme_names": [
+      "Autoresearch Loops"
+    ],
+    "importance_score": 9.35,
+    "reason": "EvolveMem addresses adaptive memory for LLM agents, a critical component for autoresearch loops. Its self-evolving architecture is a significant methodological contribution, and its relevance to builders of research workflows is high. The focus on memory evolution ensures its long-term importance.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.13941v1",
+      "pdf": "https://arxiv.org/pdf/2605.13941v1",
+      "arxiv": "https://arxiv.org/abs/2605.13941v1"
+    },
+    "code_repos": [
+      "https://github.com/aiming-lab/SimpleMem"
+    ],
+    "featured": true,
+    "why_it_matters": "EvolveMem represents a paradigm shift in how memory systems for LLM agents are designed and maintained, enabling them to autonomously improve their retrieval strategies over time. This innovation reduces the need for manual tuning, accelerates adaptability, and ensures more robust performance across diverse tasks and benchmarks, paving the way for more intelligent and self-sufficient AI systems.",
+    "digest_summary": "EvolveMem introduces a groundbreaking self-evolving memory architecture for LLM agents, enabling autonomous optimization of both stored knowledge and retrieval mechanisms. By leveraging AutoResearch loops, the system iteratively diagnoses and improves itself, achieving significant performance gains on key benchmarks. This approach reduces manual intervention and demonstrates transferable, universal retrieval principles.",
+    "editor_note": "This research highlights the growing importance of self-improving AI systems in achieving scalable and adaptive intelligence.",
+    "archive_path": "archive/papers/2026-05-15/2605-13941v1-evolvemem-self-evolving-memory-architecture-via-autoresearch-for-llm-agents.md"
+  },
+  {
+    "id": "2605.14791v1",
+    "paper_id": "2605.14791v1",
+    "title": "Beyond AI as Assistants: Toward Autonomous Discovery in Cosmology",
+    "summary_short": [
+      "Explores AI systems for autonomous scientific discovery in cosmology.",
+      "Introduces \u0001CMBEvolve\u0001 for quantitative tasks using LLM-guided code evolution.",
+      "Presents \u0001CosmoEvolve\u0001 as a virtual multi-agent research lab for open-ended workflows.",
+      "Demonstrates applications in weak-lensing map analysis and ACT DR6 data diagnostics.",
+      "Positions cosmology as a testbed for developing AI scientist systems."
+    ],
+    "date": "2026-05-14",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists",
+      "autonomous_discovery"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists",
+      "Autonomous Discovery"
+    ],
+    "importance_score": 9.35,
+    "reason": "This paper discusses autonomous discovery in cosmology using agentic systems, aligning strongly with themes like End-to-End AI Scientists and Autonomous Discovery. Its dual-system approach is methodologically significant and highly relevant to builders of research agents.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.14791v1",
+      "pdf": "https://arxiv.org/pdf/2605.14791v1",
+      "arxiv": "https://arxiv.org/abs/2605.14791v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "This research pushes the boundaries of AI from being mere tools to becoming autonomous agents capable of conducting scientific discovery. By applying these systems to cosmology, it not only advances our understanding of the universe but also sets the stage for AI to revolutionize how science is conducted across disciplines, tackling both structured and open-ended problems with minimal human intervention.",
+    "digest_summary": "AI is evolving from an assistant to an autonomous scientist in cosmology. Two systems, \u0001CMBEvolve\u0001 and \u0001CosmoEvolve\u0001, demonstrate capabilities in improving benchmarks and conducting open-ended research. These tools highlight the potential of AI to independently tackle complex scientific challenges, using cosmology as a proving ground.",
+    "editor_note": "This work is timely as AI's role in scientific discovery is rapidly expanding, offering transformative potential across disciplines.",
+    "archive_path": "archive/papers/2026-05-15/2605-14791v1-beyond-ai-as-assistants-toward-autonomous-discovery-in-cosmology.md"
+  },
+  {
+    "id": "2605.13941",
+    "paper_id": "2605.13941",
+    "title": "EvolveMem:Self-Evolving Memory Architecture via AutoResearch for LLM Agents",
+    "summary_short": [
+      "Introduces EvolveMem, a self-evolving memory architecture for LLM agents.",
+      "Optimizes both stored knowledge and retrieval mechanisms autonomously.",
+      "Uses an LLM-powered diagnosis module for iterative self-improvement.",
+      "Achieves significant performance gains on memory benchmarks.",
+      "Code available at GitHub for reproducibility."
+    ],
+    "date": "2026-05-13",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "autoresearch_loops"
+    ],
+    "theme_names": [
+      "Autoresearch Loops"
+    ],
+    "importance_score": 9.35,
+    "reason": "Duplicate of 2605.13941v1. EvolveMem addresses adaptive memory for LLM agents, a critical component for autoresearch loops. Its self-evolving architecture is a significant methodological contribution, and its relevance to builders of research workflows is high. The focus on memory evolution ensures its long-term importance.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2605.13941",
+      "arxiv": "https://arxiv.org/abs/2605.13941",
+      "pdf": "https://arxiv.org/pdf/2605.13941",
+      "huggingface": "https://huggingface.co/papers/2605.13941"
+    },
+    "code_repos": [
+      "https://github.com/aiming-lab/SimpleMem"
+    ],
+    "featured": true,
+    "why_it_matters": "EvolveMem represents a breakthrough in adaptive memory systems for large language models (LLMs), enabling them to autonomously refine their retrieval strategies and configurations over time. This innovation reduces the need for manual tuning, enhances long-term memory capabilities, and demonstrates transferable improvements across benchmarks, paving the way for more robust and intelligent LLM agents in real-world applications.",
+    "digest_summary": "EvolveMem introduces a self-evolving memory architecture for LLM agents, enabling autonomous optimization of both stored knowledge and retrieval mechanisms. By leveraging an LLM-powered diagnosis module, it iteratively improves its performance, achieving up to 78% relative gains over minimal baselines. The evolved configurations demonstrate universal applicability, marking a significant step forward in adaptive AI systems.",
+    "editor_note": "This research highlights the growing importance of autonomous systems capable of self-improvement, a key trend in AI development today.",
+    "archive_path": "archive/papers/2026-05-15/2605-13941-evolvemem-self-evolving-memory-architecture-via-autoresearch-for-llm-agents.md"
+  },
+  {
+    "id": "2605.06607",
+    "paper_id": "2605.06607",
+    "title": "AI CFD Scientist: Toward Open-Ended Computational Fluid Dynamics Discovery with Physics-Aware AI Agents",
+    "summary_short": [
+      "AI CFD Scientist integrates physics-aware AI for CFD discovery.",
+      "Combines ideation, execution, verification, and writing in one workflow.",
+      "Features a vision-language gate to validate physical results.",
+      "Achieves significant improvements in CFD model accuracy.",
+      "Open-source with code and artifacts available on GitHub."
+    ],
+    "date": "2026-05-12",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists",
+      "autonomous_discovery"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists",
+      "Autonomous Discovery"
+    ],
+    "importance_score": 9.35,
+    "reason": "AI CFD Scientist introduces an open-ended AI scientist for computational fluid dynamics, aligning strongly with End-to-End AI Scientists and Autonomous Discovery. Its integration of literature-grounded ideation and physics-aware validation is methodologically significant and highly relevant to the ecosystem.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2605.06607",
+      "arxiv": "https://arxiv.org/abs/2605.06607",
+      "pdf": "https://arxiv.org/pdf/2605.06607",
+      "huggingface": "https://huggingface.co/papers/2605.06607"
+    },
+    "code_repos": [
+      "https://github.com/csml-rpi/cfd-scientist"
+    ],
+    "featured": true,
+    "why_it_matters": "AI CFD Scientist represents a significant step toward autonomous scientific discovery in computational fluid dynamics, addressing challenges of physical validity and failure detection in simulations. By integrating domain-specific verification and open-ended hypothesis testing, it pushes the boundaries of AI's role in high-fidelity physics research, enabling faster and more reliable advancements in fluid dynamics modeling.",
+    "digest_summary": "AI CFD Scientist is an open-source AI framework for computational fluid dynamics (CFD) that autonomously handles ideation, execution, verification, and writing. It introduces a vision-language gate to ensure physical validity, outperforming general AI scientists in CFD-specific tasks. The system demonstrates notable improvements in model accuracy and offers tools for reproducible research.",
+    "editor_note": "This work highlights how AI can tackle domain-specific challenges in scientific discovery, making it highly relevant for advancing engineering and physics research today.",
+    "archive_path": "archive/papers/2026-05-15/2605-06607-ai-cfd-scientist-toward-open-ended-computational-fluid-dynamics-discovery-with-physics-aware-ai-agents.md"
+  },
+  {
+    "id": "2605.14671v1",
+    "paper_id": "2605.14671v1",
+    "title": "Agentic Design of Compositional Descriptors via Autoresearch for Materials Science Applications",
+    "summary_short": [
+      "Introduces 'Automat,' an autoresearch framework for materials science.",
+      "Uses AI agents to design composition-based descriptors for chemical compounds.",
+      "Demonstrates improved performance in predicting band gaps and Curie temperatures.",
+      "Highlights challenges like redundancy and complexity control in descriptor generation."
+    ],
+    "date": "2026-05-14",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autoresearch_loops",
+      "end_to_end_ai_scientists"
+    ],
+    "theme_names": [
+      "Autoresearch Loops",
+      "End-to-End AI Scientists"
+    ],
+    "importance_score": 9.15,
+    "reason": "This paper introduces an autoresearch framework for materials science, directly aligning with themes like Autoresearch Loops and End-to-End AI Scientists. The methodological contribution of descriptor design is substantial, and its relevance to research agent builders is high. The focus on materials science ensures its longevity in a specialized domain.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.14671v1",
+      "pdf": "https://arxiv.org/pdf/2605.14671v1",
+      "arxiv": "https://arxiv.org/abs/2605.14671v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "This work showcases how AI-driven autoresearch can go beyond traditional tasks like model selection to autonomously design interpretable, task-specific features in materials science. By automating descriptor generation, it reduces reliance on manual feature engineering, accelerating discovery in complex scientific domains like materials property prediction.",
+    "digest_summary": "Researchers introduced 'Automat,' an AI-driven autoresearch framework that autonomously designs chemical descriptors for materials science applications. Using OpenAI Codex, Automat outperformed traditional baselines in predicting band gaps and Curie temperatures while generating interpretable features. This approach highlights the potential of AI agents to automate and innovate in scientific workflows.",
+    "editor_note": "This research underscores the growing role of AI in automating complex scientific discovery processes, a timely advancement as materials science seeks faster innovation cycles.",
+    "archive_path": "archive/papers/2026-05-15/2605-14671v1-agentic-design-of-compositional-descriptors-via-autoresearch-for-materials-science-applications.md"
   }
 ]
