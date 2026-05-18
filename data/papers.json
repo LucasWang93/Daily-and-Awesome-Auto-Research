@@ -7216,5 +7216,82 @@
     "digest_summary": "Researchers introduced 'Automat,' an AI-driven autoresearch framework that autonomously designs chemical descriptors for materials science applications. Using OpenAI Codex, Automat outperformed traditional baselines in predicting band gaps and Curie temperatures while generating interpretable features. This approach highlights the potential of AI agents to automate and innovate in scientific workflows.",
     "editor_note": "This research underscores the growing role of AI in automating complex scientific discovery processes, a timely advancement as materials science seeks faster innovation cycles.",
     "archive_path": "archive/papers/2026-05-15/2605-14671v1-agentic-design-of-compositional-descriptors-via-autoresearch-for-materials-science-applications.md"
+  },
+  {
+    "id": "2605.15871",
+    "paper_id": "2605.15871",
+    "title": "Agentic Discovery of Neural Architectures: AIRA-Compose and AIRA-Design",
+    "summary_short": [
+      "Introduces AIRA-Compose and AIRA-Design for autonomous neural architecture discovery.",
+      "AIRA-Compose explores high-level designs; AIRA-Design focuses on low-level mechanisms.",
+      "Discovered architectures outperform Llama 3.2 and Composer baselines in accuracy and scaling.",
+      "Agent-designed models achieve near state-of-the-art on key benchmarks.",
+      "Demonstrates AI agents can autonomously innovate in foundational model design."
+    ],
+    "date": "2026-05-15",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "autoresearch_loops",
+      "research_infrastructure_and_benchmarks"
+    ],
+    "theme_names": [
+      "Autoresearch Loops",
+      "Research Infrastructure And Benchmarks"
+    ],
+    "importance_score": 9.55,
+    "reason": "This paper directly contributes to Autoresearch Loops and Research Infrastructure by proposing a dual-framework system for autonomous neural architecture discovery. The use of multiple agents to explore and evaluate architectures is a significant methodological advancement. Its relevance to builders of research agents and workflows is extremely high, as it provides a concrete example of recursive self-improvement in AI. The work's focus on foundational model design ensures its longevity in the field.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2605.15871",
+      "arxiv": "https://arxiv.org/abs/2605.15871",
+      "pdf": "https://arxiv.org/pdf/2605.15871",
+      "huggingface": "https://huggingface.co/papers/2605.15871"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "This research showcases the potential of AI agents to autonomously design and optimize neural architectures, paving the way for faster, more efficient development of next-generation foundation models. By achieving performance on par with or exceeding human-designed baselines, it highlights a significant step toward recursive self-improvement in AI systems, which could revolutionize how foundational AI technologies are developed and scaled.",
+    "digest_summary": "AIRA-Compose and AIRA-Design are frameworks enabling AI agents to autonomously discover and optimize neural architectures. These agent-designed models outperform leading baselines like Llama 3.2 in both accuracy and scaling efficiency. With results nearing state-of-the-art on key benchmarks, this research marks a pivotal step toward recursive self-improvement in AI model development.",
+    "editor_note": "This work is particularly relevant as the AI community seeks scalable, automated solutions for foundational model innovation.",
+    "archive_path": "archive/papers/2026-05-18/2605-15871-agentic-discovery-of-neural-architectures-aira-compose-and-aira-design.md"
+  },
+  {
+    "id": "2605.16217v1",
+    "paper_id": "2605.16217v1",
+    "title": "Argus: Evidence Assembly for Scalable Deep Research Agents",
+    "summary_short": [
+      "Argus introduces a cooperative system with a Searcher and Navigator for assembling evidence in deep research tasks.",
+      "The Navigator builds and reasons over an evidence graph, ensuring complementary evidence pieces are gathered.",
+      "Searcher agents perform ReAct-style interactions to collect evidence traces for sub-queries.",
+      "Argus achieves state-of-the-art performance across benchmarks, scaling effectively with parallel Searchers.",
+      "Navigator's reasoning context remains efficient, even with large-scale parallelization."
+    ],
+    "date": "2026-05-15",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists",
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists",
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 8.55,
+    "reason": "Argus introduces a novel approach to evidence assembly for deep research agents, directly addressing challenges in literature and survey tasks. Its focus on complementary evidence rather than brute force aligns well with themes like End-to-End AI Scientists and Literature And Survey Agents. The methodology is significant for improving agentic research workflows, and its relevance to the ecosystem is high given the growing need for scalable research agents. The approach is likely to remain relevant as research agents evolve.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.16217v1",
+      "pdf": "https://arxiv.org/pdf/2605.16217v1",
+      "arxiv": "https://arxiv.org/abs/2605.16217v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "Argus addresses critical limitations in deep research agents by shifting from brute-force parallel search to a collaborative evidence assembly approach. This innovation enables more efficient and accurate synthesis of complex answers, pushing the boundaries of AI-driven research capabilities while maintaining scalability and resource efficiency.",
+    "digest_summary": "Argus redefines deep research agents by introducing a cooperative system where a Navigator and Searcher collaborate to assemble evidence like a jigsaw puzzle. This approach improves accuracy and scalability, achieving state-of-the-art results across benchmarks. With efficient reasoning and parallelization, Argus sets a new standard for AI-driven research tasks.",
+    "editor_note": "As AI research agents grow in importance, Argus exemplifies how collaboration and evidence synthesis can overcome current limitations in scalability and accuracy.",
+    "archive_path": "archive/papers/2026-05-18/2605-16217v1-argus-evidence-assembly-for-scalable-deep-research-agents.md"
   }
 ]
