@@ -7293,5 +7293,189 @@
     "digest_summary": "Argus redefines deep research agents by introducing a cooperative system where a Navigator and Searcher collaborate to assemble evidence like a jigsaw puzzle. This approach improves accuracy and scalability, achieving state-of-the-art results across benchmarks. With efficient reasoning and parallelization, Argus sets a new standard for AI-driven research tasks.",
     "editor_note": "As AI research agents grow in importance, Argus exemplifies how collaboration and evidence synthesis can overcome current limitations in scalability and accuracy.",
     "archive_path": "archive/papers/2026-05-18/2605-16217v1-argus-evidence-assembly-for-scalable-deep-research-agents.md"
+  },
+  {
+    "id": "2605.17554v1",
+    "paper_id": "2605.17554v1",
+    "title": "Evaluating Deep Research Agents on Expert Consulting Work: A Benchmark with Verifiers, Rubrics, and Cognitive Traps",
+    "summary_short": [
+      "Introduces a benchmark for evaluating deep research agents (DRAs) on structured, decision-grade tasks.",
+      "Tests three leading DRAs on 42 expert-authored prompts with cognitive traps.",
+      "Uses a Verifier-Rubric Score (VRS) combining deterministic checks and SME rubrics.",
+      "Finds uniformly low acceptance rates, highlighting challenges in multi-document synthesis.",
+      "Reveals distinct failure patterns across agents like fabrication, missing sections, and bimodal performance."
+    ],
+    "date": "2026-05-17",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists",
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists",
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 9.05,
+    "reason": "This paper introduces a benchmark specifically for evaluating deep research agents on complex, multi-document tasks, which is highly relevant to the themes of End-to-End AI Scientists and Literature And Survey Agents. The methodological contribution is substantial, as it provides a structured evaluation framework with verifiers and rubrics. Its utility for builders of research agents and its focus on decision-grade deliverables ensure ecosystem relevance and likely longevity.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.17554v1",
+      "pdf": "https://arxiv.org/pdf/2605.17554v1",
+      "arxiv": "https://arxiv.org/abs/2605.17554v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "As deep research agents are rapidly integrated into enterprise workflows, their ability to produce reliable, decision-grade outputs is critical. This study provides a rigorous benchmark to evaluate their performance, uncovering key limitations and failure modes that must be addressed to ensure trust and utility in high-stakes applications like consulting and research synthesis.",
+    "digest_summary": "A new benchmark evaluates deep research agents (DRAs) on structured, multi-document tasks typical of expert consulting work. Testing three leading agents—Claude Opus 4.6, OpenAI o3, and Google Gemini 3.1—revealed uniformly low acceptance rates and distinct failure patterns, such as fabrication and arithmetic errors. The study highlights the need for stricter evaluation frameworks as DRAs are deployed in enterprise settings.",
+    "editor_note": "This benchmark is timely as enterprises increasingly rely on AI for complex research and decision-making tasks.",
+    "archive_path": "archive/papers/2026-05-19/2605-17554v1-evaluating-deep-research-agents-on-expert-consulting-work-a-benchmark-with-verifiers-rubrics-and-cognitive-traps.md"
+  },
+  {
+    "id": "2605.18407v1",
+    "paper_id": "2605.18407v1",
+    "title": "Qumus: Realization of An Embodied AI Quantum Material Experimentalist",
+    "summary_short": [
+      "Qumus is an embodied AI system for quantum materials research.",
+      "It autonomously performs the full scientific cycle, from hypothesis to reporting.",
+      "First AI to create graphene and fabricate atomically thin nanodevices.",
+      "Features autonomous error correction and closed-loop experimentation.",
+      "Paves the way for accelerated discovery in quantum materials and electronics."
+    ],
+    "date": "2026-05-18",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "closed_loop_empirical_science"
+    ],
+    "theme_names": [
+      "Closed-Loop Empirical Science"
+    ],
+    "importance_score": 8.65,
+    "reason": "Qumus represents a significant advancement in Closed-Loop Empirical Science by integrating embodied AI with real-world experimental capabilities. Its focus on quantum materials and multimodal, multi-agent systems is highly innovative and relevant to autonomous discovery workflows. The physical embodiment aspect adds unique value to the ecosystem.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.18407v1",
+      "pdf": "https://arxiv.org/pdf/2605.18407v1",
+      "arxiv": "https://arxiv.org/abs/2605.18407v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "Qumus represents a groundbreaking step in integrating AI into real-world scientific discovery, particularly in the complex field of quantum materials. By autonomously navigating the entire experimental process, it demonstrates the potential for AI to not only assist but lead in cutting-edge research, reducing human intervention and accelerating innovation in materials science and nanotechnology.",
+    "digest_summary": "Qumus, the first embodied AI quantum materials experimentalist, autonomously performs the entire scientific process, from hypothesis generation to experimental execution and reporting. It has achieved milestones like AI-creation of graphene and fabrication of atomically thin nanodevices. This innovation sets a new benchmark for AI-driven discovery in quantum materials and electronics.",
+    "editor_note": "This breakthrough highlights the growing role of AI in automating and accelerating scientific discovery, a critical need in today's fast-paced research landscape.",
+    "archive_path": "archive/papers/2026-05-19/2605-18407v1-qumus-realization-of-an-embodied-ai-quantum-material-experimentalist.md"
+  },
+  {
+    "id": "2605.17790v1",
+    "paper_id": "2605.17790v1",
+    "title": "STRIDE: A Self-Reflective Agent Framework for Reliable Automatic Equation Discovery",
+    "summary_short": [
+      "STRIDE is a self-reflective agent framework for automatic equation discovery.",
+      "It integrates data-aware generation, mixed-fitting evaluation, and repair mechanisms.",
+      "STRIDE enhances accuracy, robustness, and structural recovery in symbolic regression tasks.",
+      "The framework uses feedback loops to refine and reuse equations effectively.",
+      "Experiments confirm its benefits across multiple LLM backbones."
+    ],
+    "date": "2026-05-18",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "closed_loop_empirical_science"
+    ],
+    "theme_names": [
+      "Closed-Loop Empirical Science"
+    ],
+    "importance_score": 8.65,
+    "reason": "STRIDE introduces a self-reflective framework for reliable equation discovery, addressing key challenges in Closed-Loop Empirical Science. Its focus on improving reliability through data-aware generation and semantic memory is methodologically significant and relevant to the ecosystem. The framework's adaptability ensures its potential longevity.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.17790v1",
+      "pdf": "https://arxiv.org/pdf/2605.17790v1",
+      "arxiv": "https://arxiv.org/abs/2605.17790v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "STRIDE addresses key limitations in current equation discovery systems by introducing a self-reflective, closed-loop framework that improves reliability and robustness. This innovation has the potential to advance symbolic regression and scientific discovery by enabling more accurate and interpretable models, even in challenging out-of-distribution scenarios.",
+    "digest_summary": "STRIDE is a novel framework for automatic equation discovery that leverages self-reflection and feedback loops to improve reliability and robustness. By combining data-aware generation, mixed-fitting evaluation, and repair mechanisms, it outperforms existing methods in accuracy and structural recovery. This advancement could significantly enhance symbolic regression and scientific modeling.",
+    "editor_note": "This is particularly relevant as AI-driven scientific discovery continues to gain traction in diverse fields.",
+    "archive_path": "archive/papers/2026-05-19/2605-17790v1-stride-a-self-reflective-agent-framework-for-reliable-automatic-equation-discovery.md"
+  },
+  {
+    "id": "2605.17373v1",
+    "paper_id": "2605.17373v1",
+    "title": "FML-bench: A Controlled Study of AI Research Agent Strategies from the Perspective of Search Dynamics",
+    "summary_short": [
+      "FML-Bench evaluates AI research agent strategies on 18 ML tasks across 10 domains.",
+      "Separates agent strategy from execution infrastructure for fair comparisons.",
+      "Introduces 12 process-level metrics to analyze exploration behaviors.",
+      "Finds that strategy complexity alone doesn't guarantee better performance.",
+      "Adaptive agents outperform by switching strategies based on stagnation detection."
+    ],
+    "date": "2026-05-17",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists"
+    ],
+    "importance_score": 8.35,
+    "reason": "FML-Bench addresses the critical need for understanding AI research agent strategies by isolating strategy performance from infrastructure effects. This is highly relevant to End-to-End AI Scientists and provides a significant methodological contribution. Its focus on process-level metrics and exploration behaviors makes it valuable for the ecosystem, with good potential for long-term impact.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.17373v1",
+      "pdf": "https://arxiv.org/pdf/2605.17373v1",
+      "arxiv": "https://arxiv.org/abs/2605.17373v1"
+    },
+    "code_repos": [
+      "https://github.com/qrzou/FML-bench"
+    ],
+    "featured": true,
+    "why_it_matters": "FML-Bench provides a controlled framework to rigorously evaluate and compare AI research agent strategies, offering insights into how different approaches perform under varying conditions. This helps advance the development of more effective AI systems for automating scientific discovery, a critical step toward scalable and efficient research processes in machine learning and beyond.",
+    "digest_summary": "FML-Bench is a new benchmark designed to evaluate AI research agents by isolating strategy from infrastructure and introducing process-level metrics. Testing six agents, it reveals that simpler strategies like greedy search can rival more complex ones under certain conditions. An adaptive agent leveraging these insights outperformed others, highlighting the importance of dynamic strategy switching. The benchmark is openly available for further exploration.",
+    "editor_note": "This work is timely as AI-driven automation in research is becoming increasingly critical for accelerating scientific progress.",
+    "archive_path": "archive/papers/2026-05-19/2605-17373v1-fml-bench-a-controlled-study-of-ai-research-agent-strategies-from-the-perspective-of-search-dynamics.md"
+  },
+  {
+    "id": "2605.18033v1",
+    "paper_id": "2605.18033v1",
+    "title": "Real-time Multi-instrument Autonomous Discovery of Novel Phase-change Memory Materials",
+    "summary_short": [
+      "Introduces the Multi-instrument Autonomous Discovery (MAD) framework.",
+      "Integrates real-time data from multiple instruments for closed-loop experiments.",
+      "Demonstrates a seven-fold speed-up in discovering phase-change memory materials.",
+      "Applies MAD to the Mn-Sb-Te ternary system for PCM optimization.",
+      "Combines structural mapping and functional optimization simultaneously."
+    ],
+    "date": "2026-05-18",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autonomous_discovery"
+    ],
+    "theme_names": [
+      "Autonomous Discovery"
+    ],
+    "importance_score": 7.65,
+    "reason": "The MAD framework demonstrates real-time autonomous discovery in materials science, which is relevant to Autonomous Discovery. While the integration of multi-instrument data streams is methodologically significant, its domain-specific focus may limit broader ecosystem relevance. The framework's live experimentation approach is innovative but may face challenges in generalization.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.18033v1",
+      "pdf": "https://arxiv.org/pdf/2605.18033v1",
+      "arxiv": "https://arxiv.org/abs/2605.18033v1"
+    },
+    "code_repos": [],
+    "featured": false,
+    "why_it_matters": "The MAD framework represents a significant leap in autonomous research, enabling faster and more efficient discovery of novel materials by integrating real-time data streams from diverse instruments. This approach could revolutionize fields like materials science, where rapid iteration and decision-making are critical to innovation.",
+    "digest_summary": "Researchers unveiled the Multi-instrument Autonomous Discovery (MAD) framework, a system that integrates real-time data from multiple instruments to accelerate the discovery of novel materials. Applied to phase-change memory materials, MAD achieved a seven-fold speed-up in identifying promising candidates. This approach could transform autonomous labs by enabling simultaneous structural and functional optimization.",
+    "editor_note": "This breakthrough highlights the growing importance of autonomous systems in accelerating scientific discovery, especially in materials science.",
+    "archive_path": "archive/papers/2026-05-19/2605-18033v1-real-time-multi-instrument-autonomous-discovery-of-novel-phase-change-memory-materials.md"
   }
 ]
