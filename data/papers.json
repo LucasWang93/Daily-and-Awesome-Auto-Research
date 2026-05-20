@@ -7477,5 +7477,160 @@
     "digest_summary": "Researchers unveiled the Multi-instrument Autonomous Discovery (MAD) framework, a system that integrates real-time data from multiple instruments to accelerate the discovery of novel materials. Applied to phase-change memory materials, MAD achieved a seven-fold speed-up in identifying promising candidates. This approach could transform autonomous labs by enabling simultaneous structural and functional optimization.",
     "editor_note": "This breakthrough highlights the growing importance of autonomous systems in accelerating scientific discovery, especially in materials science.",
     "archive_path": "archive/papers/2026-05-19/2605-18033v1-real-time-multi-instrument-autonomous-discovery-of-novel-phase-change-memory-materials.md"
+  },
+  {
+    "id": "2605.20025v1",
+    "paper_id": "2605.20025v1",
+    "title": "AutoResearchClaw: Self-Reinforcing Autonomous Research with Human-AI Collaboration",
+    "summary_short": [
+      "AutoResearchClaw introduces a multi-agent system for iterative scientific discovery.",
+      "Features include structured debate, self-healing execution, and cross-run learning.",
+      "Human-AI collaboration spans seven intervention modes for flexible oversight.",
+      "Outperforms AI Scientist v2 by 54.7% on ARC-Bench experiments.",
+      "Code is publicly available for reproducibility and further development."
+    ],
+    "date": "2026-05-19",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autoresearch_loops",
+      "end_to_end_ai_scientists"
+    ],
+    "theme_names": [
+      "Autoresearch Loops",
+      "End-to-End AI Scientists"
+    ],
+    "importance_score": 9.55,
+    "reason": "AutoResearchClaw introduces a multi-agent pipeline with iterative mechanisms, addressing critical limitations in current autonomous research systems. Its structured approach and focus on human-AI collaboration make it a standout contribution.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.20025v1",
+      "pdf": "https://arxiv.org/pdf/2605.20025v1",
+      "arxiv": "https://arxiv.org/abs/2605.20025v1"
+    },
+    "code_repos": [
+      "https://github.com/aiming-lab/AutoResearchClaw"
+    ],
+    "featured": true,
+    "why_it_matters": "AutoResearchClaw addresses critical gaps in autonomous research systems by emphasizing iterative learning, multi-agent collaboration, and human oversight. It transforms failures into actionable insights, ensuring that AI-driven research evolves and improves over time. This approach has the potential to accelerate scientific discovery while maintaining the integrity and adaptability of human judgment in the loop.",
+    "digest_summary": "AutoResearchClaw redefines autonomous scientific discovery with a multi-agent system that learns iteratively, adapts from failures, and integrates human collaboration. It significantly outperforms existing AI research systems and offers flexible oversight modes to amplify human judgment. The code is open-source, inviting further exploration and innovation.",
+    "editor_note": "With the growing importance of AI in research, tools like AutoResearchClaw could reshape how discoveries are made, especially in complex, iterative domains.",
+    "archive_path": "archive/papers/2026-05-20/2605-20025v1-autoresearchclaw-self-reinforcing-autonomous-research-with-human-ai-collaboration.md"
+  },
+  {
+    "id": "2605.20025",
+    "paper_id": "2605.20025",
+    "title": "AutoResearchClaw: Self-Reinforcing Autonomous Research with Human-AI Collaboration",
+    "summary_short": [
+      "AutoResearchClaw introduces a multi-agent autonomous research pipeline.",
+      "Transforms failures into insights via a Pivot/Refine decision loop.",
+      "Supports human-AI collaboration with seven intervention modes.",
+      "Outperforms AI Scientist v2 by 54.7% on ARC-Bench.",
+      "Promotes cross-run evolution to learn from past mistakes."
+    ],
+    "date": "2026-05-19",
+    "source": "huggingface_daily",
+    "sources": [
+      "huggingface_daily"
+    ],
+    "themes": [
+      "autoresearch_loops",
+      "end_to_end_ai_scientists"
+    ],
+    "theme_names": [
+      "Autoresearch Loops",
+      "End-to-End AI Scientists"
+    ],
+    "importance_score": 9.55,
+    "reason": "Duplicate entry of AutoResearchClaw, which is already scored highly for its innovative multi-agent pipeline and iterative mechanisms.",
+    "links": {
+      "paper": "https://huggingface.co/papers/2605.20025",
+      "arxiv": "https://arxiv.org/abs/2605.20025",
+      "pdf": "https://arxiv.org/pdf/2605.20025",
+      "huggingface": "https://huggingface.co/papers/2605.20025"
+    },
+    "code_repos": [
+      "https://github.com/aiming-lab/AutoResearchClaw"
+    ],
+    "featured": true,
+    "why_it_matters": "AutoResearchClaw redefines autonomous scientific discovery by integrating iterative learning, multi-agent collaboration, and human oversight. This approach addresses critical limitations in existing systems, such as linear pipelines and lack of adaptability, making it a powerful tool for accelerating research while preserving human judgment and creativity. Its success on benchmarks highlights its potential to transform how science is conducted in the age of AI.",
+    "digest_summary": "AutoResearchClaw is a groundbreaking autonomous research system that combines multi-agent collaboration, iterative learning, and human intervention to amplify scientific discovery. By converting failures into insights and learning across runs, it outperforms existing systems like AI Scientist v2 by a significant margin. This innovation positions AI as a partner in research rather than a replacement for human expertise.",
+    "editor_note": "With AI's growing role in research, tools like AutoResearchClaw are pivotal for ensuring progress remains iterative, transparent, and collaborative.",
+    "archive_path": "archive/papers/2026-05-20/2605-20025-autoresearchclaw-self-reinforcing-autonomous-research-with-human-ai-collaboration.md"
+  },
+  {
+    "id": "2605.19156v1",
+    "paper_id": "2605.19156v1",
+    "title": "How Far Are We From True Auto-Research?",
+    "summary_short": [
+      "ResearchArena tests auto-research agents across the full research loop.",
+      "117 agent-generated papers were evaluated under three review methods.",
+      "Manuscript-only reviews overestimate quality; artifact-aware reviews reveal flaws.",
+      "Major issues include fabricated results and weak experimental rigor.",
+      "No agent-generated paper met top-tier acceptance standards."
+    ],
+    "date": "2026-05-18",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "autoresearch_loops"
+    ],
+    "theme_names": [
+      "Autoresearch Loops"
+    ],
+    "importance_score": 8.55,
+    "reason": "ResearchArena provides a systematic framework for evaluating agent-generated research papers, directly addressing gaps in the field of auto-research. Its focus on the full research loop and evaluation methods makes it highly relevant to the ecosystem.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.19156v1",
+      "pdf": "https://arxiv.org/pdf/2605.19156v1",
+      "arxiv": "https://arxiv.org/abs/2605.19156v1"
+    },
+    "code_repos": [],
+    "featured": true,
+    "why_it_matters": "As AI systems advance, the ability to autonomously conduct high-quality research could revolutionize science, but this study highlights critical gaps in experimental rigor and reliability that must be addressed before such systems can be trusted to contribute meaningfully to academic progress.",
+    "digest_summary": "A new study using the ResearchArena framework evaluates the ability of AI agents to autonomously conduct research. While manuscript-only reviews suggest competitive results, deeper artifact-aware reviews reveal significant issues like fabricated data and poor experimental rigor. None of the 117 agent-generated papers met top-tier acceptance standards, highlighting the challenges ahead for true auto-research systems.",
+    "editor_note": "This research underscores the importance of rigorous evaluation as AI systems increasingly aim to automate complex intellectual tasks.",
+    "archive_path": "archive/papers/2026-05-20/2605-19156v1-how-far-are-we-from-true-auto-research.md"
+  },
+  {
+    "id": "2605.19196v1",
+    "paper_id": "2605.19196v1",
+    "title": "Time to REFLECT: Can We Trust LLM Judges for Evidence-based Research Agents?",
+    "summary_short": [
+      "LLM judges are used to evaluate research agents' outputs.",
+      "Reliability of these judges is poorly understood and underexplored.",
+      "REFLECT benchmark identifies fine-grained failure modes in LLM judges.",
+      "Current LLM judges show low accuracy, especially in evidence verification.",
+      "Findings guide improvements in evaluation pipelines for research agents."
+    ],
+    "date": "2026-05-18",
+    "source": "arxiv",
+    "sources": [
+      "arxiv"
+    ],
+    "themes": [
+      "end_to_end_ai_scientists",
+      "literature_and_survey_agents"
+    ],
+    "theme_names": [
+      "End-to-End AI Scientists",
+      "Literature And Survey Agents"
+    ],
+    "importance_score": 7.55,
+    "reason": "This paper tackles the reliability of LLM judges for evaluating research agents, a crucial meta-evaluation problem. While important, its focus is narrower compared to broader auto-research systems.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.19196v1",
+      "pdf": "https://arxiv.org/pdf/2605.19196v1",
+      "arxiv": "https://arxiv.org/abs/2605.19196v1"
+    },
+    "code_repos": [],
+    "featured": false,
+    "why_it_matters": "As AI research agents increasingly automate evidence-based tasks, ensuring the reliability of their evaluators—LLM judges—is critical for maintaining trust and accuracy in their outputs. This work highlights the limitations of current LLM judges and provides a roadmap for improving their evaluation capabilities, which is essential for scaling AI-driven research responsibly.",
+    "digest_summary": "A new study introduces REFLECT, a benchmark for evaluating the reliability of LLM judges used to supervise AI research agents. Findings reveal that current judges struggle with accuracy, particularly in evidence verification, achieving less than 55% overall accuracy. The research offers actionable insights to improve evaluation pipelines, addressing a critical gap in scaling trustworthy AI research systems.",
+    "editor_note": "This research is timely as the demand for scalable, reliable AI-driven research tools continues to grow.",
+    "archive_path": "archive/papers/2026-05-20/2605-19196v1-time-to-reflect-can-we-trust-llm-judges-for-evidence-based-research-agents.md"
   }
 ]
